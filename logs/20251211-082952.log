@@ -3,3 +3,8 @@ INFO    : Since no target was supplied, we will use "web".
 
 INFO    : Staging latest build located in `C:\Users\sklka\Desktop\physicalsc\output\web` at `C:\Users\sklka\Desktop\physicalsc\output\stage`.
 INFO    : 
+INFO    : Initializing project with Git.
+INFO    : Setting up name/email configuration for Git...
+INFO    : Successfully initialized new Git repository!
+INFO    : Preparing to deploy from active `main` git branch.
+
