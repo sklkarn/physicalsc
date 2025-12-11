@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Chapters are enclosed with <chapter> tags. Use xml:id to -->
+<!-- uniquely identify the chapter.  The @xmlns:xi attribute  -->
+<!-- is needed if you use xi:include in this file             -->
+<chapter xml:id="ch_first" xmlns:xi="http://www.w3.org/2001/XInclude">
+
+<!-- Change title when you have one: -->
+  <title>Scientific Method</title>
+    <!-- If the chapter has sections, there may be an introduction -->
+  <!-- before those sections. Note the <p> tags around content.  -->
+  <introduction>
+    <p>Science is a systematic and brief study of nature. It gathers knowledge on the basis of 
+      testable explanations. It is constantly changing and evolving based on new facts and 
+      discoveries. It is divided into two basic parts, living science and non-living science.
+      Living science is often called Biology and is divided further into two parts called Botany (plant science)
+      and Zoology (animal science). Non-living science is also called a physical science
+      and is also further divided into two parts, Physics and Chemistry. The word Physics is 
+      taken from Greek word "physis" meaning nature. Physics is the most fundamental science of nature. 
+      It deals with the properties of matter and universe. Chemistry on the other hand deals with the constituents 
+      of matter. Physics is also classified into two parts, classical physics and modern physics. Classical physics 
+      roughly deals with the macroscopic world anything larger than atomic size and moving at relatively low speed. 
+      It is governed by Newtonian mechanics, Maxwell's equations, and thermodynamical principles. 
+      Modern physics on the other hand is governed by quantum mechanics, statistical mechanics, 
+      and relativity. It explains that matter and energy are alternate forms of one another. 
+      In general physics is divided into many branches such as mechanics, thermodynamics,
+      electrodynamics, acoustics, optics, relativity, nuclear physics, and astrophysics.</p>
+
+      <p>
+      Scientific method is a series of logical steps followed by the investigators in conducting experimentation, 
+      making observation, and formulating hypothesis to solve or answer specific questions about the natural world. 
+      The process is not linear but circular.  Any question that cannot be proven or disproven through testing, cannot be included in scientific method. The steps of the scientific method are as follows: 
+      <ul>
+      <li>Observation: we observe something that is interested to us to gather knowledge through our 
+      senses or collecting information using scientific instruments. For example, Follow the night sky throughout 
+      the year, we can see some patterns of stars march in locked step across the sky and some of the other bright 
+      objects are not.</li>
+      <li>Question: we formulate a question about what we have observed. For example, what are those bright objects 
+      in the sky that do not follow the locked step marching as other stars?</li>
+      <li>Hypothesis: we make a hypothesis. It is an idea that is suggested as an explanation for our observation to 
+      answer the question. It is important to note that a hypothesis must be testable. It means hypothesis must 
+      either be supported or falsified by your experiment. For example, we think that these are the wandering objects 
+      in the sky.</li>
+      <li>Experiment: we design and conduct an experiment that will test our hypothesis. Here we include and identify 
+      a controlled or dependent variable in our procedure that allow us to test a single variable in an 
+      experiment because they are unchanged. For example, look the relative motion between these objects and other 
+      stars in the sky. The stars positions are fixed and they do not have relative motion between them. However, 
+      the wandering objects move completely independently in the sky.</li>
+      <li>Results: we report what happened in the experiment. For example, After careful experimentation and 
+      formulation we find that these wandering objects are not stars rather they are objects like our earth.</li>
+      <li>Conclusion: Here we conclude our results that has come from the data analysis. This section tells whether 
+      the experiment supported or rejected our hypothesis? If your hypothesis was supported, great. 
+      If not, repeat the experiment or think of ways to improve your procedure. For example, in our sky observation 
+      and experimentation we found that our hypotheses was supported by the experiment and we gave the name of 
+      wandering objects as "Planets"</li>
+      </ul>
+    </p>
+      </introduction>
+
+  <!-- Sections can be written directly here, but it might help  -->
+  <!-- with organization to include them as separate files.      -->
+  <!-- That way it is easy to include the section in a different -->
+  <!-- chapter later if you change your mind about the order.    -->
+  <xi:include href="./sec_first-intro.ptx" />
+  <xi:include href="./sec_first-obs.ptx" />
+   <xi:include href="./sec_first-unit.ptx" />
+  <xi:include href="./sec_first-examples.ptx" />
+
+  <!-- One or more of the sections of a chapter might be exercises-->
+  <xi:include href="./ex_first.ptx"/>
+</chapter>

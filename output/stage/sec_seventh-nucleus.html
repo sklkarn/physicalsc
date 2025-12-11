@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: default-modern                 *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Nuclear Structure</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math",
+    "renderActions": {
+      "findScript": [
+        10,
+        function (doc) {
+            document.querySelectorAll('script[type^="math/tex"]').forEach(function(node) {
+                var display = !!node.type.match(/; *mode=display/);
+                var math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+                var text = document.createTextNode('');
+                node.parentNode.replaceChild(text, node);
+                math.start = {node: text, delim: '', n: 0};
+                math.end = {node: text, delim: '', n: 0};
+                doc.math.push(math);
+            });
+        },
+        ""
+      ]
+    }
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Physical Science">
+<meta property="book:author" content="Sunil Karna">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '7.11.0';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.f91c1a4dc12163f2.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.731d8387162b79c1.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.557d81b04b3ec0e4.css">
+<script src="https://sagecell.sagemath.org/static/embedded_sagecell.js"></script><script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body id="changeme" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner"><div class="title-container">
+<h1 class="heading"><a href="physicalsc.html"><span class="title">Physical Science</span> <span class="subtitle">An example to get you started</span></a></h1>
+<p class="byline">Sunil Karna</p>
+</div></div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><a class="index-button button" href="backmatter-5.html" title="Index"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span><span class="name">Index</span></a><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="sec_seventh-atom.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch_seventh.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec_seventh-examples.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter">
+<div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="front-colophon.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li class="toc-item toc-dedication"><div class="toc-title-box"><a href="frontmatter-4.html" class="internal"><span class="title">Dedication</span></a></div></li>
+<li class="toc-item toc-acknowledgement"><div class="toc-title-box"><a href="frontmatter-5.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="frontmatter-6.html" class="internal"><span class="title">Preface</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch_first.html" class="internal"><span class="codenumber">1</span> <span class="title">Scientific Method</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_first-intro.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Significant Figures</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-intro.html#subsec_rn-subsection" class="internal"><span class="codenumber">1.1.1</span> <span class="title">Rounding off the Numbers</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-intro.html#subsec_mosf_subsection" class="internal"><span class="codenumber">1.1.2</span> <span class="title">Mathematical Operations with Significant Figures</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-intro.html#subsec_sr_subsection" class="internal"><span class="codenumber">1.1.3</span> <span class="title">Science and Religion</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_first-obs.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Ancient Observations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-obs.html#subsec_rm-subsection" class="internal"><span class="codenumber">1.2.1</span> <span class="title">Retrograde Motion</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-obs.html#subsec_et-subsection" class="internal"><span class="codenumber">1.2.2</span> <span class="title">Tides</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_first-unit.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Units and Measurements</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-unit.html#subsec_du-subsection" class="internal"><span class="codenumber">1.3.1</span> <span class="title">Derived Units</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-unit.html#subsec_cu-subsection" class="internal"><span class="codenumber">1.3.2</span> <span class="title">Conversion of Units</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-unit.html#subsec_cf-subsection" class="internal"><span class="codenumber">1.3.3</span> <span class="title">Conversion Factors</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_first-examples.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Examples</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_first.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch_second.html" class="internal"><span class="codenumber">2</span> <span class="title">Motion</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_second-intro.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Describing Motion</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_second-intro.html#subsec_em-second" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Equations of Motion</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_second-intro.html#subsubsec_ff-second" class="internal"><span class="codenumber">2.1.1.1</span> <span class="title">Free Fall</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_second-intro.html#subsubsec_pm-second" class="internal"><span class="codenumber">2.1.1.2</span> <span class="title">Projectile Motion</span></a></div></li>
+</ul>
+</li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_second-force.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Force</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-force.html#subsec-cf-subsection" class="internal"><span class="codenumber">2.2.1</span> <span class="title">Contact Forces</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-force.html#subsec_nlm-subsection" class="internal"><span class="codenumber">2.2.2</span> <span class="title">Newton’s Laws of Motion</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-force.html#subsec-mometum-subsection" class="internal"><span class="codenumber">2.2.3</span> <span class="title">Momentum</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-force.html#subsec-ucm-subsection" class="internal"><span class="codenumber">2.2.4</span> <span class="title">Uniform Circular Motion</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_second-force.html#subsec_2nlg-subsection" class="internal"><span class="codenumber">2.2.5</span> <span class="title">Newton’s Law of Gravitation</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_second-force.html#subsubsec-escape" class="internal"><span class="codenumber">2.2.5.1</span> <span class="title">Escape Velocity</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_second-examples.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Examples</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_second.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch_third.html" class="internal"><span class="codenumber">3</span> <span class="title">Energy</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_third-intro.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Work, Energy, and Power</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_third-intro.html#subsec_wep-subsection" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Work-Energy Theorem</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_third-intro.html#subsec-power-subsection" class="internal"><span class="codenumber">3.1.2</span> <span class="title">power</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_third-conserv.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Conservation Principles</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_third-conserv.html#subsec_ce-subsection" class="internal"><span class="codenumber">3.2.1</span> <span class="title">Principle of Conservation of Energy</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_third-conserv.html#subsec_3cm-subsection" class="internal"><span class="codenumber">3.2.2</span> <span class="title">Principle of Conservation of Momentum</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_third-conserv.html#subsec_3col-subsection" class="internal"><span class="codenumber">3.2.3</span> <span class="title">Collision</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_third-conserv.html#subsec_3am-subsection" class="internal"><span class="codenumber">3.2.4</span> <span class="title">Angular Momentum</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_third-conserv.html#subsec-torque" class="internal"><span class="codenumber">3.2.5</span> <span class="title">Torque</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_third-conserv.html#subsec-cam" class="internal"><span class="codenumber">3.2.6</span> <span class="title">Principle of Conservation of Angular Momentum</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_third-examples.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Examples</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_third.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch_fourth.html" class="internal"><span class="codenumber">4</span> <span class="title">Matter and Heat</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_fourth-intro.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Thermometers</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_fourth-intro.html#subsec_qh-subsection" class="internal"><span class="codenumber">4.1.1</span> <span class="title">Quantity of Heat</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_fourth-intro.html#subsubsec-sh" class="internal"><span class="codenumber">4.1.1.1</span> <span class="title">Specific Heat</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_fourth-intro.html#subsubsec-lh" class="internal"><span class="codenumber">4.1.1.2</span> <span class="title">Latent Heat</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fourth-intro.html#subsec-ht-subsection" class="internal"><span class="codenumber">4.1.2</span> <span class="title">Heat Transfer</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fourth-intro.html#subsec_entropy-subsection" class="internal"><span class="codenumber">4.1.3</span> <span class="title">Entropy</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_fourth-fluid.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Fluid</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fourth-fluid.html#subsec_ap-subsection" class="internal"><span class="codenumber">4.2.1</span> <span class="title">Archimedes’ Principle</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_fourth-fluid.html#subsec_ktg-subsection" class="internal"><span class="codenumber">4.2.2</span> <span class="title">Kinetic Theory of Gases</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_fourth-fluid.html#subsubsec_gl" class="internal"><span class="codenumber">4.2.2.1</span> <span class="title">The Gas Laws</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_fourth-examples.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Examples</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_fourth.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch_fifth.html" class="internal"><span class="codenumber">5</span> <span class="title">Electricity and Magnetism</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_fifth-intro.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Charges</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fifth-intro.html#subsec_5cl-subsection" class="internal"><span class="codenumber">5.1.1</span> <span class="title">Coulomb’s Law</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fifth-intro.html#subsec_5ef-subsection" class="internal"><span class="codenumber">5.1.2</span> <span class="title">Electric Field</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fifth-intro.html#subsec_5me-subsection" class="internal"><span class="codenumber">5.1.3</span> <span class="title">Materials on Electrical Point of View</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_fifth-electr.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Electricity</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fifth-electr.html#subsec_5ep-subsection" class="internal"><span class="codenumber">5.2.1</span> <span class="title">Electric Potential (Voltage)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fifth-electr.html#subsec_5ol-subsection" class="internal"><span class="codenumber">5.2.2</span> <span class="title">Ohm’s Law</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fifth-electr.html#subsec-5ec" class="internal"><span class="codenumber">5.2.3</span> <span class="title">Electrical Circuits</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_fifth-magnt.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Magnetism</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fifth-magnt.html#subsec_5em-subsection" class="internal"><span class="codenumber">5.3.1</span> <span class="title">Electromagnetism</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fifth-magnt.html#subsec-Electmag" class="internal"><span class="codenumber">5.3.2</span> <span class="title">Electromagnet</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fifth-magnt.html#subsec_5trnfr-subsection" class="internal"><span class="codenumber">5.3.3</span> <span class="title">Transformer</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_fifth-examples.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Examples</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_fifth.html" class="internal"><span class="codenumber">5.5</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch_sixth.html" class="internal"><span class="codenumber">6</span> <span class="title">Waves</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_sixth-intro.html" class="internal"><span class="codenumber">6.1</span> <span class="title">Wave and its Properties</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_sixth-intro.html#subsec_6sound" class="internal"><span class="codenumber">6.1.1</span> <span class="title">Sound</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_sixth-intro.html#subsubsec_6echo" class="internal"><span class="codenumber">6.1.1.1</span> <span class="title">Reverberation and Echo</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_sixth-intro.html#subsubsec_6deffect" class="internal"><span class="codenumber">6.1.1.2</span> <span class="title">Doppler Effect</span></a></div></li>
+</ul>
+</li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_sixth-light.html" class="internal"><span class="codenumber">6.2</span> <span class="title">Light</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_sixth-light.html#subsec_6gopt" class="internal"><span class="codenumber">6.2.1</span> <span class="title">Geometrical Optics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_sixth-light.html#subsubsec_6refl" class="internal"><span class="codenumber">6.2.1.1</span> <span class="title">Reflection of Light</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_sixth-light.html#subsubsec_6refr" class="internal"><span class="codenumber">6.2.1.2</span> <span class="title">Refraction of Light</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_sixth-light.html#subsubsec_6disper" class="internal"><span class="codenumber">6.2.1.3</span> <span class="title">Dispersion of Light</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_sixth-light.html#subsubsec_6sctrn" class="internal"><span class="codenumber">6.2.1.4</span> <span class="title">Scattering of Light</span></a></div></li>
+</ul>
+</li></ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_sixth-examples.html" class="internal"><span class="codenumber">6.3</span> <span class="title">Examples</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_sixth.html" class="internal"><span class="codenumber">6.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="ch_seventh.html" class="internal"><span class="codenumber">7</span> <span class="title">Atoms and Nucleus</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_seventh-atom.html" class="internal"><span class="codenumber">7.1</span> <span class="title">Atomic Structure</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_seventh-atom.html#subsec_7bbr-subsection" class="internal"><span class="codenumber">7.1.1</span> <span class="title">Blackbody Radiation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_seventh-atom.html#subsec_7pelect-subsection" class="internal"><span class="codenumber">7.1.2</span> <span class="title">Photoelectric Effect</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_seventh-atom.html#subsec_7dnl-subsection" class="internal"><span class="codenumber">7.1.3</span> <span class="title">The Dual Nature of Light</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_seventh-atom.html#subsec_7hatom-subsection" class="internal"><span class="codenumber">7.1.4</span> <span class="title">Bohr’s Model of Hydrogen Atom</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_seventh-atom.html#subsec_7ospect-subsection" class="internal"><span class="codenumber">7.1.5</span> <span class="title">Origin of Spectra</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_seventh-atom.html#subsec_7xrays-subsection" class="internal"><span class="codenumber">7.1.6</span> <span class="title">X-Rays</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_seventh-atom.html#subsec_7laser-subsection" class="internal"><span class="codenumber">7.1.7</span> <span class="title">The Laser</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section contains-active">
+<div class="toc-title-box"><a href="sec_seventh-nucleus.html" class="internal"><span class="codenumber">7.2</span> <span class="title">Nuclear Structure</span></a></div>
+<ul class="structural toc-item-list active">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_seventh-nucleus.html#subsec_7radio" class="internal"><span class="codenumber">7.2.1</span> <span class="title">Radioactivity</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-nucleus.html#subsubsec-7hl" class="internal"><span class="codenumber">7.2.1.1</span> <span class="title">Half-Life</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-nucleus.html#subsubsec_7cd" class="internal"><span class="codenumber">7.2.1.2</span> <span class="title">Carbon Dating</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_seventh-nucleus.html#subsec_7be-subsection" class="internal"><span class="codenumber">7.2.2</span> <span class="title">Binding Energy</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-nucleus.html#subsubsec_7bepn" class="internal"><span class="codenumber">7.2.2.1</span> <span class="title">Binding Energy per Nucleon</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_seventh-nucleus.html#subsec_7nr" class="internal"><span class="codenumber">7.2.3</span> <span class="title">Nuclear Reactions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_seventh-nucleus.html#subsec_7erad" class="internal"><span class="codenumber">7.2.4</span> <span class="title">Effects of Radiation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_seventh-nucleus.html#subsec_7nreact" class="internal"><span class="codenumber">7.2.5</span> <span class="title">Nuclear Reactor</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_seventh-examples.html" class="internal"><span class="codenumber">7.3</span> <span class="title">Examples</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_seventh.html" class="internal"><span class="codenumber">7.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch_eighth.html" class="internal"><span class="codenumber">8</span> <span class="title">The Chemical Elements</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_eighth-intro.html" class="internal"><span class="codenumber">8.1</span> <span class="title">Changes in Matter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_eighth-intro.html#subsec_8clsm-subsection" class="internal"><span class="codenumber">8.1.1</span> <span class="title">The Classification of Matter</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_eighth-intro.html#subsec-8atheory" class="internal"><span class="codenumber">8.1.2</span> <span class="title">Atomic Theory</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_eighth-ptable.html" class="internal"><span class="codenumber">8.2</span> <span class="title">The Periodic Table</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_eighth-ptable.html#subsec-elctcong" class="internal"><span class="codenumber">8.2.1</span> <span class="title">Electronic Configuration</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_eighth-ptable.html#subsec-octet" class="internal"><span class="codenumber">8.2.2</span> <span class="title">Octet Rule</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_eighth-ptable.html#subsec-valency" class="internal"><span class="codenumber">8.2.3</span> <span class="title">Valency</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_eighth-chemicalbonds.html" class="internal"><span class="codenumber">8.3</span> <span class="title">Chemical Bonds &amp; Equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_eighth-chemicalbonds.html#subsec_8namecomp-subsection" class="internal"><span class="codenumber">8.3.1</span> <span class="title">Naming of Compounds</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_eighth-chemicalbonds.html#subsec_8molform-subsection" class="internal"><span class="codenumber">8.3.2</span> <span class="title">Molecular Formula</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_eighth-chemicalbonds.html#subsec_8rad-subsection" class="internal"><span class="codenumber">8.3.3</span> <span class="title">Free Radicals</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_eighth-chemicalbonds.html#subsubsec-polatm" class="internal"><span class="codenumber">8.3.4</span> <span class="title">Polyatmic Ions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_eighth-chemicalbonds.html#subsec-chemeqn" class="internal"><span class="codenumber">8.3.5</span> <span class="title">Chemical Equations</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_eigth-react.html" class="internal"><span class="codenumber">8.4</span> <span class="title">Chemical Reactions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_eigth-react.html#subsec-endexotherm" class="internal"><span class="codenumber">8.4.1</span> <span class="title">Endothermic and Exothermic Reactions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_eigth-react.html#subsec-8mol" class="internal"><span class="codenumber">8.4.2</span> <span class="title">The Mole</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_eighth-examples.html" class="internal"><span class="codenumber">8.5</span> <span class="title">Examples</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_eighth.html" class="internal"><span class="codenumber">8.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch_ninth.html" class="internal"><span class="codenumber">9</span> <span class="title">Crystals and Solutions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_ninth-intro.html" class="internal"><span class="codenumber">9.1</span> <span class="title">Crystalline Solids</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_ninth-intro.html#subsec-polnon" class="internal"><span class="codenumber">9.1.1</span> <span class="title">Polar &amp; Nonploar Molecules</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_ninth-solut.html" class="internal"><span class="codenumber">9.2</span> <span class="title">Solution</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_ninth-solut.html#subsec-typSol" class="internal"><span class="codenumber">9.2.1</span> <span class="title">Types of Solution</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_ninth-solut.html#subsec-collgative" class="internal"><span class="codenumber">9.2.2</span> <span class="title">Colligative property of a solution</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_ninth-acidbase.html" class="internal"><span class="codenumber">9.3</span> <span class="title">Acids and Base</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_ninth-acidbase.html#subsec-pH" class="internal"><span class="codenumber">9.3.1</span> <span class="title">The pH Scale</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_ninth-acidbase.html#subsec-salts" class="internal"><span class="codenumber">9.3.2</span> <span class="title">Salts</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_ninth-examples.html" class="internal"><span class="codenumber">9.4</span> <span class="title">Examples</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_ninth.html" class="internal"><span class="codenumber">9.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch_tenth.html" class="internal"><span class="codenumber">10</span> <span class="title">The Atmosphere</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_tenth-intro.html" class="internal"><span class="codenumber">10.1</span> <span class="title">Ozone</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-intro.html#subsec-ozonehole" class="internal"><span class="codenumber">10.1.1</span> <span class="title">Ozone Hole</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-intro.html#subsec-atmmoist" class="internal"><span class="codenumber">10.1.2</span> <span class="title">Atmospheric Moisture</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-intro.html#subsec-meteor" class="internal"><span class="codenumber">10.1.3</span> <span class="title">Meteorology</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-intro.html#subsec-greenhouse" class="internal"><span class="codenumber">10.1.4</span> <span class="title">Greenhouse Effect</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_tenth-seasons.html" class="internal"><span class="codenumber">10.2</span> <span class="title">The Seasons</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-seasons.html#subsec-wind" class="internal"><span class="codenumber">10.2.1</span> <span class="title">Winds</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_tenth-hydros.html" class="internal"><span class="codenumber">10.3</span> <span class="title">The Hydrosphere</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_tenth-hydros.html#subsec-basin" class="internal"><span class="codenumber">10.3.1</span> <span class="title">Ocean Basins</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_tenth-hydros.html#subsubsec-weather" class="internal"><span class="codenumber">10.3.1.1</span> <span class="title">Weathering</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_tenth-hydros.html#subsubsec-erosion" class="internal"><span class="codenumber">10.3.1.2</span> <span class="title">Erosion</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_tenth-hydros.html#subsubsec-groundwater" class="internal"><span class="codenumber">10.3.1.3</span> <span class="title">Ground Water</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_tenth-hydros.html#subsubsec-sed_depo" class="internal"><span class="codenumber">10.3.1.4</span> <span class="title">Sediment Deposition</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_tenth-hydros.html#subsubsec-caves" class="internal"><span class="codenumber">10.3.1.5</span> <span class="title">Caves</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-hydros.html#subsec-tsunami" class="internal"><span class="codenumber">10.3.2</span> <span class="title">Tsunami</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_tenth-examples.html" class="internal"><span class="codenumber">10.4</span> <span class="title">Examples</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_tenth.html" class="internal"><span class="codenumber">10.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch_eleventh.html" class="internal"><span class="codenumber">11</span> <span class="title">The Earth</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_eleventh-intro.html" class="internal"><span class="codenumber">11.1</span> <span class="title">Structure of the Earth</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_eleventh-intro.html#subsec-crust" class="internal"><span class="codenumber">11.1.1</span> <span class="title">Composition of Earth’s Crust</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_eleventh-rockminr.html" class="internal"><span class="codenumber">11.2</span> <span class="title">Rocks &amp; Minerals</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_eleventh-rockminr.html#subsec-Rocks" class="internal"><span class="codenumber">11.2.1</span> <span class="title">Rocks</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_eleventh-rockminr.html#subsec-coralreef" class="internal"><span class="codenumber">11.2.2</span> <span class="title">Coral Reef</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_eleventh-quake.html" class="internal"><span class="codenumber">11.3</span> <span class="title">Earthquakes</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_eleventh-quake.html#subsec-faults" class="internal"><span class="codenumber">11.3.1</span> <span class="title">Types of Deformation</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_eleventh-tectmov.html" class="internal"><span class="codenumber">11.4</span> <span class="title">Tectonic Movement</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_eleventh-tectmov.html#subsec-drift" class="internal"><span class="codenumber">11.4.1</span> <span class="title">Continental Drift</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_eleventh-tectmov.html#subsec-platetect" class="internal"><span class="codenumber">11.4.2</span> <span class="title">Plate Tectonics</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_eleventh-histgeol.html" class="internal"><span class="codenumber">11.5</span> <span class="title">Historical Geology</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_eleventh-histgeol.html#subsec-humhist" class="internal"><span class="codenumber">11.5.1</span> <span class="title">Human History</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_eleventh-examples.html" class="internal"><span class="codenumber">11.6</span> <span class="title">Examples</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_eleventh.html" class="internal"><span class="codenumber">11.7</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch_twelvth.html" class="internal"><span class="codenumber">12</span> <span class="title">The Solar System</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="subsec-debribelts.html" class="internal"><span class="codenumber">12.1</span> <span class="title">Debri Belts</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_twelvth-intro.html" class="internal"><span class="codenumber">12.1</span> <span class="title">The Planets</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_twelvth-intro.html#subsec-venus" class="internal"><span class="codenumber">12.1.1</span> <span class="title">Venus</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_twelvth-intro.html#subsec-mars" class="internal"><span class="codenumber">12.1.2</span> <span class="title">Mars</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_twelvth-intro.html#subsec-jupiter" class="internal"><span class="codenumber">12.1.3</span> <span class="title">Jupiter</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_twelvth-intro.html#subsec-saturn" class="internal"><span class="codenumber">12.1.4</span> <span class="title">Saturn</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_twelvth-intro.html#subsec-uranus" class="internal"><span class="codenumber">12.1.5</span> <span class="title">Uranus</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_twelvth-intro.html#subsec-neptune" class="internal"><span class="codenumber">12.1.6</span> <span class="title">Neptune</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_twelvth-moon.html" class="internal"><span class="codenumber">12.2</span> <span class="title">The Moon</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_twelvth-moon.html#subsec-moonphase" class="internal"><span class="codenumber">12.2.1</span> <span class="title">The phases of the moon</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_twelvth-moon.html#subsec-eclipse" class="internal"><span class="codenumber">12.2.2</span> <span class="title">Eclipse</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_twelvth-moon.html#subsec-orgmoon" class="internal"><span class="codenumber">12.2.3</span> <span class="title">Origin of the Moon</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_twelvth-examples.html" class="internal"><span class="codenumber">12.3</span> <span class="title">Examples</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_twelvth.html" class="internal"><span class="codenumber">12.5</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch_thirteenth.html" class="internal"><span class="codenumber">13</span> <span class="title">The Stars</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_thirteenth-observ.html" class="internal"><span class="codenumber">13.1</span> <span class="title">Observational Astronomy</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_thirteenth-observ.html#subsec-astrotools" class="internal"><span class="codenumber">13.1.1</span> <span class="title">The Tools in Astronomy</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_thirteenth-observ.html#subsec-sun" class="internal"><span class="codenumber">13.1.2</span> <span class="title">The Sun</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_thirteenth-observ.html#subsubsec-solarenergy" class="internal"><span class="codenumber">13.1.2.1</span> <span class="title">Solar Energy</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_thirteenth-observ.html#subsubsec-aurora" class="internal"><span class="codenumber">13.1.2.2</span> <span class="title">Aurora Borealis</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_thirteenth-observ.html#subsec-stellardist" class="internal"><span class="codenumber">13.1.3</span> <span class="title">Stellar Distances</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_thirteenth-intro.html" class="internal"><span class="codenumber">13.2</span> <span class="title">H-R Diagram</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_thirteenth-intro.html#subsec-supernova" class="internal"><span class="codenumber">13.2.1</span> <span class="title">Supernovas</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_thirteenth-intro.html#subsubsec-neutronstar" class="internal"><span class="codenumber">13.2.1.1</span> <span class="title">Neutron Stars</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_thirteenth-intro.html#subsubsec-pulsars" class="internal"><span class="codenumber">13.2.1.2</span> <span class="title">Pulsars</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_thirteenth-intro.html#subsubsec-blackhole" class="internal"><span class="codenumber">13.2.1.3</span> <span class="title">Black Holes</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_thirteenth-intro.html#subsec-expnduniv" class="internal"><span class="codenumber">13.2.2</span> <span class="title">Evolution of the Solar System</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_thirteenth-examples.html" class="internal"><span class="codenumber">13.3</span> <span class="title">Examples</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_thirteenth.html" class="internal"><span class="codenumber">13.4</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch_fourteenth.html" class="internal"><span class="codenumber">14</span> <span class="title">The Universe</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_fourteenth-intro.html" class="internal"><span class="codenumber">14.1</span> <span class="title">Galaxies</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fourteenth-intro.html#subsec-milkyway" class="internal"><span class="codenumber">14.1.1</span> <span class="title">Milky Way Galaxy</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fourteenth-intro.html#subsec-andromeda" class="internal"><span class="codenumber">14.1.2</span> <span class="title">Andromeda Galaxy</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fourteenth-intro.html#subsec-Globular" class="internal"><span class="codenumber">14.1.3</span> <span class="title">Globular Cluster</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fourteenth-intro.html#subsec-magelenic" class="internal"><span class="codenumber">14.1.4</span> <span class="title">Magelenic Cloud</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fourteenth-intro.html#subsec-nebula" class="internal"><span class="codenumber">14.1.5</span> <span class="title">Nebulae</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fourteenth-intro.html#subsec-darkmatt" class="internal"><span class="codenumber">14.1.6</span> <span class="title">Dark Matter and Dark Energy</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fourteenth-intro.html#subsec-Quasars" class="internal"><span class="codenumber">14.1.7</span> <span class="title">Quasars</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fourteenth-intro.html#subsec-expansion" class="internal"><span class="codenumber">14.1.8</span> <span class="title">Expansion of the Universe</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_fourteenth-examples.html" class="internal"><span class="codenumber">14.2</span> <span class="title">Examples</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_fourteenth.html" class="internal"><span class="codenumber">14.3</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter">
+<div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-solutions"><div class="toc-title-box"><a href="backmatter-2.html" class="internal"><span class="codenumber">A</span> <span class="title">Selected Hints</span></a></div></li>
+<li class="toc-item toc-solutions"><div class="toc-title-box"><a href="backmatter-3.html" class="internal"><span class="codenumber">B</span> <span class="title">Selected Solutions</span></a></div></li>
+<li class="toc-item toc-appendix"><div class="toc-title-box"><a href="backmatter-4.html" class="internal"><span class="codenumber">C</span> <span class="title">List of Symbols</span></a></div></li>
+<li class="toc-item toc-index"><div class="toc-title-box"><a href="backmatter-5.html" class="internal"><span class="title">Index</span></a></div></li>
+<li class="toc-item toc-references"><div class="toc-title-box"><a href="refs-list.html" class="internal"><span class="title">References</span></a></div></li>
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="backmatter-7.html" class="internal"><span class="title">Colophon</span></a></div></li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec_seventh-nucleus"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.2</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Nuclear Structure</span>
+</h2>
+<section class="introduction" id="sec_seventh-nucleus-2"><div class="para logical" id="sec_seventh-nucleus-2-1">
+<div class="para">The nucleus  contains protons and neutrons. The protons are positively charged particles and the neutrons have no charge. Nucleus is composed of protons and neutrons collectively known as known as <dfn class="terminology">nucleons</dfn>. The nucleons are held together by the strong nuclear force. Strong nuclear force is a very short-range attractive force that acts between nucleons and helps keep the nucleus from flying apart due to the repulsive force of the positively charged protons. The different number of neutrons in a nucleus of the same element forms the isotopes <em class="emphasis">isotopes</em> of the atom. <dfn class="terminology">Isotopes</dfn>  are atomic species of an element that have the same number of protons but different numbers of neutrons in the nucleus. That is the isotopes of an element have the same atomic number but a different atomic mass, hence isotopes can have different physical and chemical properties. Some isotopes are stable and do not undergo radioactive decay, while others are radioactive and decay over time. Age of rocks, fossils, and evolution of the universe can be determined by using isotopes. Here is the isotopic natation of the nucleus.</div>
+<div class="displaymath process-math" id="eqn-isotopes">
+\begin{equation}
+{}_Z^AX\tag{7.2.1}
+\end{equation}
+</div>
+<div class="para">where <span class="process-math">\(X\)</span> = chemical symbol of element, <span class="process-math">\(Z\)</span> = atomic number of element, and <span class="process-math">\(A\)</span> = mass number of nucleus = number of protons and neutrons in nucleus. Therefore the number of neutron, <span class="process-math">\(N=A-Z\text{.}\)</span>
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec_seventh-nucleus-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec_seventh-nucleus-2-2">There are over 3,000 known isotopes in the periodic table, but not all of them are naturally occurring. Some isotopes are stable and do not undergo radioactive decay, while others are radioactive and decay over time. The number of isotopes of an element can vary greatly, with some elements having only one or two isotopes, while others have many. The lightest element <em class="alert">hydrogen</em> has three isotopes <a href="sec_seventh-nucleus.html#fig-isotope" class="xref" data-knowl="./knowl/xref/fig-isotope.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 7.2.1">Figure 7.2.1</a>. They are Hydrogen: <span class="process-math">\({}_1^1H\text{,}\)</span> Deuterium: <span class="process-math">\({}_1^2H\text{,}\)</span> and Tritium: <span class="process-math">\({}_1^3H\text{.}\)</span> <dfn class="terminology">Heavy water</dfn> is a type of water molecule that contains a heavier isotope of hydrogen, deuterium (H-2) instead of the common hydrogen isotope (H-1). Heavy water has the same chemical properties as regular water <span class="process-math">\((H_2O)\text{,}\)</span> but its physical properties, such as boiling and melting points, are slightly different. Heavy water is used in various industrial and scientific applications, including nuclear reactors, where it serves as a moderator to slow down the speed of neutrons in the reactor core.<div class="autopermalink" data-description="Paragraph"><a href="#sec_seventh-nucleus-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="fig-isotope"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/Hisotope.png" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.2.1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><code class="code-inline tex2jax_ignore">The isotopes of hydrogen</code><div class="autopermalink" data-description="Figure 7.2.1"><a href="#fig-isotope" title="Copy heading and permalink for Figure 7.2.1" aria-label="Copy heading and permalink for Figure 7.2.1">🔗</a></div></figcaption></figure><div class="para" id="sec_seventh-nucleus-2-4">Carbon is an element that has several isotopes. Some of them are carbon-12 (or, <span class="process-math">\({}_6^{12}C\)</span>) and carbon-13 (or, <span class="process-math">\({}_6^{13}C\)</span>), and carbon-14 (or, <span class="process-math">\({}_6^{14}C\)</span>). Carbon-12 and carbon-13, are naturally occurring isotopes and make up the majority of carbon on Earth. Carbon-12, has 6 protons and 6 neutrons and is the most abundant in nature. Carbon-12 is considered the standard for atomic mass. Carbon-13, has 6 protons and 7 neutrons and is a stable isotope. Carbon-13 makes up about 1% of the total carbon on Earth. Carbon-14 is a naturally occurring isotope that is produced in the Earth’s atmosphere through cosmic radiation and is taken up by living organisms. It is used in the radiocarbon dating method to determine the age of organic materials and is an important tool in archaeology and other fields.<div class="autopermalink" data-description="Paragraph"><a href="#sec_seventh-nucleus-2-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section><section class="subsection" id="subsec_7radio"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.2.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Radioactivity</span>
+</h3>
+<section class="introduction" id="subsec_7radio-2"><div class="para" id="subsec_7radio-2-1">Radioactivity  is the process of spontaneous decay of an atomic nucleus. In this process, an unstable nucleus breaks apart into smaller and more stable nuclei. This process releases energy in the form of ionizing radiation, including alpha particles, beta particles, and gamma rays. Some radioactive isotopes are naturally occurring, while others can be produced artificially, for example, in nuclear reactors. Radioactivity plays many applications in medicine (e.g., medical imaging, cancer treatment), energy production (e.g., nuclear power plants), and research (e.g., dating of rocks and artifacts). Since radiactivity releases harmful radiation along with energy, it may cause harmful effect to health. Hence, it could be handled very carefully and responsibly. Radioactivity occurs due to the weak nuclear force, which is responsible for beta decay, where a neutron in the nucleus decays into a proton, an electron, and an electron antineutrino. Due to the weak nuclear force a neutron is converted into a proton by emitting beta particle which changes the atomic number of the atom and the identity of the element. However, radioactivities like alpha decay and gamma decay are not directly related to the weak nuclear force. Alpha decay is caused by the strong nuclear force, which holds the nucleus together, while gamma decay is a result of a change in the energy level of the nucleus.<div class="autopermalink" data-description="Paragraph"><a href="#subsec_7radio-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="subsec_7radio-2-2">
+<div class="para">In <dfn class="terminology">radioactive decay</dfn> process different kinds of elements form due to emission of different particles or rays such as</div>
+<ol class="lower-alpha ol-marker-4" id="subsec_7radio-2-2-2">
+<li id="subsec_7radio-2-2-2-1">
+<div class="para logical" id="subsec_7radio-2-2-2-1-1">
+<div class="para">Alpha (<span class="process-math">\(\alpha\)</span>) particle emission: <span class="process-math">\(\alpha\)</span> particle is a helium nucleus and is positively charged particle. In  <span class="process-math">\(\alpha\)</span> decay a nucleus emits an alpha particle, which consists of two protons and two neutrons. For example: thorium (Th) decayes into radium (Ra) by emitting alpha particle:</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/fig-raddecay.html" id="subsec_7radio-2-2-2-1-1-4">
+\begin{equation*}
+{}_{90}^{232}Th \longrightarrow {}_{88}^{228}Ra + {}_2^{4}He 
+\end{equation*}
+</div>
+<div class="para">This results in a decrease in the atomic number of the nucleus by two and transforms the nucleus into a different element. Alpha decay occurs when the nucleus has too many protons and is not stable, and it releases energy in the form of the alpha particle to reach a more stable configuration. Alpha particles have a large mass and a low velocity, and they can be stopped by a sheet of paper or a few centimeters of air <a href="sec_seventh-nucleus.html#fig-raddecay" class="xref" data-knowl="./knowl/xref/fig-raddecay.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 7.2.2">Figure 7.2.2</a>.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec_7radio-2-2-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item a"><a href="#subsec_7radio-2-2-2-1" title="Copy heading and permalink for Item a" aria-label="Copy heading and permalink for Item a">🔗</a></div>
+</li>
+<li id="subsec_7radio-2-2-2-2">
+<div class="para logical" id="subsec_7radio-2-2-2-2-1">
+<div class="para">Beta (<span class="process-math">\(\beta\)</span>) particle emission: <span class="process-math">\(\beta\)</span> particle is similar to electron and hence holds negative charge. In <span class="process-math">\(\beta\)</span> decay a nucleus emits a high-energy electron or positron, also known as a beta particle. This results in a change in the number of protons in the nucleus and transforms the nucleus into a different element. For example: carbon (C-14) decayes into nitrogen (N-14) by emitting beta particle:</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/fig-raddecay.html" id="subsec_7radio-2-2-2-2-1-4">
+\begin{equation*}
+{}_{6}^{14}C \longrightarrow {}_{7}^{14}N + {}_{-1}^{0}e 
+\end{equation*}
+</div>
+<div class="para">Similarly, neutron turns into proton in beta decay:</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/fig-raddecay.html" id="subsec_7radio-2-2-2-2-1-5">
+\begin{equation*}
+{}_{0}^{1}n \longrightarrow {}_{1}^{1}p + {}_{-1}^{0}e 
+\end{equation*}
+</div>
+<div class="para">There are two types of beta decay: beta minus decay (emission of an electron) and beta plus decay (emission of a positron). In beta minus decay, a neutron in the nucleus decays into a proton, an electron, and an electron antineutrino. In beta plus decay, a proton decays into a neutron, a positron, and an electron neutrino. Beta decay is one of the three common types of radioactive decay, along with alpha decay and gamma decay. Beta particles have a low mass and a high velocity, and they can penetrate sheets of paper and even thin sheet of aluminum foil <a href="sec_seventh-nucleus.html#fig-raddecay" class="xref" data-knowl="./knowl/xref/fig-raddecay.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 7.2.2">Figure 7.2.2</a>.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec_7radio-2-2-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item b"><a href="#subsec_7radio-2-2-2-2" title="Copy heading and permalink for Item b" aria-label="Copy heading and permalink for Item b">🔗</a></div>
+</li>
+<li id="subsec_7radio-2-2-2-3">
+<div class="para logical" id="subsec_7radio-2-2-2-3-1">
+<div class="para">Gamma (<span class="process-math">\(\gamma\)</span>) rays emission: <span class="process-math">\(\gamma\)</span> ray is an electromagnetic radiation of very high energy and is neutral to the charge. If the nucleus is unstable due to access amount of energy then it releases <span class="process-math">\(\gamma\)</span> rays. The composition of nucleus does not change due to gamma radiation emissioin. For example: high energetic Pb turns into low energetic Pb in gamma radiation:</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/fig-raddecay.html" id="subsec_7radio-2-2-2-3-1-4">
+\begin{equation*}
+{}_{82}^{204}Pb^* \longrightarrow {}_{82}^{204}Pb + \gamma 
+\end{equation*}
+</div>
+<div class="para">
+<details class="ptx-footnote" aria-live="polite" id="subsec_7radio-2-2-2-3-1-5"><summary class="ptx-footnote__number" title="Footnote 7.2.1"><sup> 1 </sup></summary><div class="ptx-footnote__contents" id="subsec_7radio-2-2-2-3-1-5">star symbol indicates excited lead nucleus.</div></details> Gamma rays have no rest mass and travel with the velocity of light and hence penetrate even thick plate of lead <a href="sec_seventh-nucleus.html#fig-raddecay" class="xref" data-knowl="./knowl/xref/fig-raddecay.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 7.2.2">Figure 7.2.2</a>.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec_7radio-2-2-2-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item c"><a href="#subsec_7radio-2-2-2-3" title="Copy heading and permalink for Item c" aria-label="Copy heading and permalink for Item c">🔗</a></div>
+</li>
+<li id="subsec_7radio-2-2-2-4">
+<div class="para logical" id="subsec_7radio-2-2-2-4-1">
+<div class="para">Electron (<span class="process-math">\(e^{-}\)</span>) Capture: it is another type of radioactive decay in which an inner orbital electron is captured by the nucleus and transforms into a neutron, resulting in a decrease in the atomic number of the nucleus by one and the transformation of the nucleus into a different element. For example: flourine (F) turns into oxygen (O) due to positron emission:</div>
+<div class="displaymath process-math" id="subsec_7radio-2-2-2-4-1-2">
+\begin{equation*}
+{}_{1}^{1}p + {}_{-1}^{0}e \longrightarrow {}_{0}^{1}n + \nu 
+\end{equation*}
+</div>
+<div class="para">Another example is</div>
+<div class="displaymath process-math" id="subsec_7radio-2-2-2-4-1-3">
+\begin{equation*}
+{}_{92}^{231}U + {}^0_{-1}e \longrightarrow {}_{91}^{231}Pa + \nu 
+\end{equation*}
+</div>
+<div class="para">The captured electron combines with a proton to form a neutron, which remains inside the nucleus. This process releases energy in the form of gamma rays or X-rays. Electron capture is different from beta decay, which involves the emission of a beta particle (an electron or a positron).</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec_7radio-2-2-2-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item d"><a href="#subsec_7radio-2-2-2-4" title="Copy heading and permalink for Item d" aria-label="Copy heading and permalink for Item d">🔗</a></div>
+</li>
+<li id="subsec_7radio-2-2-2-5">
+<div class="para logical" id="subsec_7radio-2-2-2-5-1">
+<div class="para">Positron <span class="process-math">\(e^{+}\)</span> Emission: it is also known as beta plus decay, is a type of radioactive decay in which a nucleus emits a positron, which is the antiparticle of an electron. Positron emission occurs when a nucleus has too many protons and is not stable, and it releases energy in the form of the positron to reach a more stable configuration. For example: flourine (F) turns into oxygen (O) due to positron emission:</div>
+<div class="displaymath process-math" id="subsec_7radio-2-2-2-5-1-2">
+\begin{equation*}
+{}_{9}^{17}F \longrightarrow {}_{8}^{17}O + {}_{+1}^0e 
+\end{equation*}
+</div>
+<div class="para">The emitted positron quickly combines with an electron in the material, annihilating both particles and producing gamma rays. Positron emission is one of the three common types of radioactive decay, along with alpha decay and beta decay. In positron emission, a proton inside the nucleus decays into a neutron, a positron, and an electron neutrino. This results in a decrease in the atomic number of the nucleus by one and the transformation of the nucleus into a different element.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec_7radio-2-2-2-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item e"><a href="#subsec_7radio-2-2-2-5" title="Copy heading and permalink for Item e" aria-label="Copy heading and permalink for Item e">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec_7radio-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="fig-raddecay"><div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/raddecay.png" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.2.2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><code class="code-inline tex2jax_ignore">Strength of alpha particles, beta particles, and gamma rays</code><div class="autopermalink" data-description="Figure 7.2.2"><a href="#fig-raddecay" title="Copy heading and permalink for Figure 7.2.2" aria-label="Copy heading and permalink for Figure 7.2.2">🔗</a></div></figcaption></figure></section><section class="subsubsection" id="subsubsec-7hl"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.2.1.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Half-Life</span>
+</h4>
+<div class="para" id="subsubsec-7hl-2">The rate at which a radioactive isotope disintegrates is known as its <dfn class="terminology">half-life</dfn>,  which is the time it takes for half of the radioactive material to decay. The half-life of a radioactive isotope determines its stability and the length of time it can be used for various purposes, such as medical treatments or energy production. The <a href="sec_seventh-nucleus.html#fig-hlife" class="xref" data-knowl="./knowl/xref/fig-hlife.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 7.2.3">Figure 7.2.3</a> representing the amount or number of atoms in a radioactive substance remains every after one half-life. For example, in second figure of <a href="sec_seventh-nucleus.html#fig-hlife" class="xref" data-knowl="./knowl/xref/fig-hlife.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 7.2.3">Figure 7.2.3</a>, half-life of any one radiactive substance is 50 years, so half of the total number of atoms or its half amount  disintegrate (decay) into new substances in every one half life.<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-7hl-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="fig-hlife"><div class="sidebyside"><div class="sbsrow" style="margin-left:2.5%;margin-right:2.5%;grid-template-columns:52.6315789473684% 42.1052631578947%;column-gap:5%;">
+<div class="sbspanel sbspanel--top top" style=""><figure class="figure figure-like" id="fig-hlife-2-1"><img src="external/hlife1.png" class="contained"><figcaption><span class="codenumber">(a)</span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Remaining amount per Half-Life<div class="autopermalink" data-description="Figure 7.2.3.(a)"><a href="#fig-hlife-2-1" title="Copy heading and permalink for Figure 7.2.3.(a)" aria-label="Copy heading and permalink for Figure 7.2.3.(a)">🔗</a></div></figcaption></figure></div>
+<div class="sbspanel sbspanel--top top" style=""><figure class="figure figure-like" id="fig-hlife-2-2"><img src="external/hlife2.png" class="contained"><figcaption><span class="codenumber">(b)</span><span class="space heading-divison-mark heading-divison-mark__space"> </span>% of atoms remaining<div class="autopermalink" data-description="Figure 7.2.3.(b)"><a href="#fig-hlife-2-2" title="Copy heading and permalink for Figure 7.2.3.(b)" aria-label="Copy heading and permalink for Figure 7.2.3.(b)">🔗</a></div></figcaption></figure></div>
+</div></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.2.3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Half life of nuclides<div class="autopermalink" data-description="Figure 7.2.3"><a href="#fig-hlife" title="Copy heading and permalink for Figure 7.2.3" aria-label="Copy heading and permalink for Figure 7.2.3">🔗</a></div></figcaption></figure><div class="para logical" id="subsubsec-7hl-4">
+<div class="para">The remaining amount of substance <span class="process-math">\(N\)</span> can be determined by the following formula</div>
+<div class="displaymath process-math" id="eqn-hlife">
+\begin{equation}
+N = \left(\frac{1}{2}\right)^{n}\times (N_o)\tag{7.2.2}
+\end{equation}
+</div>
+<div class="para">Here, <span class="process-math">\(N_o\)</span> is initial concentration of the substance, and <span class="process-math">\(n\)</span> is the number of half-lives.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-7hl-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsubsection 7.2.1.1: Half-Life"><a href="#subsubsec-7hl" title="Copy heading and permalink for Subsubsection 7.2.1.1: Half-Life" aria-label="Copy heading and permalink for Subsubsection 7.2.1.1: Half-Life">🔗</a></div></section><section class="subsubsection" id="subsubsec_7cd"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.2.1.2</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Carbon Dating</span>
+</h4>
+<div class="para logical" id="subsubsec_7cd-2">
+<div class="para">Carbon dating  is a method of determining the age of an object containing organic material by measuring the amount of carbon-14 isotopes contained in the object. Carbon-14 is a radioactive isotope of carbon that is formed in the Earth’s upper atmosphere through the interaction of cosmic rays with nitrogen atoms. The amount of carbon-14 in the atmosphere has remained constant for thousands of years, so the ratio of carbon-14 to carbon-12 in a sample can be used to determine how long it has been since the death of the organism from which the sample was taken. The carbon-14 in a sample decays over time, and the amount remaining can be measured with a specialized machine called a mass spectrometer. The age of the sample can then be calculated based on the known decay rate of carbon-14. This method is typically used to date organic materials that are less than 50,000 years old, such as archaeological artifacts, fossils, and recent organic samples. In the upper atmosphere <em class="emphasis">Cosmic rays</em> which was primarly protons turns into neutrons. These neutrons react with nitrogen to produce carbon-14.</div>
+<div class="displaymath process-math" id="subsubsec_7cd-2-3">
+\begin{equation*}
+{}_{7}^{14}N + {}_{0}^{1}n \longrightarrow {}_{6}^{14}C + {}_{1}^{1}H 
+\end{equation*}
+</div>
+<div class="para">The carbon-14 then reacts with oxygen to to become <span class="process-math">\(CO_2\)</span> gas. Plants consume this <span class="process-math">\(CO_2\)</span> in photosynthesis process. Later animals eat plant and stores these C-14 atoms in their body. In beta decay process C-14 keeps turning into nitrogen such as</div>
+<div class="displaymath process-math" id="subsubsec_7cd-2-6">
+\begin{equation*}
+{}_{6}^{14}C \longrightarrow {}_{7}^{14}N + {}_{-1}^0e 
+\end{equation*}
+</div>
+<div class="para">The ratio of carbon-14 to carbon-12 is roughly constant because the organism continuously replaces carbon-14 as it decays. However, after the organism dies, the carbon-14 in its tissues begins to decay, and the carbon-14 to carbon-12 ratio begins to change. By measuring the carbon-14 to carbon-12 ratio in a sample and comparing it to the known decay rate of carbon-14, scientists can determine how long it has been since the sample died and estimate its age.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec_7cd-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsubsection 7.2.1.2: Carbon Dating"><a href="#subsubsec_7cd" title="Copy heading and permalink for Subsubsection 7.2.1.2: Carbon Dating" aria-label="Copy heading and permalink for Subsubsection 7.2.1.2: Carbon Dating">🔗</a></div></section><div class="autopermalink" data-description="Subsection 7.2.1: Radioactivity"><a href="#subsec_7radio" title="Copy heading and permalink for Subsection 7.2.1: Radioactivity" aria-label="Copy heading and permalink for Subsection 7.2.1: Radioactivity">🔗</a></div></section><section class="subsection" id="subsec_7be-subsection"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.2.2</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Binding Energy</span>
+</h3>
+<section class="introduction" id="subsec_7be-subsection-2"><div class="para logical" id="subsec_7be-subsection-2-1">
+<div class="para">Binding energy  is the amount of energy required to separate a nucleons into the protons and neutrons. In an atomic nucleus, the protons and neutrons are held together by the strong nuclear force, which acts over short distances. The binding energy of a nucleus can be calculated by subtracting the total mass of its individual protons and neutrons from the total mass of the nucleus itself. According to Einstein’s famous equation,</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-emc.html" id="eqn-emc">
+\begin{equation}
+E=mc^2,\tag{7.2.3}
+\end{equation}
+</div>
+<div class="para">the mass difference between the two states is equivalent to the binding energy. The binding energy of a nucleus has important implications for both the stability of the nucleus and for the energy released during nuclear reactions. Nuclei with higher binding energy are generally more stable and less likely to undergo spontaneous decay, while nuclei with lower binding energy are more likely to undergo radioactive decay. Additionally, the energy released during nuclear reactions is directly proportional to the binding energy of the nucleus. When a nucleus is formed, protons and neutrons come together and bind to form the nucleus. This process is driven by the strong nuclear force, which acts over short distances to hold the particles together. The formation of a nucleus also leads to the release of energy. This energy is in the form of electromagnetic radiation and called the binding energy. It is the same amount of energy required to separate the protons and neutrons in the nucleus when broken down to individual components. For example: The deuterium (<span class="process-math">\({}_{1}^{2}H\)</span>) has one proton and one neutron in its nucleus. So when they break apart we expect the mass of deuterium atom equals the mass of one proton (i.e. <span class="process-math">\({}_{1}^{1}H\)</span>) and the mass of one neutron. Mass of one <span class="process-math">\({}_{1}^{1}H = 1.0078 u \)</span> and mass of one neutron = 1.0087 u. Therefore the total mass of</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-emc.html" id="subsec_7be-subsection-2-1-6">
+\begin{equation*}
+{}_{1}^{2}H = 1.0078 u+1.0087 u= 2.0165u\text{.}
+\end{equation*}
+</div>
+<div class="para">The measured mass of <span class="process-math">\({}_{1}^{2}H\)</span> however, is only <span class="process-math">\(2.0141 u,\)</span> which is <span class="process-math">\(0.0024 u\)</span> less than the combined mass of proton and neutron. This loss of mass (also known as <em class="emphasis">mass defect</em>) appears in the form of binding energy of the deuterium atom. Similarly when one deuterium nucleus combines with one tritium nucleus to form helium nucleus tremendous amount of energy released which was a binding energy. For example:</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-emc.html" id="subsec_7be-subsection-2-1-11">
+\begin{equation*}
+{}_{1}^{2}H + {}_{1}^{3}H \longrightarrow {}_{2}^{4}He + {}_{0}^{1}n +\text{energy}\text{.}
+\end{equation*}
+</div>
+<div class="para">Hence, the mass defect in this case is given by: total mass of <span class="process-math">\({}_{1}^{2}H + {}_{1}^{3}H = 2.0141\,u+3.0161 \,u= 5.0302\,u\)</span> and total mass of <span class="process-math">\({}_{2}^{4}He + {}_{0}^{1}n = 4.0026\,u+1.0087\, u= 5.0113\,u\text{.}\)</span> Hence the difference in these masses is a mass defect, <span class="process-math">\(m = 0.0189u\text{.}\)</span> <em class="emphasis">Note:</em> Here <span class="process-math">\(u\)</span> is the <em class="alert">atomic mass unit</em>. <span class="process-math">\(1 \,u = 1.67 \times 10^{-27} \,kg\text{.}\)</span> This is the approximate mass of the hydrogen atom. Atomic mass unit is also caled Dalton. we can also consider <span class="process-math">\(1 \,u \)</span> as <span class="process-math">\(1 gram/mole.\)</span> 1 mole of anything is equal to <span class="process-math">\(6.022\times 10^{23}.\)</span> Now,</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-emc.html" id="subsec_7be-subsection-2-1-22">
+\begin{align*}
+\text{1 mole of H-1 atom} \amp = 1.0078 \,gram\\
+or,\quad \text{mass of} \quad 6.022\times 10^{23} \quad \text{H-1 atom} \amp = 1.0078 \, gram\\
+\therefore \quad \text{mass of 1 H-1 atom} \amp = \frac{1.0078 \quad gram}{6.022\times 10^{23}}\\
+\amp  =1.67 \times 10^{-24} \,gram = 1.67 \times 10^{-27} \,kg.
+\end{align*}
+</div>
+<div class="para">This mass defect appears in the form of binding energy which can be calculated by equation <a href="sec_seventh-nucleus.html#eqn-emc" class="xref" data-knowl="./knowl/xref/eqn-emc.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 7.2.3">(7.2.3)</a>
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-emc.html" id="subsec_7be-subsection-2-1-24">
+\begin{equation*}
+E = mc^2 = 0.0189\,u\times (3.0\times 10^8 \,m/s)^2
+\end{equation*}
+</div>
+<div class="para"><details class="ptx-footnote" aria-live="polite" id="subsec_7be-subsection-2-1-25"><summary class="ptx-footnote__number" title="Footnote 7.2.2"><sup> 2 </sup></summary><div class="ptx-footnote__contents" id="subsec_7be-subsection-2-1-25">
+<span class="process-math">\(c=3.0\times 10^8 \,m/s\text{,}\)</span> the velocity of light.</div></details></div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-emc.html" id="subsec_7be-subsection-2-1-26">
+\begin{equation*}
+E =0.0189\times 1.67 \times 10^{-27} \,kg\times (3.0\times 10^8 \,m/s)^2 = 2.84\times10^{-12} \,J 
+\end{equation*}
+</div>
+<div class="para">Hence, energy released from this reaction is <span class="process-math">\(1.78\times 10^7 \,eV\)</span> or, 17.8 MeV<details class="ptx-footnote" aria-live="polite" id="subsec_7be-subsection-2-1-28"><summary class="ptx-footnote__number" title="Footnote 7.2.3"><sup> 3 </sup></summary><div class="ptx-footnote__contents" id="subsec_7be-subsection-2-1-28">
+<span class="process-math">\(1\,eV=1.6\times 10^{-19}\,J\)</span> and <span class="process-math">\(1u = 931\, MeV\text{.}\)</span>
+</div></details>.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec_7be-subsection-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section><section class="subsubsection" id="subsubsec_7bepn"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.2.2.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Binding Energy per Nucleon</span>
+</h4>
+<figure class="figure figure-like" id="fig-bepn"><div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/fig7bepn.png" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.2.4<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><a class="external" href="https://www.w3schools.blog/binding-energy-per-nucleon" target="_blank">Binding Energy Per Nucleon</a><div class="autopermalink" data-description="Figure 7.2.4"><a href="#fig-bepn" title="Copy heading and permalink for Figure 7.2.4" aria-label="Copy heading and permalink for Figure 7.2.4">🔗</a></div></figcaption></figure><div class="para" id="subsubsec_7bepn-3">The binding energy of a nucleus determines its stability against disintegration. The larger the binding energy, the more stable is the nucleus and vice a versa. The binding energy per nucleon, BE/A is the ratio of <em class="emphasis">Binding energy</em> of the nucleus to the <em class="emphasis">total number of nucleons</em>. It is found that the binding energy per nucleon varies from element to element. A graph  <a href="sec_seventh-nucleus.html#fig-bepn" class="xref" data-knowl="./knowl/xref/fig-bepn.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 7.2.4">Figure 7.2.4</a> is plotted with the mass number A of the nucleus along the X-axis and binding energy per nucleon along the Y-axis. The binding energy per nucleon increases sharply with mass number A upto 20. It increases slowly after <span class="process-math">\(A = 20\text{.}\)</span> The curve becomes almost flat for mass number between 40 and 120. Beyond 120, it decreases slowly as A increases. The  binding  energy  per  nucleon  reaches  a maximum at A=56, corresponding to the iron nucleus (<span class="process-math">\({}_{26}^{56}Fe\)</span>). Hence, iron has the most stable nucleus. At the lower end of the curve, smaller nuclei have relatively lower binding energy per nucleon compared to larger nuclei. This is because the attractive strong nuclear force, which holds the nucleons together, decreases rapidly with increasing distance between the nucleons. As a result, small nuclei tend to be less stable and more likely to undergo nuclear reactions, such as beta decay. At the higher end of the curve, larger nuclei have relatively lower binding energy per nucleon compared to smaller nuclei. This is because the repulsive electromagnetic force between the positively charged protons in the nucleus increases with increasing number of protons. This repulsive force limits the size of the nucleus and causes it to become less stable.<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec_7bepn-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsubsection 7.2.2.1: Binding Energy per Nucleon"><a href="#subsubsec_7bepn" title="Copy heading and permalink for Subsubsection 7.2.2.1: Binding Energy per Nucleon" aria-label="Copy heading and permalink for Subsubsection 7.2.2.1: Binding Energy per Nucleon">🔗</a></div></section><div class="autopermalink" data-description="Subsection 7.2.2: Binding Energy"><a href="#subsec_7be-subsection" title="Copy heading and permalink for Subsection 7.2.2: Binding Energy" aria-label="Copy heading and permalink for Subsection 7.2.2: Binding Energy">🔗</a></div></section><section class="subsection" id="subsec_7nr"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.2.3</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Nuclear Reactions</span>
+</h3>
+<div class="para logical" id="subsec_7nr-2">
+<div class="para">Nuclear reactions are the process in which nucleus of an atom changes. These changes can be either decay processes, in which the nucleus of an atom emits particles or radiation, or fusion processes, in which two or more atomic nuclei come together to form a heavier nucleus. There are two main types of nuclear reactions:</div>
+<ol class="lower-alpha ol-marker-4" id="subsec_7nr-2-1">
+<li id="subsec_7nr-2-1-1">
+<div class="para" id="p-derived-subsec_7nr-2-1-1">Nuclear Fission Reactions: These reactions involve the spontaneous decay of an unstable nucleus into a more stable form. Common types of nuclear decay reactions include alpha decay, beta decay, and gamma decay.</div>
+<div class="autopermalink" data-description="Item a"><a href="#subsec_7nr-2-1-1" title="Copy heading and permalink for Item a" aria-label="Copy heading and permalink for Item a">🔗</a></div>
+</li>
+<li id="subsec_7nr-2-1-2">
+<div class="para" id="p-derived-subsec_7nr-2-1-2">Nuclear Fusion Reactions: These reactions involve the fusion of two atomic nuclei to form a heavier nucleus. This process releases a large amount of energy, and is the reaction that powers the sun. Nuclear fusion reactions are difficult to achieve on Earth, but are being researched as a potential source of clean and abundant energy.</div>
+<div class="autopermalink" data-description="Item b"><a href="#subsec_7nr-2-1-2" title="Copy heading and permalink for Item b" aria-label="Copy heading and permalink for Item b">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec_7nr-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="subsec_7nr-3"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;grid-template-columns:50% 50%;column-gap:0%;">
+<div class="sbspanel sbspanel--top top" style=""><figure class="figure figure-like" id="subsec_7nr-3-2-1"><img src="external/Nfis.png" class="contained"><figcaption><span class="codenumber">(a)</span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Nuclear Fission Reaction<div class="autopermalink" data-description="Figure 7.2.5.(a)"><a href="#subsec_7nr-3-2-1" title="Copy heading and permalink for Figure 7.2.5.(a)" aria-label="Copy heading and permalink for Figure 7.2.5.(a)">🔗</a></div></figcaption></figure></div>
+<div class="sbspanel sbspanel--top top" style=""><figure class="figure figure-like" id="subsec_7nr-3-2-2"><img src="external/Nfuse.png" class="contained"><figcaption><span class="codenumber">(b)</span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Nuclear Fusion Reaction<div class="autopermalink" data-description="Figure 7.2.5.(b)"><a href="#subsec_7nr-3-2-2" title="Copy heading and permalink for Figure 7.2.5.(b)" aria-label="Copy heading and permalink for Figure 7.2.5.(b)">🔗</a></div></figcaption></figure></div>
+</div></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.2.5<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Nuclear Reactions<div class="autopermalink" data-description="Figure 7.2.5"><a href="#subsec_7nr-3" title="Copy heading and permalink for Figure 7.2.5" aria-label="Copy heading and permalink for Figure 7.2.5">🔗</a></div></figcaption></figure><div class="para" id="subsec_7nr-4">In both types of reactions, the sum of the atomic numbers of the reactants must equal the sum of the atomic numbers of the products, and the total mass of the reactants must equal the total mass of the products, according to the law of conservation of matter and energy. In fission reactions, the mass defect of the original nucleus is converted into energy, which is released as kinetic energy of the fission products and as gamma radiation. This energy can be harnessed for practical purposes, such as generating electricity in nuclear power plants, or for destructive purposes, such as in atomic bombs. Binding energy in a fusion reaction refers to the energy required to overcome the repulsive forces between positively charged nuclei and bring them close enough together to form a heavier nucleus through a fusion process. When the nuclei are close enough, they can form a single nucleus through the strong force, releasing a large amount of energy in the process.<div class="autopermalink" data-description="Paragraph"><a href="#subsec_7nr-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsection 7.2.3: Nuclear Reactions"><a href="#subsec_7nr" title="Copy heading and permalink for Subsection 7.2.3: Nuclear Reactions" aria-label="Copy heading and permalink for Subsection 7.2.3: Nuclear Reactions">🔗</a></div></section><section class="subsection" id="subsec_7erad"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.2.4</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Effects of Radiation</span>
+</h3>
+<figure class="figure figure-like" id="fig-radexps"><div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/radexps.png" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.2.6<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Sources of Radiation<div class="autopermalink" data-description="Figure 7.2.6"><a href="#fig-radexps" title="Copy heading and permalink for Figure 7.2.6" aria-label="Copy heading and permalink for Figure 7.2.6">🔗</a></div></figcaption></figure><div class="para" id="subsec_7erad-3">In nuclear reaction emits alpha, beta, and other high enegy waves or particles that can knock out atoms or molecules to form ions. These ions come under <em class="emphasis">ionizing radiation.</em> Such radiation can damage living cells and affects protien or DNA molecules. There are several types of radiation, including: alpha radiation, beta radiation, gamma radiation, X-rays, nuclear radiation, and cosmic radiation, etc. <em class="emphasis">Cosmic radiation</em> is high-energy radiation that originates from outside of the Earth’s atmosphere. It consists of high-energy particles, including protons and electrons, that are produced by the Sun and other astronomical sources. Radiation <dfn class="terminology">doses</dfn> doses are measured in the <dfn class="terminology">Sievert (Sv)</dfn> unit. The sievert is used to describe the amount of ionizing radiation that has been absorbed by a material. The another unit of doses is <em class="emphasis">Rads</em> (short for "radiation absorbed dose"). It is used to quantify the amount of energy deposited in a material by ionizing radiation per unit mass. One rad is 0.01 joule of energy deposited in one kilogram of tissue. That is <span class="process-math">\(1 \,rad = 0.01 \,J/kg\)</span> of energy deposited on the tissue. One sievert is equal to 100 rads. The sievert is the standard unit of measurement used to describe the amount of ionizing radiation that has been absorbed by the human body, and it is used to evaluate the potential health risks associated with exposure to ionizing radiation. We receive 3.1 mSv per year from natural radiation resources, 3.1 mSv per year from medical and dental x-rays, and 0.4 mSv from mammogram. The total unavoidable radiation doses are about 6.2 mSv per year. The allowed safe radiation dose limit for a healthy human is <span class="process-math">\(20 \,mSv\text{.}\)</span> The risk of radiation induced cancer is much smaller than other hazardous activities such as smoking. Sources of radiation exposure is given in <a href="sec_seventh-nucleus.html#fig-radexps" class="xref" data-knowl="./knowl/xref/fig-radexps.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 7.2.6">Figure 7.2.6</a><div class="autopermalink" data-description="Paragraph"><a href="#subsec_7erad-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsection 7.2.4: Effects of Radiation"><a href="#subsec_7erad" title="Copy heading and permalink for Subsection 7.2.4: Effects of Radiation" aria-label="Copy heading and permalink for Subsection 7.2.4: Effects of Radiation">🔗</a></div></section><section class="subsection" id="subsec_7nreact"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.2.5</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Nuclear Reactor</span>
+</h3>
+<div class="para" id="subsec_7nreact-2">In nuclear fission reaction neutron is absorbed by unstable nucleus and get splitted into two or more small nuclides with the emission of another neutron/s. Such neutrons may cause increasing nuclear fission reactions, called the chain reaction. A nuclear reactor is a device that is used to initiate and control a sustained nuclear chain reaction. This reaction is the process by which atomic nuclei release energy through interactions with other particles. The heat produced by the fission reactions is used to generate steam, which in turn drives a turbine and generates electricity. Please click on the animation link: <a class="external" href="https://www.nrc.gov/reading-rm/basic-ref/students/animated-pwr.html" target="_blank"><code class="code-inline tex2jax_ignore">Nuclear Reactor Plant</code></a> The core of a nuclear reactor contains fuel rods, which contain fuel pellets made of nuclear fuel, such as uranium dioxide. The fuel rods are surrounded by coolant, which is used to transfer heat from the core to a steam generator. The steam generator is used to produce steam, which drives the turbine to generate electricity. In addition to the fuel rods, the core of a nuclear reactor also contains control rods, which are used to regulate the rate of fission reactions by absorbing excess neutrons. The control rods can be moved up and down within the core to control the reaction rate.<div class="autopermalink" data-description="Paragraph"><a href="#subsec_7nreact-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsection 7.2.5: Nuclear Reactor"><a href="#subsec_7nreact" title="Copy heading and permalink for Subsection 7.2.5: Nuclear Reactor" aria-label="Copy heading and permalink for Subsection 7.2.5: Nuclear Reactor">🔗</a></div></section><div class="autopermalink" data-description="Section 7.2: Nuclear Structure"><a href="#sec_seventh-nucleus" title="Copy heading and permalink for Section 7.2: Nuclear Structure" aria-label="Copy heading and permalink for Section 7.2: Nuclear Structure">🔗</a></div></section></div>
+<div id="ptx-content-footer" class="ptx-content-footer">
+<a class="previous-button button" href="sec_seventh-atom.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec_seventh-examples.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+</div>
+</body>
+</html>

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<exercises xml:id="ex_tenth" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <!-- You can ommit the title and just get the default "Exercises" -->
+  <title>Exercises</title>
+  
+  <exercise>
+    <statement>
+      <p>
+       Dry air has relative humidity of
+       <ol marker ="a">
+        <li>zero.</li>
+        <li> 100%.</li>
+          <li> 50%. </li>
+         <li> 1%. </li>
+          </ol>
+        </p>
+    </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Because of the Coriolis effect, winds and other moving fluids are deflected to which direction in the Northern Hemisphere?
+         <ol marker ="a">
+          <li>north</li>
+          <li> west.</li>
+            <li> east </li>
+           <li> south. </li>
+            </ol>
+          </p>
+      </statement>
+      </exercise>
+  
+      <exercise>
+        <statement>
+          <p>
+            Hurricanes never occur <fillin characters="5" />
+           <ol marker ="a">
+            <li>near the equator.</li>
+            <li> near Canada.</li>
+              <li> islands. </li>
+             <li> near mid-latitude cyclones. </li>
+              </ol>
+            </p>
+        </statement>
+        </exercise>
+
+        <exercise>
+          <statement>
+            <p>
+              Air flows from <fillin characters="5" /> in the upper atmosphere.
+             <ol marker ="a">
+              <li>west to east.</li>
+              <li> east to west.</li>
+                <li> north to south. </li>
+               <li> south to north. </li>
+                </ol>
+              </p>
+          </statement>
+          </exercise>
+
+          <exercise>
+            <statement>
+              <p>
+                A cyclone is centered towards 
+               <ol marker ="a">
+                <li>region of high pressure.</li>
+                <li> region of low pressure.</li>
+                  <li> cannot tell. </li>
+                 </ol>
+                </p>
+            </statement>
+            </exercise>
+
+            <exercise>
+              <statement>
+                <p>
+                  Tsunamis are caused by 
+                 <ol marker ="a">
+                  <li>typhoons.</li>
+                  <li> undersea earthquake.</li>
+                    <li> tornados. </li>
+                    <li> hurricanes. </li>
+                   </ol>
+                  </p>
+              </statement>
+              </exercise>
+  
+              <exercise>
+                <statement>
+                  <p>
+                    Which type of rock is most commonly associated with solution caves?
+                   <ol marker ="a">
+                    <li>Granite.</li>
+                    <li> Marble.</li>
+                      <li> Sandstone. </li>
+                      <li> Basalt. </li>
+                     </ol>
+                    </p>
+                </statement>
+                <answer>
+                  <p>
+                    b.
+                  </p>
+                </answer>
+                </exercise>
+
+                <exercise>
+                  <statement>
+                    <p>
+                      What is the term for the type of cave formation that occurs when lava cools and hardens around a 
+                      flowing stream of lava, creating a hollow tube?
+                     <ol marker ="a">
+                      <li>Solution cave.</li>
+                      <li> Sea cave.</li>
+                        <li> Lava tube. </li>
+                        <li> Erosion cave. </li>
+                       </ol>
+                      </p>
+                  </statement>
+                  <answer>
+                    <p>
+                      c.
+                    </p>
+                  </answer>
+                  </exercise>
+
+                  <exercise>
+                    <statement>
+                      <p>
+                        What is the definition of erosion?
+                       <ol marker ="a">
+                        <li>The process of breaking down rocks and minerals.</li>
+                        <li> The process of forming new rocks and minerals.</li>
+                          <li>The process of moving rocks and minerals from one place to another. </li>
+                          <li> The process of melting rocks and minerals. </li>
+                         </ol>
+                        </p>
+                    </statement>
+                    <answer>
+                      <p>
+                        c.
+                      </p>
+                    </answer>
+                    </exercise>
+
+                    <exercise>
+                      <statement>
+                        <p>
+                          Which of the following can contribute to soil erosion?
+                         <ol marker ="a">
+                          <li>Overgrazing by livestock.</li>
+                          <li> Deforestation.</li>
+                            <li>Poor land management practices. </li>
+                            <li> All of the above. </li>
+                           </ol>
+                          </p>
+                      </statement>
+                      <answer>
+                        <p>
+                          d.
+                        </p>
+                      </answer>
+                      </exercise>
+
+                      <exercise>
+                        <statement>
+                          <p>
+                            Which of the following is a natural process that can lead to erosion?
+                           <ol marker ="a">
+                            <li>Landslides.</li>
+                            <li> Human construction and development.</li>
+                              <li>Agriculture. </li>
+                              <li> None of the above. </li>
+                             </ol>
+                            </p>
+                        </statement>
+                        <answer>
+                          <p>
+                            a.
+                          </p>
+                        </answer>
+                        </exercise>
+
+                        <exercise>
+                          <statement>
+                            <p>
+                              What is a spring?
+                             <ol marker ="a">
+                              <li>A device used to measure the flow rate of groundwater.</li>
+                              <li>A type of well that is used for pumping groundwater to the surface.</li>
+                                <li>A natural discharge of groundwater at the surface. </li>
+                                <li> A type of water treatment facility. </li>
+                               </ol>
+                              </p>
+                          </statement>
+                          <answer>
+                            <p>
+                              c.
+                            </p>
+                          </answer>
+                          </exercise>
+                        
+                    
+</exercises>
+
+
+
+

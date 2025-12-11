@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_eleventh-tectmov" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Tectonic Movement</title>
+  <introduction>       
+   <p>
+    A movement of large sections of the Earth's lithosphere 
+    (the rigid outer layer of the Earth) relative to each other is known as tectonic movement. 
+    The lithosphere is broken up into a number of plates that move around on 
+    the underlying asthenosphere (the partially molten, ductile region of the mantle). 
+    Tectonic movement occurs primarily at plate boundaries, where plates interact with each other. 
+    Plate boundaries are <term>Divergent:</term> (where plates <em>move away from each other</em>, creating a new crust. 
+    This occurs mainly at mid-ocean ridges), <term>Convergent:</term> (where plates move towards each other 
+    and <em>one plate is usually subducted (forced beneath) under the other</em>. This can cause earthquakes, 
+    volcanoes and mountain-building), <term>Transform:</term> (where plates slide past each other horizontally. 
+    This can also cause earthquakes). The movement of molten rock in the mantle can cause the tectonic movement. 
+   </p>
+    <figure>
+      <title></title>
+      <caption><c>Plate Tectonic</c></caption>
+      <video xml:id="plttectonic" youtube="ryrXAGY1dmE" width="50%" start="50" end="150" />
+    </figure>
+<p>
+    A <term>mid-ocean ridge</term> is an underwater mountain range that runs along the floor of the 
+    Earth's ocean basins. When two tectonic plates are moving away from each other at divergent 
+    plate boundary magma from the mantle rises up and solidify and forms a new oceanic crust. 
+    The mid-ocean ridge is the longest mountain range on Earth which expands over 64,000 kilometers (40,000 miles) 
+    and covers more than 23% of the Earth's surface. It forms volcanic islands and is located in 
+    all of the Earth's major oceans. A <term>volcanic eruption</term> 
+    is a geological event that occurs when magma, ash, and gases escape from a volcano. Volcanic eruptions can be 
+    explosive or effusive and can vary in intensity and duration. Explosive eruptions occur when a buildup of 
+    pressure causes a sudden release of gas, ash, and magma. These eruptions can be violent and destructive. 
+    Effusive eruptions, on the other hand, are a steady flow of lava from the volcano. 
+    These eruptions can last for weeks, months, or even years, and can create new land by adding layers of 
+    solidified lava to the landscape. 
+   </p>
+  </introduction>
+  <subsection xml:id="subsec-drift">
+    <title>Continental Drift</title>
+
+
+      <figure xml:id="fig-emap">
+          <caption>Earth map</caption>
+          <image source="emap.png" width="70%"/>
+      </figure>
+   
+    <p>
+      Continental drift is a theory that tells Earth's continents were once joined together in a single landmass 
+      and have drifted apart over millions of years. This theory was first proposed by Alfred Wegener in 1912, 
+      based on the observation that the shapes of the continents on either side of the Atlantic Ocean seemed to 
+      fit together like puzzle pieces <xref ref="fig-emap"/>. According to the theory of continental drift, 
+      the continents were once part of a single supercontinent called <alert>Pangaea</alert>. Pangaea began to 
+      break apart about 200 million years ago. Over time, the continents moved away from each other, 
+      due to tectonic movement. One of the key pieces of evidence came from the study of paleomagnetism, 
+      which showed that the magnetic orientation of rocks on different continents matched up when the 
+      continents were brought together.</p>
+
+      <figure>
+        <title></title>
+        <caption><c>Theory of Continental drift</c></caption>
+        <video xml:id="cont_drift" youtube="_5q8hzF9VVE" width="50%" start="54" end="240" />
+      </figure>
+<p>
+      <term>Laurasia and Gondwana</term> were two supercontinents that existed during the Mesozoic Era, 
+      between approximately 252 million to 66 million years ago. Laurasia was a northern supercontinent 
+      that consisted of present-day North America, Europe, and Asia (excluding India and Arabia). 
+      It formed during the Late Paleozoic Era when the supercontinent Pangaea began to break apart. 
+      Gondwana, on the other hand, was a southern supercontinent that consisted of present-day South America, 
+      Africa, Antarctica, Australia, the Indian subcontinent, and the Arabian Peninsula. It formed during 
+      the Neoproterozoic Era, when earlier supercontinents began to break apart. Gondwana and Laurasia both are continued 
+      to fragment during the Mesozoic Era. Laurasia and Gondwana were separated by the <term>Tethys Sea</term>. 
+      The breakup of these supercontinents shaps the geography of the Earth and the evolution of life on the planet. For example, 
+      the separation of South America and Africa created an oceanic barrier that allowed different species 
+      to evolve independently. The separation of India from Antarctica and Australia led to the formation 
+      of the Himalayas.
+    </p>
+  </subsection>
+
+  <subsection xml:id="subsec-platetect">
+    <title>Plate Tectonics</title>
+
+    <figure xml:id="fig-trenchridge">
+      <caption><url href="https://www.kids-fun-science.com/ocean-trenches.html">Plate collision</url></caption>
+      <image source="trenchridge.png" width ="40%"/>
+    </figure>
+
+    <p>
+      There are around 15 major and several smaller tectonic plates on Earth. The major plates 
+      include the African Plate, Antarctic Plate, Australian Plate, Eurasian Plate, North American Plate, 
+      Pacific Plate, South American Plate, and others. These plates are in constant motion, with some moving 
+      towards each other (convergent boundaries), some moving apart from each other (divergent boundaries), 
+      and some sliding past each other (transform boundaries). These movements can cause earthquakes, 
+      volcanic eruptions, and the formation of mountain ranges.
+      <ol marker="a">
+        <li>
+          <term>Oceanic-continental plate collision</term>: When an oceanic plate collides with a continental plate, 
+          the denser oceanic plate is usually subducted under the less dense continental plate. 
+          This process can lead to the formation of subduction zones, where the oceanic plate is forced downward 
+          into the mantle, creating a deep oceanic <term>trench</term> [<xref ref="fig-trenchridge"/>]. 
+          As the oceanic plate is subducted, it heats up and begins to melt. This melt rises up to the surface 
+          in the form of magma and can cause the volcanic activity. 
+          This volcanic activity can create a line of volcanoes known as a volcanic arc on the continental 
+          plate side of the subduction zone. The collision between the oceanic and continental plates can 
+          also cause folding and faulting of the continental crust, leading to the formation of mountain 
+          ranges. This collision can also cause earthquakes as the plates grind against each other 
+          and release energy. One well-known example of an oceanic-continental plate collision is 
+          the Andes Mountains in South America. 
+        </li>
+        <li>
+          <term>Oceanic-oceanic plate collision:</term> When two oceanic plates collide, one plate usually subducts 
+          beneath the other, creating a subduction zone. The subducted plate is forced down into the mantle, 
+          creating a deep <term>trench</term>, while the overriding plate forms an island arc, a curved chain of volcanic 
+          islands. As the subducted plate sinks deeper into the mantle, it heats up and begins to melt. 
+          This process can also lead to volcanic activity. This volcanic activity 
+          can contribute to the growth of the island arc. Over time, the volcanic activity can also lead to 
+          the formation of a new oceanic crust, as magma solidifies and builds up on the seafloor. 
+          One example of an oceanic-oceanic plate collision is the 
+          collision between the Pacific Plate and the Philippine Sea Plate, which has created the Marianas 
+          Trench and the Mariana Islands, a volcanic island arc in the western Pacific Ocean.
+        </li>
+        <li>
+          <term>Continental-continental plate collision:</term> When two continental plates collide, neither plate is 
+          subducted because both plates are too buoyant to sink. Instead, the collision can lead to the 
+          formation of massive mountain ranges and intense deformation of the continental crust. 
+          As the two continental plates collide, they crumple and fold, leading to the formation of 
+          complex mountain belts. The collision can also cause extensive faulting and fracturing of the crust 
+          that leads to the formation of deep basins and rift valleys. One example of a 
+          continental-continental plate collision is the collision between the Indian Plate and the Eurasian Plate, 
+          which has led to the formation of the Himalayan mountain range, the tallest mountain range in 
+          the world. The collision between these two plates is ongoing, and the Himalayas continue to grow 
+          taller each year.
+        </li>
+      </ol>
+    </p>
+  </subsection>
+
+
+</section>
+

@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<exercises xml:id="ex_first" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <!-- You can ommit the title and just get the default "Exercises" -->
+  <title>Exercise</title>
+  
+  <exercise>
+    <statement>
+      <p>
+        Arrange the planets in the order of their distance from the sun.
+      </p>
+    </statement>
+    <answer>
+      <p>
+        Mercury, Venus, Earth, Mars, Jupyter, Satern, Uranus, and Naptune.
+      </p>
+    </answer>
+      </exercise>
+  <exercise>
+    <statement>
+      <p>
+        What is the height of a person in centimeter, if he is <m>5'9"</m> tall?
+      </p>
+    </statement>
+    <hint>
+      <p>
+        convert <m>5'</m> feet into inch and add them to the <m>9 \,inch </m>
+        to get total hight and then use conversion factor <m>1 \,inch = 2.54\, cm</m>.
+      </p>
+    </hint>
+    <solution>
+        <p>
+          <me>5 \, ft\cdot\frac{12 \, in}{1 \, ft}+9 \, in = 60 \,in+9 \, in = 69\, in= 175.26\, cm</me>
+        </p>
+      </solution>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        A meter stick is how much in milimeter (<m>mm</m>)?
+      </p>
+    </statement>
+    <hint>
+      <p>
+        convert <m>1 \,m</m> into <m>cm</m> and then use conversion factor <m>1 \, cm = 10\, mm</m>.
+      </p>
+    </hint>
+      </exercise>
+    <exercise>
+    <statement>
+      <p>
+        Find the area of a piece of land in correct significant figures 
+        which has <m> 25 \,m</m> width and <m>221 \,m</m> length.
+      </p>
+    </statement>
+        <solution>
+        <p>
+          empty
+        </p>
+      </solution>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        Perform the following calculations in correct significant digits.
+        <ol marker ="I.">
+        <li><me>12.52 \,m + 349.0\, m - 8.24 \,m</me></li>
+        <li><me>8.3\, m\times 2.22 \,m</me></li>
+        <li><me>8432 \,m \div 3 </me></li>
+        <li>How many significant digits are in 90.009 mm</li>
+        <li>How many significant digits are in 0.01520 kg</li>
+        <li><p>Round the following numbers into given significant digits as shown in paranthesis:</p>
+          <p>
+           <ul>
+            <li><m>314.721 \,m</m> (4)</li>
+            <li><m>8792 \, km</m> (2)</li>
+            <li><m>0.001775\, L</m> (2)</li>
+          </ul>
+          </p>
+          </li>
+         </ol>
+      </p>
+    </statement>
+        <solution>
+        <p>
+          empty
+        </p>
+      </solution>
+  </exercise>
+ 
+ <exercise>
+  <p>Answer these observations in your own understanding.
+    <ol>
+      <li>Write a short note on constelation.</li> 
+      <li>Why do stars always look twinkling?</li>
+      <li>Why does a star appear to rise 4 minute early in the sky every day?</li>
+      </ol>
+  </p>
+</exercise>
+
+<exercise>
+  <p>What is the unit of measurement for luminous intensity? 
+    <ol marker="a.">
+      <li>Candela</li> 
+      <li>Newton</li>
+      <li>Joule</li>
+      <li>Pascal</li>
+      </ol>
+  </p>
+  <answer>
+    <p>
+      a.
+    </p>
+  </answer>
+</exercise>
+
+
+<exercise>
+  <p>What is the SI unit for measuring mass?
+    <ol marker="a.">
+      <li>Kilogram</li> 
+      <li>Newton</li>
+      <li>Joule</li>
+      <li>Meter</li>
+      </ol>
+  </p>
+</exercise>
+
+
+<exercise>
+  <p>What is the conversion factor for converting meters to kilometer?
+    <ol marker="a.">
+      <li>100</li> 
+      <li>1000</li>
+      <li>10</li>
+      <li>0.1</li>
+      </ol>
+  </p>
+  <answer>
+    <p>
+      b.
+    </p>
+  </answer>
+</exercise>
+
+
+<exercise>
+  <p>Why do stars appear to rise about 4 minutes earlier each night?
+    <ol marker="a.">
+      <li>Stars are actually moving closer to Earth.</li> 
+      <li>Earth's orbit causes stars to shift their positions.</li>
+      <li>Earth's rotation causes the celestial object to appear earlier.</li>
+      <li>Atmospheric refraction affects star visibility.</li>
+      </ol>
+  </p>
+  <solution>
+    <p>
+      The Sun takes about 24 hours to make a complete circle in the sky, 
+      while the stars complete a circle in the sky in 4 minutes less time. 
+      This causes the positions of the stars at a given time of day or night 
+      to change slightly each day. </p>
+  </solution>
+  <answer>
+    <p>
+      c.
+    </p>
+  </answer>
+</exercise>
+
+
+<exercise>
+  <p>If a star rises at 9:00 PM tonight, approximately at what time will it rise tomorrow night?
+    <ol marker="a.">
+      <li>8:56 PM</li> 
+      <li>9:00 PM</li>
+      <li> 9:04 PM</li>
+      <li>9:08 PM</li>
+      </ol>
+  </p>
+  <answer>
+    <p>
+      a.
+    </p>
+  </answer>
+</exercise>
+
+
+<exercise>
+  <p>What are constellations?
+    <ol marker="a.">
+      <li>Patterns formed by stars in the sky as seen from Earth.</li> 
+      <li>Planets that orbit distant stars.</li>
+      <li> Groups of comets that share similar orbits.</li>
+      <li>Temporary phenomena caused by atmospheric conditions.</li>
+      </ol>
+  </p>
+  <answer>
+    <p>
+      a.
+    </p>
+  </answer>
+</exercise>
+
+
+<exercise>
+  <p>What is the purpose of constellations in astronomy?
+    <ol marker="a.">
+      <li>They are used to predict weather patterns.</li> 
+      <li>They help astronomers study the Earth's magnetic field.</li>
+      <li> They serve as navigation aids for ancient explorers.</li>
+      <li>They assist in locating and identifying stars and other celestial objects.</li>
+      </ol>
+  </p>
+  <answer>
+    <p>
+      d.
+    </p>
+  </answer>
+</exercise>
+
+
+<exercise>
+  <p>The zodiac constellations are a group of constellations that lie along the apparent path of what celestial object?
+    <ol marker="a.">
+      <li>The Moon</li> 
+      <li>The Sun</li>
+      <li>A comet</li>
+      <li>Jupiter</li>
+      </ol>
+  </p>
+  <answer>
+    <p>
+      b.
+    </p>
+  </answer>
+</exercise>
+
+
+<exercise>
+  <p>What primarily causes tides on Earth?
+    <ol marker="a.">
+      <li>Gravitational interaction between the Earth and the Moon.</li> 
+      <li>Earth's rotation on its axis.</li>
+      <li>Solar wind from the Sun.</li>
+      <li>Atmospheric pressure changes.</li>
+      </ol>
+  </p>
+  <answer>
+    <p>
+      a.
+    </p>
+  </answer>
+</exercise>
+
+
+<exercise>
+  <p>How many high tides and low tides occur in a typical 24-hour period?
+    <ol marker="a.">
+      <li>1 high tide, 1 low tide</li> 
+      <li> 2 high tides, 2 low tides</li>
+      <li>1 high tide, 2 low tides</li>
+      <li>2 high tides, 1 low tide</li>
+      </ol>
+  </p>
+  <answer>
+    <p>
+      b.
+    </p>
+  </answer>
+</exercise>
+
+ </exercises>
+

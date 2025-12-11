@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_eleventh-histgeol" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Historical Geology</title>
+  <introduction>  
+    
+<figure>
+  <caption><url href="https://geology.com/fossils/"><c>Fossils</c></url></caption>
+  <sidebyside widths="40% 40%"> 
+  <figure xml:id="fig-fossil1">
+    <caption>Animal fossil</caption>
+    <image source="fossil1.png"/>
+</figure>
+<figure xml:id="fig-fossil2">
+  <caption>Plant fossil</caption>
+  <image source="fossil2.png" />
+</figure>
+    </sidebyside>
+</figure>  
+    
+   <p>
+    Paleontologists study fossils to understand the history of life <idx>life on earth</idx> on Earth. They analyze the physical remains 
+    of organisms that lived in the past, such as bones, teeth, shells, and plant impressions. 
+    Fossils preserved remains or traces of past organisms that can be used to study geological events on the earth. 
+    Radiometric dating method is used to determine the age of rocks, fossils, and other geological events. 
+    By using the radiometric dating geologists are able to determine the last 542 million years of Earth's history 
+    as the Phanerozoic eon, which is divided into three eras: the Paleozoic, the Mesozoic, and the Cenozoic. 
+    <ol marker ="I">
+      <li>
+        The <term>Cenozoic era</term> is the most recent era of Earth's history, following the Mesozoic era and 
+        spanning from 66 million years ago to the present day. It is divided into three periods: 
+        the Paleogene, the Neogene, and the Quaternary. During the Cenozoic era, the Earth underwent significant 
+        changes, including the evolution of mammals and the emergence of modern humans. The Paleogene period 
+        saw the rise of mammals after the extinction of the dinosaurs, with many groups diversifying and evolving 
+        to occupy new ecological niches. The Neogene period saw the diversification of grasses and the 
+        evolution of many modern plant and animal groups. Finally, the Quaternary period saw the evolution of 
+        modern humans and the development of human societies.
+      </li>
+      <li>
+        The <term>Mesozoic era</term> is the era of geological time that spans from about 252 to 66 million years ago. 
+        It is also referred to as the Age of Reptiles because dinosaurs, pterosaurs, and marine reptiles dominated 
+        the planet during this time. The Mesozoic era is divided into three periods: the Triassic, Jurassic, and 
+        Cretaceous. During the Triassic period, life on land began to recover from the Permian-Triassic extinction 
+        event, which had wiped out about 96% of marine species and 70% of terrestrial vertebrate species. 
+        During the Jurassic period, dinosaurs became more dominant, and the first birds evolved. The Cretaceous 
+        period saw the evolution of many new types of dinosaurs, including the tyrannosaurs and the ceratopsians.
+        The end of the Mesozoic era is marked by the Cretaceous-Paleogene extinction event, which wiped out the 
+        dinosaurs and many other species. This event has been dated to about 66 million years ago using radiometric 
+        dating, and it is thought to have been caused by a massive asteroid impact. The extinction of the dinosaurs 
+        paved the way for the evolution of mammals and ultimately led to the emergence of modern terrestrial ecosystems.
+      </li>
+      <li>
+        The <term>Paleozoic era</term> is a geological era that spanned from about 541 to 252 million years ago. 
+        It is the earliest era of the Phanerozoic eon, and it is divided into six periods: the Cambrian, 
+        Ordovician, Silurian, Devonian, Carboniferous, and Permian periods. The Paleozoic era is characterized 
+        by significant geological and biological changes, including the emergence of complex multicellular 
+        life, the development of hard shells and skeletons, and the evolution of early fish, plants, and insects. 
+        The Cambrian explosion, which occurred during the Cambrian period, marked a rapid diversification of 
+        animal life, including the first appearance of many modern phyla. During the Paleozoic era, Earth's 
+        continents were united in the supercontinent of Pangaea, which began to break up during the Mesozoic era. 
+        The Paleozoic era ended with the Permian extinction event, which wiped out about 95% of marine species 
+        and 70% of terrestrial species. The cause of this extinction event is still debated, but it is thought 
+        to have been caused by a combination of volcanic activity, climate change, and asteroid impacts.
+      </li>
+    </ol>
+  </p>
+
+  <p>
+    An eon is a geological time <xref ref="fig-geologicaltime"/> unit that represents a span of billions of years. The history of the Earth 
+    is divided into four eons: the Hadean, Archean, Proterozoic, and Phanerozoic eons. The Hadean eon represents 
+    the earliest period of Earth's history, from the formation of the planet about 4.6 billion years ago to 
+    about 4 billion years ago. The Hadean eon is characterized by intense volcanic activity, meteorite impacts,
+    and the formation of the Earth's atmosphere and oceans. The Archean eon follows the Hadean eon and spans 
+    from about 4 billion to 2.5 billion years ago. During the Archean eon, the first life forms evolved, 
+    including the earliest prokaryotic cells. The Proterozoic eon follows the Archean eon and spans from 
+    about 2.5 billion to 541 million years ago. During the Proterozoic eon, the first eukaryotic cells 
+    and multicellular organisms evolved, and oxygen levels in the atmosphere rose significantly. 
+    The Phanerozoic eon is the most recent eon and spans from about 541 million years ago to the present day. 
+    The Phanerozoic eon is divided into three eras: the Paleozoic, Mesozoic, and Cenozoic eras. During the 
+    Phanerozoic eon, complex life forms, such as fishes, amphibians, reptiles, mammals, and birds, evolved 
+    and diversified, and the Earth underwent significant geological changes, such as the formation and 
+    breakup of supercontinents.
+   </p>
+   <p>
+    <term>Precambrian time: </term> The Precambrian is a geological eon that spans from about 4.6 billion years 
+    ago to approximately 541 million years ago, which is the beginning of the Phanerozoic eon. It is divided 
+    into three eras: the Hadean, the Archean, and the Proterozoic. During the Hadean era, the Earth was 
+    formed and underwent intense geological activity, including volcanic eruptions, meteorite impacts, 
+    and the formation of the oceans and atmosphere. The first life forms may have emerged during this time. 
+    The Archean era saw the emergence of the first prokaryotic cells, as well as the formation of the continents 
+    and the stabilization of the Earth's crust. Cyanobacteria, which are photosynthetic bacteria, also 
+    emerged during this era and started to produce oxygen, which changed the composition of the atmosphere. 
+    The Proterozoic era saw the emergence of eukaryotic cells, which have a nucleus and other organelles, 
+    as well as the evolution of multicellular organisms. This era also saw the development of complex 
+    ecosystems and the first appearance of animals.
+   </p>
+   
+   <figure xml:id="fig-geologicaltime">
+    <caption><url href="https://quizlet.com/260294732/geologic-time-scale-diagram/"><c>Geological History</c></url></caption>
+    <image source="geologicaltime.png" width="80%"/>
+  </figure>
+  <p>
+    Here are the time spans in chronological order from largest to smallest:
+    <ol>
+      <li><term>Eon</term> - a division of geological time that spans billions of years.</li>
+      <li><term>Era</term> - a subdivision of an eon that is characterized by significant changes in the Earth's climate, 
+        geography, and life forms.</li>
+        <li><term>Period</term> - a subdivision of an era that is characterized by distinct rock layers and identifiable 
+          changes in the fossil record.</li>
+          <li><term>Epoch</term> - a subdivision of a period that is characterized by smaller-scale changes in the fossil record 
+            and other geological features.</li>
+          </ol>
+  </p>
+  </introduction>
+
+ 
+
+  <subsection xml:id="subsec-humhist">
+    <title>Human History</title>
+    <figure xml:id="fig-humhist">
+      <caption><url href="https://www.nature.com/articles/d41586-019-03347-0">Human Evolutionary Tree</url></caption>
+      <image source="humhist.png" width="50%"/>
+  </figure>
+    <p>
+      Human history is the study of the past experiences, actions, and achievements of human beings from 
+      ancient times to the present day. The Great Rift Valley has played a significant role in human history, 
+      as it is considered by many anthropologists and archaeologists to be the cradle of humanity. The region's 
+      abundant resources and diverse landscapes have attracted human settlements for hundreds of thousands of 
+      years, and it has been the site of numerous important archaeological discoveries. The earliest evidence of 
+      human ancestors in the Great Rift Valley dates back to about 6 million years ago, with the discovery of 
+      Sahelanthropus tchadensis fossils in Chad. However, the most significant discoveries in the region are 
+      associated with the emergence of the Homo genus, which includes modern humans. <term>Hominins</term> are a 
+      group of primates that includes humans and our closest extinct relatives. The term "hominin" is used to 
+      describe all species that belong to the human lineage since it split from the lineage that led to 
+      himpanzees and bonobos, our closest living relatives.
+    </p>
+  </subsection>
+
+ </section>
+

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_eleventh-quake" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Earthquakes</title>
+  <introduction>   
+    
+    <figure>
+      <title></title>
+      <caption><c>Earthquake</c></caption>
+      <video xml:id="earth_quake" youtube="T0AEtX-uPLA" width="50%" start="54" end="72" />
+    </figure>    
+   <p>
+    An earthquake <idx>earthquake</idx> is a sudden and violent shaking of the Earth's surface, caused by the rapid release of 
+    energy stored in the Earth's crust. This energy is typically released along a <term>fault</term>, which is a 
+    fracture in the Earth's crust where the two sides have moved relative to each other. Earthquakes 
+    can vary in size and intensity, ranging from small tremors that are barely noticeable to massive 
+    earthquakes that can cause widespread destruction and loss of life. The size of an earthquake is 
+    measured on the <term>Richter scale</term>, <idx>Richter scale</idx> which is a logarithmic scale <xref ref="fig-richter"/> 
+    that assigns a numerical value to the energy released by an earthquake. The Richter scale ranges from zero to 8.9. 
+    An earthquake of 4.0 or below is miner and go without noticing most often. 5.0 to 6.0 Richtor scale is moderate. 
+    7.0 and over is major earthquake. Richter scale of 6.0 is 10 times more severe than one at 5.0 and 
+    one at 7.0 is 100 times more severe than 5.0. Earthquakes can occur anywhere in the world, but are most common 
+    along the boundaries of tectonic plates, where the movement of plates can cause stress and strain 
+    to build up in the crust. When this stress is released suddenly, it causes the ground to shake and 
+    can also trigger other geological events such as landslides, tsunamis, and volcanic eruptions.
+   </p>
+
+<figure>
+  <caption><url href="https://www.quora.com/What-are-seismic-waves"><c>Types of waves in Earthquake</c></url></caption>
+  <sidebyside widths="40% 40%"> 
+  <figure xml:id="fig-pswave">
+    <caption>Body Waves</caption>
+    <image source="pswave.png"/>
+</figure>
+<figure xml:id="fig-surwave">
+  <caption>Surface Wave</caption>
+  <image source="surwave.png" />
+</figure>
+    </sidebyside>
+</figure>  
+
+   <p>
+    When an earthquake occurs, the energy released by the movement of the Earth's crust radiates outwards 
+    in the form of seismic waves. There are two main types of seismic waves: <term>body waves and surface waves</term>. 
+    Body waves are the fastest seismic waves and travel through the interior of the Earth. There are two types of 
+    body waves: <term>P waves (primary waves) and S waves (secondary waves)</term> <xref ref="fig-pswave"/>. 
+    <em>P waves</em> are longitudinal waves that travel through the Earth's interior by causing the rock particles 
+    to move back and forth in the direction of wave propagation. <em>S waves</em> are transverse waves that travel 
+    by causing the rock particles to move perpendicular to the direction of wave propagation. S wave cannot pass 
+    through the liquid and hence it gets blocked by the core <xref ref="fig-waveprop"/>. P wave is faster than 
+    the S wave. <em>Surface waves</em> are slower than the body waves and travel along the Earth's surface. 
+    There are two types of surface waves: 
+    <term>Rayleigh waves and Love waves</term> <xref ref="fig-surwave"/>. <em>Rayleigh waves</em> are similar to ocean waves and cause 
+    the ground to move in a rolling motion, while <em>Love waves</em> cause the ground to move in a side-to-side 
+    motion. Seismic waves can be transmitted through a variety of materials, including solid rock, sediment, 
+    and water. Seismic waves travel faster through dense, rigid materials such as solid rock, and slower 
+    through less dense, more fluid materials such as sediment. Seismic waves can also be reflected, refracted, 
+    and diffracted as they pass through different materials or encounter changes in the composition or 
+    structure of the Earth's crust. These interactions can cause seismic waves to change direction, speed up 
+    or slow down, and even amplify or dampen in intensity. By studying the behavior of seismic waves, 
+    scientists can gain insights into the internal structure and composition of the Earth's crust, 
+    as well as the properties of the materials through which the waves travel.
+   </p>
+   <figure xml:id="fig-waveprop">
+    <caption>Propagation of body and surface waves</caption>
+    <image source="waveprop.png" width ="50%"/>
+  </figure>
+   <p>
+    The point in the Earth's crust from where the energy is released is called the earthquake <term>focus</term>. 
+    The <term>epicenter</term> <idx>epicenter</idx> is the point on the Earth's surface directly above the focus. 
+    Focus is the place where crustal rocks moved and epicenter is the point on earth's surface 
+    directly over the focus as can be seen in <xref ref="fig-focus"/>. 
+    In seismology, <term>shadow zones</term> refer to areas on the Earth's surface where seismic 
+    waves are not detected or are significantly weaker than in surrounding areas. The existence of 
+    these shadow zones was one of the key pieces of evidence used to support the theory of plate tectonics.
+   </p>
+  </introduction>
+
+  <subsection xml:id="subsec-faults">
+    <title>Types of Deformation</title>
+
+    <figure>
+      <caption></caption>
+      <sidebyside widths="50% 20% 30%"> 
+      <figure xml:id="fig-faults">
+        <caption>Types of faults</caption>
+        <image source="faults.png"/>
+    </figure>
+    <figure xml:id="fig-focus">
+      <caption>Focus and epicenter</caption>
+      <image source="focus.png" />
+    </figure>
+    <figure xml:id="fig-richter">
+      <caption>Richter scale</caption>
+      <image source="richter.png" />
+    </figure>
+        </sidebyside>
+    </figure>  
+    <p>
+      There are many types of structural deformation happens on the earth surface. They are faults, folds, warps, 
+      tilts, rises, and falls. A <term>Fault</term> <idx>fault</idx> is a fracture, crack, or break 
+      in the Earth's crust along which earth's plates move relative to each other. Faults can be classified as 
+      either dip-slip faults, where the movement is vertical, or strike-slip faults, where the movement is horizontal. 
+      Here are some of the most common types of faults: <term>Normal fault:</term> occurs 
+      when two blocks of rock are pulled apart, causing one block to drop down relative to the other. 
+      Normal faults are common in areas where the Earth's crust is being stretched, such as at divergent 
+      plate boundaries. <term>Reverse (or, thrust) fault:</term> occurs when two blocks of rock are pushed together, causing one 
+      block to be pushed up relative to the other. Reverse faults are common in areas where the Earth's 
+      crust is being compressed, such as at convergent plate boundaries. <term>Strike-slip fault:</term> occurs when 
+      two blocks of rock slide past each other horizontally. Strike-slip faults are common in areas where the 
+      Earth's crust is being sheared, such as at transform plate boundaries. <term>Thrust fault: </term> is a type of 
+      reverse fault in which the angle of the fault plane is shallow. Thrust faults are common in areas 
+      where the Earth's crust is being compressed, such as in mountain ranges. Faults are seen in <xref ref="fig-faults"/>. 
+      <term>Folds:</term> A fold is a bend or curve in the Earth's crust that results from compressional forces. 
+      Folds can be classified as either anticlines, where the rock layers arch upwards, or synclines, where the 
+      rock layers fold downwards. <term>Tilts:</term> A tilt is a change in the angle of the Earth's crust 
+      relative to the horizontal. Tilts can be caused by various forces, including tectonic movements and the 
+      deposition of sedimentary layers. <term>Warps: </term> A warp is a broad upward or downward deformation of 
+      the Earth's crust. Warps can be caused by tectonic forces or the weight of overlying sedimentary layers. 
+      The <term>rise and fall</term> of the Earth's surface can occur due to tectonic activity, volcanic activity, erosion, 
+      and sedimentation. In tectonic activity, When plates collide or move apart, they can cause the Earth's 
+      surface to rise or fall. For example, the collision of the Indian and Eurasian plates caused the 
+      Himalayan Mountains to rise.
+    </p>
+    
+  </subsection>
+  
+</section>
+

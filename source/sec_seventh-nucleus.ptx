@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_seventh-nucleus" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Nuclear Structure</title>
+  <introduction>
+    <p>
+      The nucleus <idx>nucleus</idx> contains protons and neutrons. 
+      The protons are positively charged particles and the neutrons have no charge. 
+      Nucleus is composed of protons and neutrons collectively known as known as <term>nucleons</term>.
+      The nucleons are held together by the strong nuclear force. 
+      Strong nuclear force is a very short-range attractive force that acts between 
+      nucleons and helps keep the nucleus from flying apart due to the repulsive 
+      force of the positively charged protons. The different number of neutrons 
+      in a nucleus of the same element forms the isotopes <em>isotopes</em> of the atom. 
+      <term>Isotopes</term> <idx>isotope</idx> are atomic species of an element that have the same number of protons 
+      but different numbers of neutrons in the nucleus. That is the isotopes of an 
+      element have the same atomic number but a different atomic mass, 
+      hence isotopes can have different physical and chemical properties. 
+      Some isotopes are stable and do not undergo radioactive decay, 
+      while others are radioactive and decay over time. Age of rocks, fossils, 
+      and evolution of the universe can be determined by using isotopes. 
+      Here is the isotopic natation of the nucleus.
+      <men xml:id="eqn-isotopes">
+        {}_Z^AX
+      </men>
+      where <m>X</m> = chemical symbol of element, <m>Z</m> = atomic number of element, 
+      and <m>A</m> = mass number of nucleus = number of protons and neutrons in nucleus.
+      Therefore the number of neutron, <m> N=A-Z</m>.    
+    </p>
+    <p>There are over 3,000 known isotopes in the periodic table, but not all of them 
+      are naturally occurring. Some isotopes are stable and do not undergo radioactive 
+      decay, while others are radioactive and decay over time. The number of isotopes 
+      of an element can vary greatly, with some elements having only one or two isotopes, 
+      while others have many. The lightest element <alert>hydrogen</alert> has three 
+      isotopes <xref ref="fig-isotope"/>. They are Hydrogen: <m>{}_1^1H</m>, Deuterium: <m>{}_1^2H</m>, 
+      and Tritium: <m>{}_1^3H</m>. <term>Heavy water</term> is a type of water molecule 
+      that contains a heavier isotope of hydrogen, deuterium (H-2) instead of the common 
+      hydrogen isotope (H-1). Heavy water has the same chemical properties as regular 
+      water <m>(H_2O)</m>, but its physical properties, such as boiling and melting 
+      points, are slightly different. Heavy water is used in various industrial 
+      and scientific applications, including nuclear reactors, where it serves as a 
+      moderator to slow down the speed of neutrons in the reactor core.</p>
+
+      <figure xml:id="fig-isotope">
+        <caption><c>The isotopes of hydrogen</c></caption>
+        <image source="Hisotope.png" width ="50%">
+          </image>
+       </figure>
+
+      <p>Carbon is an element that has several isotopes. Some of them are carbon-12 
+        (or, <m>{}_6^{12}C</m>) and carbon-13 (or, <m>{}_6^{13}C</m>), and carbon-14 
+        (or, <m>{}_6^{14}C</m>). Carbon-12 and carbon-13, are naturally occurring isotopes 
+        and make up the majority of carbon on Earth. Carbon-12, has 6 protons and 6 neutrons and  
+        is the most abundant in nature. Carbon-12 is considered the standard for atomic 
+        mass. Carbon-13, has 6 protons and 7 neutrons and is a stable isotope. Carbon-13 
+        makes up about 1% of the total carbon on Earth. Carbon-14 is a naturally 
+        occurring isotope that is produced in the Earth's atmosphere through cosmic 
+        radiation and is taken up by living organisms. It is used in the radiocarbon 
+        dating method to determine the age of organic materials and is an important 
+        tool in archaeology and other fields.</p>
+      </introduction>
+
+<subsection xml:id="subsec_7radio">
+    <title>Radioactivity</title>
+<introduction>
+  <p>
+    Radioactivity <idx>radioactivity</idx> is the process of spontaneous decay 
+    of an atomic nucleus. In this process, an unstable nucleus breaks apart into 
+    smaller and more stable nuclei. This process releases energy in the form of 
+    ionizing radiation, including alpha particles, beta particles, and gamma rays. 
+    Some radioactive isotopes are naturally occurring, while others can be produced 
+    artificially, for example, in nuclear reactors. Radioactivity plays many 
+    applications in medicine (e.g., medical imaging, cancer treatment), 
+    energy production (e.g., nuclear power plants), and research 
+    (e.g., dating of rocks and artifacts). Since radiactivity releases harmful 
+    radiation along with energy, it may cause harmful effect to health. Hence, 
+    it could be handled very carefully and responsibly. Radioactivity occurs due to 
+    the weak nuclear force, which is responsible for beta decay, where a neutron in 
+    the nucleus decays into a proton, an electron, and an electron antineutrino. 
+    Due to the weak nuclear force a neutron is converted into a proton by 
+    emitting beta particle which changes the atomic number of the atom and 
+    the identity of the element. However, radioactivities like alpha decay 
+    and gamma decay are not directly related to the weak nuclear force. 
+    Alpha decay is caused by the strong nuclear force, which holds the nucleus 
+    together, while gamma decay is a result of a change in the energy level of the nucleus.   
+  </p>
+
+ 
+  <p>
+    In <term>radioactive decay</term> process different kinds of elements form due to emission of 
+    different particles or rays such as 
+    <ol marker ="a">
+      <li>
+        <p>
+          Alpha (<m>\alpha</m>) particle emission: <m>\alpha</m> particle is a helium nucleus and is   
+          positively charged particle. In  <m>\alpha</m> decay a nucleus emits an 
+          alpha particle, which consists of two protons and two neutrons. For example: 
+          thorium (Th) decayes into radium (Ra) by emitting alpha particle:
+          <me>{}_{90}^{232}Th \longrightarrow {}_{88}^{228}Ra + {}_2^{4}He </me>
+          This results in a decrease in the atomic number of the nucleus by two and transforms 
+          the nucleus into a different element. Alpha decay occurs when the nucleus 
+          has too many protons and is not stable, and it releases energy in the form 
+          of the alpha particle to reach a more stable configuration. Alpha particles 
+          have a large mass and a low velocity, and they can be stopped by a sheet of 
+          paper or a few centimeters of air <xref ref="fig-raddecay"/>. 
+        </p>
+      </li>
+      <li> 
+        <p>
+          Beta (<m>\beta</m>) particle emission: <m>\beta</m> particle is similar to electron 
+          and hence holds negative charge. In <m>\beta</m> decay a nucleus emits a high-energy 
+          electron or positron, also known as a beta particle. This results in a change in 
+          the number of protons in the nucleus and transforms the nucleus into a different 
+          element. For example: carbon (C-14) decayes into nitrogen (N-14) by emitting beta particle:
+          <me>{}_{6}^{14}C \longrightarrow {}_{7}^{14}N + {}_{-1}^{0}e </me> 
+          Similarly, neutron turns into proton in beta decay:
+          <me>{}_{0}^{1}n \longrightarrow {}_{1}^{1}p + {}_{-1}^{0}e </me> 
+          There are two types of beta decay: beta minus decay (emission of an electron) 
+          and beta plus decay (emission of a positron). In beta minus decay, a neutron in the 
+          nucleus decays into a proton, an electron, and an electron antineutrino. In beta plus 
+          decay, a proton decays into a neutron, a positron, and an electron neutrino. 
+          Beta decay is one of the three common types of radioactive decay, along with alpha 
+          decay and gamma decay. Beta particles have a low mass and a high velocity, and they 
+          can penetrate sheets of paper and even thin sheet of aluminum foil <xref ref="fig-raddecay"/>. 
+          </p>
+      </li>
+      <li> 
+        <p>
+          Gamma (<m>\gamma</m>) rays emission: <m>\gamma</m> ray is an electromagnetic radiation 
+          of very high energy and is neutral to the charge. If the nucleus is unstable due 
+          to access amount of energy then it releases <m>\gamma</m> rays. The composition 
+          of nucleus does not change due to gamma radiation emissioin. For example: 
+          high energetic Pb turns into low energetic Pb in gamma radiation:
+          <me>{}_{82}^{204}Pb^* \longrightarrow {}_{82}^{204}Pb + \gamma </me> 
+          <fn>star symbol indicates excited lead nucleus.</fn> 
+          Gamma rays have no rest mass and travel with the velocity of light and hence 
+          penetrate even thick plate of lead <xref ref="fig-raddecay"/>. 
+        </p>
+      </li>
+      <li> 
+        <p>
+          Electron (<m>e^{-}</m>) Capture: it is another type of radioactive decay 
+          in which an inner orbital electron is captured by the nucleus and transforms 
+          into a neutron, resulting in a decrease in the atomic number of the nucleus 
+          by one and the transformation of the nucleus into a different element. 
+          For example: flourine (F) turns into oxygen (O) due to 
+          positron emission: <me>{}_{1}^{1}p + {}_{-1}^{0}e \longrightarrow {}_{0}^{1}n + \nu </me> 
+          Another example is <me>{}_{92}^{231}U + {}^0_{-1}e \longrightarrow {}_{91}^{231}Pa + \nu </me> 
+          The captured electron combines with a proton to form a neutron, which 
+          remains inside the nucleus. This process releases energy in the form of 
+          gamma rays or X-rays. Electron capture is different from beta decay, 
+          which involves the emission of a beta particle (an electron or a positron).
+        </p>
+      </li>
+       <li> 
+        <p>
+          Positron <m>e^{+}</m> Emission: it is also known as beta plus decay, is a type of 
+          radioactive decay in which a nucleus emits a positron, which is the antiparticle 
+          of an electron. Positron emission occurs when a nucleus has too many protons 
+          and is not stable, and it releases energy in the form of the positron to reach 
+          a more stable configuration. For example: flourine (F) turns into oxygen (O) due to 
+          positron emission: <me>{}_{9}^{17}F \longrightarrow {}_{8}^{17}O + {}_{+1}^0e </me> 
+          The emitted positron quickly combines with an electron in the material, 
+          annihilating both particles and producing gamma rays. 
+          Positron emission is one of the three common types of radioactive decay, along 
+          with alpha decay and beta decay. In positron emission, a proton inside the nucleus 
+          decays into a neutron, a positron, and an electron neutrino. This results in a 
+          decrease in the atomic number of the nucleus by one and the transformation of 
+          the nucleus into a different element.
+        </p>
+      </li>
+    </ol>
+  </p>
+  <figure xml:id="fig-raddecay">
+    <caption><c>Strength of alpha particles, beta particles, and gamma rays</c></caption>
+    <image source="raddecay.png" width ="60%">
+      </image>
+   </figure>
+</introduction>
+   
+   
+  <subsubsection xml:id="subsubsec-7hl">
+    <title>Half-Life</title>
+    <p>
+      The rate at which a radioactive isotope disintegrates is known as its 
+      <term>half-life</term>, <idx>half-life</idx> which is the time it takes for half of the radioactive 
+      material to decay. The half-life of a radioactive isotope determines its 
+      stability and the length of time it can be used for various purposes, 
+      such as medical treatments or energy production. The <xref ref="fig-hlife"/> 
+      representing the amount or number of atoms in a radioactive substance 
+      remains every after one half-life. For example, in second figure of <xref ref="fig-hlife"/>, 
+      half-life of any one radiactive substance is 50 years, so half of the total number of atoms 
+      or its half amount  disintegrate (decay) into new substances in every one half life.
+    </p>
+    <figure xml:id="fig-hlife">
+      <caption>Half life of nuclides</caption>
+      <sidebyside widths="50% 40%">
+          <figure>
+              <caption>Remaining amount per Half-Life</caption>
+              <image source="hlife1.png"/>
+          </figure>
+          <figure>
+              <caption>% of atoms remaining</caption>
+              <image source="hlife2.png"/>
+          </figure>
+        </sidebyside>
+  </figure>
+  <p>
+    The remaining amount of substance <m>N</m> can be determined by the following formula 
+    <men xml:id="eqn-hlife">
+      N = \left(\frac{1}{2}\right)^{n}\times (N_o)
+    </men>
+    Here, <m>N_o</m> is initial concentration of the substance, and <m>n</m> is the number of half-lives.
+  </p>
+  
+  </subsubsection>
+
+<subsubsection xml:id="subsubsec_7cd">
+    <title>Carbon Dating</title>
+    <p>
+      Carbon dating <idx>carbon dating</idx> is a method of determining the age 
+      of an object containing organic material by measuring the amount of carbon-14 
+      isotopes contained in the object. Carbon-14 is a radioactive isotope of carbon 
+      that is formed in the Earth’s upper atmosphere through the interaction of 
+      cosmic rays with nitrogen atoms. The amount of carbon-14 in the atmosphere 
+      has remained constant for thousands of years, so the ratio of carbon-14 to 
+      carbon-12 in a sample can be used to determine how long it has been since the 
+      death of the organism from which the sample was taken. The carbon-14 in a 
+      sample decays over time, and the amount remaining can be measured with a 
+      specialized machine called a mass spectrometer. The age of the sample 
+      can then be calculated based on the known decay rate of carbon-14. 
+      This method is typically used to date organic materials that are less than 
+      50,000 years old, such as archaeological artifacts, fossils, and recent organic samples. 
+      In the upper atmosphere <em>Cosmic rays</em> which was primarly protons turns into neutrons. 
+      These neutrons react with nitrogen to produce carbon-14.        
+      <me>{}_{7}^{14}N + {}_{0}^{1}n \longrightarrow {}_{6}^{14}C + {}_{1}^{1}H </me>
+      The carbon-14 then reacts with oxygen to to become <m>CO_2</m> gas. Plants consume this <m>CO_2</m> 
+      in photosynthesis process. Later animals eat plant and stores these C-14 atoms in their body. 
+      In beta decay process C-14 keeps turning into nitrogen such as 
+      <me>{}_{6}^{14}C \longrightarrow {}_{7}^{14}N + {}_{-1}^0e </me> 
+     The ratio of carbon-14 to carbon-12 is roughly constant because the organism 
+      continuously replaces carbon-14 as it decays. However, after the organism dies, the carbon-14 in 
+      its tissues begins to decay, and the carbon-14 to carbon-12 ratio begins to change. By measuring 
+      the carbon-14 to carbon-12 ratio in a sample and comparing it to the known decay rate of carbon-14, 
+      scientists can determine how long it has been since the sample died and estimate its age.
+      </p>
+  </subsubsection>
+</subsection>
+
+<subsection xml:id="subsec_7be-subsection">
+    <title>Binding Energy</title>
+    <introduction>
+      <p>
+        Binding energy <idx>binding energy</idx> is the amount of energy required to separate a nucleons into the protons and neutrons. 
+        In an atomic nucleus, the protons and neutrons are held together by the strong nuclear force, 
+        which acts over short distances. The binding energy of a nucleus can be calculated by subtracting 
+        the total mass of its individual protons and neutrons from the total mass of the nucleus itself. 
+        According to Einstein's famous equation, 
+        <men xml:id="eqn-emc">
+          E=mc^2,
+        </men> 
+        the mass difference between the two states is equivalent to the binding energy. The binding energy 
+        of a nucleus has important implications for both the stability of the nucleus and for the 
+        energy released during nuclear reactions. Nuclei with higher binding energy are generally 
+        more stable and less likely to undergo spontaneous decay, while nuclei with lower binding 
+        energy are more likely to undergo radioactive decay. Additionally, the energy released 
+        during nuclear reactions is directly proportional to the binding energy of the nucleus.
+        When a nucleus is formed, protons and neutrons come together and bind to form the nucleus. 
+        This process is driven by the strong nuclear force, which acts over short distances to hold 
+        the particles together. The formation of a nucleus also leads to the release of energy. 
+        This energy is in the form of electromagnetic radiation and called the binding energy.
+        It is the same amount of energy required to separate the protons and neutrons in the nucleus 
+        when broken down to individual components. For example: The deuterium (<m>{}_{1}^{2}H</m>) has one 
+        proton and one neutron in its nucleus. So when they break apart we expect the mass of deuterium 
+        atom equals the mass of one proton (i.e. <m>{}_{1}^{1}H</m>) and the mass of one neutron.
+        Mass of one <m>{}_{1}^{1}H = 1.0078 u </m> and mass of one neutron = 1.0087 u.
+        Therefore the total mass of <me>{}_{1}^{2}H = 1.0078 u+1.0087 u= 2.0165u</me>. 
+        The measured mass of <m>{}_{1}^{2}H</m> however, is only <m>2.0141 u,</m> which is <m>0.0024 u</m> 
+        less than the combined mass of proton and neutron. This loss of mass (also known as 
+        <em>mass defect</em>) appears in the form of binding energy of the deuterium atom. Similarly when one 
+        deuterium nucleus combines with one tritium nucleus 
+        to form helium nucleus tremendous amount of energy released which was a binding energy. For example:  
+        <me>{}_{1}^{2}H + {}_{1}^{3}H \longrightarrow {}_{2}^{4}He + {}_{0}^{1}n +\text{energy}</me>.
+        Hence, the mass defect in this case is given by:
+        total mass of <m>{}_{1}^{2}H + {}_{1}^{3}H = 2.0141\,u+3.0161 \,u= 5.0302\,u</m> and 
+        total mass of <m>{}_{2}^{4}He + {}_{0}^{1}n = 4.0026\,u+1.0087\, u= 5.0113\,u</m>. 
+        Hence the difference in these masses is a mass defect, <m> m = 0.0189u</m>. 
+       <em>Note:</em> Here <m>u</m> is the <alert>atomic mass unit</alert>. <m>1 \,u = 1.67 \times 10^{-27} \,kg</m>. 
+          This is the approximate mass of the hydrogen atom. Atomic mass unit is also caled Dalton. 
+          we can also consider <m>1 \,u </m> as <m>1 gram/mole.</m> 1 mole of anything is equal to 
+          <m>6.022\times 10^{23}.</m> Now, 
+          <md>
+            <mrow> \text{1 mole of H-1 atom} \amp = 1.0078 \,gram</mrow>
+            <mrow>or,\quad \text{mass of} \quad 6.022\times 10^{23} \quad \text{H-1 atom} \amp = 1.0078 \, gram</mrow>
+            <mrow> \therefore \quad \text{mass of 1 H-1 atom} \amp = \frac{1.0078 \quad gram}{6.022\times 10^{23}}</mrow> 
+           <mrow> \amp  =1.67 \times 10^{-24} \,gram = 1.67 \times 10^{-27} \,kg.</mrow>
+          </md>
+         This mass defect appears in the form of binding energy which can be calculated by equation <xref ref="eqn-emc"/>
+         <me>
+         E = mc^2 = 0.0189\,u\times (3.0\times 10^8 \,m/s)^2
+         </me>
+         <fn><m>c=3.0\times 10^8 \,m/s</m>, the velocity of light.</fn>
+         <me>
+          E =0.0189\times 1.67 \times 10^{-27} \,kg\times (3.0\times 10^8 \,m/s)^2 = 2.84\times10^{-12} \,J 
+         </me>
+           Hence, energy released from this reaction is <m>1.78\times 10^7 \,eV</m> or, 
+        17.8 MeV<fn><m>1\,eV=1.6\times 10^{-19}\,J</m> and <m>1u = 931\, MeV</m>.</fn>.
+        </p>
+    </introduction>
+   
+ 
+
+      <subsubsection xml:id="subsubsec_7bepn">
+        <title>Binding Energy per Nucleon</title>
+
+      <figure xml:id="fig-bepn">
+        <caption><url href="https://www.w3schools.blog/binding-energy-per-nucleon">Binding Energy Per Nucleon</url>
+          </caption>
+        <image source="fig7bepn.png" width ="60%">
+          </image>
+       </figure>
+          <p>
+       The binding energy of a nucleus determines its stability against disintegration. 
+       The larger the binding energy, the more stable is the nucleus and vice a versa. The binding energy 
+       per nucleon, BE/A is the ratio of <em>Binding energy </em> of the nucleus to the 
+       <em> total number of nucleons </em>. It is found that 
+       the binding energy per nucleon varies from element to element. A graph  <xref ref="fig-bepn"/> is 
+       plotted with the mass number A of the nucleus along the X-axis and binding energy per nucleon along 
+       the Y-axis. The binding energy per nucleon increases sharply with mass number A upto 20. 
+       It increases slowly after <m>A = 20</m>. The curve becomes almost flat for mass number between 40 and 120. 
+       Beyond 120, it decreases slowly as A increases. The  binding  energy  per  nucleon  reaches  a  
+       maximum at A=56, corresponding to the iron nucleus (<m>{}_{26}^{56}Fe</m>). Hence, iron has the most stable nucleus.
+       At the lower end of the curve, smaller nuclei have relatively lower binding energy per nucleon 
+       compared to larger nuclei. This is because the attractive strong nuclear force, which holds the 
+       nucleons together, decreases rapidly with increasing distance between the nucleons. As a result, 
+       small nuclei tend to be less stable and more likely to undergo nuclear reactions, such as beta decay. 
+       At the higher end of the curve, larger nuclei have relatively lower binding energy per nucleon 
+       compared to smaller nuclei. This is because the repulsive electromagnetic force between the 
+       positively charged protons in the nucleus increases with increasing number of protons. 
+       This repulsive force limits the size of the nucleus and causes it to become less stable.
+          </p>
+      </subsubsection>
+    </subsection>
+
+<subsection xml:id="subsec_7nr">
+    <title>Nuclear Reactions</title>
+    <p>
+      Nuclear reactions are the process in which nucleus of an atom changes. 
+      These changes can be either decay processes, in which the nucleus of an atom 
+      emits particles or radiation, or fusion processes, in which two or more atomic 
+      nuclei come together to form a heavier nucleus. There are two main types of nuclear reactions:
+      <ol marker ="a">
+        <li>Nuclear Fission Reactions: These reactions involve the spontaneous decay of an 
+        unstable nucleus into a more stable form. Common types of nuclear decay reactions 
+        include alpha decay, beta decay, and gamma decay. 
+        </li> 
+        <li>Nuclear Fusion Reactions: These reactions involve the fusion of two atomic 
+          nuclei to form a heavier nucleus. This process releases a large amount of energy, 
+          and is the reaction that powers the sun. Nuclear fusion reactions are difficult 
+          to achieve on Earth, but are being researched as a potential source of clean and 
+          abundant energy.</li> 
+        </ol> 
+       </p>
+    <figure>
+      <caption>Nuclear Reactions</caption>
+      <sidebyside>
+          <figure>
+              <caption>Nuclear Fission Reaction</caption>
+              <image source="Nfis.png"/>
+          </figure>
+          <figure>
+              <caption>Nuclear Fusion Reaction</caption>
+              <image source="Nfuse.png"/>
+          </figure>
+          </sidebyside>
+  </figure>
+  <p>
+    In both types of reactions, the sum of the atomic numbers of the reactants must 
+    equal the sum of the atomic numbers of the products, and the total mass of the 
+    reactants must equal the total mass of the products, according to the law of 
+    conservation of matter and energy. In fission reactions, the mass defect of the 
+    original nucleus is converted into energy, which is released as kinetic energy of the 
+    fission products and as gamma radiation. This energy can be harnessed for practical 
+    purposes, such as generating electricity in nuclear power plants, or for destructive 
+    purposes, such as in atomic bombs. Binding energy in a fusion reaction refers to the 
+    energy required to overcome the repulsive forces between positively charged nuclei 
+    and bring them close enough together to form a heavier nucleus through a fusion process. 
+    When the nuclei are close enough, they can form a single nucleus through the strong force, 
+    releasing a large amount of energy in the process.
+  </p>
+  </subsection>
+
+<subsection xml:id="subsec_7erad">
+    <title>Effects of Radiation</title>
+    <figure xml:id="fig-radexps">
+      <caption>Sources of Radiation</caption>
+      <image source="radexps.png" width="70%"/>
+    </figure>
+    <p>
+     In nuclear reaction emits alpha, beta, and other high enegy waves or particles 
+     that can knock out atoms or molecules to form ions. These ions come under <em>ionizing radiation.</em>
+     Such radiation can damage living cells and affects protien or DNA molecules. 
+     There are several types of radiation, including: alpha radiation, beta radiation, gamma radiation, 
+     X-rays, nuclear radiation, and cosmic radiation, etc. <em>Cosmic radiation</em> is high-energy radiation that 
+     originates from outside of the Earth's atmosphere. It consists of high-energy particles, 
+     including protons and electrons, that are produced by the Sun and other astronomical sources.
+     Radiation <term>doses</term> doses are measured in the <term>Sievert (Sv)</term> unit. 
+     The sievert is used to describe the amount of ionizing radiation that has been absorbed 
+     by a material. The another unit of doses is <em>Rads</em> (short for "radiation absorbed dose"). 
+     It is used to quantify the amount of energy deposited in a material by ionizing radiation per unit mass. 
+     One rad is 0.01 joule of energy deposited in one kilogram of tissue. 
+     That is <m>1 \,rad = 0.01 \,J/kg</m> of energy deposited on the tissue. 
+     One sievert is equal to 100 rads. The sievert is the standard unit of measurement used to describe the 
+     amount of ionizing radiation that has been absorbed by the human body, and it is used to evaluate 
+     the potential health risks associated with exposure to ionizing radiation. We receive 3.1 mSv per year 
+     from natural radiation resources, 3.1 mSv per year from medical and dental x-rays, and 0.4 mSv from mammogram.  
+     The total unavoidable radiation doses are about 6.2 mSv per year. The allowed safe radiation dose limit for a 
+     healthy human is <m>20 \,mSv</m>. The risk of radiation induced cancer is much smaller than other hazardous 
+     activities such as smoking. Sources of radiation exposure is given in <xref ref="fig-radexps"/>
+    </p>
+   
+  </subsection>
+
+
+<subsection xml:id="subsec_7nreact">
+  <title>Nuclear Reactor</title>
+  <p>
+    In nuclear fission reaction neutron is absorbed by unstable nucleus and get splitted into two or more small 
+    nuclides with the emission of another neutron/s. Such neutrons may cause increasing nuclear fission reactions, 
+    called the chain reaction. A nuclear reactor is a device that is used to initiate and control a sustained 
+    nuclear chain reaction. This reaction is the process by which atomic nuclei release energy through 
+    interactions with other particles. The heat produced by the fission reactions is used to generate steam, 
+    which in turn drives a turbine and generates electricity. Please click on the animation link:
+   <url href="https://www.nrc.gov/reading-rm/basic-ref/students/animated-pwr.html"><c>Nuclear Reactor Plant</c></url>
+   The core of a nuclear reactor contains fuel rods, which contain fuel pellets made of nuclear fuel, 
+   such as uranium dioxide. The fuel rods are surrounded by coolant, which is used to transfer heat 
+   from the core to a steam generator. The steam generator is used to produce steam, which drives the 
+   turbine to generate electricity. In addition to the fuel rods, the core of a nuclear reactor also 
+   contains control rods, which are used to regulate the rate of fission reactions by absorbing 
+   excess neutrons. The control rods can be moved up and down within the core to control the reaction rate.
+  </p>
+</subsection>
+
+
+
+
+</section>
+

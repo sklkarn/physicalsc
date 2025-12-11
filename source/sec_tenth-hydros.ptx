@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_tenth-hydros" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>The Hydrosphere</title>
+  <introduction>
+    <p>
+      The hydrosphere is the part of Earth's surface where water exists, including oceans, 
+      rivers, lakes, groundwater, and other bodies of water. Hydrosphere occupies over <m>70\%</m> 
+      of earth's surface. It plays a crucial role in 
+      <ol marker="a">
+          <li>
+              Maintaining Earth's Climate: The oceans absorb, store, and release heat, 
+              which helps regulate the Earth's temperature and climate.   
+          </li>
+          <li>
+              Regulating Weather Patterns: The hydrosphere influences the movement and 
+              intensity of storms, hurricanes, and other weather patterns.
+          </li>
+          <li>
+              Supporting Life: Water is essential for all forms of life, and the hydrosphere 
+              provides habitat for aquatic plants and animals, as well as drinking water 
+              for humans and other animals.
+          </li>
+          <li>
+              Facilitating Transportation and Commerce: Oceans, rivers, and other bodies 
+              of water have been used for transportation and commerce for thousands of years, 
+              enabling the movement of people and goods around the world.
+          </li>
+          <li>
+              Supporting Agriculture: Water from the hydrosphere is used for irrigation, 
+              which is essential for growing crops and supporting agriculture.
+          </li>
+      </ol>
+        </p>
+</introduction>
+
+<subsection xml:id="subsec-basin">
+  <title>Ocean Basins</title> 
+  <introduction>
+   
+  <figure xml:id="fig-basin">
+    <caption><url href="http://geologylearn.blogspot.com/2015/07/ocean-basins.html">Ocean Basins</url></caption>
+    <image source="basin.png" width="40%"/>
+</figure>
+<p>
+  Ocean basins are large depressions on the surface of the Earth that are filled with water. 
+  The ocean basins cover approximately 70% of the Earth's surface and are divided into several 
+  major basins, including the Atlantic, Indian, Pacific, and Southern Ocean basins. The ocean 
+  basins are formed by the process of plate tectonics, where the Earth's crust is broken up 
+  into several large plates that move around on the Earth's surface. As these plates move apart, 
+  new oceanic crust is formed at mid-ocean ridges [<xref ref="fig-trenchridge"/>], and the ocean basins are gradually widened. 
+  The ocean basins are also home to a wide variety of marine life, including fish, whales, dolphins, 
+  sharks, and many other types of sea creatures.  </p>
+    <p>
+    Ocean basins are bounded by continental landmasses. Ocean bottom generally slopes downward from 
+    the <term>continental shelves</term> to the deeper ocean basins. This slope is known as the 
+    <term>continental slope</term> and is usually steeper than the continental shelf. 
+    The slope continues down to the deep-sea floor, which is generally characterized by a flat plain 
+    known as the <term>abyssal plain</term>. <term>Continental shelves</term> are areas of the ocean 
+    floor that extend from the continents and are covered by shallow water <xref ref="fig-basin"/>. They are part of the 
+    continental crust that is submerged below sea level, and they slope gradually downward from the 
+    shorelines to the deeper ocean basins. The <term>ocean floor</term> is the bottom of the ocean 
+    which characterizes mountains, trenches, ridges, and plains. 
+  </p>
+
+  </introduction>
+
+   <subsubsection xml:id="subsubsec-weather">
+    <title>Weathering</title>
+    <p>
+     Weathering refers to the process by which rocks and other materials are broken down and 
+     degraded over time by exposure to the elements. This can happen through physical, chemical, 
+     or biological means, and can be caused by a variety of factors such as temperature changes, 
+     wind, water, and living organisms. Physical weathering involves the mechanical breakdown 
+     of rocks and other materials due to factors such as freeze-thaw cycles, abrasion, 
+     and the expansion and contraction of materials due to temperature changes. Chemical 
+     weathering involves the breakdown of rocks and other materials through chemical reactions 
+     such as oxidation, dissolution, and hydrolysis. Biological weathering involves the breakdown 
+     of materials due to the activities of living organisms such as plants, animals, and bacteria. 
+     Weathering plays a key role in the formation of soils, the erosion of mountains, and the 
+     creation of landscapes such as canyons and valleys.
+    </p>
+   </subsubsection>
+
+   <subsubsection xml:id="subsubsec-erosion">
+    <title> Erosion</title>
+    <p>
+      Erosion refers to the process by which soil, rock, and other geological materials are 
+      moved from one place to another by natural agents such as wind, water, ice, and gravity. 
+      Water erosion is one of the most common types of erosion, occurring when rainwater or 
+      runoff moves soil particles downhill and into streams or rivers. Wind erosion occurs when wind 
+      picks up and carries soil particles, causing them to be deposited in other areas and 
+      potentially causing soil degradation and loss of vegetation. Glacial erosion occurs 
+      when glaciers move over the land, scraping and eroding the surface and transporting 
+      rocks and other materials to other locations. Human activities such as deforestation, 
+      agriculture, and construction can also contribute to erosion by removing vegetation 
+      and disturbing the soil, leading to increased susceptibility to erosion by natural agents. 
+      </p>
+    <p>
+      <term>Erosion by running water</term> is one of the most common types of erosion and 
+      occurs when rainwater or surface runoff flows over land and picks up soil particles, 
+      which are then transported downstream. The amount of erosion by running water depends 
+      on several factors such as the velocity of the water, the amount of rainfall, and 
+      the characteristics of the soil or rock being eroded. High-velocity water, such 
+      as that found in rivers and streams, can cause significant erosion by carrying 
+      large quantities of sediment downstream. Over time, erosion by running water can cause 
+      significant changes to the landscape, including the formation of valleys and other 
+      landforms. It can also lead to soil degradation, loss of vegetation, and the 
+      deposition of sediment in water bodies, which can have negative impacts on aquatic 
+      ecosystems. 
+        </p>
+   </subsubsection>
+
+   <subsubsection xml:id="subsubsec-groundwater">
+    <title>Ground Water</title>
+    <p>
+    Water is found in various forms on Earth, including oceans, rivers, lakes, glaciers, 
+    groundwater, and atmospheric water vapor. The vast majority of Earth's water is 
+    contained in the oceans, which cover about 
+    70% of the planet's surface. The remaining water is found in freshwater sources 
+    such as lakes, rivers, and groundwater. <term>Groundwater </term> refers to water 
+    that is stored beneath the Earth's surface in porous rock or soil. 
+    Groundwater is replenished through processes such as 
+    precipitation and infiltration, which cause water to percolate down through soil 
+    and rock layers until it reaches an impermeable layer, such as bedrock. Groundwater can also discharge 
+    into surface water bodies such as lakes and rivers, providing a source of water for 
+    these ecosystems. 
+    </p> 
+    <p>
+    A <term>spring</term> is a natural water source that flows from the ground to the surface. 
+    Springs occur when groundwater, which is water stored beneath the Earth's surface in soil, 
+    sediment, or rocks, becomes saturated and flows out to the surface. Springs are important 
+    sources of freshwater for human consumption and are also critical 
+    habitats for many plant and animal species. 
+    </p> 
+    <p>
+    The <term>water table</term> is the level below the ground surface where the soil 
+    or rock is saturated with water. It represents the upper boundary of the zone of 
+    saturation, which is the area beneath the ground surface where all of the pore spaces 
+    in the soil or rock are filled with water. The water table can 
+    rise or fall depending on the amount of precipitation, evaporation, and human water 
+    use in the area. The depth of the water table is an important factor in determining the availability 
+    of groundwater for drinking water, agriculture, and other uses. 
+    </p>
+   </subsubsection>
+
+   <subsubsection xml:id="subsubsec-sed_depo">
+    <title>Sediment Deposition</title>
+    <p>
+      Sediment deposition sites refer to locations where sediment is deposited and 
+      accumulates over time. Sediments can come from a variety of sources, including 
+      erosion of rock and soil, volcanic activity, and human activities such as mining, 
+      construction, and agriculture. One common type of sediment deposition site is a delta, 
+      which is an area where a river or stream enters a larger body of water, such as a 
+      lake or ocean. Coastal areas can also be sediment 
+      deposition sites, where sediment is deposited by ocean currents and waves. This can 
+      lead to the formation of beaches, sand dunes, and other coastal landforms. 
+       </p>
+   </subsubsection>
+
+   <subsubsection xml:id="subsubsec-caves">
+    <title>Caves</title>
+    <p>
+      Caves are formed by various geological processes, such as erosion, weathering, 
+      and dissolution of rocks. The most common type of cave is a solution cave, which 
+      is formed in soluble rocks, such as limestone, dolomite, and gypsum, by the action of 
+      water and acids. When rainwater or groundwater passes through soil and vegetation, 
+      it becomes slightly acidic due to the presence of carbon dioxide. This slightly acidic 
+      water can dissolve the soluble minerals in rocks, creating cracks and fissures. 
+      Over time, these cracks and fissures can widen and form underground channels and caverns.
+    </p>
+   </subsubsection>
+  </subsection>
+   
+   <subsection xml:id="subsec-tsunami">
+    <title>Tsunami</title>
+    <figure>
+      <title></title>
+      <caption>Tsunami</caption>
+      <video xml:id="tsunami" youtube="4Xebwzb3dDE" width="50%" start="54" end="72" />
+    </figure>
+    <p>
+      A <term>tsunami</term> <idx>tsunami</idx> is a series of ocean waves with very long 
+      wavelengths (hundred of kilometers long) caused by large-scale disturbances of 
+      the ocean due to earthquakes <xref ref="sec_eleventh-quake"/>, volcanic eruptions, or underwater landslides. 
+       When a large disturbance occurs, it can create a series of waves that radiate outwards 
+      from the source. These waves can travel across entire ocean basins and can cause 
+      significant damage when they reach shore. Tsunami waves can reach heights of tens of 
+      meters, and their high energy can devastate coastal communities, causing flooding, 
+      erosion, and destruction of buildings and infrastructure. 
+      </p>
+   
+   </subsection>
+
+</section>

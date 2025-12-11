@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_ninth-solut" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Solution</title>
+  <introduction>
+        <p>
+          A <term>solution</term> <idx>solution</idx> is a homogeneous mixture composed of 
+          two or more substances. The substance that dissolves is called 
+          the <term>solute</term>, <idx>solute</idx> and the substance that does the dissolving 
+          is called the <term>solvent</term>. <idx>solvent</idx> When the solute dissolves 
+          in the solvent, the resulting solution is a uniform mixture, called solution.
+          <me>
+            Solute + Solvent = Solution
+          </me>
+          
+          <term>Solubility</term> <idx>solubility</idx> is the ability of a substance to dissolve in 
+          a solvent to form a solution. The solubility of a substance depends 
+          on various factors such as temperature, pressure, and the nature of 
+          the solute and solvent. In general, "<alert>like dissolves like</alert>," 
+          meaning that substances with similar chemical properties tend to 
+          dissolve in each other. The amount of solute that can dissolve in a 
+          given amount of solvent is limited by the solubility of the solute 
+          in the solvent. When a solution contains the maximum amount of solute 
+          that can dissolve in the solvent at a given temperature and pressure, 
+          is said to be a <term>saturated</term> <idx>saturated</idx> solution. If more solute is added to a 
+          saturated solution, it will not dissolve and will form a separate phase, 
+          such as a solid precipitate or gas bubbles. 
+        </p>
+        <p>
+        <term>Concentration:</term> The concentration of a solution is the 
+        amount of solute dissolved in a specific amount of solvent or 
+        solution. The term <em>"saturated"</em> and <em>"unsaturated"</em> 
+        are used to describe the concentration of solute in a solution. A <term>saturated</term> 
+        solution contains maximum amount of solute that can dissolve in a 
+        given solvent at a particular temperature and pressure. No more solute 
+        can be dissolved in the solvent of the saturated solution without 
+        increasing the temperature or pressure. Any additional solute added 
+        to the solution will not dissolve and will remain as a solid. 
+        On the other hand, an <term>unsaturated</term>  <idx>unsaturated</idx> solution contains 
+        less than the maximum amount of solute that can dissolve in a given 
+        solvent at a particular temperature and pressure. In an unsaturated 
+        solution, more solute can be added and dissolved in the solvent. 
+        It's important to note that a solution can also be <term>supersaturated</term> , 
+        which means it contains more solute than what can theoretically be 
+        dissolved at a given temperature and pressure. Supersaturated solutions 
+        are not stable and can spontaneously crystallize, forming a precipitate, 
+        or solid, out of excess solute.
+        </p>
+        <figure xml:id="fig-solubility">
+          <caption>Solubility of various solutes in water.</caption>
+          <image source="solubility.png" width ="65%"/>
+      </figure>
+    </introduction>
+
+    <subsection xml:id="subsec-typSol">
+      <title>Types of Solution</title>
+      <p>
+        There are several types of solutions, based on their composition and properties. 
+        Here are some common types of solutions: 
+        <ol>
+          <li>
+            <term>Homogeneous solutions:</term> These are solutions that have uniform composition 
+            and properties throughout. The solute particles are evenly distributed in the solvent. 
+            Examples include saltwater, sugar water, and ethanol-water mixtures.
+          </li>
+          <li>
+            <term>Heterogeneous solutions:</term> These are solutions that have non-uniform 
+            composition and properties. The solute particles are not evenly distributed in 
+            the solvent. Examples include suspensions, emulsions, and colloids.
+          </li>
+          <li>
+            <term>Dilute solutions:</term> These are solutions that have a low concentration of solute. 
+            The amount of solute is relatively small compared to the amount of solvent. 
+            Examples include a drop of food coloring in a glass of water or a pinch of salt in a pot of soup.
+          </li>
+          <li>
+            <term>Concentrated solutions:</term> These are solutions that have a high concentration of solute. 
+            The amount of solute is relatively large compared to the amount of solvent. Examples include 
+            concentrated sulfuric acid, concentrated sodium hydroxide, and concentrated ammonia solutions.
+          </li>
+          <li>
+            <term>Saturated solutions:</term> These are solutions that contain the maximum amount of 
+            solute that can dissolve in a given amount of solvent at a particular temperature and pressure. 
+            Any additional solute added to the solution will not dissolve and will remain as a solid. 
+            Examples include sugar-water solutions and saltwater solutions.
+          </li>
+          <li>
+            <term>Unsaturated solutions:</term>  These are solutions that contain less than the maximum 
+            amount of solute that can dissolve in a given amount of solvent at a particular temperature 
+            and pressure. More solute can be added to the solution and dissolved. Examples include weak 
+            tea and weak coffee.
+          </li>
+          <li>
+            <term>Supersaturated solutions:</term> These are solutions that contain more solute than what 
+            can theoretically dissolve at a given temperature and pressure. These solutions are not stable 
+            and can spontaneously crystallize, forming a precipitate or solid out of excess solute. 
+            Examples include supersaturated sugar-water solutions and supersaturated sodium acetate solutions.
+          </li>
+        </ol>
+      </p>
+      <p>
+        There are also several types of solutions based on the phases of the solute and solvent. 
+        Here are some common types of solutions:
+        <ol>
+          <li>
+            <term> Solid-solid solutions:</term> It is also known as solid solutions or alloys, 
+            are homogeneous mixtures of two or more solid elements or compounds. In a solid solution, 
+            the atoms of one component are dispersed uniformly throughout the crystal lattice of the 
+            other component, resulting in a single, continuous phase. Examples of solid-solid solutions 
+            include brass, which is an alloy of copper and zinc; steel, which is an alloy of iron and 
+            carbon; and bronze, which is an alloy of copper and tin. 
+          </li>
+          <li>
+            <term> Liquid-liquid solutions:</term> These are solutions in which the solute and solvent 
+            are both liquids. Examples include milk in water, ethanol in water, and benzene in toluene.
+          </li>
+          <li>
+            <term> Gas-liquid solutions:</term> also known as gas solutions. These are solutions in which 
+            the solute is a gas that dissolves in a liquid solvent. Examples include cold drink, carbon dioxide in water, 
+            oxygen in blood, and nitrogen in beer.
+          </li>
+          <li> 
+            <term> Solid-liquid solutions:</term> Here solid is solute and liquid is solvent. For example: salt water solution, sugar water solution.
+          </li>
+        </ol>
+      </p>
+    </subsection>
+
+    <subsection xml:id="subsec-collgative">
+      <title>Colligative property of a solution</title>
+      <p>
+        <term>Freezing point depression</term> is a colligative property of a solution 
+        that describes how the presence of a solute lowers the freezing point of the solvent. Colligative properties 
+        are properties of solutions that depend on the concentration of solute particles in the solution, 
+        but not on the identity of the solute particles. The freezing point of a pure solvent is a 
+        characteristic property that is dependent only on the identity of the solvent. However, when a 
+        solute is added to the solvent, the freezing point of the resulting solution is lower than that of 
+        the pure solvent. This occurs because the solute particles disrupt the crystal lattice structure of 
+        the solvent, making it more difficult for the solvent molecules to form solid crystals.
+        </p>
+        <p>
+          <term>Melting point elevation</term> Melting point elevation is a colligative property of a solution 
+        that describes how the melting point of a solid solvent is increased when a solute is dissolved in it. 
+        Like freezing point depression, it is a property of solutions that depends on the concentration of 
+        solute particles in the solution, but not on the identity of the solute particles. When a solute is 
+        dissolved in a solvent, it disrupts the crystal lattice structure of the solvent, making it more 
+        difficult for the solvent molecules to transition from the solid to the liquid state. As a result, 
+        the melting point of the solution is higher than that of the pure solvent.
+        </p>
+    </subsection>
+  
+
+
+</section>
+

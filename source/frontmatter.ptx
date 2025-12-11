@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This frontmatter division will contain all content before the -->
+<!-- first chapter. Fill in and comment/uncomment to see how this -->
+<!-- works. -->
+
+<frontmatter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="frontmatter">
+  <bibinfo>
+  
+    <author>
+      <personname>Sunil Karna</personname>
+      <department>Natural Sciences</department>
+      <institution>UCU, KY</institution>
+    </author>
+    <date>
+      <today />
+    </date>
+
+    <website>
+      <url href="https://pretextbook.org">My Website</url>
+    </website>
+
+    <copyright>
+      <year>2020<ndash />2026</year>
+      <holder>You</holder>
+      <shortlicense> This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit <url href="http://creativecommons.org/licenses/by-sa/4.0/" visual="creativecommons.org/licenses/by-sa/4.0"> CreativeCommons.org</url>
+      </shortlicense>
+    </copyright>
+  
+  </bibinfo>
+
+  <titlepage>
+    <titlepage-items/>
+  </titlepage>
+
+  <colophon xml:id="front-colophon">
+    <colophon-items/>
+  </colophon>
+
+
+   
+  
+  <dedication>
+    <p>
+      To my wife Pushpa and daughters, Priya and Roma, who has been my constant source of support and inspiration. 
+    </p>
+  </dedication>
+
+  <acknowledgement>
+    <p>
+      Several people deserve credit for their generous help with this book. 
+      I wish to thank my colleagues and students for the contributions they have 
+      made to improve this book through questionnaires and classroom discussion. 
+      I would like to thank Lorraine Gess, a Reference and Instruction Librarian 
+      at Union College, who has read this book and advised many corrections 
+      to improve the flow of language in the book. 
+      </p>
+  </acknowledgement>
+
+  <preface>
+    <!-- You should be a little careful about what you put here -->
+    <!-- Avoid elements that should have a number, for example  -->
+    <p>
+       Physical science is an introductory book for non-scinece major students. 
+       It consists of introduction of physics, chemistry, geology, and astronomy.
+       This book is a concise form of my lecture notes which I have been delivering 
+       for many years. This text is not a replacement of any textbook that has been recommended
+        by the instructor but designed to provide additional materials as my personal 
+        teaching activities in physical science courses. It is intended to support introductory 
+        level materials at a rapid and an efficient way. Students who want to use this 
+        text assume to have a prerequisite knowledge of some high school mathematical 
+        skills such as algebra and geometry. 
+    </p>
+    <p>
+    Learning skills by memorization cannot work efficiently in learning physical sciences. 
+    It is a logical and conceptual based learning hence it requires a completely
+    different pattern of study than simply trying to memorize lists of formulae or examples.
+    This book is organized into ten chapters that covers the syllabus of physical science at 
+    undergraduate level in various universities and colleges. The topics in this book have 
+    been carefully selected to provide an introduction to the basic concepts of science and to 
+    give an opportunity to sharpen critical thinking. The main objective of this book 
+    is to inform how to investigate and approach problems in introductory level sciences. 
+    This book strives to guide readers to learn physical science in a logical manner. 
+    Many examples and practice problems throughout the text may be helpful to 
+    refine physical intuition. This is an interactive online book and to take full
+     benefit of the book, you may need internet access. 
+    </p>
+    <p>
+      Comments and suggestions for improvements to the text will be gratefully appreciated.       
+    </p>
+
+    </preface>
+
+</frontmatter>
+

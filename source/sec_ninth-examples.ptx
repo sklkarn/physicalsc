@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_ninth-examples" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Examples</title>
+  
+   <example>
+    <statement>
+      <p>
+       Why carbon dioxide solution is acidic?
+      </p>
+    </statement>
+    <solution>
+      <p>
+        When carbon dioxide <m>(CO_2)</m>  dissolves in water <m>(H_2O)</m>, it forms carbonic 
+        acid <m>(H_2CO_3)</m> through the following reaction: 
+        <me>
+          CO_2 + H_2O ⇌ H_2CO_3 
+        </me>
+        Carbonic acid is a weak acid that dissociates in water to release hydrogen ions <m>(H^+)</m> 
+        and bicarbonate ions <m>(HCO_3^-)</m>: 
+        <me>
+          H_2CO_3 ⇌ H^+ + HCO_3^-
+        </me>
+        The hydrogen ions that are released make the solution acidic, 
+        as they increase the concentration of positively charged ions in the solution. 
+        This decrease in pH is due to the increase in hydrogen ion concentration and 
+        is therefore considered to be an acidic solution.
+      </p>
+    </solution>
+  </example>
+
+<example>
+  <statement>
+    <p>
+      Why ammonia solution is basic (or alkaline)?
+    </p>
+  </statement>
+  <solution>
+    <p>
+      Ammonia <m>(NH_3)</m> is a weak base, and when it dissolves in water, 
+      it produces hydroxide ions <m>(OH^-)</m>  through the following reaction:
+      <me>
+        NH_3 + H_2O ⇌ NH_4^+ + OH^-
+      </me>
+      The hydroxide ions make the solution alkaline or basic, as they increase the 
+      concentration of negatively charged ions in the solution. This increase in pH is 
+      due to the presence of hydroxide ions, which makes the solution more basic.
+    </p>
+  </solution>
+</example>
+<example>
+  <statement>
+    <p>
+      What is a crystalline solid?
+      <ol marker ="a">
+        <li>A solid that has a regular arrangement of particles.</li>
+        <li> A solid that has an irregular arrangement of particles.</li>
+          <li> Both a and b </li>
+         <li> None of the above </li>
+          </ol>
+    </p>
+  </statement>
+  <solution>
+    <p>
+     a. 
+    </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      What is true regarding amorphous solids?
+      <ol marker ="a">
+        <li>These solids have short-range order.</li>
+        <li> These solids are not organized in a definite lattice pattern.</li>
+          <li> Glasses are an example of amorphous solids.</li>
+         <li> All of the above </li>
+          </ol>
+    </p>
+  </statement>
+  <solution>
+    <p>
+      d.
+    </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      A polar molecule can attract
+      <ol marker ="a">
+        <li>only ions.</li>
+        <li> only other polar molecules.</li>
+          <li> only other nonpolar molecules.</li>
+         <li> All of the above. </li>
+          </ol>
+    </p>
+  </statement>
+  <solution>
+    <p>
+      d.
+    </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      What does "like dissolves like" mean? 
+      <ol marker ="a">
+        <li>polar solvents dissolve in polar solutes.</li>
+        <li> non-polar solvents dissolve in polar solutes.</li>
+          <li> polar solutes dissolve in polar solvents.</li>
+         <li> non-polar solutes dissolve in polar solvents. </li>
+          </ol>
+    </p>
+  </statement>
+  <solution>
+    <p>
+      c.
+    </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      Ice is an example of  
+      <ol marker ="a">
+        <li>a covalent solid.</li>
+        <li> an ionic solid.</li>
+          <li> a metallic solid.</li>
+         <li> a molecular solid. </li>
+          </ol>
+    </p>
+  </statement>
+  <solution>
+    <p>
+      d.
+    </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      Diamondis an example of  
+      <ol marker ="a">
+        <li>a covalent solid.</li>
+        <li> an ionic solid.</li>
+          <li> a metallic solid.</li>
+         <li> a molecular solid. </li>
+          </ol>
+    </p>
+  </statement>
+  <solution>
+    <p>
+      a.
+    </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      A saturated solution is a solution that 
+      <ol marker ="a">
+        <li>contains the maximum amount of solute.</li>
+        <li> contains polar molecules.</li>
+          <li> contains the maximum amount of solvent.</li>
+         <li> None of the above. </li>
+          </ol>
+    </p>
+  </statement>
+  <solution>
+    <p>
+      a.
+    </p>
+  </solution>
+</example>
+
+
+</section>
+

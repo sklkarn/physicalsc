@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<exercises xml:id="ex_second" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <!-- You can ommit the title and just get the default "Exercises" -->
+  <title>Exercise</title>
+  
+  <exercise>
+    <p>
+        A car starts from rest accelerated for 5 minutes to achieve 25 <m>m/s</m> velocity. 
+        Find its accleration.
+      </p>
+   </exercise>
+  <exercise>
+   <p>A ball thrown upward at 30 m/s will continue to rise for about how long? </p>
+  </exercise>
+
+  <exercise>
+    <p>Find the maximum height attained by the ball if it is thrown vertically up with 30 m/s velocity.</p>
+  </exercise>
+
+  <exercise>
+   <p> A car starts from rest with a constant acceleration of 4 <m>m/s^2</m>. 
+   How much time does the car take to cover the first 160 m? </p>
+  </exercise>
+  
+  <exercise>
+  <p>
+    A break is applied in car moving at 10 <m>m/s</m> undergoes an acceleration of <m>-1.2 m/s^2</m>. 
+   <ol>
+    <li>How far does the car travel in the next 5 s? 
+    </li>
+    <li>How far does the car travel before it comes to stop?</li>
+     </ol> 
+     </p>
+  </exercise>
+
+<exercise>
+  <p>When a 20 N force is applied on an object it starts accelerating by <m>5 m/s^2</m>.</p> 
+ <p> What net force would give the same object an acceleration of <m>1 m/s^2</m>? </p>
+</exercise>
+
+<exercise>
+ <p> A 3000 kg truck accelerates from 5 m/s to 25 m/s in 8 s. How much is the net force acting on the truck? </p>
+</exercise>
+
+<exercise>
+  <p>A force of 2 N acts on a 2 kg object, initially at rest, for 2 s. 
+  How far does the object move during that time?</p>
+</exercise>
+
+<exercise>
+  <p>How much braking force is needed to bring a 4000 kg truck to a stop from a speed of 20 m/s in 5 s? </p>
+</exercise>
+<exercise>
+  <p>
+    A 300 g ball is struck with a bat with a force of 150 N. If the bat was in contact with the ball for 0.02 s, 
+    find the velocity at which the ball flew off? 
+  </p>
+</exercise>
+ 
+<exercise>
+<statement>
+ <p>From the roof of house one stone is thrown upward and another identical stone is dropped down. 
+ What will happen to both the stones when they reach the ground? </p> 
+ <p>
+  <ol marker="a.">
+      <li>They will have the same velocity.</li>
+      <li>They will have the same acceleration.</li>
+        <li>They reach the ground at the same time.</li>
+          <li>None of the choices are correct.</li>
+  </ol>
+  </p>
+  </statement>
+  <solution>
+    <p>
+      Answer: b. They will have the same acceleration when reach the ground.
+    </p>
+  </solution>
+ 
+</exercise>
+
+
+<exercise>
+<statement>
+ <p>What will happen to the two balls, when first ball A is thrown horizontally and second ball B is thrown upward? </p> 
+ <p>
+  <ol marker="a.">
+      <li>Ball A will have the greater downward acceleration. </li>
+      <li>Ball B will have the greater downward acceleration.</li>
+        <li>Neither will have any downward acceleration. </li>
+          <li>They will have the same downward acceleration. </li>
+  </ol>
+  </p>
+  </statement>
+  </exercise>
+
+<exercise>
+  <p>What is the mass of an elephant who weighs 10000 N? </p>
+</exercise>
+
+<exercise>
+<statement>
+ <p>An object moving in a circle at constant speed is accelerated </p> 
+ <p>
+  <ol marker="a.">
+      <li>toward the center of the circle.  </li>
+      <li>in the direction of its motion. </li>
+        <li>away from the center of the circle.  </li>
+          <li>Any of these choices, depending on the circumstances.  </li>
+  </ol>
+  </p>
+  </statement>
+  </exercise>
+
+<exercise>
+  <p>Find the centripetal force on the ball of mass 200 g moving in a circle 20 cm in radius at a speed of 4 m/s. </p>
+</exercise>
+
+<exercise>
+ <p> Find the weight of a person whose mass is 80 kg on the earth is now on a spacecraft at a height of 2 earth radii above the earth's surface.</p>
+</exercise>
+
+<exercise>
+  <statement>
+   <p>What is acceleration? 
+    <ol marker="a.">
+        <li>The rate of change of an object's velocity over time.  </li>
+        <li>The distance an object travels in a given time. </li>
+          <li>The force that causes an object to move.  </li>
+            <li>The direction an object is moving in.  </li>
+    </ol>
+    </p>
+    </statement>
+    </exercise>
+
+
+<exercise>
+  <statement>
+   <p>
+    What is terminal velocity?
+    <ol marker="a.">
+        <li>The maximum speed an object can reach in free fall.  </li>
+        <li>The speed at which an object is moving at a given moment. </li>
+          <li>The speed of an object when it hits the ground.  </li>
+            <li>The speed at which an object moves through a fluid when the 
+              resistance force of the fluid equals the weight of the object. </li>
+    </ol>
+    </p>
+    </statement>
+    </exercise>
+
+
+<exercise>
+  <statement>
+   <p>
+    What is the formula for calculating the distance an object falls due to gravity?
+    <ol marker="a.">
+        <li><m>d = vt</m> </li>
+        <li><m>d = 1/2at^2</m> </li>
+          <li><m>d = (v_i + v_f)/2 * t</m></li>
+            <li><m>d = mgh</m> </li>
+    </ol>
+    </p>
+    </statement>
+    </exercise>
+
+
+<exercise>
+  <statement>
+   <p>
+    What is projectile motion?
+    <ol marker="a.">
+        <li>Motion that occurs in a straight line</li>
+        <li>Motion that occurs in a circular path </li>
+          <li>Motion that occurs in a parabolic path</li>
+            <li>Motion that occurs horizontally</li>
+    </ol>
+    </p>
+    </statement>
+    </exercise>
+
+
+<exercise>
+  <statement>
+   <p>
+    What are the two components of projectile motion?
+    <ol marker="a.">
+        <li>Acceleration and velocity</li>
+        <li>Distance and time </li>
+          <li>Vertical motion and horizontal motion</li>
+            <li>Weight and mass</li>
+    </ol>
+    </p>
+    </statement>
+    </exercise>
+
+    <exercise>
+      <p>
+        An object is moving with an initial velocity of 10 m/s and accelerates 
+        uniformly at a rate of <m>5 m/s^2</m>  for 6 seconds. What is the final velocity of the object?
+      </p>
+    </exercise>
+
+    <exercise>
+      <p>
+    A car starts from rest and accelerates at a rate of 
+<m>4 m/s^2</m> for 5 seconds. What is the final velocity of the car?
+      </p>
+    </exercise>
+
+<exercise>
+  <p>
+    A car is traveling at a constant speed of 20 m/s when the driver applies the brakes, 
+    causing the car to decelerate at a rate of <m>5 m/s^2</m>. How long will it take for 
+    the car to come to a complete stop?
+  </p>
+</exercise>
+
+</exercises>
+

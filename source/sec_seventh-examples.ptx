@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_seventh-examples" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Examples</title>
+  
+  <example>
+    <statement>
+      <p>
+        Determine the number of protons, electrons, and neutrons in the <m>{}_{92}^{236}U</m> atom. 
+        </p>
+    </statement>
+    <solution>
+      <p>
+        From isotopic notation <xref ref="eqn-isotopes"/>. we have  
+         atomic number, Z = 92. So the nuber of protons (= number of electrons) = 92. 
+        The mass number, A =236. Hence the nuber of neutrons, <m>N=A-Z=236-92= 144.</m>
+      </p>
+    </solution>
+  </example>
+
+  
+  <example>
+    <statement>
+      <p>
+        Write the equation for one alpha decay in <m>{}_{92}^{238}U</m>.
+          </p>  
+    </statement>
+    <solution>
+             <p>
+          <me>{}_{92}^{238}U \rightarrow {}_{2}^{4}He + {}_{90}^{234}X</me>
+          Here, X stands for the element of atomic number 90, which is <m>Th</m>.
+        </p>
+         </solution>
+  </example>
+
+      <example>
+        <statement>
+        <p>
+          If 1.0g of caesium (Cs-137) disintegrates over a period of 90 years. 
+          How many grams of Cs-137 would remain, if Cs-137 has half-life of 30 years.
+          </p>  
+        </statement>
+          <solution>
+            <p>
+             For 90 years, we have to wait for 3 half-life of Cs-137. Every half-life it reduces 
+             1/2 of of its amount. Now from <xref ref="eqn-hlife"/>, we have 
+             <m>\left(\frac{1}{2}\right)^3 \times 1 \,g =0.125 \,g. </m>
+            </p>
+          </solution>
+  </example>
+  
+  <example>
+    <statement>
+      <p>
+        How long does it take a 100.00g sample of As-81, with a half-life of 33 seconds, to decay to 6.25 g?
+      </p>
+    </statement>
+      <solution>
+        <p>
+        In <m>1^{st}</m> HL remaining amount is 50 g, In <m>2^{nd}</m> HL remaining amount is 25 g, 
+        In <m>3^{rd}</m> HL remaining amount is 12.5 g, and in <m>4^{th}</m> HL the remaining amount is 6.25 g.
+        </p>
+      </solution>
+      <answer>
+        <p>
+          4 half-life = <m>4\times 33</m> second = 132 seconds. 
+        </p>
+      </answer>
+</example>
+
+<example>
+  <statement>
+    <p>
+      Complete the equation if proton <m>{}_{1}^{1}H</m> strikes on the <m>{}_{80}^{200}Hg</m>.  
+      <me>
+        {}_{1}^{1}H + {}_{80}^{200}Hg \rightarrow \cdots  + {}_{2}^{4}He
+      </me>
+    </p>
+  </statement>
+      <solution>
+      <p>
+        <me>
+          {}_{1}^{1}H + {}_{80}^{200}Hg \rightarrow {}_{79}^{197}X  + {}_{2}^{4}He
+        </me>
+        <m>\therefore \quad X=Au</m>
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        Complete the following fission reaction.
+        <me>
+          {}_{92}^{236}U \rightarrow  {}_{38}^{90}Sr +  \cdots  + 2\cdot {}_{0}^{1}n
+        </me>
+        </p>  
+    </statement>
+    </example>
+
+      <example>
+        <statement>
+          <p>
+            Calculate the binding energy in the following fission reaction.
+            <me>
+              {}_{92}^{236}U \rightarrow  {}_{36}^{88}Kr +  {}_{56}^{144}Ba+ 4\cdot {}_{0}^{1}n
+            </me>
+            The mass of <m>{}_{92}^{236}U</m> is <m>236.04556 \,u</m>, <m>{}_{36}^{88}Kr</m> is <m>87.91445 \,u</m>, 
+            <m>{}_{56}^{144}Ba</m> is <m>143.92284 \,u</m>, and that of <m>{}_{0}^{1}n</m> is <m>1.00867 \,u</m>. 
+            </p>  
+        </statement>
+        <solution>
+          <p>
+            The total mass on the left side of the arrow is <m>236.04556 u</m> and the maas on the 
+            right side of arrow is <m>235.87197 \,u</m>. Hence the mass defect is <m>0.17359 \,u</m>.
+            Now from <xref ref="subsec_7be-subsection"/>, we have <m>1\,u = 931 \,MeV.</m>
+            Therefore the binding energy is <m>0.17359 \,u\times 931 \,MeV/u = 162 MeV.</m>
+          </p>
+        </solution>
+          </example>
+
+          <example>
+            <statement>
+              <p>
+               If <m>(\frac{7}{8})^{th}</m> of the sample is decayed in 15 days. What is its half-life?
+               </p>
+            </statement>
+            <solution>
+              <p>
+                From <xref ref="eqn-hlife"/>
+                <md>
+                  <mrow>N \amp = N_o\left(\frac{1}{2}\right)^n</mrow>
+               </md>
+               Here, <m>N=N_o-\frac{7}{8}(N_o) = \frac{1}{8}N_o</m>. Suppose number of half-life,
+               <m>n=t/T</m>, where <m>t</m> is given time period and <m>T</m> is half-life period, then
+               <md>
+                <mrow>\frac{1}{8}N_o \amp = N_o\left(\frac{1}{2}\right)^{\frac{t}{T}}</mrow>
+                <mrow>or, \quad \frac{1}{8} \amp = \left(\frac{1}{2}\right)^{\frac{15}{T}}</mrow>
+                <mrow>or, \quad \left(\frac{1}{2}\right)^3 \amp = \left(\frac{1}{2}\right)^{\frac{15}{T}}</mrow>
+              <mrow> or, \quad 3 \amp = \frac{15}{T}</mrow>
+              <mrow>\therefore T \amp = \frac{15}{3} =5 days</mrow>
+              </md>
+              </p>
+            </solution>
+            </example>
+
+
+            <example>
+              <statement>
+                <p>
+                 If <m>(\frac{1}{16})^{th}</m> of the sample is decayed in 2 hours. What is its half-life?
+                 </p>
+              </statement>
+              <solution>
+                <p>
+                 If <m>(\frac{1}{2})</m> of the sample decayes in every 30 minutes 
+                 then the sample must be decayed by (1/16)^th in 2 hours. Hence 30 minute is a half-life.
+                 <m>\frac{1}{2}\times \frac{1}{2}\times \frac{1}{2}\times \frac{1}{2}= \frac{1}{16}</m>
+                </p>
+              </solution>
+              </example>
+
+
+</section>
+

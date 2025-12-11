@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_fourteenth-examples" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Examples</title>
+  
+  <example>
+    <statement>
+      <p>
+        What is the current estimate for the age of the universe?
+        <ol marker ="a.">
+          <li>4.5 billion years</li>
+          <li>13.8 billion years</li>
+          <li>100 billion years</li>
+          <li>1 trillion years</li>
+        </ol> 
+        </p>
+    </statement>
+    <solution>
+      <p>
+        b.
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        What is dark matter?
+        <ol marker ="a.">
+          <li>Matter made up of exotic particles that do not interact with light 
+            or other forms of electromagnetic radiation</li>
+          <li>Matter that emits no light or radiation</li>
+          <li>Matter that is invisible to telescopes</li>
+          <li> All of the above</li>
+        </ol> 
+        </p>
+    </statement>
+    <solution>
+      <p>
+        d.
+      </p>
+    </solution>
+  </example>
+
+
+  <example>
+    <statement>
+      <p>
+        Which of the following is the most widely accepted theory of the universe's origin?
+        <ol marker ="a.">
+          <li>The steady state theory</li>
+          <li>The big bang theory</li>
+          <li>The inflation theory</li>
+          <li> The cyclic model</li>
+        </ol> 
+        </p>
+    </statement>
+    <solution>
+      <p>
+        b.
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        What is a quasar?
+        <ol marker ="a.">
+          <li>A type of galaxy that emits intense radiation from its center</li>
+          <li>A massive star that has exploded in a supernova</li>
+          <li>A region of space with an extremely strong gravitational field</li>
+          <li> A type of dark matter</li>
+        </ol> 
+        </p>
+    </statement>
+    <solution>
+      <p>
+        a.
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        What is the name of the structure in the universe that contains large groups of galaxies?
+        <ol marker ="a.">
+          <li>Universe</li>
+          <li>Supercluster</li>
+          <li>Solar System</li>
+          <li> Galaxy Cluster</li>
+        </ol> 
+        </p>
+    </statement>
+    <solution>
+      <p>
+        b.
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        What is the name of the galaxy that contains our solar system?
+        <ol marker ="a.">
+          <li>Andromeda</li>
+          <li>Milky Way</li>
+          <li>Triangulum</li>
+          <li> Sombrero</li>
+        </ol> 
+        </p>
+    </statement>
+    <solution>
+      <p>
+        b.
+      </p>
+    </solution>
+  </example>
+
+
+  <example>
+    <statement>
+      <p>
+        Which of the following is the most accurate description of Hubble's law?
+        <ol marker ="a.">
+          <li>The velocity of a galaxy is proportional to its distance from us.</li>
+          <li>The velocity of a galaxy is inversely proportional to its distance from us.</li>
+          <li>The acceleration of a galaxy is proportional to its distance from us.</li>
+          <li> The acceleration of a galaxy is inversely proportional to its distance from us.</li>
+        </ol> 
+        </p>
+    </statement>
+    <solution>
+      <p>
+        a.
+      </p>
+    </solution>
+  </example>
+
+</section>
+

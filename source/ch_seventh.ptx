@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<chapter xml:id="ch_seventh" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Atoms and Nucleus</title>
+  <introduction>
+    <p>An <term>atom</term> is the basic building block of matter. It defines 
+      the structure of elements. The name "atom" is taken from the Greek 
+      which means indivisible. It was once thought that atoms were the 
+      smallest things in nature and could not be further divisible. 
+      However, we now know that atoms are made up of very tiny particles, 
+      electrons, protons, and neutrons. The number of protons in a nucleus 
+      of an atom determines the name of the element. Atoms bond together 
+      to form molecules and make up all matter in the universe. Atoms 
+      play a crucial role in chemical reactions. The study of atoms is called 
+      the atomic physics. Many discoveries had been made throughout the 
+      <m>20^{th}</m>  century to understand the structure of atom and its behavior.</p>
+
+    <p>The <term>Nucleus</term> is a central part of an atom that contains 
+      positively charged particles called protons and neutrons. 
+      Protons and neutrons are collectively called nucleons. The number of protons 
+      in an atom is caled an atomic number. Atomic number determines the element 
+      to which the atom belongs. The nucleus is surrounded by negatively charged 
+      electrons which are orbiting in shells. The atomic number and electronic 
+      arrangement in the shells determine the properties of an element. 
+      The size of nucleus is very small compared to the size of the atom, 
+      but it contains most mass of the atom. Therefore it is a highly 
+      dense part of the atom. The strong nuclear force holds the protons 
+      and neutrons together in the nucleus. Nucleus undergoes many changes 
+      such as when two nuclei combine together to form a large nucleus, 
+      it is called a fusion process. But when a large nucleus splits into 
+      two or more nuclei it is called a fission process. The study of atomic 
+      nuclei is called nuclear physics. Atoms of the same element are different 
+      called isotopes of the element. The  <term>isotopes</term> of an element 
+      are atoms with the same number of protons but different number of neutrons 
+      in their nucleus.</p>
+  </introduction>
+
+ <xi:include href="./sec_seventh-atom.ptx" />
+ <xi:include href="./sec_seventh-nucleus.ptx" />
+ <xi:include href="./sec_seventh-examples.ptx" />
+ <xi:include href="./ex_seventh.ptx"/>
+  
+
+</chapter>

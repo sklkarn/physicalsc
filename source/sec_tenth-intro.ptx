@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_tenth-intro" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Ozone</title>
+  <introduction>
+            <figure xml:id="fig-ozone">
+                <caption>Ozone molecule</caption>
+                <image source="ozone.png" width="24%"/>
+            </figure>
+
+   <p>
+    <term>Ozone</term> <idx>ozone</idx> is a molecule composed of three oxygen atoms
+    <m>(O_3)</m> and is an important component of the Earth's atmosphere. It is a highly reactive gas and is often 
+    referred to as a <em>reactive oxygen species</em>. Ozone absorbs and filters harmful 
+    ultraviolet (UV) radiation coming from the sun to enter earth troposhphere. UV radiation can 
+    cause skin cancer and other health problems. The <term>ozonosphere</term>, also known 
+    as the ozone layer, is a region of the Earth's stratosphere that contains a high 
+    concentration of ozone. It is located approximately 10 to 50 kilometers above the Earth's 
+    surface. The release of chlorofluorocarbons (CFCs) and other pollutants into the 
+    atmosphere cause the depletion of the ozone layer which is a significant environmental concern. 
+     </p>
+   <p>
+    The photodissociation of oxygen molecules <m>(O_2)</m> by ultraviolet (UV) radiation in presence 
+    of Nitrogen molecules <m>(N_2)</m> help form the ozone <m>(O_3)</m> in the Earth's atmosphere. The reaction is shown below as:
+    <me>
+        O_2 + UV radiation \rightarrow 2\,O
+    </me>
+    The resulting oxygen atoms (O) then react with other oxygen molecules <m>(O_2)</m> to form ozone:
+    <me>
+        O + O_2 \rightarrow O_3 
+    </me>
+    The formation of ozone is a delicate balance 
+    between the production and destruction of ozone molecules. Ozone can also be destroyed 
+    through chemical reactions involving other compounds such as nitrogen oxides (<m>NO_x</m>) 
+    and chlorine compounds (Cl), which can be released from human activities such as fossil 
+    fuel combustion and the use of certain chemicals.
+   </p>
+  </introduction>
+  
+<subsection xml:id="subsec-ozonehole">
+    <title>Ozone Hole</title>
+    <p>
+        The <term>ozone hole</term> refers to a severe depletion of the ozone layer in the 
+        Earth's atmosphere over the Antarctic region, which occurs annually during September 
+        to November. The depletion is caused by the release of man-made chemicals, 
+        particularly chlorofluorocarbons (CFCs), hydrofluorocarbons (HFCs), and other 
+        halogenated gases that have been used in refrigeration, air conditioning, and other 
+        industrial applications. These chemicals are transported into the upper atmosphere, 
+        where they are broken down by ultraviolet radiation from the sun, releasing chlorine 
+        and bromine atoms. These atoms then react with ozone molecules, breaking them down 
+        into oxygen molecules and causing a significant depletion of the ozone layer.
+    </p>
+    <p>
+        The most important reaction that leads to the depletion of ozone is as follows:
+        <me>
+            CFCl_3 + UV radiation \rightarrow Cl· + CFCl_2 
+        </me>
+        The chlorine radical (Cl·) produced in the above reaction reacts with ozone <m>(O_3)</m> 
+        as follows:
+        <me>
+            Cl· + O_3 \rightarrow ClO· + O_2  
+        </me>
+        The ClO· radical then reacts with another oxygen molecule <m>(O_2)</m> to form more 
+        chlorine radicals:
+        <me>
+            ClO· + O \rightarrow Cl· + O_2  
+        </me>
+        The chlorine radical produced in the second reaction then repeats the cycle, 
+        reacting with more ozone molecules to produce more chlorine radicals. This cycle 
+        continues until a large amount of ozone has been depleted. Another reaction that 
+        can also lead to ozone depletion involves bromine compounds, such as halons 
+        and methyl bromide, which are also released into the atmosphere from human activities.
+        <me>
+            Br· + O_3 \rightarrow BrO· + O_2   
+        </me>
+        <me>
+            BrO· + O \rightarrow Br· + O_2  
+        </me>
+        The bromine radical (Br·) produced in the first reaction then reacts with more 
+        ozone molecules, leading to further ozone depletion. These reactions are of 
+        particular concern because they can destroy large amounts of ozone in a short 
+        period of time. 
+    </p>
+</subsection>
+
+<subsection xml:id="subsec-atmmoist">
+    <title>Atmospheric Moisture</title>
+    <p>
+        Atmospheric moisture refers to the water vapor present in the Earth's atmosphere. 
+        Water vapor is one of the most important greenhouse gases, and it plays a critical 
+        role in regulating the Earth's temperature and climate. The amount of water vapor 
+        in the atmosphere can vary depending on factors such as temperature, humidity, and 
+        atmospheric pressure. Water vapor is constantly moving in and out of the atmosphere 
+        through processes such as evaporation, transpiration, and condensation. 
+        As warm air rises, water vapor in air expands, cools, and condenses into <em>clouds</em>, 
+        leading to <term>precipitation or rain</term>
+           <url href="https://gpm.nasa.gov/education/sites/default/files/videos/WaterCycleMovie-NoText.mp4">Water Cycles</url>.
+        When air cools to its <em>dew point</em>, water droplets may form, which can lead to fog or dew. 
+        <em>The amount of moisture (water vapor) contained in the air is known as <term>humidity</term></em>. 
+        Humidity is typically measured in <term>relative humidity</term>. <idx>relative humidity</idx> Relative humidity (R.H.) is 
+        the ratio of the amount of water vapor present in the air to the maximum amount of water vapor 
+        needed to saturate the air at a given temperature. Relative humidity expressed in percentage.
+        <me>
+            R.H. = \frac{\text{water vapor in air}}{\text{maximum water vapor the air can hold at that temperature}} \times 100\%
+        </me>
+        Warmer air can hold more water vapor than cooler air, so relative humidity can change 
+        depending on temperature changes. When air contains the maximum amount of moisture, 
+        it is said to be <term>saturated</term>. 
+    </p>
+    <p>
+        One cubic meter volume of air van hold a maximum of about 30 grams of water vapor at temperature <m>80 ^oF </m>. 
+        Dry air has zero relative humidity but saturated air has 100% relative humidity. 
+        <term>Humid (or saturated)</term> air is very uncomfortable, since the rate of evaporation 
+        is slowed by the high levels of water contents already in the air. At that time, human skin cannot 
+        sweat (perspirate) properly and we feel uncomfirtable.
+        <term>Dew point:</term> <idx>dew point</idx> is another way of expressing the saturation. The dew point is the 
+        temperature at which the air becomes saturated with the available water vapor causing 
+        condensation to occur. At this point, the air cannot hold any more moisture, and the 
+        excess water vapor begins to condense into liquid droplets. The dew point is an important 
+        measurement in weather forecasting, as it helps determine the likelihood of <em>dew, fog, or 
+        frost</em> formation. 
+    </p>
+</subsection>
+   
+<subsection xml:id="subsec-meteor">
+    <title>Meteorology</title>
+    <p>
+    Meteorology is the study of the weather and climate. Meteorologists use a variety of tools 
+    and techniques to collect data on the atmosphere, including weather balloons, satellites, 
+    and radar. They analyze this data to create models and forecasts of weather patterns and 
+    atmospheric conditions. Weather forecasting is one of the most important applications of 
+    meteorology, as it provides critical information to help people prepare for severe weather 
+    events such as hurricanes, tornadoes, and blizzards. Meteorologists also study long-term 
+    climate patterns and changes, which can help inform public policy decisions related to 
+    environmental protection and resource management. <term>Weather</term> refers to 
+    the state of temperature, humidity, pressure, cloud formation, or precipitation at any 
+    given time. <em>Weather is the short-term atmospheric conditions of a specific place 
+    at a specific time.</em><term>Climate</term> describes the summary of weather conditions for a 
+    specific region over a fairly long time period. <em>Climate, is the long-term weather patterns 
+    and averages of weather conditions in a particular region over a period of several 
+    decades or centuries</em>. 
+    </p>
+</subsection>
+
+<subsection xml:id="subsec-greenhouse">
+    <title>Greenhouse Effect</title>
+    <p>
+        The greenhouse effect <idx>greenhouse effect</idx> is a natural process by which certain gases in the Earth's 
+        atmosphere trap and re-emit heat radiated from the Earth's surface. These gases, including carbon 
+        dioxide <m>(CO_2)</m>, methane <m>(CH_4)</m>, water vapor <m>(H_2O)</m>, and nitrous 
+        oxide <m>(N2O)</m>, are known as greenhouse gases. Without the greenhouse effect, the Earth's average 
+        surface temperature would be around <m>-18°\,C (0°\,F)</m>, which would be too cold 
+        to support life. However, human activities, such as burning fossil 
+        fuels, deforestation, and agriculture, have increased the concentration of greenhouse 
+        gases in the atmosphere, leading to an enhanced greenhouse effect and 
+        <term>global warming</term> <idx>global warming</idx>. 
+        </p>
+    <p>
+        A <term>greenhouse</term> is a man-made structure that is designed to grow plants 
+        in a controlled environment. It is typically made of glass or plastic panels that 
+        allow sunlight to enter while trapping heat inside, creating a warm and humid 
+        environment that is ideal for plant growth. 
+        </p>
+    <p>
+        When sunlight enters the Earth's atmosphere, some of it is reflected back into space, 
+        and some is absorbed by the Earth's surface. The earth surface then radiates that heat back into the 
+        atmosphere. The greenhouse gases in the atmosphere absorb some of this heat 
+        energy and re-emit it in all directions, including back to the Earth's surface. As a 
+        result, the greenhouse gases act like a blanket that traps some of the heat energy 
+        and prevents it from escaping into space. This causes the Earth's temperature to be 
+        warmer than it would be otherwise, which is necessary for life as we know it to 
+        exist on our planet <url href="https://javalab.org/en/equilibrium_of_radiation_en/">Greenhouse Effect</url>. 
+        The energy of light is given by <m>E=hf = \frac{hc}{\lambda}</m>  where <m>h=6.67\times 10^{34} \,Js</m> is Planck's constant, 
+        <m>c=3\times 10^8 \, m/s</m> is velocity of light, and <m>\lambda</m> is wavelength of the light. 
+        Suppose  <m>\lambda</m> is the wavelength of light of energy <m>E</m> coming from the sun's 
+        visible light to the earth. When the light eneters into the earth atmosphere and it gets absorbed 
+        by the atmospheric gases, plants, and the earth's surface but when it re-emits and reflects back 
+        from the earth surface towards the space it losses some of its energy and becomes less energetic 
+        <m>E' = \frac{hc}{\lambda'}</m> to penetrate our atmosphere except that some amount of light 
+        energy is able to penetrate the atmosphere. However, due to increasing population, deforestation, and industrialization 
+        the amount of greenhouse gases are increasing making more difficult to the less energetic light rays to 
+        leave our atmosphere. Such activities are leading the <term>global warming</term>.      
+    </p>
+</subsection>
+</section>
+

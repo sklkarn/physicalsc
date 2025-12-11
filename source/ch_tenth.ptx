@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<chapter xml:id="ch_tenth" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>The Atmosphere</title>
+  <introduction>
+    <p>
+      The <term>atmosphere</term> is the layer of gases [<xref ref="fig-atmlayer1"/>] 
+      that surrounds our planet. The Earth's atmosphere is composed of 
+      four main layers. The lowermost layer is the <alert>troposphere</alert>, which extends from the Earth's surface to an 
+      altitude of about 8-15 kilometers. This is where all weather (such as clouds, rain) 
+      occurs, and it contains most of the Earth's breathable air [<xref ref="fig-atmlayer1"/>]. Above the troposphere is 
+      the <alert>stratosphere</alert>, which extends from about 15-50 kilometers above the 
+      Earth's surface. This layer contains the ozone layer, which helps protect the Earth 
+      from the harmful effects of ultraviolet radiation from the Sun. Long distance 
+      flights (airoplanes and jets) fly in the lower level of this layer. 
+      Beyond the stratosphere is the <alert>mesosphere</alert>, which extends from 
+      about 50-85 kilometers above the Earth's surface. This layer is where <em>meteors</em> 
+      burn up as they enter the Earth's atmosphere. The outermost layer of the Earth's atmosphere is the <alert>thermosphere</alert>, 
+      which extends from about 85 kilometers to the edge of space. This layer is characterized 
+      by very low air density but very high temperatures, and it is where the auroras occur
+       and the space shuttle orbits. Atmosphere regulate the water cycle and whether conditioning on the earth. 
+       Thermosphere is also known as <em>ionosphere</em> as the solar radiation ionizes the upper atmosphere into ions and electrons. 
+      During sun storms ions of nitrogen and oxygen in the thermosphere produce beutiful aurora borialis 
+      in presence of earth magnetic field. Ionosphere makes long distance radio communication possible. 
+      Above the ionospher we have large regions of space with very thin gases we called the exosphere. 
+      But we do not include this layer in our discussion here.
+    </p>
+    <figure>
+      <caption>Temperature, pressure, and abundance of gases in the atmosphere</caption>
+      <sidebyside widths="30% 30% 30%">
+        <figure xml:id="fig-atmlayer1">
+          <caption><url href="https://www.pinterest.ph/pin/741616263631151673/"><c>atm Layer</c></url></caption>
+          <image source="atmlayer1.png"/>
+      </figure>
+          <figure xml:id="fig-atmlayer">
+              <caption><url href="https://www.visionlearning.com/en/library/Earth-Science/6/Composition-of-Earths-Atmosphere/107"><c>Temperature &amp; Pressure Profile</c></url></caption>
+              <image source="atmlayer.png"/>
+          </figure>
+            <figure xml:id="fig-abundatm">
+              <caption>Abundance of gases</caption>
+              <image source="abundatm.png"/>
+          </figure>
+         </sidebyside>
+  </figure>
+    <p>
+      The temperature profile of atmosphere is given in <xref ref="fig-atmlayer"/>. In troposphere, temperature 
+      decreases with altitude and air is heated from the ground up. On average the atmosphere 
+      in this layer is slightly unstable. Generally, air density in the atmosphere decreases 
+      with increasing altitude. Troposphere has the most densly layer of air. In stratosphere, 
+      temperature increases with altitude. The temperature increases with altitude in the stratosphere 
+      because of the absorption of ultraviolet (UV) radiation by ozone <m>(O_3)</m> molecules.  
+      The air density in the stratosphere is much lower than in the troposphere, and it decreases 
+      gradually with increasing altitude. In mesosphere, temperature decreases with altitude and air 
+      density is even lower than in the stratosphere, and it decreases rapidly with increasing altitude. 
+      In thermosphere, temperature is very dependent on solar activity. 
+      It is the layer of the atmosphere which is first exposed to the Sun's radiation. 
+      In this layer, air density is extremely low, and it decreases exponentially with 
+      increasing altitude.
+    </p> 
+   
+    <p>
+      The Earth's atmosphere is composed of a mixture of gases, including: 
+      Nitrogen <m>(N_2)</m> - the most abundant gas in the atmosphere about 78%, 
+      Oxygen <m>(O_2)</m> - the second most abundant gas in the atmosphere about 21%, 
+      Argon <m>(Ar)</m>, Carbon Dioxide <m>(CO_2)</m>, Neon <m>(Ne)</m>, Helium <m>(He)</m>, 
+      Methane <m>(CH_4)</m>, and other trace gases usually less than 1% of the total volume. 
+      In addition to these gases, the atmosphere also contains variable amounts of 
+      water vapor <m>(H_2O)</m>, that plays a significant role in weather and climate 
+      [<xref ref="fig-abundatm"/>]. 
+    </p>
+    <p>
+      The pressure [<xref ref="fig-atmlayer"/>] in the atmosphere varies with altitude, temperature, and weather conditions. 
+      At sea level, the average atmospheric pressure is about 1013 millibars (mb) also referred as 
+      one atmosphere (1 atm) [eqn. <xref ref="eqn-atm_pres1"/>] of pressure. 
+      As altitude increases, atmospheric pressure decreases. This is because the weight of the air above decreases 
+      with increasing altitude. At an altitude of approximately 5.6 kilometers, the atmospheric 
+      pressure is about half of what it is at sea level. Temperature also affects atmospheric 
+      pressure. As temperature increases, the molecules in the air move faster and farther apart, 
+      which decreases the density of the air and, therefore, the atmospheric pressure. 
+      Similarly, as temperature decreases, the molecules in the air move slower and closer 
+      together, which increases the density of the air and, therefore, the atmospheric pressure. 
+      Weather conditions also affect atmospheric pressure. High-pressure systems are associated 
+      with clear, dry weather, while low-pressure systems are associated with cloudy, 
+      rainy weather. The movement and interaction of these high and low-pressure systems 
+      create weather patterns.
+    </p>
+  </introduction>
+
+
+  <xi:include href="./sec_tenth-intro.ptx" />
+   <xi:include href="./sec_tenth-seasons.ptx" /> 
+   <xi:include href="./sec_tenth-hydros.ptx" /> 
+   <xi:include href="./sec_tenth-examples.ptx" /> 
+
+  <!-- One or more of the sections of a chapter might be exercises-->
+   <xi:include href="./ex_tenth.ptx"/>  
+
+</chapter>

@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<chapter xml:id="ch_eleventh" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>The Earth</title>
+
+  <introduction>
+
+          <figure xml:id="fig-earth1">
+          <caption>The Earth</caption>
+          <image source="earth1.png" width="45%"/>
+          </figure>    
+    
+
+   
+  <p>
+    Earth <xref ref="fig-earth1"/>is the third planet from the sun which is the only planet known to support life.
+     The Earth revolves around the sun in an elliptical orbit for every 365.24 days, called a year. 
+     It also rotates on its axis once every 24 hours, causing day and night cycles. 
+     The Earth's axis is tilted about 23.5 degrees relative to its orbit around the sun which is responsible 
+     for the changing seasons and the different amounts of daylight and darkness throughout the year.   
+    It has a unique atmosphere that is composed of 78% nitrogen, 21% oxygen, and trace amounts of other gases [<xref ref="fig-abundcrust"/>]. 
+    The planet's surface is covered by approximately 71% water, which is contained in oceans, lakes, and rivers, 
+    and the remaining 29% is composed of landmasses, such as continents and islands.    
+    The Earth is surrounded by a magnetic field, which protects it from harmful solar winds and radiation. 
+    The Earth also has a natural satellite, the moon, which orbits around it. The Earth is a 
+    dynamic and constantly changing planet, with a complex system of tectonic plates that cause 
+    earthquakes, volcanic eruptions, and mountain building. It is also home to a diverse range 
+    of life forms, including humans, animals, plants, and microorganisms. 
+     </p>
+
+     <p>
+      Some geographical landforms on the Earth are given in the <xref ref="GeoTerm"/>.
+    </p>
+    <figure xml:id="GeoTerm">
+      <caption><url href="https://i.pinimg.com/originals/88/51/6b/88516bbdf8cba82292873662baf87fbf.jpg"><c>Geographical Landforms</c></url></caption>
+      <image source="GeoTerm.png" width="50%" />
+      </figure>
+   
+
+  </introduction>
+
+ 
+  <xi:include href="./sec_eleventh-intro.ptx" />
+  <xi:include href="./sec_eleventh-rockminr.ptx" />
+  <xi:include href="./sec_eleventh-quake.ptx" />
+  <xi:include href="./sec_eleventh-tectmov.ptx" />
+  <xi:include href="./sec_eleventh-histgeol.ptx" />
+  <xi:include href="./sec_eleventh-examples.ptx"/> 
+
+ <!-- One or more of the sections of a chapter might be exercises-->
+  <xi:include href="./ex_eleventh.ptx"/> 
+
+</chapter>

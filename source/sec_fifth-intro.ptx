@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_fifth-intro" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Charges</title>
+  <introduction>
+    <p>
+      Charge <idx>charge</idx> is an entity which provides an electric property of the matter. 
+      Charge is of two types, positive charge and negative charge. Electrons in 
+      an atom consist of negative charge and protons of the atom consist of positive charge. Similar kinds of charges always repel each other and unlike 
+      charges attract each other. Charge is a scalar physical quantity. 
+      Charge is conserved meaning charge can neither be created nor be 
+      destroyed; it can only be transferred from one place to another or
+      from one object to another. The net charge on any system is always 
+      constant. All matter is composed of atoms and atoms are composed of 
+      three elementary particles, called electrons, protons, and neutrons. 
+      Charge is also quantized meaning charge always comes in discrete amounts, 
+      and the smallest possible amount of charge that any object could have 
+      is <m>1.67\times 10^{-19} C</m>. This is the amount of charge on one
+       electron. Whenever an atom gains or loses an electron, the atom is ionized. 
+       The ionized atom is always charged. An ion is simply an atom with a net 
+       charge. The ion can be positive or negative. If <m>q</m> is the total 
+       negative charge on any object and <m>e</m> is the charge of electron, 
+       then total number of electrons, n on that object can be find using the following equation.
+       <men xml:id="eqn-nofe">
+        q=ne
+       </men>
+       where <m>e=1.67\times10^{-19} C.</m>
+    </p>
+    <example>
+      <statement>
+        <p>
+          A glass rod is rubbed vigorously with a fur and found that it gained <m>+1.67C</m> of charge. 
+          Calculate how many electrons has the glass rod lost?
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <md>
+            <mrow>q \amp =ne</mrow>
+            <mrow>or, n \amp =\frac{q}{e}</mrow>
+             <mrow>or, n \amp =\frac{1.67}{1.67\times10^{-19}}</mrow>
+          </md>
+          <answer>
+            <p>
+              <m> \therefore n = 1.00\times10^{19}</m> electrons.
+            </p>
+          </answer>
+        </p>
+      </solution>
+    </example>
+    </introduction>
+
+  <subsection xml:id="subsec_5cl-subsection">
+    <title>Coulomb's Law</title>
+    <p>
+      The force of attraction or repulsion between any two-point charges is directly proportional 
+      to the product of these charges and inversely proportional to the square of distance between 
+      them. The direction of force is always acting along the line joining these two-point charges. 
+      If <m>F</m> is a force acting on the charges <m>q_1</m> and <m>q_2</m>, 
+      and <m>r</m> is a distance between the two charges (see figure below) then from 
+      Coulumb's law
+      <men xml:id="eqn-cl">
+        F=k\frac{q_1\times q_2}{r^2}
+      </men>
+     Here, Coulomb's constant, <m>k=9\times 10^9 Nm^2/C^2</m>. <notation>
+      <usage><m>k</m></usage>
+       <description>Coulomb's constant.</description>
+     </notation>
+      This law only works for two point charges at rest. Hence, the Coulomb's law is also known as 
+      law of electrostatic force on
+    </p>
+<figure>
+    <caption>Coulomb's force</caption>
+    <sidebyside>
+        <figure>
+            <caption>unlike charges</caption>
+            <image source="fig5a.png"/>
+        </figure>
+        <figure>
+            <caption> like charges</caption>
+            <image source="fig5b.png"/>
+        </figure>
+      </sidebyside>
+</figure>
+<example>
+  <statement>
+    <p>
+      If the distance between an electron and a proton in a hydrogen atom 
+      is <m>0.53\times10^{-10} m</m>. Find the electrostatic force acting 
+      between the electron and the proton. 
+    </p>
+  </statement>
+  <solution>
+    <p>
+      <md>
+        <mrow>F \amp =k\frac{q_1q_2}{r^2}</mrow>
+        <mrow>or, \quad F \amp =9\times10^9\times\frac{(1.67\times10^{-19})\times (-1.67\times 10^{-19})}{(0.53\times10^{-10})^2}</mrow>
+      </md>
+      <answer>
+        <p>
+          <m> \therefore F = -8.94\times10^{-8}N</m>. Negative sign explains that the force is attractive in nature.
+        </p>
+      </answer>
+    </p>
+  </solution>
+</example>
+    </subsection>
+
+   <subsection xml:id="subsec_5ef-subsection">
+    <title>Electric Field</title>
+    <p> The space around a charge where force of attraction or repulsion can be experienced 
+    by any other charged particle is called an electric field. <idx>electric field</idx> Electric field is also known 
+    as electrostatic field intensity. It is an inherent property of a charge. 
+    An electric field is produced by a charge and is experienced by another charge. 
+    It is an electric field of a charge which tells another charge how to move in the space 
+    if it is free to do so. Electric field is a force acting on a unit charge 
+    and is a vector quantity. 
+    <alert> Electric field lines:</alert> It is an imaginary path of a unit positive charge in an electric field.
+    Electric field lines are also known as electric lines of force. It is always pointed radially outward 
+    for a positive charge and radially inward for a negative charge as shown in figure  <xref ref="fig-efl"/>.
+    </p>
+     <figure xml:id="fig-efl">
+    <caption>Electric Lines of Force</caption>
+    <sidebyside>
+        <figure>
+            <caption>due to a +ve charge</caption>
+            <image source="fig5i.png"/>
+        </figure>
+        <figure>
+            <caption>due to a -ve charge</caption>
+            <image source="fig5j.png"/>
+        </figure>
+        <figure>
+            <caption>due to two unlike charges</caption>
+            <image source="fig5k.png"/>
+        </figure>
+        <figure>
+            <caption>due to two like +ve charges</caption>
+            <image source="fig5l.png"/>
+        </figure>
+     </sidebyside>
+</figure>
+    </subsection>
+
+  <subsection xml:id="subsec_5me-subsection">
+    <title>Materials on Electrical Point of View</title>
+    <p>
+      On the basis of electrical behavior there are four types of materials exist in nature; 
+      they are conductor, insulator, semiconductors, and superconductors.
+      </p>
+        
+      <p>
+      <term>Conductor:</term> It is a material where charge carriers (electrons or ions) are free 
+      to move within it. Copper, aluminum, gold, mercury, iron, water-salt solution, etc. are a
+      few examples of conductors. In a conductor, the outermost electrons of an atom are loosely bounded 
+      with its nucleus and hence are free to move throughout the material even at very low 
+      temperature. The random motion of electrons causes zero net electric current in a conductor 
+      unless an external electric field is applied on it. <term>Insulator:</term> It is a material 
+      where electrons are tightly bounded with their atom and can not move very easily. Plastics, 
+      glass, rubber, wood, porcelain, etc. are few examples of insulators. Check the simulation link 
+      <url href="https://javalab.org/en/electric_current_en/">conductor &amp; insulator</url>
+      <term>Semiconductor:</term> It is a material having properties between insulator and conductor. 
+      Silicon and germanium are good example of it. At low temperature this material behaves as 
+      an insulator and at high temperature it behaves as a conductor. The conductivity of a
+      semiconductor can be increased enormously by doping of this material with a very small 
+      amount of suitable dopants such as boron, phosphorous, or arsenic. 
+      <term>Superconductor:</term> It is a material which transfers electrons from one atom to 
+      another throughout the material without any resistance. No loss of energy can be observed 
+      when the material conducts electricity. Mercury shows superconducting nature at temperature 
+      below 4 Kelvin.
+    </p>
+
+ </subsection>
+
+</section>
+

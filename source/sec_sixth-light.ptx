@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_sixth-light" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Light</title>
+  <introduction>
+    <p>
+     Light <idx>light</idx> is a form of energy. It excites the sensation of vision when strikes 
+     the eye retina. To see things around having only eye is not very important but 
+     also the presence of light is very important. A blind person can not see 
+     anything even if the room is full of light just as a normal person can not 
+     see anything if room is completely dark. Light coming from an object when falls 
+     on the surface of eye retina we can see that object. Even though light helps 
+     us see things around light itself is invisible. However, we divide light 
+     into two categories, the visible light and the invisible light. It is not 
+     because we can or can not see the light rather it is based on the sensation of 
+     vision produced by these light in our eye. Light which can help sensation of 
+     vision is called a visible light and that which can not stimulate the 
+     sensation of vision is called an invisble light. Light is an electromagnetic 
+     radiation which consists of the ranges of waves from gamma rays to radio waves. 
+     The so called visible light is a very small portion of an electromagnetic radiation.
+    </p>
+     <figure>
+            <caption><url href="https://science.nasa.gov/ems/01_intro">Electromagnetic Spectrum <c>NASA</c></url></caption>
+            <image source="emspectrum.png" width ="75%"/>
+        </figure>
+ 
+  </introduction>
+  
+  
+  <subsection xml:id="subsec_6gopt">
+    <title>Geometrical Optics</title>
+    <introduction>
+      <p>
+        Geometric optics is based on the principle of rectilinear propagation of 
+        light in which light is considered as a ray which travels in a straight line. 
+        Anything which emits light is known as object. Objects that emit light on 
+        their own are called a luminous (or self-luminous) objects such as sun, stars, 
+        light bulb, fireflies, etc. Objects that do not emit but reflect light are known 
+        as non-luminous objects such as moon, planets, wood, plastics, metals, etc. 
+       </p>
+       <p>
+         Light travels in straight lines until it encounters with some obstacle. 
+         Hence we can approximate light by considering it as a ray. The physics which deals 
+         with light in the form of a ray is called geometrical optics. Light bents from its straight 
+         path when it strikes on the surface of another medium such as in reflection and  
+         refraction. When light strikes on the surface of material three phenomena 
+         happen. That is, <ol marker ="a">
+         <li>light reflects from the material</li>
+           <li>light transmitts throgh the material, and </li>
+             <li>light is absorbed by the the material. </li>
+           </ol>
+       </p>
+    </introduction>
+   
+ 
+  <subsubsection xml:id="subsubsec_6refl">
+    <title>Reflection of Light</title>
+     <p>
+     When light travels in one medium strikes onto the surface of another medium 
+     it bounces off to the same medium is known as reflection <idx>reflection</idx>. It is the 
+     reflection which helps us to see our image in the mirror. There are two types 
+     of reflection, specular (regular) reflection and diffuse (irregular) reflection. 
+     Both types of reflection obey the laws of reflection. 
+     <url href="https://simpop.org/reflection/reflection.htm"><c>Reflection of Light</c></url>
+     </p>
+      
+     <p>
+     <term>Laws of Reflection: </term>
+     <ol>
+      <li>
+        <p>
+          The first law of reflection states that the incident ray, the reflected ray, 
+          and the normal to the point of incident all lie in the same plane. 
+          </p>
+      </li>
+      <li>
+        <p>
+          The second law of reflection states that the angle of reflection is equal to 
+          the angle of incidence. 
+        </p>
+      </li>
+     </ol>
+     Consider a light ray, AO is incident on a smooth surface, like morror at an 
+     angle <m>\theta_i</m> and bounces off, then from <m>2^{nd}</m> law of reflection 
+      <men xml:id="eqn-lrefl">
+        \theta_i = \theta_r
+      </men>
+    </p>
+
+     <figure>
+    <caption></caption>
+    <sidebyside widths="30% 30% 35%">
+     <figure>
+            <caption>Reflection of light</caption>
+            <image source="fig6rla.png"/>
+        </figure>
+           <figure>
+            <caption>Regular reflection</caption>
+            <image source="fig6rlb.png"/>
+        </figure>
+        <figure>
+            <caption>Irregular reflection</caption>
+            <image source="fig6rlc.png"/>
+        </figure>
+        </sidebyside>
+      </figure>
+   
+       
+  
+  </subsubsection>
+
+<subsubsection xml:id="subsubsec_6refr">
+    <title>Refraction of Light</title>
+    <p>
+     The phenomenon of bending of light ray as it goes from one medium to another 
+     is called a refraction <idx>refraction</idx>. The velocity of light depends on the medium it is 
+     propagating which causes the refraction. The measure of an obstacle that a 
+     medium impose on the velocity of light is known as refractive index of 
+     that medium. <url href="https://simpop.org/refraction/refraction.htm"><c>Refraction of Light</c></url>
+    </p>
+        <figure>
+    <caption></caption>
+    <sidebyside widths="60% 20%">
+           <figure>
+            <caption>Refraction of light</caption>
+            <image source="fig6rfra.png"/>
+        </figure>
+        <figure>
+            <caption><c>Bent Pencil</c></caption>
+            <image source="fig6rfrb.png"/>
+        </figure>
+        </sidebyside>
+      </figure>  
+              
+     
+  </subsubsection>
+
+
+<subsubsection xml:id="subsubsec_6disper">
+    <title>Dispersion of Light</title>
+    <p>
+     The phenomenon of splitting of white light into its constituent colors is known as dispersion <idx>dispersion</idx>. 
+     When white light passes through a prism it splitted into seven colors due to dispersion of light.
+     The images of this color patterns formed on a screen is called a spectrum. The spectrum 
+     consists of a visible and invisible regions of light. The principal colors of light in the 
+     visible spectrum are given as "VIBGYOR" (Violet, Indigo, Blue, Green, Yellow, Orange, and Red). 
+     The deviation occurred in violet light is maximum and that for red light is minimum as shown 
+     in figure <xref ref="fig-dspr"/>. In the invisible regions, the spectrum of wavelengths 
+     shorter than violet is called an ultraviolet light and that for longer than red is called an infrared light. 
+     The color of light is dependent on its wavelength, <m>\lambda</m>. Here is a list of wavelengths of visible light 
+     <md>
+      <mrow> \lambda_{red}\amp = 620\,nm-780 \,nm</mrow>
+      <mrow> \lambda_{orange}\amp = 585\,nm-620 \,nm</mrow>
+      <mrow> \lambda_{yellow}\amp = 570\,nm-585 \,nm</mrow>
+      <mrow> \lambda_{green}\amp =  490\,nm-570 \,nm</mrow>
+      <mrow> \lambda_{blue}\amp = 440\,nm-490 \,nm</mrow>
+      <mrow> \lambda_{indigo}\amp = 420\,nm-440 \,nm</mrow>
+      <mrow> \lambda_{violet}\amp = 400\,nm-420 \,nm</mrow>
+      </md>
+      </p>
+      <figure xml:id="fig-dspr">
+        <caption>Dispersion of light</caption>
+        <image source="fig6dspr.png" width="40%"/>
+    </figure>
+      <p>Rainbow <idx>rainbow</idx> is formed when sunlight is dispersed by rain droplets which are suspended 
+      in air. When sunlight enters the raindrop it refracts then it undergoes dispersion 
+      and total internal reflection from the rear end of the droplet surface 
+      and again refracted out in the atmosphere and that's how we see a rainbow. 
+      So all the given process i.e total internal reflection, refraction, and 
+      dispersion take place in the rainbow formation as shown in figure <xref ref="fig-dspr2"/>. 
+      Scattering of light doesn't take place in the process of formation of a rainbow.
+     </p>
+     <figure xml:id="fig-dspr2">
+      <caption>Dispersion of light</caption>
+      <image source="fig6dspr2.png" width="40%"/>
+  </figure>
+  </subsubsection>
+
+<subsubsection xml:id="subsubsec_6sctrn">
+    <title>Scattering of Light</title>
+    <p>
+      <idx>scattering</idx> It is a phenomenon of redirected light in different directions when it 
+      interacts with small particles or irregular surfaces. This can cause the light 
+      to appear hazy or dispersed. Due to scattering sky looks bluish as blue colors 
+      scattered more in sky than any other colors from the visible spectrum of light. 
+      In fact, violet light scattered more than blue but our eyes are more sensitive 
+      o blue color than violet light hence blue colors are much more prevailed than others in sky. 
+      At sunset and sunrise, the sunlight has to travel longer distance in the atmosphere 
+      which causes most of the blue and other shorter wavelengths to scatter in the sky 
+      and only red color can reach to our eyes hence the sun appears reddish in color. 
+      </p>
+
+      
+    </subsubsection>
+  </subsection>
+</section>
+

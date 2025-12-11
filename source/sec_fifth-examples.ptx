@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_fifth-examples" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Examples</title>
+  
+  <example>
+    <statement>
+      <p>
+        Find the current in a wire if <m>3\times 10^{20}</m> electrons is passing every <m>20</m> second.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        See the equations <xref ref="eqn-I"/> and <xref ref="eqn-nofe"/>
+        <md>
+          <mrow> I\amp =\frac{q}{t}</mrow>
+           <mrow>or, \quad I\amp =\frac{ne}{t}</mrow>
+           <mrow>or, \quad I\amp =\frac{(3\times 10^{20})\times (1.67\times 10^{-19})}{20}</mrow>
+           <mrow> \therefore I\amp = 2.50 A.</mrow>
+        </md>
+      </p>
+    </solution>
+  </example>
+
+
+  <example>
+  <statement>
+    <p>
+      Find the resistance of a light bulb that runs on a 9 V battery and draws a current of 1.5 A.
+    </p>
+    </statement>
+    <solution>
+      <p>
+        From Ohm's Law <xref ref="subsec_5ol-subsection"/>
+        <md>
+          <mrow>V \amp =IR</mrow>
+          <mrow>or, \quad R \amp =\frac{V}{I}</mrow>
+           <mrow>\therefore \quad R \amp =\frac{12}{1.5} = 6 \Omega.</mrow>
+        </md>
+      </p>
+    </solution>
+  </example>
+
+  <example>
+  <statement>
+     <p>
+      If an electric iron of <m>1500W</m> is used for 20 minutes everyday. 
+      What is the cost of electricity bill per month, if the unit price is 15 cents?
+    </p>
+  </statement>
+   
+    <solution>
+      <p>
+        Here <m>t</m> = 20 mint/day =  <m>\frac{20}{60} \,h/day\times 30 \,day</m> = 10 h.</p>
+       <p> Now from equation <xref ref="eqn-elpr"/>, we have
+        <md>
+          <mrow>P \amp =\frac{E}{t}</mrow>
+          <mrow>or, \quad E \amp =Pt</mrow>
+           <mrow>or, \quad E \amp =1500\, W\times 10 \,h = 15000\,Wh = 15\,kWh</mrow>
+        </md>
+        In an electric bill, one unit of electrical energy is <m>1\,kWh.</m>
+        Hence, the total cost of bill is <m>15\,kWh\times 15 \,cnets</m> = \(225 cents = $2.25\).
+      </p>
+    </solution>
+  </example>
+
+
+  <example>
+  <statement>
+    <p>
+      How much current is passing through the ciruit if <m>1000W</m> electric heater is running at 120 V?
+    </p>
+    </statement>
+    <solution>
+      <p>
+        From equation <xref ref="eqn-piv"/>
+        <md>
+          <mrow>P \amp =IV</mrow>
+          <mrow>or, \quad I \amp =\frac{P}{V}</mrow>
+           <mrow>\therefore \quad I \amp =\frac{1000}{120} = 8.33 \,A.</mrow>
+        </md>
+      </p>
+    </solution>
+  </example>
+
+
+  <example>
+  <statement>
+    <p>
+      What is the resistance of 50 W light bulb filament running at 120 V? 
+    </p>
+    </statement>
+    <solution>
+      <p>
+        From equation <xref ref="eqn-PVR"/> 
+         <md>
+           <mrow> P \amp =\frac{V^2}{R}</mrow>
+           <mrow>or, \quad R \amp =\frac{V^2}{P}</mrow>
+           <mrow>or, \quad R \amp =\frac{120^2}{50}=288\Omega.</mrow>
+        </md>
+        
+      </p>
+    </solution>
+  </example>
+
+
+  <example>
+  <statement>
+    <p>
+      Find how much electric energy is stored in a 10V laptop battery rated at 13000 mAh.
+    </p>
+    </statement>
+     <hint>
+        <p>
+          using equations <xref ref="eqn-I"/> and <xref ref="eqn-piv"/>, we have
+          <md>
+            <mrow>q \amp =I t</mrow>
+            <mrow>I \amp =\frac{P}{V}</mrow>
+            <mrow>q\amp =\frac{P}{V}t</mrow>
+          </md>
+          <men xml:id="eqn-qvp">
+            \therefore qV=Pt
+          </men>
+         </p>
+      </hint>
+      <solution>
+      <p>
+        Here, <m>q= 13000mAh =13000\times10^{-3}\,Ah</m>, 
+        remember large unit of charge is also Ah by using eqation <xref ref="eqn-I"/>. 
+        Hence, from equation <xref ref="eqn-qvp"/>
+        <md>
+          <mrow> Now, \quad qV\amp =Pt</mrow>
+          <mrow>or, \quad Pt\amp =qV = 13000\times 10^{-3}\,Ah\times 10\,V</mrow>
+          <mrow>\therefore \quad E \amp = 130\,AhV </mrow>
+        </md>
+        by using equation <xref ref="eqn-elpr"/> where, <m>P=\frac{E}{t}</m>
+      </p>
+      <answer>
+        <p>
+         Hence, Energy, E= 130Wh. [since, <m>AV=W</m>]
+        </p>
+      </answer>
+    </solution>
+  </example>
+ 
+
+  <example>
+  <statement>
+    <p>
+      The primary coil of a transformer has 500 turns and its secondary coil has 50 turns. 
+      If the current in the secondary coil is 25 A, find the current in its primary coil.
+    </p>
+    </statement>
+    <solution>
+      <p>Given: <m>N_p= 500</m>, <m>N_s= 50</m>, <m>I_s= 25 \,A</m>, <m>I_p= ?</m></p>
+        <p>From equation <xref ref="transvni"/> 
+         <md>
+           <mrow> \frac{I_s}{I_p}\amp =\frac{N_p}{N_s}</mrow>
+            <mrow>or, I_p\amp =\frac{N_s}{N_p}I_s</mrow>
+            <mrow>\therefore I_p\amp =\frac{50}{500}\times 25 = 2.5\,A</mrow>
+         </md>
+        
+      </p>
+    </solution>
+  </example>
+  
+<example>
+  <statement>
+    <p>
+      A circuit has a resistance of 20 ohms and a current of 2 amperes flowing through it. 
+      What is the voltage across the circuit?
+    </p>
+  </statement>
+  <solution>
+    <p>
+      According to Ohm's law, the voltage (V) across a circuit is equal to the current (I) 
+      multiplied by the resistance (R): 
+      <me>
+        V = I \times R.
+      </me>
+Using this formula, we can calculate the voltage across the circuit as follows:
+<md>
+  <mrow>V \amp =I\times R</mrow>
+  <mrow> \amp = 2A\times 20\Omega</mrow>
+  <mrow> \amp = 40 \,Volts.</mrow>
+</md>
+Therefore, the voltage across the circuit is 40 volts.
+    </p>
+  </solution>
+</example>
+</section>
+

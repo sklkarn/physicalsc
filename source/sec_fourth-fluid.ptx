@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_fourth-fluid" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Fluid</title>
+  <introduction>
+     <p>
+      Fluid <idx>fluid</idx> is a material that can flow. Gasses and liquids are fluids. To study fluid it is easier 
+      to deal with fluid's volume, density, and pressure rather than its mass and weight. For example, 
+      we do transactions of any fluids in terms of their volume (liter) not in their mass (kg). Here, 
+      some terminologies are being introduced to study fluid and its behavior.
+      </p>
+     <p><alert>Density:</alert> It is defined as mass per unit volume of the fluid. 
+        It is a scalar quantity. 
+        <md>
+          <mrow>Density  \amp = \frac{Mass}{Volume}</mrow>
+        </md>
+        <men xml:id="density"> d = \frac{m}{V}</men>
+          Its unit is <m>kg /m^3</m> in SI system, <m>g/cm^3</m> or <m>g/ml</m> in cgs system, 
+          and <m>slug/ft^3</m> in fps system. Any two objects of identical volume the heavier one 
+          has higher density than the other. Take two marbles of same size but one is a lead marble 
+          and another is a glass marble. Which one you feel heavier, has the higher density.
+       </p>
+<example>
+  <statement>
+    <p>
+      Calculate the mass of water in a container of size 25 cm long, 15 cm wide and is filled 
+      with water up to 10 cm high. If the density of water is <m>1\,g/cm^3</m>.
+    </p>
+  </statement>
+  <solution>
+    <p>
+      The volume of water, 
+      <md>
+        <mrow>V \amp = length\times width\times height</mrow>
+        <mrow>or, \quad V \amp = 25 \,cm\times 15 \,cm\times 10 \,cm</mrow>
+        <mrow>\therefore V \amp = 3750 \,cm^3</mrow>
+      </md>
+       Hence, the mass of water in the container is given by <xref ref="density"/>.
+       <md>
+        <mrow>m \amp = d\times V</mrow>
+        <mrow>or, \quad m \amp = 1 \,g/cm^3 \times 3750\, cm^3</mrow>
+        <mrow>\therefore V \amp = 3750\, g = 3.75 \,kg </mrow>
+      </md>
+     </p>
+  </solution>
+</example>
+
+<p><term>Pressure:</term> It is defined as a force per unit area of the surface. 
+Force must be acting perpendicularly on the surface. Pressure defines how hard the object 
+is pushing something in or out. It is a scalar quantity.  
+<md>
+          <mrow>Pressure  \amp = \frac{Force}{Area}</mrow>
+        </md>
+         <men xml:id="pressure"> p = \frac{F}{A}</men>
+        Its unit is <m>N/m^2</m> or <em>pascal (Pa)</em> in SI system. 
+        In FPS system of unit it is measured in <m>psi</m> which means pounds per square inch. 
+        Many units of pressure are still in practice such as torr, bar, mm of Hg., atm., etc.
+       1 atm is one atmospheric pressure, 
+       <men xml:id="eqn-atm_pres1">
+        1 \,atm = 1.013\times 10^5 \,Pa.
+       </men>
+       </p>
+      <example>
+  <statement>
+    <p>
+      How much pressure is applied on the ground by a girl of 50 kg if she is balancing
+      herself by standing on her one shoe heel of area <m>1 \,cm^2</m>.
+    </p>
+  </statement>
+  <solution>
+    <p>
+      The force exerted by the girl on ground is equal to her weight, 
+      <md>
+        <mrow>F \amp = m\times g</mrow>
+        <mrow>or, \quad F \amp = 50 \,kg\times 9.8 \,m/s^2</mrow>
+        <mrow>\therefore F \amp = 490 \,N</mrow>
+      </md>
+      and, Surface area = <m>1 \,cm^2 = 1\times (10^{-2}\,m)^2 = 1\times 10^{-4} \,m^2</m>
+       Hence, the pressure on the ground is given by <xref ref="pressure"/>.
+       <md>
+        <mrow> p\amp = \frac{490 \,N}{1\times 10^{-4} \,m^2}</mrow>
+        <mrow> \therefore p\amp = 4900000 \,N/m^2 = 4.9 \,MPa.</mrow>
+       </md> 
+     </p>
+  </solution>
+</example>
+
+
+<p>
+  <alert>Pressure in a Fluid: </alert>
+  A fluid exerts more pressure at greater depths. Consider a cylindrical 
+  water bottle of area of cross-section <m>A</m>. If <m>m</m> is mass of water filled in 
+  the bottle to the height <m>h</m>, then from <xref ref="pressure"/>, we have -
+  <me>
+    p = \frac{F}{A} = \frac{mg}{A} =\frac{Vdg}{A} =\frac{Ahdg}{A} =hdg
+  </me>
+  <men xml:id="eqn-flpressure">
+    p= hdg
+  </men>
+  Here, <m>V</m> is the volume of fluid in a container, <m>d</m> is the density of the fluid, and <m>g</m> is acceleration due to gravity.
+  </p>
+  
+  <example>
+    <statement>
+      <p>
+        If you poke two holes in water bottle at different hights, which water-jets shoots out to larger distance from the bottle? 
+       </p>
+    </statement>
+    <solution>
+      <p>
+        The pressure exerted by water at depths is given by <xref ref="eqn-flpressure"/>, 
+        <me>
+          p= hdg
+        </me>
+        Since depth of water is more for the hole at the bottom, water exerts higher pressure at the bottom 
+        and hence water-jet shoots out to further distance from the bottom hole.       
+       </p>
+    </solution>
+  </example>
+  </introduction>
+
+   
+<subsection xml:id="subsec_ap-subsection">
+    <title>Archimedes' Principle</title>
+    <p>
+      When an object is placed in a fluid it experiences an upthrust force called a buoyant force. 
+      It is rising due to changes of pressure inside the fluid. This phenomenon is known as 
+      Archimedes' principle <idx>Archimedes' principle</idx>. It states that when a body is fully or partially immersed in a fluid, 
+      the fluid exerts an upward force on the body equal to the weight of the liquid displaced. 
+      That is, a buoyant force (<m>B</m>) = weight of a displaced fluid (<m>w_{df}</m>).
+      <men xml:id="ap">
+        B= w_{df} = m_{df}\cdot g = V_{df}\cdot d\cdot g
+      </men>
+      It is the buoyant force due to which your weight feels less in swimming pool. 
+      Actually, a buoyant force is the <em>loss of weight</em> of an object in a liquid or fluid. It can also be defined as 
+      <men xml:id="wtloss">
+        B= w_{a} -w_{l} 
+      </men>
+        Here, <m>w_{a}</m> is a weight of an object in air and <m>w_{l}</m> is a weight of an object in liquid.
+
+      <term>Archimedes' principle</term> tells whether the object floats or sinks in the fluid. If the weight of the
+       object is greater than the buoyant force, it sinks. If its weight is equal to the buoyant force, 
+       it submerges inside the fluid but does not sink. If its weight is less than the buoyant force 
+       it floats on the surface of the liquid. 
+       </p>
+       <figure>
+    <caption>Buoyant force</caption>
+    <image source="fig4e.png" width="30%"> </image>
+</figure>
+<p>
+       In this case, the volume of displaced liquid is equal to the 
+       volume of the submerged portion of the object. On this basis, we can tell that if the density of 
+       an object is greater than that of the fluid, it sinks. If object density is equal to the 
+       density of the fluid, then the object submerges. If an object's density is less than the 
+       density of the fluid, then the object floats. To make an iron ship not sink in water, it is made with wide surface 
+       area and its body is like a hollow shell, so that the density of the entire ship is less 
+       than the density of water.
+      </p>
+  </subsection>
+
+<subsection xml:id="subsec_ktg-subsection">
+    <title>Kinetic Theory of Gases</title>
+    <introduction>
+      <p>
+        The nature of gas is completely different than solids and liquids. Gas 
+        takes up the entire volume of the container and can be compressed easily. 
+        Gas pressure increases or decreases as the temperature of the container 
+        changes. It diffuses (or leaks out) to the air if the container is left open. On such
+        experiences, <em>Kinetic theory of gas </em> is developed to explain 
+        the nature of heat and the motion of particles associated with heat energy. 
+        According to this theory, gas is composed of large numbers of very tiny 
+        particles called molecules. These molecules are always in random motion 
+        at all possible directions and speeds which increases with the increase of 
+        temperature. In gases, the molecules are very far away from each other 
+        than in solids and liquids and have negligibly small force of 
+        attraction between them. Hence they can move freely anywhere within the available 
+        space. This explains why a gas has no definite shape and size. To 
+        understand the more general behavior of gases the kinetic theory of ideal 
+        gases is postulated as 
+        <ol marker="I">
+          <li> All gases are made up of molecules. Molecules are identical, 
+          rigid, and perfectly elastic moving in random directions with all 
+          possible velocities.</li>
+          <li> The molecules are very far away from each other but they 
+          collide with each other and with walls of the container.</li>
+          <li> All the collisions are elastic, but time spent during each 
+          collision is negligibly small compared to the time spent between 
+          the collisions.</li>
+          <li> Molecules do not interact with each other (no intermolecular 
+          force of attraction) except during a collision.</li>
+          <li> The average kinetic energy of the molecules of any gas depends 
+          only on the temperature. </li> 
+          </ol>
+          Ideal gas is a hypothetical gas of negligible molecular size and 
+          have no interactions among their molecules. In practice, a very 
+          dilute gas with extremely large volume of container space can be 
+          considered as an ideal gas. Remember the real gas molecules has 
+          definite size and may interact with each other. Hence these 
+          postulates are just a very simplified model to understand gas 
+          laws and need modification for real gas behaviors. To experience the 
+          general behavior of gas please play with the simulation link here.
+          <url href="https://phet.colorado.edu/sims/html/gas-properties/latest/gas-properties_en.html">gas laws</url>
+          </p>
+    </introduction>
+   
+ 
+
+<subsubsection xml:id="subsubsec_gl">
+    <title>The Gas Laws</title>
+    <p>
+      From the experience of factors affecting gas pressure the ideal gas law is defined below.
+      <term>Ideal Gas Law</term> or also called equation of state. It is found that the pressure, 
+     <m>p</m> of the gas is directly proportional to number of molecules, <m>N</m> and the absolute 
+      temperature, <m>T</m> and inversely proportional to the volume, V of the gas. That is,
+      <md>
+        <mrow>p \amp \propto \frac{NT}{V} </mrow>
+         <mrow>p \amp = \frac{NkT}{V} </mrow>
+      </md>
+      where <m>k</m> is proportionality constant. Therefore 
+      <men>
+        p V = NkT
+      </men>
+    For <m>n</m> mole of gas, the above equation turns into
+      <men xml:id="eqn-gl">
+        pV = nRT
+      </men>
+      this equation is known as equation of state. Here, <m>n</m> is number of mole of gas in a container
+      and <m>R=8.314 \,J/mol/K</m> is universal gas constant. 
+      </p>
+      <p>If T is constant in this equation then it is called <alert>Boyle's Law</alert> <me>pV= constant.</me>
+        If <m>p</m> is constant in this equation then it is called <alert>Charle's Law</alert> <me>\frac{V}{T}= constant.</me>
+      </p>
+  </subsubsection>
+
+</subsection>
+
+</section>
+

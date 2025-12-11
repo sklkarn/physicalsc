@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<exercises xml:id="ex_eighth" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <!-- You can ommit the title and just get the default "Exercises" -->
+  <title>Exercises</title>
+  
+  <exercise>
+    <statement>
+      <p>
+        Write the missing number in the following equations:
+        <ol marker="a">
+          <li> <m>4NH_3 + 3O_2 → 2N_2 +[...]H_2O </m></li>
+          <li><m>2HNO_3 + 3H_2S → 2NO +[...]H_2 +3S </m>  </li>
+          <li><m>Ca+ [...]H_2O → Ca(OH)_2 +H_2</m> </li>
+          <li><m>2Al + [...]H_2SO_4 → Al_2(SO_4)_3 + 3H_2 </m> </li>
+        </ol>
+      </p>
+    </statement>
+    </exercise>
+
+
+    <exercise>
+      <statement>
+        <p>
+          Which of the following equations are balanced?
+          <ol marker="a">
+            <li> <m>6Na + Fe_2O_3 → 2Fe + 3Na_2O </m></li>
+            <li><m>MnO + 4HCl → MnCl_2 + 2H_2O +Cl_2 </m>  </li>
+            <li><m>H_2CO_3 → H_2O +CO_2 </m> </li>
+            <li><m>Zn + H_2SO_4 → H_2 + ZnSO_4 </m> </li>
+          </ol>
+          </p>
+      </statement>
+      </exercise>
+
+      <exercise>
+        <statement>
+          <p>
+            Name these compounds:
+            <ol marker="a">
+              <li> <m>PbO</m></li>
+              <li><m>BaH_2 </m>  </li>
+              <li><m>CuBr_2</m> </li>
+              <li><m>KOH</m> </li>
+              <li><m>Ca_3(PO_4)_2</m> </li>
+              <li><m>Al_2(SO_4)_3</m> </li>
+            </ol>
+            </p>
+        </statement>
+        </exercise>
+  
+        <exercise>
+          <statement>
+            <p>
+              Write the chemical formula for these compounds:
+              <ol marker="a">
+                <li> Hydrogen iodide</li>
+                <li>Dinitrogen tetroxide</li>
+                <li>Manganese chloride</li>
+                <li>Ferric oxide</li>
+                <li>Ferrous oxide </li>
+                <li>Calcium carbonate</li>
+              </ol>
+              </p>
+          </statement>
+          </exercise>
+
+          <exercise>
+            <statement>
+              <p>
+              Select the correct choice: <em>A halogen atom </em>
+                <ol marker="a">
+                  <li> has one electron in its outermost orbit</li>
+                  <li>has two electron in its outermost orbit</li>
+                  <li>has filled outer shell</li>
+                  <li>lacks one electron of having a filled outer shell</li>
+                  </ol>
+                </p>
+            </statement>
+            </exercise> 
+
+            <exercise>
+              <statement>
+                <p>
+                  Select the correct choice: <em>An atom that loses its outer electron or electrons is generally</em>
+                  <ol marker="a">
+                    <li> an active metal</li>
+                    <li>an active nonmetal</li>
+                    <li>an inactive metal</li>
+                    <li>an inactive nonmetal</li>
+                    </ol>
+                  </p>
+              </statement>
+              </exercise> 
+</exercises>
+
+
+
+

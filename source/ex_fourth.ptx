@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<exercises xml:id="ex_fourth" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <!-- You can ommit the title and just get the default "Exercises" -->
+  <title>Exercise</title>
+  
+  <exercise>
+    <statement>
+      <p>
+        A person is suffering from fever of 103 <m>^oF</m>. 
+        What is his body temperature on the Celsius scale?
+      </p>
+    </statement>
+  </exercise>
+
+  <exercise>
+    <statement>
+      <p>
+        The temperature of outer space is about 3K. What is this temperature on the 
+        <ol marker="a">
+          <li>Celsius scale</li>
+             <li>Fahrenheit scale</li>
+              </ol>
+      </p>
+    </statement>
+  </exercise>
+  
+   <exercise>
+    <statement>
+      <p>
+        How much heat is needed to raise the temperature of 1.0kg of 
+        water from room temperature 20 <m>^oC</m> to its boiling point 100 <m>^oC</m>.
+       </p>
+    </statement>
+  </exercise>
+
+
+  <exercise>
+    <p>
+       What makes 1 g of water steam at 100 <m>^oC</m> more dengerous 
+       than 1 g of water liquid at 100 <m>^oC</m>.
+       </p>
+    </exercise>
+
+<exercise>
+    <p>
+       How does heat transfer occur in a gas?
+       </p>
+    </exercise>
+
+
+<exercise>
+    <p>
+       How does heat transfer occur in avacuum?
+       </p>
+    </exercise>
+
+
+<exercise>
+    <p>
+      Chose the correct option: The fluid at the bottom of the container is 
+       <ol marker="a">
+        <li>under less pressure than the pressure at the top.</li>
+          <li>under the same pressure than the pressure at the top.</li>
+            <li>under more pressure than the pressure at the top.</li>
+              <li>any one of the above, depending upon circumstances.</li>
+          </ol>
+       </p>
+    </exercise>
+
+
+
+<exercise>
+    <p>
+      Chose the correct option: On molecular level, heat is
+       <ol marker="a">
+        <li>kinetic energy.</li>
+          <li>potential energy.</li>
+            <li>sum of kinetic and potential energy.</li>
+              <li>any one of the above, depending upon circumstances.</li>
+          </ol>
+       </p>
+    </exercise>
+
+
+<exercise>
+    <p>
+      How much cooking oil you can put in a container of 0.2m long, 0.1m wide, and 0.3 m high, 
+      if the density of the oil is <m>750 kg/m^3</m>.
+      </p>
+     </exercise>
+
+
+<exercise>
+    <p>
+      A water can is heated to boiling and then sealed when it is still hot. What reason can you give 
+      for the can collapsing as it cools?
+      </p>
+     </exercise>
+
+
+<exercise>
+    <p>
+      Two balls of identical volumes but different masses are being dropped from the top 
+      of a skyscraper. If air resistance acts the same on both balls which will 
+      reach on the ground first or will they reach it together?
+      </p>
+     </exercise>
+
+
+<exercise>
+  <p>
+    What is the SI unit of temperature?
+     <ol marker="a">
+      <li> Kelvin</li>
+        <li>Celsius</li>
+          <li>Fahrenheit</li>
+            <li>Rankine</li>
+        </ol>
+     </p>
+  </exercise>
+
+
+<exercise>
+  <p>
+    What is absolute zero?
+     <ol marker="a">
+      <li> The temperature at which water freezes</li>
+        <li>The temperature at which water boils</li>
+          <li>The lowest possible temperature that can be reached</li>
+            <li>The highest possible temperature that can be reached</li>
+        </ol>
+     </p>
+  </exercise>
+
+
+<exercise>
+  <statement>
+    <p>
+      Which of the following is not a way to measure temperature?
+     <ol marker="a">
+      <li> Thermometer</li>
+        <li>Pyrometer</li>
+          <li>Barometer</li>
+            <li>Thermocouple</li>
+        </ol>
+    </p>
+  </statement>
+  <answer>
+    <p>
+      c.
+    </p>
+  </answer>
+  </exercise>
+
+
+<exercise>
+  <statement>
+    <p>
+      What is the boiling point of water in Celsius?
+     <ol marker="a">
+      <li> <m>0^° C</m></li>
+        <li><m>100^° C</m></li>
+          <li><m>212^° C</m></li>
+            <li><m>373^° C</m></li>
+        </ol>
+    </p>
+  </statement>
+  </exercise>
+
+
+<exercise>
+  <statement>
+    <p>
+      What is viscosity?
+     <ol marker="a">
+      <li> The ability of a fluid to flow.</li>
+        <li>The ability of a fluid to resist flow.</li>
+          <li>The ability of a fluid to change shape.</li>
+            <li>The ability of a fluid to change volume.</li>
+        </ol>
+    </p>
+  </statement>
+  <answer>
+    <p>
+      b.
+    </p>
+  </answer>
+  </exercise>
+
+
+  <exercise>
+    <statement>
+      <p>
+        Which of the following factors affects the buoyant force on an object?
+       <ol marker="a">
+        <li> The volume of the object.</li>
+          <li>The density of the fluid.</li>
+            <li>The depth of the fluid.</li>
+              <li>All of the above.</li>
+          </ol>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        d.
+      </p>
+    </answer>
+    </exercise>
+
+
+    <exercise>
+      <statement>
+        <p>
+          Which of the following is an example of an object that will float in water?
+         <ol marker="a">
+          <li> A lead weight</li>
+            <li>A wooden log</li>
+              <li>A rock</li>
+                <li>A steel ball</li>
+            </ol>
+        </p>
+      </statement>
+      </exercise>
+
+
+    <exercise>
+      <statement>
+        <p>
+          What is the relationship between the temperature of a gas and the average 
+          kinetic energy of its molecules?
+         <ol marker="a">
+          <li> They are directly proportional.</li>
+            <li>They are inversely proportional.</li>
+              <li>They are not related.</li>
+                <li>It depends on the pressure of the gas.</li>
+            </ol>
+        </p>
+      </statement>
+      <answer>
+        <p>
+          a.
+        </p>
+      </answer>
+      </exercise>
+
+
+      <exercise>
+        <statement>
+          <p>
+            What is the relationship between the pressure of a gas and the volume of 
+            its container, according to Boyle's law?
+           <ol marker="a">
+            <li>  They are directly proportional.</li>
+              <li>They are inversely proportional.</li>
+                <li>They are not related.</li>
+                  <li>It depends on the temperature of the gas.</li>
+              </ol>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            b.
+          </p>
+        </answer>
+        </exercise>
+    
+
+</exercises>

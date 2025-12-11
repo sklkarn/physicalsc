@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_fourth-intro" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Thermometers</title>
+  <introduction>
+    <p>
+      As we know now that the most materials change their volume on heating. 
+      Such property of materials can be used to design thermometers <idx>thermometer</idx> to measure the temperature. 
+      There are varieties of thermometers in existence based on the phase (state) of materials being
+      used in the thermometer.  They are solid state thermometer, liquid thermometer, and gas thermometer. 
+      For example: If a solid substance is used in the thermometers, then the thermometers are called 
+      solid state thermometers. Platinum resistance thermometers, the thermometer strip on the wall of aquarium, etc. are 
+      solid state thermometers. If liquid is used in a thermometer, then it is called a liquid thermometer. 
+      Mercury thermometer, alcohol thermometer, etc. are some examples. If a gas is used, then the thermometer is 
+      called a gas thermometer. Hydrogen gas thermometer, helium gas thermometer, nitrogen gas 
+      thermometer, etc. are some examples.  
+    </p>
+    <p>
+      The most common type of thermometer is the liquid thermometer. In this thermometer, mercury or alcohol is
+      filled in a narrow glass tube with a metallic vessel at the bottom. However, due to major
+      developments in electronics, digital thermometers are taking over the market 
+      to become more common thesedays. Here we are going to study the temperature scale on the basis 
+      of the liquid thermometer.
+    </p>
+    <p>There are many types of thermometers in use, but we concentrate our study 
+    on three basic types. They are the Fahrenheit thermometer, the Celsius (or Centigrade) thermometer, 
+    and the Kelvin scale. Thermometers need calibration once they are made to provide correct temperature 
+    readings. To calibrate the thermometer the choice of unit and two reference points are taken. 
+    A centigrade (Celsius) thermometer has 100 divisions between the freezing point (0 degree Celsius) 
+    and the boiling point (100 degree Celsius) of water. A temperature of 76 degree Celsius is abbreviated 
+    as <m>76 ^o\, C</m>. In the Fahrenheit thermometer, there are 180 divisions between the freezing point 
+    (32 degrees Fahrenheit) and the boiling point (212 degrees Fahrenheit) of water. A temperature of 76 
+    degree Fahrenheit is abbreviated as <m>76 ^o\, F</m>. Kelvin scale (usually not called a thermometer) 
+    of temperature is the standard metric system of temperature measurement and mostly used by scientists. 
+    The Kelvin scale has 100 equal degree increments between the freezing point and the boiling point of water 
+    just as the Celsius scale. However, the zero-degree mark on the Kelvin scale is <m>273.15 </m> units 
+    cooler than it is on the Celsius scale. So a temperature of <m>0</m> Kelvin is equivalent to a 
+    temperature of <m>-273.15 ^o\, C</m>. Traditionally, a degree symbol is not assigned to the Kelvin scale. 
+    So, a temperature of 300 units above 0 Kelvin is referred to as 300 Kelvin and not 300 degrees Kelvin. 
+    Hence 300 Kelvin is abbreviated as <m>300 K</m>. Conversions among Celsius, Fahrenheit, and Kelvin scales 
+    are summarized below. The figure below shows Fahrenheit, Celsius, and Kelvin scale thermometers. 
+  </p>
+    <figure>
+    <caption>Thermometers</caption>
+    <sidebyside>
+        <figure>
+            <caption>Fahrenheit</caption>
+            <image source="fig4b.png"/>
+        </figure>
+        <figure>
+            <caption>Celsius</caption>
+            <image source="fig4a.png"/>
+        </figure>
+        <figure>
+            <caption>Kelvin scale</caption>
+            <image source="fig4c.png"/>
+        </figure>
+     </sidebyside>
+</figure>
+  
+    <p>Consider these thermometers are put into three cups of coffee with the same temperature.
+    Where the Celsius thermometer reads a temperature of <m>^oC</m>, <notation>
+      <usage><m>^o\, C</m></usage>
+      <description>degree Centigrade</description>
+    </notation>
+     the Fahrenheit thermometer reads a temperature of <m>^oF</m>, <notation>
+      <usage><m>^o\, F</m></usage>
+      <description>degree Fahrenheit</description>
+    </notation>
+    and a Kelvin scale reads a temperature of <m>K</m>, <notation>
+      <usage><m>K</m></usage>
+      <description>Kelvin</description>
+    </notation>
+    then we can find their relationship as follows. 
+    Let's take one unknown thermometer which has lower reference points marked as <m>L</m> 
+    (for freezing point of water) and upper reference point marked as <m>U</m> (for boiling point of water). 
+    When dipped into the identical cup of coffee, it reads the temperature as <m>X</m>. Hence we can 
+    note the temperature of coffee as <m>\frac{X-L}{U-L}</m>. By comparing all the thermometers readings  
+    we get the relation as  
+    <md>
+      <mrow> \frac{X-L}{U-L}\amp =\frac{F-32}{212-32} = \frac{C-0}{100-0} = \frac{K-273}{373-273}</mrow>
+      <mrow>or, \frac{F-32}{180} \amp  = \frac{C}{100} = \frac{K-273}{100}</mrow>
+       </md>
+    <men xml:id="eqn-tempconv">
+       \therefore \frac{F-32}{9} = \frac{C}{5} = \frac{K-273}{5}
+    </men>
+    
+      This relation is very helpful in converting one unit of temprature into another one.
+    </p>
+    <example>
+      <statement>
+        <p>
+          Convert <m>96 ^o\,F</m> into celsius temperature scale.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Here we use the following relationship
+          <md>
+            <mrow> \frac{F-32}{9} \amp  = \frac{C}{5} </mrow>
+            <mrow>or, \frac{96-32}{9} \amp  = \frac{C}{5} </mrow>
+            <mrow>or, \frac{64}{9} \amp  = \frac{C}{5} </mrow>
+            <mrow>or, 64\times 5 \amp  = C\times 9 </mrow>
+            <mrow>or, C \amp  = \frac{185}{9} </mrow>
+            <mrow>\therefore C \amp  = 35.55 ^o\,C. </mrow>
+          </md>
+        </p>
+      </solution>
+    </example>
+
+    <p>
+    <term>Kelvin Scale:</term> <idx>Kelvin scale</idx> The scale of thermometers depends upon the physical property 
+    (thermal expansion, electrical resistance, etc.) of the substance that is used in the thermometer. 
+    The physical property (e.g. thermal expansion) of materials varies differently at the different range of 
+    temperatures hence all these thermometers have a limited use. With the idea of constructing a temperature 
+    scale which should be independent on the material properties, Scottish physicist William Thomson, Baron 
+    Kelvin proposed on the basis of thermodynamics principles that the lowest possible temperature that could be
+    achieved was <m>-273 ^oC</m>, in 1848. This minimum temperature is the zero point on the Kelvin scale and is 
+    known as absolute zero. Kelvin scale is a hypothetical (theoretical) thermometer scale and is also 
+    known as absolute scale. <fn>According to III law of thermodynamics, it is impossible to obtain 
+    absolute zero by any physical means.</fn>. 
+    </p>
+
+  </introduction>
+
+
+  <subsection xml:id="subsec_qh-subsection">
+    <title>Quantity of Heat</title>
+    <introduction>
+      <p>
+        Heat <idx>heat</idx> is a transfer of energy because of temperature difference. When an object 
+        gains or loses heat it either changes its temperature or its phase (state). A change in temperature is associated with 
+        changes in the average kinetic energy of the particles and a change in phase is associated with changes 
+        in the internal potential energy possessed by the object. In this section we will learn how to measure 
+        the quantity of heat gained or released by an object.
+       </p>
+    </introduction>
+   
+ 
+ <subsubsection xml:id="subsubsec-sh">
+      <title>Specific Heat</title>
+      <p>Heat absorbing capacity of a material is known as specific heat capacity (or simply, <alert>specific heat</alert>). 
+      It is a material property. Different materials absorb different amounts of heat even for the same rise of temperature. 
+      For example, if you heat an identical iron ball and an aluminum ball in the same pot for the same time duration, 
+      then you would be surprised that the aluminum ball is colder than the iron ball. This is because the specific heat of 
+      iron is less than that of aluminum. In iron, more of the heat energy is spent to increase the kinetic energy of its 
+      molecules than to increase the intermolecular potential energy. Hence, the iron has a higher temperature.
+      The quantity of total heat transferred to the body is given by the following formula:
+      <men>
+         Q = mc\Delta T
+      </men> 
+      Where, <m>Q</m> stands for the amount of heat required to change the temperature, <m>m</m> 
+      stands for the mass of the substance, <m>c</m> stands for the specific heat capacity of the substance, and <m>\Delta T</m> stands for 
+      the temperature change (i.e., <m>\Delta T=T_f-T_i</m>). Hence  <em>specific heat</em> can be defined as 
+      the amount of heat required to change the temperature of 1 kg of the substance to <m>1 ^oC</m>. Its SI unit 
+      is <m>J/kg\cdot^oC</m>. The greater the specific heat of the substance, the greater would be the amount of heat 
+      needed to raise the temperature per unit mass. The higher the specific heat of the substance, 
+      the higher the amount of heat it can hold. The table below shows the specific heat of some common materials.
+      </p>
+       
+    <table>
+  <title>Specific heats of some common substances</title>
+  <tabular halign="center">
+    <row header="yes" bottom="minor" >
+      <cell>Substance</cell>
+      <cell>Specific heat (<m>cal/g/^oC</m>)</cell>
+      </row>
+    <row>
+      <cell>Water</cell>
+      <cell>1</cell>
+      </row>
+    <row>
+      <cell>Sand</cell>
+      <cell>0.16</cell>
+      </row>
+    <row>
+      <cell>iron</cell>
+      <cell>0.1</cell>
+    </row>
+    <row>
+      <cell>aluminum</cell>
+      <cell>0.22</cell>
+    </row>
+     <row>
+      <cell>Wood</cell>
+      <cell>0.42</cell>
+    </row>
+    <row>
+      <cell>Ice</cell>
+      <cell>0.5</cell>
+    </row>
+  </tabular>
+</table>
+
+
+<example>
+  <statement>
+    <p>
+      How much heat in calorie is needed to heat 50 kg of water from <m>15 ^o\, C</m> to <m>40 ^o\,C</m>.
+    </p>
+  </statement>
+  <solution>
+    <p>
+    Given: m = 50 kg =50000 g, <m>T_i=15 ^o\,C</m>, <m>T_f=40 ^o\,C</m>, <m>c=1\,cal/g.^o\,C</m>, and Q=?  
+  </p>
+    <p>
+      <m>\Delta T = T_f-T_i = 40-15 = 25 ^o\,C</m>
+   
+    <md>
+      <mrow> Q \amp = mc \Delta T</mrow>
+      <mrow>or, Q \amp = 50000\times 1\times 25</mrow>
+       <mrow>\therefore Q \amp = 1250000 \,cal.= 1250\,kcal.</mrow>
+    </md>
+    </p>
+  </solution>
+</example>
+
+    </subsubsection>
+
+  <subsubsection xml:id="subsubsec-lh">
+    <title>Latent Heat</title>
+    <p>Heat absorbed or released by the material during phase change is called latent heat. 
+    There is no temperature change during a phase change hence this energy is hidden from temperature 
+    scale. The energy dissipated or released during the phase change is in adjustment of particles 
+    potential energy in the bonds. Hence the amount of heat <m>Q</m> during phase change is given by
+    <men>
+      Q  = mL 
+    </men> 
+    Here <m>Q</m> is the amount of heat required to change the state or phase of the substance at 
+    change of state temperature, <m>m</m> is the mass of the substance, and <m>L</m> is the 
+    latent heat of the substance. Latent heat is also a material property. The latent (hidden) heat of 
+    fusion for water at <m>0 ^oC</m> is approximately 79.7 calories (334 J) per gram, 
+    and the latent heat of vaporization at <m>100 ^oC</m> is about 533 calories (2,230 joules) per gram.
+    <url href="https://javalab.org/en/boiling_point_en/">Simulation for Boiling Water</url>
+    </p>
+  </subsubsection>
+</subsection>
+
+<subsection xml:id="subsec-ht-subsection">
+  <title>Heat Transfer</title>
+  <figure>
+    <caption>Conduction Process</caption>
+    <image source="fig4d.png" width="50%">
+    </image>
+</figure>
+  <p>It is a process of the transfer of heat <idx>heat transfer</idx> from one location to another due to 
+  temperature difference. Heat can only flow from high temperature to low 
+  temperature. There are three processes involved in heat transfer. 
+  They are conduction, convection, and radiation. <term>Conduction:</term> 
+  <idx>conduction</idx> In this process heat is transferred through a body by physical contact. 
+  In microscopic level atoms and molecules are always in random motion at 
+  any temperature above absolute zero. When heated, these particles 
+  (atoms and molecules) gain thermal energy and begin vibrating at even 
+  higher amplitude knocking the neighboring particles. By doing so, they 
+  impart some of their energy to their neighboring particles, and so on. 
+  Eventually heat is carried away from one end of a substance to another. 
+  In conduction, heat carrying particles do not physically move from their  
+  place rather they transfer their energy to neighbors when they knock one 
+  another. Every time one particle knocks onto another it passes some of its 
+  energy to the next one then returns to its original place. Heat transfers from 
+  the burner of a stove through the bottom of a pan to food in the pan is 
+  transferred by conduction. Conduction occurs in all states of substances 
+  solid, liquid, and gas. In solids, conduction happens due to molecular 
+  vibration. In gases and liquids, it is due to collision and diffusion 
+  of the molecules during their random motion.
+    </p>
+  <p>
+  <term>Convection:</term> <idx>convection:</idx> In this process heat transfer occurs by the actual movement of fluid particles. 
+  Convection is heat transport due to bulk fluid motion. Convection happens in gases and liquids. 
+  When a fluid is heated, its molecules which are in contact with the hot surface get hot and expand. 
+  That is the fluid above a hot surface expands, becomes less dense, and rises. It carries the thermal energy 
+  along when rising. The relatively cold fluid on the upper surface is heavier and sinks down near the heat source. 
+  Hence a current of heat cycle develops in the convection process, called convection cycle. 
+   </p>
+   <p><term>Radiation:</term> <idx>radiation</idx> It is the process in which heat transfers without 
+    the need of an intervening medium. 
+   Heat transfer occurs when electromagnetic waves are emitted or absorbed. The warming of the earth surface by 
+   the Sun is due to radiation. Heat transfer by this process is the fastest one. All bodies above absolute zero 
+   emit thermal radiation. At room temperature the radiation is in the infrared range, wavelengths longer 
+   than those of the visible spectrum. In an atomic domain, the radiation is caused because of 
+   oscillating ions and electrons in a warm solid that are accelerating electric charges, such charges radiate. 
+   Different substances radiate with different efficiencies. A good radiator of radiation is a good absorber 
+   of radiation. A perfect absorber is called a black body (such perfection is not found in nature, but 
+   some things are close). Hence a black body is also a perfect radiator. A black body absorbs and emits 
+   radiation of all most all frequencies. It was found experimentally that heat energy radiated per unit 
+   time per unit surface area of a perfect black body is proportional to the fourth power of its absolute 
+   temperature.</p>
+</subsection>
+
+   
+<subsection xml:id="subsec_entropy-subsection">
+<title>Entropy</title>
+<p>
+Entropy <idx>entropy </idx> is a mathematical concept explains some useful phenomena of 
+thermodynamics. The change in entropy tells whether the process can 
+occur naturally or not. A natural tendency of systems is to lose order. 
+Hence, entropy measures the disorderness. When salt is dissolved in water 
+it becomes more randomized and will not reconstitute itself in the 
+crystalline form again by itself, unless we apply heat energy from outside 
+to the system and evaporate all water. When a hot and a cold body are put in 
+contact to each other, heat energy begins to flow from the hot body to 
+the cold body until they reach a thermal equilibrium (same Temperature). 
+Heat will never move back the other way. To move heat from a cold body 
+to a hot body an external work must be done by an external source such as 
+a heat pump. Entropy is a measure of the system's thermal energy per unit 
+temperature that is unavailable for useful work. The concept of entropy 
+provides the direction of spontaneous change for many processes. It tells us 
+which process is allowed and which is completely prohibited even if it 
+cannot violate the fundamental law of the conservation of energy. A block of 
+ice placed on a hot pan surely melts, while the pan gets cooler. Such a 
+process is called irreversible because no slight change will cause the 
+melted water to turn back into ice while the pan gets hotter. In contrast, 
+a block of ice placed in an ice water bath will either thaw a little more 
+or freeze a little more, depending on whether a small amount of heat is 
+added to or taken out from the system. Such a process is reversible 
+because only an infinitesimal amount of heat is needed to change its 
+direction from progressive freezing to progressive thawing.
+</p> 
+</subsection>
+
+</section>
+

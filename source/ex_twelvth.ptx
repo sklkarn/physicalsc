@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<exercises xml:id="ex_twelvth" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <!-- You can ommit the title and just get the default "Exercises" -->
+  <title>Exercise</title>
+  
+  <exercise>
+     <p>
+      What are the three main parts of a comet?
+<ol marker ="a.">
+  <li> Nucleus, coma, and tail</li>
+  <li>Mantle, crust, and core</li>
+  <li>Lithosphere, hydrosphere, and atmosphere</li>
+  <li>Ionosphere, thermosphere, and exosphere</li>
+</ol> 
+    </p>
+  </exercise>
+
+<exercise>
+  <p>
+    From where the Meteoroids come
+<ol marker ="a.">
+<li> it come from asteroids, comets, and the debri belt</li>
+<li>it come from the sun</li>
+<li>it come from the moon</li>
+<li>meteorids are member of the solar system</li>
+</ol> 
+ </p>
+</exercise>
+
+<exercise>
+  <p>
+    What is the name of the region in our solar system where comets originate?
+<ol marker ="a.">
+<li> Asteroid belt</li>
+<li>Kuiper belt</li>
+<li>Oort cloud</li>
+<li>Heliopause</li>
+</ol> 
+ </p>
+ <answer>
+  <p>
+    c.
+  </p>
+ </answer>
+</exercise>
+
+
+<exercise>
+  <p>
+    Why are the planets visble to us?
+<ol marker ="a.">
+<li> They are hot enough to radiate light</li>
+<li>They reflect sun light</li>
+<li>They reflect star light</li>
+<li>Their atmospheres emit light due to solar wind</li>
+</ol> 
+ </p>
+</exercise>
+
+<exercise>
+  <p>
+    Which planet is sometimes referred to as the "Red Planet" due to its reddish appearance?
+    <ol marker ="a.">
+      <li> Earth</li>
+      <li>Jupiter</li>
+      <li>Mars</li>
+      <li>Saturn</li>
+      </ol> 
+  </p>
+  <answer>
+    <p>
+      c.
+    </p>
+  </answer>
+</exercise>
+
+<exercise>
+  <p>
+    Which planet is known for having a thick atmosphere of carbon dioxide?
+    <ol marker ="a.">
+      <li> Mars</li>
+      <li>Venus</li>
+      <li>Uranus</li>
+      <li>Neptune</li>
+      </ol> 
+  </p>
+  <answer>
+    <p>
+      b.
+    </p>
+  </answer>
+</exercise>
+
+<exercise>
+  <p>
+    What is the smallest planet in our solar system?
+    <ol marker ="a.">
+      <li>Mars</li>
+      <li>Mercury</li>
+      <li>Uranus</li>
+      <li>Neptune</li>
+      </ol> 
+  </p>
+ </exercise>
+
+
+<exercise>
+  <p>
+    Which planet looks nearly to the moon?
+    <ol marker ="a.">
+      <li>Jupiter</li>
+      <li>Mercury</li>
+      <li>Venus</li>
+      <li>Saturn</li>
+      </ol> 
+  </p>
+  <answer>
+    <p>
+      c.
+    </p>
+  </answer>
+ </exercise>
+
+ <exercise>
+  <p>
+    Name two planets that do not have satellites
+    <ol marker ="a.">
+      <li>Jupiter and Saturn</li>
+      <li>Mercury and Venus</li>
+      <li>Earth and Mars</li>
+      <li>Uranus and Neptune</li>
+      </ol> 
+  </p>
+ </exercise>
+
+ <exercise>
+  <p>
+    What is a lunar eclipse?
+    <ol marker ="a.">
+      <li>When the Moon passes between the Earth and the Sun</li>
+      <li> When the Earth passes between the Sun and the Moon</li>
+      <li>When the Moon passes through the Earth's shadow</li>
+      <li>When the Earth passes through the Moon's shadow</li>
+      </ol> 
+  </p>
+ </exercise>
+
+
+</exercises>
+

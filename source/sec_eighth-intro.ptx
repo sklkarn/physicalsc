@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_eighth-intro" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Changes in Matter</title>
+  <introduction>
+        <p>
+      Matter can undergo basically two types of changes. They are:
+      <ol marker ="I">
+        <li>
+          <term>Physical change:</term> <idx>physical change</idx> It is such a change in matter that do not alter its chemical composition. 
+          For examples:melting, freezing, boiling, condensation, and evaporation. Physical changes are kind of two-way trafic.
+          The material transform its shape and state multiple times. For example, making jewelry from gold bar 
+          and molding them back into gold bar again, making sword from iron bar and converting sword in an iron bar again.
+        </li>
+        <li>
+          <term>Chemical change:</term> <idx>chemical change</idx> It is such a change in matter that alter its chemical composition. Fpr examples: 
+          burning, rusting, and the formation of a chemical compound. It is a one-way trafic where material 
+          transform its physical properties but never regains the original properties by the physical process. For example, Baking a cake,
+          making yogurt from milk. The physical properties of the milk, such as its texture and flavor, are also altered 
+          in the process. Formation of a new chemical compound such as water from hydrogen and oxygen is also a chemical change.
+        </li> 
+      </ol>
+       </p>
+    </introduction>
+
+
+  <subsection xml:id="subsec_8clsm-subsection">
+    <title>The Classification of Matter</title>
+    <figure xml:id="fig-mattclas">
+      <caption>Classification of Matter</caption>
+        <image source="mattclas.png" width="70%">
+          </image>
+      </figure>
+    <p>
+     Instead of three phases (or states) of matter, there are three different classes 
+     of matter based on its composition and properties. They are elements, compounds, and mixture <xref ref="fig-mattclas"/>.
+     <ol marker ="I">
+      <li><term>Elements:</term> An element <idx>element</idx> is a pure substance that cannot be broken down into simpler 
+        substances by any chemical means. Elements are the building blocks of all matter and are 
+        composed of only one type of atom. Examples of elements include hydrogen, oxygen, and gold.</li>
+        <li><term>Compounds:</term>  A compound <idx>compound</idx> is a pure substance that is made up of two or more elements 
+          chemically combined in a fixed ratio. Compounds have different properties from their constituent 
+          elements and cannot be separated into their individual elements by physical means. 
+          Examples of compounds include water (<m>H_2O</m>), salt (<m>NaCl</m>), and glucose (<m>C_6H_{12}O_6</m>).</li>
+          <li><term> Mixtures:</term> A mixture <idx>mixture</idx> is a combination of two or more substances in which each 
+            substance retains its own chemical properties. Mixtures can be separated into their individual 
+            components by physical means. There are two main types of mixtures: homogeneous mixtures, 
+            where the substances are evenly mixed, and heterogeneous mixtures, where the substances are not 
+            evenly mixed. Examples of mixtures include air, fruit juice, and concrete.</li>
+          </ol>
+        </p>
+              <p>
+                In <term>homogeneous mixture</term> substances are evenly mixed and have the same composition throughout. 
+                Homogeneous mixture is also called a <term>solution</term> Here are some examples of homogeneous mixtures: <em>Salt water:</em> When salt is dissolved in water, 
+                the result is a homogeneous mixture, in which the salt and water are evenly distributed 
+                throughout the solution. <em>Air:</em> Air is a mixture of gases, including nitrogen, oxygen, 
+                and trace amounts of other gases, that are evenly mixed and have the same composition 
+                throughout the entire volume of air. <em>Honey:</em> Processed honey is a homogeneous mixture but raw honey is not. 
+                <em>Vinegar:</em> Vinegar is a homogeneous mixture of water and acetic acid, with the water 
+                and acetic acid evenly mixed throughout the entire substance. Saltwater, Sugar solution, Seawater,  
+                Soda Pop, etc are some examples of homogeneous mixture.
+              </p>
+                <p>
+                  In <term>heterogeneous mixture</term> substances are not evenly mixed and have different 
+                  compositions in different parts of the mixture. Heterogeneous mixtures are easy to identify, as the 
+                  individual substances are easily visible and can be separated from one another by physical means. 
+                  Here are some examples of heterogeneous mixtures: <em>Fruit salad:</em> A mixture of fruit, 
+                  such as apples, bananas, and grapes, cut into pieces and combined in a bowl is a heterogeneous mixture. 
+                  Each piece of fruit has its own unique composition, and the composition of the mixture changes 
+                  from one part of the mixture to another. <em>Granola:</em> A mixture of oats, nuts, 
+                  dried fruit, and sweeteners is a heterogeneous mixture, as the ingredients are not evenly mixed 
+                  and the composition of the mixture changes from one part of the mixture to another. 
+                  <em>Sand and water:</em> A mixture of sand and water is a heterogeneous mixture, 
+                  as the sand particles settle to the bottom of the container and the water is clear. 
+                  The composition of the mixture changes from the top of the mixture to the bottom. 
+                  <em>Soil:</em> Soil is a mixture of minerals, organic matter, air, and 
+                  water, and is a heterogeneous mixture as the composition of the soil changes from one part of 
+                  the soil to another. <em>Concrete:</em> Concrete is a mixture of cement, sand, gravel, 
+                  and water, and is a heterogeneous mixture, as the composition of the concrete changes 
+                  from one part of the mixture to another. 
+                </p>
+                <p>
+                  <em>Milk </em> is neither a homogeneous nor a hetrogeneous mixture rather it comes under <em>coloidal</em> solution type.
+               Milk is a mixture of water, fat, proteins, and sugars that are not evenly distributed throughout the mixture. 
+               Blood is also a coloidal solution. Fog, gelatin, smoke, etc. are some examples of coloidal type.
+               <em>Colloids</em> have larger particles that are dispersed in a medium non-uniformly at the molecular level.  
+                </p>
+                 </subsection>
+
+<subsection xml:id="subsec-8atheory">
+  <title>Atomic Theory</title>
+<p>
+  Atomic theory is the foundation of modern chemistry and provides a basic understanding of the nature 
+  of matter. The theory states that all matter is made up of tiny particles called atoms, 
+  which are the smallest units of matter that retain the properties of an element. <em>Atoms are indivisible:</em> 
+  Atoms are the smallest units of matter that can exist and cannot be broken down into smaller units. 
+  <em>Atoms are identical:</em> Atoms of the same element are identical and have the same number of protons, 
+  electrons, and neutrons. <em>Atoms have structure:</em> Atoms have a small central nucleus, which contains 
+  positively charged protons and neutral neutrons, surrounded by negatively charged electrons in shells. 
+  <em>Atoms are arranged in the periodic table:</em> Atoms of different elements have different numbers of 
+  protons, electrons, and neutrons and are arranged in the periodic table according to their atomic number, 
+  which is equal to the number of protons in the nucleus. <em>Atoms can bond to form molecules:</em> Atoms 
+  can bond together to form molecules by sharing or exchanging electrons. The properties of molecules 
+  are determined by the type of atoms and the way they are bonded together. <em>Atoms can be ionized:</em> 
+  Atoms can gain or lose electrons to become positively or negatively charged ions. 
+  Ions play an important role in many chemical reactions.
+</p>
+<p>
+  <term>Molecule:</term> A molecule <idx>molecule</idx> is the smallest unit of a substance that retains the chemical 
+  properties of that substance and can exist as a separate entity. It is composed of two or more atoms 
+  that are chemically bonded together. In a molecule, the atoms are held together by chemical bonds, 
+  which are formed by the sharing or exchange of electrons between the atoms. The type of bonds 
+  and the arrangement of atoms in a molecule determine the chemical and physical properties of the substance.
+  Molecules can be formed from a single type of atom, such as a molecule of oxygen (<m>O_2</m>), 
+  or from different types of atoms, such as a molecule of water (<m>H_2O</m>). The number of atoms 
+  in a molecule and the type of atoms can also vary, giving rise to a vast array of different molecules, 
+  each with its own unique properties. Molecules are the building blocks of matter and play a crucial 
+  role in many physical and chemical processes, including chemical reactions, phase transitions, 
+  and the formation of materials. A deep understanding of the structure and properties of molecules is 
+  essential for many scientific and engineering disciplines, including chemistry, biology, 
+  materials science, and environmental science. 
+</p>
+  <p>
+    <alert>Difference between molecule and compound:</alert> A molecule is a group of two or more 
+    atoms that are chemically bonded together. A compound is a substance made up of two or more 
+    different elements that are chemically combined in a fixed ratio. The main difference between a 
+    molecule and a compound is that a molecule is a collection of atoms that are bonded together, 
+    whereas a compound is a substance that consists of molecules made up of different elements 
+    in a fixed ratio. For example, water (<m>H_2O</m>) is a compound made up of hydrogen and oxygen 
+    atoms in a fixed ratio of 2:1. The smallest unit of water that retains its chemical properties 
+    is a molecule of water, which is made up of two hydrogen atoms and one oxygen atom 
+    chemically bonded together. Another example is table salt (NaCl), which is a compound 
+    made up of sodium and chlorine atoms in a fixed ratio of 1:1. The smallest unit of salt 
+    that retains its chemical properties is a molecule of salt, which is made up of one 
+    sodium atom and one chlorine atom chemically bonded together. 
+  </p>
+  <p>
+    Hydrogen gas is made out of <m>H_2</m> molecules. It is not a compound. Oxygen gas is made out of 
+    <m>O_2</m> molecules and is also not a compound. They are made out of two atoms of the same element. 
+    Similarly, Ozone gas (<m>O_3</m>), nitrogen gas (<m>N_2</m>), chlorine substance (<m>Cl_2</m>) are molecule. 
+    However, carbon dioxide gas (<m>CO_2</m>) is a compound and a molecule both, similarly, amonia 
+    (<m>NH_3</m>) is a compound and a molecule both. Because they are made out of two different elements. 
+    All compounds are molecules but all molecules are not compounds. </p>
+    <p>
+      Some substances are elemental such as iron bar (Fe), liquid mercury (Hg), helium gas (He), gold jewlry (Au), etc., 
+      some are molecular such as hydrogen gas (<m>H_2</m>), oxygen gas (<m>O_2</m>), ozone gas (<m>O_3</m>), water (<m>H_2O</m>), 
+      methane (<m>CH_4</m>), carbon dioxide gas (<m>CO_2</m>), amonia (<m>NH_3</m>), diamond (<m>C_4</m>), glucose (<m>C_6H_{12}O_6</m>) etc.
+      <alert>diamond</alert> is a pure form of carbon, but it is not an element.  
+        An element is a substance that cannot be broken down into simpler 
+        substances by chemical means, while a molecule is a group of two or more atoms that are 
+        chemically bonded together.
+    </p>
+</subsection>
+
+
+</section>
+

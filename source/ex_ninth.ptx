@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<exercises xml:id="ex_ninth" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <!-- You can ommit the title and just get the default "Exercises" -->
+  <title>Exercises</title>
+  
+  <exercise>
+    <statement>
+      <p>
+        The solubility of solid dissolved in a liquid increases with 
+        <ol marker ="a">
+          <li>increase of temperature.</li>
+          <li> decrease of temperature.</li>
+            <li> temperature does not effect solubility.</li>
+           <li> None of the above. </li>
+            </ol>
+        </p>
+    </statement>
+    </exercise>
+
+<exercise>
+  <p>
+    Dissolving a solute in a liquid 
+    <ol marker ="a">
+      <li>increases the freezing point of liquid.</li>
+      <li> decreases the freezing point of liquid.</li>
+        <li> does not the freezing point.</li>
+       <li> does any of the above, depending on the substance involved. </li>
+        </ol>
+  </p>
+</exercise>
+
+<exercise>
+  <p>
+    Which of the following statements is true concerning acids and bases?
+    <ol marker ="a">
+      <li>acids and bases don't react with each other. </li>
+      <li>acids mixed with bases neutralize each other.</li>
+        <li> acids mixed with bases make stronger bases.</li>
+       <li> acids mixed with bases make stronger acids. </li>
+        </ol>
+  </p>
+</exercise>
+
+<exercise>
+  <p>
+    True or false: bases are sometimes called alkalis.
+    <ol marker ="a">
+      <li>True. </li>
+      <li>False.</li>
+        </ol>
+  </p>
+</exercise>
+
+<exercise>
+  <p>
+    Which is true?
+    <ol marker ="a">
+      <li>pH of less than 7 is basic; pH of more than 7 is acidic. </li>
+      <li> pH of less than 7 is acidic; pH of more than 7 is basic.</li>
+        </ol>
+  </p>
+</exercise>
+
+<exercise>
+  <p>
+    Which substance completely dissociates in water?
+    <ol marker ="a">
+      <li>Weak acids. </li>
+      <li> Strong acids.</li>
+        </ol>
+  </p>
+</exercise>
+
+<exercise>
+  <p>
+    What is the pH of a neutral solution?
+    <ol marker ="a">
+      <li>7 </li>
+      <li> 0</li>
+      <li>14</li>
+      <li>1</li>
+        </ol>
+  </p>
+</exercise>
+
+<exercise>
+  <p>
+    Which of the following is a strong acid?
+    <ol marker ="a">
+      <li>HClO </li>
+      <li> HF</li>
+      <li><m>H_2SO_4</m></li>
+      <li><m>HNO_3</m></li>
+        </ol>
+  </p>
+  <answer>
+    <p>
+      c.
+    </p>
+  </answer>
+</exercise>
+
+
+<exercise>
+  <p>
+    Which of the following is a weak base?
+    <ol marker ="a">
+      <li>KOH</li>
+      <li> NaOH</li>
+      <li><m>NH_3</m></li>
+      <li><m>Ca(OH)_2</m></li>
+        </ol>
+  </p>
+  <answer>
+    <p>
+      c.
+    </p>
+  </answer>
+</exercise>
+
+
+<exercise>
+  <p>
+    What is the product of the neutralization reaction between hydrochloric acid (HCl) and sodium hydroxide (NaOH)?
+    <ol marker ="a">
+      <li>Water and sodium chloride.</li>
+      <li> Carbon dioxide and sodium chloride.</li>
+      <li>Water and sodium carbonate.</li>
+      <li>None of the above.></li>
+        </ol>
+  </p>
+  <answer>
+    <p>
+      a.
+    </p>
+  </answer>
+</exercise>
+
+</exercises>
+
+
+
+

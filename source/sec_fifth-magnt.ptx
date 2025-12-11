@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_fifth-magnt" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Magnetism</title>
+  <introduction>
+    <figure>
+      <caption></caption>
+      <sidebyside widths="30% 30% 30%">
+        <figure xml:id="fig-fig5f">
+          <caption>Shapes of Magnets</caption>
+         <image source="fig5f.png">
+  </image>
+      </figure>  
+      <figure xml:id="fig-earthmagnt">
+        <caption>Geomagnetism</caption>
+       <image source="earthmagnt.png">
+        </image>
+    </figure>  
+    <figure xml:id="fig-fig5e">
+      <caption>Magnet Property</caption>
+     <image source="fig5e.png">
+</image>
+  </figure>
+    </sidebyside>
+    </figure>  
+
+    <p>
+      It is a branch of physics which deals with magnets and magnetic 
+      properties of materials. It defines the magnetic behavior of material 
+      which is associated with the motion of electric charge. The motion of 
+      charges in a conductor or in space gives rise to magnetic fields 
+      and magnetism is a result of magnetic fields. The word ”magnet” is 
+      taken from the Latin word <m>\mu \alpha \gamma \nu \eta' \tau \eta \zeta </m> 
+      <m>\lambda \iota \theta o \zeta </m> meaning stones from magnesia. 
+      ”Magnetis [líthos]” is a source of lodestones found in Manisa, Turkey. 
+      Magnetism is caused by moving charges and is experienced by moving 
+      charges. It is a phenomenon of materials by which they attract or 
+      repel other materials. The motion of an electron in an orbit around 
+      a nucleus or its spin on an axis produces a magnetic field. 
+      </p>
+    <p>
+      The most familiar magnet is a bar magnet. It is a piece of iron bar that 
+      has been magnetized. However, other shapes of magnets <xref ref="fig-fig5f"/> are also 
+      available these days such as disk magnet, horseshoe magnet, ring magnet, etc. 
+      In any magnet, <idx>magnet</idx> there are two regions (normally at the ends or faces) 
+      where magnetic strength is very strong. These stronger regions are called 
+      magnetic poles. One is designated as <em>north pole, N</em> and the 
+      other as <em>south pole, S</em>. This is because when a magnet is hanged by a thread and allowed to 
+      rotate freely, it will align itself in a north-south direction, 
+      due to the earth's magnetic field. The north end of the magnet will 
+      point towards the Earth's geographic north pole and the south end 
+      towards the Earth's geographic south pole. This is why north pole is also 
+      known as <em>north seeking pole</em> and the south pole as <em>south seeking pole</em>. 
+      The magnet also aligns at an angle itself with the earth's horizontal plane.  
+      This angle is known as the <alert> angle of dip or inclination</alert>, it varies depending 
+      on the location on the earth surface. The magnet also aligns itself at an angle
+      from the true north-south direction. This angle is known as <alert>magnetic declinaiton</alert>. 
+      The magnetic declination is the angle between magnetic north and true north direction. 
+      Magnetic north is the direction indicated by a compass, and true north 
+      is the direction of the Earth's geographic north pole <xref ref="fig-earthmagnt"/>. This angle can 
+      vary depending on location and time. 
+      </p>
+        
+      <p>
+      Like poles of magnet repel and unlike poles attract. North and south 
+      poles always exist in pairs (there are no magnetic monopoles in nature), 
+      so if one were to split a permanent magnet in half, two smaller magnets 
+      would be created, each with a north pole and south pole. Even if one 
+      cuts a magnet into pieces all the way down to a single atom, they still 
+      get a N pole and a S pole because of orbiting electrons in the atom <xref ref="fig-fig5e"/>. 
+      Just like a gravitational force both electric and magnetic forces 
+      can act on the objects without being in direct contact.
+      </p>
+  </introduction>
+  
+  <subsection xml:id="subsec_5em-subsection">
+    <title>Electromagnetism</title>
+    <figure>
+      <caption>Right Hand Thumb Rule</caption>
+     <image source="fig5g.png" width="30%">
+</image>
+  </figure>
+    <p>
+      Hans Christian Orsted discovered that electric currents can produce magnetic fields and 
+      Faraday discovered that magnetic fields can be used to induce electric 
+      currents in a circuit. A moving electrical charge also generates a magnetic field 
+      just as a changing magnetic field induces current in a conductor. 
+      In fact, a traditional magnet is the result of individual motion 
+      of electrons within the atoms of the magnet. These atoms are so aligned 
+      that the magnetic field produced by their electrons are pointed along a uniform
+       direction giving rise to a mangetic field of the magnet.
+      In non-magnetic materials, the electrons move in such a way that the 
+      individual magnetic fields point in different directions, so they 
+      cancel each other out and the net magnetic field generated is negligible.
+      In normal condition, magnetic fields of the magnetic material are 
+      distributed in groups of small regions, called <em>domains</em> 
+      and magnetic fields of each domain are oriented in different directions 
+      to cancel each other's effect. This is why iron is just a piece of metal bar
+      unless it is magnetized. 
+    </p>
+    <p>
+      Electromagnetism is considered as the interaction of electric 
+      and magnetic effects. It tells that 
+      <ol> <li> the moving charges (current) give 
+      rise to magnetic fields, <url href="https://javalab.org/en/oersteds_experiment_en/">current produce magnetic field</url>
+      </li> and 
+      <li> changing magnetic field gives rise to electric current  
+      <url href="https://javalab.org/en/faradays_law_en/">magnetic field generating current</url> </li>.
+      </ol>
+      The direction of the magnetic field produced by a current in wire can be determind 
+      using <em>right hand thumb rule</em>. If fingers of the right hand are curled along the direction 
+      of the current moving then the thumb is pointed along the direction of the magnetic field produced by 
+      the current. In contrary, if the thumb is pointed along the direction of the current then curled fingers 
+      show the direction of the magnetic field generated around the wire.
+    </p>
+  
+  </subsection>
+
+ <subsection xml:id="subsec-Electmag">
+      <title>Electromagnet</title>
+      <p> An electromagnet typically consists of a coil of wire, often wrapped around a 
+      ferromagnetic core, such as iron. When an electric current is passed through the coil, 
+      it creates a magnetic field around the core. This magnetic field can be used to attract or 
+      repel ferromagnetic materials. The strength of the magnetic field is directly proportional 
+      to the amount of current flowing through the coil. Electromagnets are used in a wide 
+      range of applications, including electric motors, generators, and 
+      audio speakers. They can also be used to create temporary or adjustable 
+      magnetic fields, making them useful in scientific and industrial settings. 
+      <url href="https://javalab.org/en/magnetic_field_around_a_coil_en/"><c>electromagnet</c></url>
+     </p>
+      </subsection>
+    
+  <subsection xml:id="subsec_5trnfr-subsection">
+    <title>Transformer</title>
+    <p>
+      A transformer <idx>transformer</idx> is an electrical appliance which converts large current at low voltage 
+      to low current at high voltage, and vice versa. It uses the principle of electromagnetic 
+      induction to transform electrical energy from one circuit to another one. An AC current is 
+      needed to operate a transformer. In AC current direction of current is keep changing which changes 
+      the magnetic field generated in the primary coil of the transformer. Such a changing magnetic 
+      field induces the current in the secondary coil of the transformer. A typical transformer consists of a 
+      two or more coils of insulated wire wound on a laminated iron core. An alternating (AC) voltage 
+      which is to be reduced or increased is connected to the coil, called the primary coil or input coil. 
+      This coil magnetizes the iron core. A voltage is then induced in the other coil, called the 
+      secondary or output coil. The change of voltage (or voltage ratio) between the primary and 
+      secondary coils depends on the turns ratio of their two coils. 
+      <url href="https://www.falstad.com/circuit/e-transformer.html"><c>Transformer</c></url>
+      <men>\frac{V_p}{V_s}=\frac{N_p}{N_s}</men>
+      <figure>
+            <caption>Schematic of Transformer</caption>
+           <image source="fig5h.png" width="50%">
+    </image>
+        </figure>
+      There are two types of transformer based on their operation. If the number of turns in a primary 
+      coil is less than that of a secondary coil then it is called a step-up transformer and if the 
+      number of turns in a primary coil is grater than that in secondary then it is called a step-down transformer. Transformer transfers 
+      an electrical power from primary coil to a secondary coil hence it also obeys the principle of conservation 
+      of energy. That is, 
+      <md>
+        <mrow> P_o\amp = P_i</mrow>
+        <mrow>or, I_pV_p\amp =  I_sV_s</mrow>
+        <mrow>or,  \frac{V_p}{V_s} \amp =\frac{I_s}{I_p}</mrow>
+        </md>
+        <men xml:id="transvni">\therefore \quad \frac{V_p}{V_s}=\frac{I_s}{I_p}=\frac{N_p}{N_s}</men>
+        see equation <xref ref="eqn-piv"/> for electrical power.
+    </p>
+  </subsection>
+
+</section>
+

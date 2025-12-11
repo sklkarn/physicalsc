@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<exercises xml:id="ex_fifth" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <!-- You can ommit the title and just get the default "Exercises" -->
+  <title>Exercise</title>
+  
+  <exercise>
+     <p>
+        An atom or a molecule that loses an electron becomes a  
+        <ol marker="a">
+          <li>positive ion</li> 
+            <li>negative ion</li> 
+              <li>neutral</li>
+                <li>conductor</li>
+                  </ol>
+             </p>
+  </exercise>
+
+  <exercise>
+     <p>
+        Ohms law defines current flow through what type of substance? 
+        <ol marker="a">
+          <li>Conductor</li> 
+            <li>Insulator</li> 
+              <li>Non-conductor</li>
+                <li>Both a. and b.</li>
+                  </ol>
+      </p>
+  </exercise>
+
+   <exercise>
+     <p>
+        Which of the following is the symbol of ohms?  
+        <ol marker="a">
+          <li><m>\alpha</m></li> 
+            <li><m>\omega</m></li> 
+              <li><m>\Omega</m></li>
+                <li><m>\beta</m></li>
+                  </ol>
+      </p>
+  </exercise>
+
+  <exercise>
+     <p>
+        What substance is attracted to a magnet? 
+        <ol marker="a">
+          <li>iron and its alloys.</li> 
+            <li>silver.</li> 
+              <li>water.</li>
+                <li>all substances.</li>
+                  </ol>
+      </p>
+  </exercise>
+
+  <exercise>
+     <p>
+        What happens to the magnetic field when a magnet is strongly heated or hammered?
+        <ol marker="a">
+          <li>becomes weaker.</li> 
+            <li>is unchanged.</li> 
+              <li>becomes stronger.</li>
+                <li>reverses its direction.</li>
+                  </ol>
+      </p>
+  </exercise>
+
+
+ <exercise>
+     <p>
+       What is the direction of the magnetic field under the power line if a
+        current is flowing through it towards the south? 
+        <ol marker="a">
+          <li>east.</li> 
+            <li>west.</li> 
+              <li>north.</li>
+                <li>south.</li>
+                  </ol>
+      </p>
+  </exercise>
+
+  <exercise>
+     <p>
+       A transformer has more turns on its primary coil than on the secondary coil. It is a
+       <ol marker="a">
+        <li>step up transformer</li>
+          <li>step down transformer</li>
+            <li>None of the above</li>
+              <li>both step-up and step-down transformer.</li>
+                </ol>
+      </p>
+  </exercise>
+
+ <exercise>
+     <p>
+       Calculate the force of repulsion between two charges of <m>2C</m> placed at <m>10 cm</m> apart.
+      </p>
+  </exercise>
+
+        
+ <exercise>
+     <p>
+       If two charges placed at 2 cm experience 5 N force. what would be the magnitude of this force if the charges are shifted to 10 cm apart.
+      </p>
+  </exercise>
+
+       
+ <exercise>
+     <p>
+       Calculate the force of repulsion between two charges of <m>2C</m> placed at <m>10 cm</m> apart.
+      </p>
+  </exercise>
+
+        
+ <exercise>
+     <p>
+       A transformer has 500 turns in its primary coil and is connected to 400 V. 
+       Find the voltage in the secondary coil if it has 25 turns.
+      </p>
+  </exercise>
+
+
+ <exercise>
+     <p>Recognize the series and parallel circuits from the circuit diagrams given below.
+       </p>
+
+    <figure>
+      <caption>DC circuits</caption>
+      <sidebyside widths ="18% 18% 18%">
+          <figure>
+              <caption></caption>
+              <image source="fig5cira.png"/>
+          </figure>
+          <figure>
+              <caption></caption>
+              <image source="fig5cirb.png" />
+          </figure>
+          <figure>
+              <caption></caption>
+              <image source="fig5circ.png" />
+          </figure>
+       </sidebyside>
+  </figure>
+    </exercise>
+
+  <exercise>
+    <statement>
+      <p>
+        A circuit contains a resistor with a resistance of 20 ohms, connected to a battery with a voltage of 12 volts. 
+        What is the current flowing through the circuit?
+      </p>
+    </statement>
+  </exercise>
+
+  <exercise>
+    <p>
+      A circuit has a voltage of 12 volts and a current of 2 amperes. 
+      What is the resistance of the circuit? 
+    </p>
+  </exercise>
+  
+  <exercise>
+    <url href="https://www.physics-chemistry-interactive-flash-animation.com/electricity_electromagnetism_interactive/simple_circuit_flash.htm">Electrical Circuit</url>
+  </exercise>
+ 
+
+  <!-- For an example of WeBWorK, uncomment the next -->
+  <!-- exercise and run `pretext build html -w`.     -->
+  <!-- <exercise>
+    <webwork xml:id="ex_fifth-webwork-add-numbers">
+      <description>
+        Add two positive single-digit integers.
+      </description>
+
+      <pg-code>
+        $a = random(1, 9, 1);
+        $b = random(1, 9, 1);
+        $c = Compute($a + $b);
+      </pg-code>
+
+      <statement>
+        <p>
+          Compute the sum of <m><var name="$a" /></m> and <m><var name="$b" /></m>:
+        </p>
+        <p>
+          <m><var name="$a" /> + <var name="$b" /> =</m><var name="$c" width="5" category="integer" />
+        </p>
+      </statement>
+
+      <solution>
+        <p>
+          <m><var name="$a" /> + <var name="$b" /> = <var name="$c" /></m>.
+        </p>
+      </solution>
+    </webwork>
+  </exercise> -->
+
+</exercises>
+

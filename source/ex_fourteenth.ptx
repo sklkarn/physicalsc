@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<exercises xml:id="ex_fourteenth" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <!-- You can ommit the title and just get the default "Exercises" -->
+  <title>Exercise</title>
+  
+  <exercise>
+     <p>
+      What is the universe?
+<ol marker ="a.">
+  <li> The solar system</li>
+  <li>The Milky Way galaxy</li>
+  <li>Everything that exists, including all matter and energy</li>
+  <li>The region of space beyond the Earth's atmosphere</li>
+</ol> 
+    </p>
+    <answer>
+      <p>
+        c.
+      </p>
+    </answer>
+  </exercise>
+
+
+  <exercise>
+    <p>
+      What is dark energy?
+<ol marker ="a.">
+ <li> A mysterious force that is causing the expansion of the universe to accelerate</li>
+ <li>A type of energy that is invisible to telescopes</li>
+ <li>A force that opposes gravity</li>
+ <li>A force that causes galaxies to collide with each other</li>
+</ol> 
+   </p>
+   <answer>
+     <p>
+       a.
+     </p>
+   </answer>
+ </exercise>
+
+ <exercise>
+  <p>
+    What is a galaxy?
+<ol marker ="a.">
+<li>  A group of stars that orbit around a common center of mass</li>
+<li>A single star</li>
+<li>A black hole</li>
+<li>A planet</li>
+</ol> 
+ </p>
+ <answer>
+   <p>
+     a.
+   </p>
+ </answer>
+</exercise>
+
+
+<exercise>
+  <p>
+    Which force keeps stars in a galaxy from flying off into space?
+<ol marker ="a.">
+<li> Electromagnetic force</li>
+<li>Weak nuclear force</li>
+<li>Strong nuclear force</li>
+<li>Gravitational force</li>
+</ol> 
+ </p>
+ <answer>
+   <p>
+     d.
+   </p>
+ </answer>
+</exercise>
+
+
+
+<exercise>
+  <p>
+    What is Hubble's law?
+<ol marker ="a.">
+<li>The law that describes the expansion of the universe</li>
+<li>The law that describes the gravitational attraction between two bodies</li>
+<li>The law that describes the conservation of energy in a closed system</li>
+<li>The law that describes the behavior of waves in a medium</li>
+</ol> 
+ </p>
+ <answer>
+   <p>
+     a.
+   </p>
+ </answer>
+</exercise>
+
+
+</exercises>
+

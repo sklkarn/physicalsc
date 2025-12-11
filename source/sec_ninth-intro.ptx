@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_ninth-intro" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Crystalline Solids</title>
+  <introduction>
+    <figure>
+      <caption>Crystal structure of Solids</caption>
+      <sidebyside widths="25% 25% 25% 25%">
+          <figure xml:id="fig-diamnd">
+              <caption>Diamond</caption>
+              <image source="diamond.png"/>
+          </figure>
+          <figure xml:id="fig-grapht">
+              <caption>Graphite</caption>
+              <image source="graphite.png"/>
+          </figure>
+          <figure xml:id="fig-metsolid">
+            <caption>Metallic Solid</caption>
+            <image source="metsolid.png"/>
+        </figure>
+        <figure xml:id="fig-snowflake">
+            <caption>Molecular Solid</caption>
+            <image source="snowflake.png"/>
+        </figure>
+        </sidebyside>
+  </figure>
+
+   <p>
+    On the basis of chemical bonding <idx>chemical bonding</idx> there are four main types of crystalline 
+    solids: 
+<ol marker="i">
+    <li>
+      <term>Ionic solids:</term> These solids are made up of positively 
+      charged ions and negatively charged ions held together by electrostatic 
+      forces. These molecules are hard and posses high melting point. 
+      Examples include sodium chloride (NaCl) 
+      and calcium fluoride <m>(CaF_2)</m> [<xref ref="fig-nacl"/>]. 
+    </li>
+    <li>
+        <term>Covalent solids:</term>  These solids are made up of atoms 
+        held together by covalent bonds. These molecules are very hard and posses 
+        very high melting point. Examples include diamond 
+        [<xref ref="fig-diamnd"/>] and graphite [<xref ref="fig-grapht"/>]. 
+    </li>
+    <li>
+        <term>Metallic solids: </term>  These solids are made up of metal atoms 
+        held together by metallic bonds. These molecules can be deformed, 
+        have metallic luster, high electrical and thermal conductivity. 
+        Examples include copper, iron, and gold. [<xref ref="fig-metsolid"/>]
+    </li>
+    <li>
+        <term>Molecular solids: </term> These solids are made up of molecules 
+        held together by intermolecular forces such as hydrogen bonds, 
+        van der Waals forces, and dipole-dipole interactions. These molecules 
+        are soft and posses low melting point.
+        Examples include ice <m>(H_2O) </m> and solid carbon dioxide 
+        <m>(CO_2)</m> [<xref ref="fig-snowflake"/>].
+    </li>
+    </ol>  
+   </p> 
+</introduction>
+  
+<subsection xml:id="subsec-polnon">
+    <title>Polar &amp; Nonploar Molecules</title>
+    <figure>
+        <caption>Polar and nonpolar molecules</caption>
+        <sidebyside widths="20% 20% 10%">
+            <figure xml:id="fig-polmol">
+                <caption>Polar-polar interaction</caption>
+                <image source="capsule.png"/>
+            </figure>
+            <figure xml:id="fig-nonpolmol">
+                <caption>Polar-nonpolar interaction</caption>
+                <image source="capsule2.png"/>
+            </figure>
+            <figure xml:id="fig-polnonpolmol">
+                <caption>Nonpolar-nonpolar interaction</caption>
+                <image source="capsule3.png"/>
+            </figure>
+         </sidebyside>
+    </figure>
+   <p>
+    A <term>polar</term> <idx>polar</idx> molecule has none symmetrical distribution of electrons between its atoms 
+     resulting in a permanent dipole moment. This means that the molecule 
+     has a partial positive charge at one end and a partial negative charge 
+     at the other end. The polarity of a molecule is determined by the 
+     difference in electronegativity between the atoms that make up the 
+     molecule. If the electronegativity difference is large enough, 
+     the molecule will be polar. Examples of polar molecules include water 
+     <m>(H_2O)</m>, ammonia <m>(NH_3)</m>, and hydrogen chloride <m>(HCl)</m>. 
+     Polar molecules are important in many biological and chemical processes, 
+     including the formation of hydrogen bonds, the solubility of molecules 
+     in water, and the function of enzymes. Polar molecules attract each 
+     other due to the presence of partial positive and partial negative 
+     charges on opposite ends of the molecule. This attraction is known 
+     as a dipole-dipole interaction [<xref ref="fig-polmol"/>]. 
+   </p> 
+   <p>
+    A <term>nonpolar</term> <idx>non-polar</idx> molecule has no separation of charge, meaning 
+    that the electrons are shared equally between the atoms in the molecule. 
+    This occurs when the electronegativity difference between the atoms in the 
+    molecule is zero or very small. Examples of nonpolar molecules include: 
+    carbon dioxide <m>(CO_2)</m>, methane <m>(CH_4)</m>, ethane <m>(C_2H_6)</m>, 
+    nitrogen gas <m>(N_2)</m>, oxygen gas <m>(O_2)</m>, benzene <m>(C_6H_6)</m>. 
+    These molecules do not have a positive or negative pole, which means that 
+    they do not have a permanent dipole moment. Nonpolar molecules are generally 
+    less reactive than polar molecules and have lower melting and boiling points 
+    [<xref ref="fig-nonpolmol"/>].
+   </p>
+   <p>
+    Nonpolar molecules however, interact through weak van der Waals forces, 
+    which are caused by temporary fluctuations in electron density that create 
+    a temporary dipole moment. In contrast, partial positive and negative charges 
+    on different parts of the polar molecule allow polar molecules to form 
+    strong electrostatic attractions with other polar or nonpolar molecules 
+    or ions [<xref ref="fig-polnonpolmol"/>]. 
+    </p>
+    <p>
+        <alert>"Like dissolves like"</alert> states 
+        that substances with similar polarities tend to dissolve 
+        in each other. In other words, a solvent will dissolve a solute if solute 
+        molecules have samilar charge distribution. Polar molecules have an uneven distribution 
+        of electrons and have a partial positive at one side of the molecule and partial negative charge on another side. 
+        Nonpolar molecules have an even distribution of electrons and do not have a net 
+        electrical charge. When a polar solute is added to a polar solvent, the polar 
+        molecules of the solute interact with the polar molecules of the solvent through 
+        intermolecular forces, such as hydrogen bonding or dipole-dipole interactions. 
+        This makes it easier for the solute to dissolve in the solvent. Similarly, 
+        when a nonpolar solute is added to a nonpolar solvent, the nonpolar molecules 
+        of the solute interact with the nonpolar molecules of the solvent through van der 
+        Waals forces, making it easier for the solute to dissolve in the solvent. 
+        On the other hand, if a polar solute is added to a nonpolar solvent, or vice versa, 
+        the polar and nonpolar molecules do not interact as easily, and the solute may not 
+        dissolve in the solvent. <em>For example: </em> <term>sugar</term> (a polar solute) does not dissolve well 
+        in <term>oil</term> (a nonpolar solvent) because their polarities do not match. Oil (a nonpolar solute) 
+        does not dissolve well in water (a polar solvent) because their polarities do not match.
+        Water can be an effective cleaning agent for removing certain types of dirt, 
+        such as dust or mud, from surfaces like floors, walls, or furniture. 
+        However, if the dirt is greasy or oily, water alone may not be enough to 
+        remove it, and additional cleaning agents or solvents (such as soap) may be needed.
+    </p>
+</subsection>
+
+</section>
+

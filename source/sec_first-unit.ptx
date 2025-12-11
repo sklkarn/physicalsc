@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_first-unit" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <title>Units and Measurements</title>
+    <introduction>
+    <p>
+      Physics endeavors to decipher natural laws. In order to describe a natural law (or physical law) a measurement
+      of varieties of physical quantities are essential. <idx> measurement</idx> Measurement is a process that 
+      uses numbers and units to describe a physical quantity based on what can be observed. A physical property which can be quantified and
+      measured in numbers and units is called a <idx>physical quantity</idx> physical quantity. Length, mass, time, weight, temperature, density, speed,
+      velocity, etc are physical quantities. Emotions, angers, feelings, appearances, etc which can not be quantized
+      are not considered as physical quantities. In order to measure physical quantities some standard measures
+      (or standards) must be defined on which everyone can agree. Standards are special objects that are used
+      to make measurements in terms of fixed units of measurement. We can measure things by compering them
+      with the standards. Units of measurement provide standards for comparisons, so that the numbers from our
+      measurements refer to the same thing. A meter stick is an example of a standard. When something is measured
+      with a meterstick, we compare their similar property with the meterstick. For example, if we measure a height
+      of a pillar with a meterstick and found that height to be 6 meter then 6 is a number of times meterstick used in
+      the measurement and meter is a unit (or length) of meterstick. This makes measurement easier and uniform.
+    </p>
+
+    <p>There are three fundamental physical quantities, length, mass, and time which are independent to one another.
+      However, to completely express our daily life physical events these three quantities would not be sufficient so some
+      more physical quantities were included later in the list of fundamental quantity and are altogether known as the
+      base quantities. Their units are called fundamental or base units. The units of all other physical quantities can be
+      expressed as combinations of the base units. Such units obtained for the physical quantities are called the derived
+      units. A complete set of these units, both the base units and derived units, is known as the system of units. The
+      diverse human history and geo-political issues gave birth to many systems of units some of them are now obsolete
+      and some of them are still in use at different parts of world. The three different systems of units are considered here
+      for discussion. They are FPS (foot pound second), MKS (meter kilogram second) systems, and CGS (centimeter gram
+      second). The FPS system of units is also called British system and MKS system is also called a metric system. The metric 
+      system is a decimalized system of measurement developed in France in late <m>18^{th}</m> century. Since the metric
+      system is almost universally used, it is often referred to as the International System of Units and abbreviated SI. 
+      Since SI units use decimal system, unit conversion within the system is quite simple and convenient. The systems of units
+      are summarized in table below.</p>
+      
+    <table>
+  <title>The Systems of Units</title>
+  <tabular halign="center">
+    <row header="yes" bottom="minor" >
+      <cell>Base Quantity</cell>
+      <cell>SI Units</cell>
+      <cell>SI Symbol</cell>
+      </row>
+    <row>
+      <cell>Mass</cell>
+      <cell>Kilogram</cell>
+      <cell>kg</cell>
+      </row>
+    <row>
+      <cell>Length</cell>
+      <cell>Meter</cell>
+      <cell>m</cell>
+      </row>
+    <row>
+      <cell>Time</cell>
+      <cell>Second</cell>
+      <cell>s</cell>
+      </row>
+    <row>
+      <cell>Amount of Substance</cell>
+      <cell>Mole</cell>
+      <cell>mol</cell>
+      </row>
+      <row>
+      <cell>Electric Current</cell>
+      <cell>Ampere</cell>
+      <cell>A</cell>
+      </row>
+      <row>
+      <cell>Temperature</cell>
+      <cell>Kelvin</cell>
+      <cell>K</cell>
+      </row>
+      <row>
+      <cell>Luminous Intensity</cell>
+      <cell>Candela</cell>
+      <cell>cd</cell>
+      </row>
+  </tabular>
+
+</table>
+  </introduction>
+
+<subsection xml:id="subsec_du-subsection">
+    <title>Derived Units</title>
+    <p>Derived quantities are defined in terms of mathematical relation between the base quantities.</p>
+    
+    <example>
+      <p>
+        <ol marker ="a.">
+        <li><m>area = length \times length = m\times m = m^2</m>. Hence the SI unit of area is <m>m^2</m></li>
+        <li> <m>density = \frac{mass}{volume} = \frac{kg}{m^3}</m>. Hence the SI unit of density is <m>kg/m^3</m></li>
+        <li><m>speed = \frac{length}{time} = \frac{m}{s}</m>. Hence the SI unit of speed is <m>m/s</m></li>
+      </ol>
+      </p>
+    </example>
+    </subsection>
+
+<subsection xml:id="subsec_cu-subsection">
+ <title>Conversion of Units</title>
+          <p>
+        The unit can be converted from one system of units to another or within the system of units itself. 
+        </p>
+    <example>
+    <statement>
+    <p>
+     <ol marker ="a.">
+      <li>Convert  <m>50 \, km/h</m> into <m>m/s</m></li>
+       <li>Convert <m> 50 \, mile/h</m> into <m>m/s</m></li>
+       <li>Convert <m>2\, m^2</m> into <m>cm^2</m></li>
+      </ol>
+    </p>
+    </statement>
+    <solution>
+      <p>
+       <ol marker ="a.">
+          <li><me>\frac{50\,km}{hour}\cdot \frac{1000\,m}{1\, km}\cdot \frac{1hour}{60\times 60 \,s}=13.89\, m/s</me></li>  
+            <li><me>\frac{50\,mile}{hour}\cdot \frac{1609\, m}{1mile}\cdot \frac{1hour}{60\times 60 \, s}=22.35\, m/s</me></li>    
+            <li><me>2\,m^2 = 2\cdot\left(\frac{100\, cm}{1m}\right)^2=20000 \,cm^2</me></li>
+       </ol>
+      </p>
+    </solution>
+  </example>
+ </subsection> 
+
+ <subsection xml:id="subsec_cf-subsection">
+    <title>Conversion Factors</title>
+    <p>
+    <ul>
+    <li><m>1000\, m = 1\,km</m></li>
+    <li><m>1\, kg = 1000\,g</m></li>
+    <li><m>60 \, second = 1\, minute</m></li>
+    <li><m>1 \, mile = 1609 \, meter</m></li>
+    </ul>
+    </p>
+    </subsection> 
+    
+</section>
+

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_twelvth-moon" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>The Moon</title>
+  <introduction>
+
+
+<figure>
+  <caption><url href="https://solarsystem.nasa.gov/moons/earths-moon/lunar-phases-and-eclipses/">Our Moon</url></caption>
+  <sidebyside widths="40% 40%">
+    <figure xml:id="fig-moon">
+      <caption>The Moon</caption>
+      <image source="moon.png" />
+  </figure>     
+      <figure xml:id="fig-moonphase">
+          <caption>Phases of the Moon</caption>
+          <image source="moonphase.png"/>
+      </figure>
+    </sidebyside>
+</figure>  
+   
+   <p>
+    The Moon [<xref ref="fig-moon"/>] <idx>moon</idx> is Earth's only natural satellite and the fifth largest moon in the solar system. 
+    It is approximately 384,400 kilometers (238,855 miles) away from Earth and has a diameter of 3,474 kilometers  
+    (2,159 miles). The Moon is thought to have formed about 4.5 billion years ago, shortly after the 
+    formation of the solar system, when a Mars-sized object collided with Earth. The Moon's surface is 
+    covered in craters, mountains, valleys, and vast plains called maria, which were formed by ancient 
+    volcanic activity. The Moon has a very thin atmosphere, known as an exosphere, and has no active geological 
+    processes. The temperature on the Moon can vary from 253 degrees Fahrenheit (123 degrees Celsius) 
+    in daytime to -387 degrees Fahrenheit (-233 degrees Celsius) at nighttime.  
+    </p>
+   <p>
+    <term>Lunar Layers:</term> The outermost layer of the Moon is composed of a layer of rock called the regolith. 
+    The regolith is made up of small rock fragments and dust that have been broken down over 
+    time by the impact of meteoroids and the bombardment of charged particles from the Sun. 
+    Beneath the regolith, the Moon is composed of several distinct layers. The outermost 
+    layer is the crust, which is about 30-40 km thick and is composed of a mixture of rocks, 
+    including basalt and anorthosite. Beneath the crust is the mantle, which extends to a depth 
+    of about 1,000 km. The mantle is composed of denser rocks than the crust and contains a small 
+    amount of partially molten material. Finally, at the center of the Moon is a metallic core, 
+    which is thought to be about 800 km in diameter. The composition and structure of the Moon's 
+    interior have been studied through a variety of methods, including seismic measurements from 
+    Apollo missions, observations of the Moon's gravity field, and computer simulations. These studies 
+    have helped to refine our understanding of the Moon's formation and evolution, as well as its 
+    potential for future scientific exploration and resource utilization.
+   </p>
+   <p>
+    The Moon does not have a significant <term>atmosphere</term> like Earth's, but it does have a very thin 
+    and tenuous exosphere. The exosphere is a layer of gas that is so sparse that its particles 
+    rarely collide with each other. It is made up mostly of particles that have been ejected 
+    from the Moon's surface by impacts from solar wind and micrometeoroids. The exosphere is 
+    composed mainly of helium-4, neon, and argon, which are the lightest and most volatile 
+    elements found in the solar system. There are also trace amounts of other gases, such as 
+    hydrogen, helium-3, and methane. The total mass of the exosphere is only about 10 metric tons, 
+    which is less than a billionth of the mass of Earth's atmosphere. The lack of a significant 
+    atmosphere on the Moon means that there is no weather, no wind, and no erosion by air or water. 
+    However, the exosphere does have some important effects on the Moon's surface, such as influencing 
+    the behavior of charged particles from the solar wind and affecting the distribution of dust and 
+    other materials on the surface. The exosphere also presents some challenges for future human 
+    exploration and settlement of the Moon, as it can be difficult to manage and may pose health 
+    risks to astronauts.
+   </p>
+   <p>
+    The <term>lunar landscape</term> is characterized by a vast expanse of barren, rocky terrain. 
+    The Moon's surface is covered in a layer of loose, powdery soil called regolith, which is 
+    composed of small rock fragments and dust that have been ground down by the impact of meteoroids 
+    over millions of years. The lunar landscape is marked by numerous impact <term>craters</term>, which range 
+    in size from small bowl-shaped depressions to vast circular basins hundreds of kilometers across. 
+    These craters were formed by the impact of meteoroids and other objects over billions of years, 
+    and their shapes and sizes provide important clues about the history and evolution of the Moon. 
+    In addition to craters, the lunar landscape also features several other prominent surface features. 
+    These include <term>mountains</term>, such as the towering peaks of the Montes Apenninus 
+    and the Taurus-Littrow Valley, as well as vast plains, such as the dark and flat lava plains 
+    known as mare (singular: "maria"). The Moon's lack of atmosphere and weather means that its 
+    landscape has remained largely unchanged for billions of years, making it a valuable natural 
+    laboratory for studying the geology and evolution of planetary bodies. The Moon's unique features 
+    and scientific potential have also made it a target for future exploration and potential resource utilization.
+   </p>
+  </introduction>
+
+  <subsection xml:id="subsec-moonphase">
+    <title>The phases of the moon</title>
+    <figure>  
+      <caption><c>Moon Song</c></caption>
+      <video xml:id="moon_song" youtube="HkvlrWpsnuQ" width="50%" start="50" end="150" />
+    </figure>   
+    <p>
+      The phases of the moon [<xref ref="fig-moonphase"/>] refer to the appearance of the illuminated portion of the moon as seen 
+      from Earth as it orbits around our planet. The moon goes through a cycle of eight distinct phases:
+<ol marker="i.">
+  <li>
+    <term>New Moon:</term> The moon is not visible from Earth because it is positioned between the sun and Earth.
+  </li>
+  <li>
+    <term>Waxing Crescent:</term> A small crescent of the moon is visible, with the illuminated portion increasing each night.
+  </li>
+  <li>
+    <term>First Quarter:</term> Half of the moon is visible, with the illuminated portion continuing to increase.
+  </li>
+  <li>
+    <term>Waxing Gibbous:</term> More than half, but not yet fully, of the moon is visible, with the illuminated portion still increasing.
+  </li>
+  <li>
+    <term> Full Moon:</term> The entire illuminated portion of the moon is visible from Earth.
+  </li>
+  <li>
+    <term> Waning Gibbous:</term> More than half, but not yet fully, of the moon is visible, with the illuminated portion decreasing each night.
+  </li>
+  <li>
+    <term>Third Quarter:</term> Half of the moon is visible, with the illuminated portion continuing to decrease.
+  </li>
+  <li>
+    <term>Waning Crescent:</term>  A small crescent of the moon is visible, with the illuminated portion decreasing each night until the cycle 
+    begins again with the new moon.
+  </li>
+</ol>
+Moon spins on its axis in about 27.3 Earth's days. This time is known as sidereal month. 
+A <term>sidereal month </term> is the time it takes for the Moon to complete one orbit around the 
+Earth as measured relative to the fixed distant stars. 
+This is slightly shorter than the time (29.53 days) it takes for the Moon to return to the same phase 
+(such as full moon to full moon) as observed from Earth. 
+This time is known as the <term>synodic month</term> or Lunar month.  
+This is the same amount of time that the Moon takes to orbit around the Earth as seen from the moon. 
+As a result, the same side of the Moon always faces the Earth, a phenomenon known as <em>tidal locking.</em> 
+While the moon orbits a complete circle around the earth, the earth itself rotates around the sun. 
+The difference between these two periods is due to the fact that the Earth is also 
+orbiting around the Sun, so the Moon has to travel slightly farther to complete a full cycle of phases as 
+seen from Earth. 
+    </p>
+    <figure>  
+      <caption><c>Same Face of Moon</c></caption>
+      <video xml:id="same-face" youtube="OZIB_leg75Q" width="50%" start="02" end="90" />
+    </figure> 
+  </subsection>
+
+  <subsection xml:id="subsec-eclipse">
+    <title>Eclipse</title>
+   <p>
+    An eclipse <idx>eclipse</idx> occurs when an astronomical object is temporarily obscured, either partially or completely, 
+    by another object [<url href="https://www.earthspacelab.com/app/eclipse/">The Lunar and Solar Eclipses</url>]. 
+    The two main types of eclipses are solar eclipses and lunar eclipses. A solar eclipse 
+    occurs when the Moon passes between the Sun and the Earth, blocking the Sun's light and creating a 
+    shadow on the Earth. There are three types of solar eclipses: total, partial, and annular. 
+    During a total <term>solar eclipse</term>,  the Moon completely covers the Sun, leaving only its corona visible. 
+    During a partial solar eclipse, only a portion of the Sun is covered by the Moon. During an annular solar 
+    eclipse, the Moon is too far away from the Earth to completely cover the Sun, creating a <em>ring of fire</em> effect. 
+    A <term>lunar eclipse</term> occurs when the Earth passes between the Sun and the Moon, casting a 
+    shadow on the Moon. There are two types of lunar eclipses: total and partial. During a total lunar eclipse, 
+    the Moon is completely covered by the Earth's shadow, creating a reddish hue. During a partial lunar eclipse, 
+    only a portion of the Moon is covered by the Earth's shadow. Eclipses are relatively rare events that 
+    require specific alignment of the Sun, Moon, and Earth. While there are several eclipses each year, they 
+    are typically only visible from specific regions of the Earth and require clear skies and proper viewing 
+    conditions to be seen.
+   </p> 
+   <p>
+     When the Moon passes directly in front of the Sun during a <term>New Moon</term> day, a solar eclipse can occur 
+    by temporarily blocking out the Sun's light and casting a shadow on the Earth. On the other hand, 
+    When the Earth comes between the Sun and the Moon during <term>Full Moon</term> day a solar eclipse can occur 
+    by casting a shadow of Earth on the Moon.
+     During a lunar eclipse, the Moon may appear reddish in color due to the Earth's atmosphere 
+    refracting sunlight onto the Moon's surface. As the orbital planes of moon is tilted about <m>5^o</m> 
+    to the Earth orbital plane, we do not have eclipses on every new moon or full moon day [<xref ref="lunarorbit"/>].
+   </p>
+   <figure xml:id="lunarorbit">
+    <caption>Eclipse</caption>
+    <image source="lunarorbit.png" width ="60%"/>
+</figure>
+  </subsection>
+
+  <subsection xml:id="subsec-orgmoon">
+    <title>Origin of the Moon</title>
+    <figure xml:id="fig-moonform">
+      <caption>Origin of the Moon</caption>
+      <image source="moonform.png" width ="50%"/>
+  </figure>
+    <p>
+      The most widely accepted theory for the formation of our Moon is that about 4.5 billion 
+      years ago our Earth was impacted by a Mars-sized object, <em>Theia</em> [<xref ref="fig-moonform"/>].
+      The impact would have melted both the Earth and Theia, and a large 
+      amount of debris would have been ejected into space. This debris eventually coalesced to form 
+      the Moon. This is why the composition of Moon is very similar to that of Earth's mantle. 
+      Another piece of evidence for the giant impact theory is that the Moon has a lower 
+      density than Earth, which suggests that it is composed of lighter materials. The impact would 
+      have caused a lot of the heavier materials to sink into the Earth, leaving behind a lighter 
+      mixture of materials that eventually formed the Moon. However, there are other competing 
+      theories that propose different mechanisms for the Moon's formation. These include the capture 
+      of a passing object by Earth's gravity, or the fission of a rapidly spinning Earth. 
+       </p>
+  </subsection>
+
+</section>
+

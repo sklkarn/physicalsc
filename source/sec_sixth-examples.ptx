@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_sixth-examples" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Examples</title>
+  
+   <example>
+    <statement>
+      <p>
+        The speed of sound is fastest in  
+        <ol marker="a">
+          <li> liquids.</li>
+          <li>solids. </li> 
+            <li>gases.</li>
+              <li>vacuum.</li>
+                </ol>
+      </p>
+    </statement>
+    <solution>
+      <p>
+        b.
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+         The frequency of a sound determines its quality and 
+     the amplitude of the sound determines its <fillin characters="10" />.
+        <ol marker="a">
+          <li> timber.</li>
+          <li>frequency. </li> 
+            <li>loudness.</li>
+              <li>pitch.</li>
+                </ol>
+      </p>
+    </statement>
+    <solution>
+      <p>
+        c.
+      </p>
+    </solution>
+  </example>
+
+<example>
+    <statement>
+      <p>
+        which wave given below is partly longitudinal and partly transverse?
+        <ol marker="a">
+          <li> light wave.</li>
+          <li>sound wave. </li> 
+            <li>water wave.</li>
+              <li>string wave.</li>
+                </ol>
+      </p>
+    </statement>
+    <solution>
+      <p>
+        c.
+      </p>
+    </solution>
+  </example>
+
+
+<example>
+    <statement>
+      <p>
+        When a wave goes from one medium to another medium, 
+        which quantity of wave does not change?     
+        <ol marker="a">
+          <li> frequency.</li>
+          <li>speed.  </li> 
+            <li>amplitude. </li>
+              <li> wavelength.</li>
+                </ol>
+      </p>
+    </statement>
+    <solution>
+      <p>
+        a.
+      </p>
+    </solution>
+  </example>
+
+
+<example>
+    <statement>
+      <p>
+        Indicate the amplitude of a wave in the figure below.
+      </p>
+
+        <image source="fig6qd.png" width="40%"/>
+                <p>
+        <ol marker="I">
+          <li> PA.</li>
+          <li>QC.  </li> 
+            <li>AB. </li>
+              <li> CD.</li>
+                </ol>
+      </p>
+      <p> 
+        Select one of the following.
+        <ol marker="a">
+          <li> Both I and II</li>
+          <li>Both III and IV.  </li> 
+            <li>I only. </li>
+              <li> III only.</li>
+                </ol>
+                </p>
+    </statement>
+    <solution>
+      <p>
+      empty.
+      </p>
+    </solution>
+  </example>
+  
+
+
+<example>
+    <statement>
+      <p>
+        Indicate the wavelength of a wave in the figure below.
+      </p>
+
+        <image source="fig6qd.png" width="40%"/>
+        <p>
+        <ol marker="I">
+          <li> PA.</li>
+          <li>QC.  </li> 
+            <li>AB. </li>
+              <li> CD.</li>
+                </ol>
+      </p>
+      <p>
+        Select one of the following.
+         <ol marker="a">
+          <li> Both I and II</li>
+          <li>Both III and IV.  </li> 
+            <li>I only. </li>
+              <li> III only.</li>
+                </ol>
+        </p>
+    </statement>
+    <solution>
+      <p>
+     empty.
+      </p>
+    </solution>
+  </example>
+
+
+<example>
+    <statement>
+      <p>
+        How far inside the plane mirror your image appears?
+         <ol marker="a">
+          <li> As far as I am standing infront of the mirror.</li>
+          <li>Just double the distance I am standing infront of the mirror.</li> 
+            <li>Cannot be determined. </li>
+              <li> depends upon my size.</li>
+                </ol>
+      </p>
+      </statement>
+    <solution>
+      <p>
+      a.
+      </p>
+    </solution>
+  </example>
+
+
+
+<example>
+    <statement>
+      <p>
+       What causes the pool of water appears to be less deep than it actually is
+         <ol marker="a">
+          <li> Reflection.</li>
+          <li>Refraction.</li> 
+            <li>Dispersion. </li>
+              <li> Scattering.</li>
+                </ol>
+      </p>
+      </statement>
+    <solution>
+      <p>
+      b.
+      </p>
+    </solution>
+  </example> 
+
+<example>
+    <statement>
+      <p>
+       What causes light to refract to form rainbow in the sky?
+         <ol marker="a">
+          <li> glass prisms.</li>
+          <li>sunlight rays</li> 
+            <li>small raindrops </li>
+              <li> air molecules.</li>
+                </ol>
+      </p>
+      </statement>
+    <solution>
+      <p>
+      c.
+      </p>
+    </solution>
+  </example> 
+
+  <example>
+    <statement>
+      <p>
+       why does the fork look larger under water? 
+         <ol marker="a">
+          <li> light is refracted at an angle.</li>
+          <li>light cannot pass through the glass.</li> 
+            <li>the amount of light increases when going through water. </li>
+              <li> the wavelength of light increases in the process.</li>
+                </ol>
+      </p>
+      </statement>
+    <solution>
+      <p>
+      a.
+      </p>
+    </solution>
+  </example> 
+
+
+  <example>
+    <statement>
+      <p>
+      When light passes through a prism the light splits into the visible spectrum. 
+      What color bends the most and has the shortest wavelength? 
+         <ol marker="a">
+          <li>red.</li>
+          <li>violet.</li> 
+            <li>yellow. </li>
+              <li> blue.</li>
+                </ol>
+      </p>
+      </statement>
+    <solution>
+      <p>
+      b.
+      </p>
+    </solution>
+  </example> 
+
+
+  <example>
+    <statement>
+      <p>
+     The color of object you see is the color that is <fillin characters="10" />
+         <ol marker="a">
+          <li>absorbed by the object.</li>
+          <li>reflected by the object.</li> 
+           </ol>
+      </p>
+      </statement>
+    <solution>
+      <p>
+      b.
+      </p>
+    </solution>
+  </example> 
+
+
+  <example>
+    <statement>
+      <p>
+     What is the speed of wave which completes one full cycle in  <m>10 \,s</m> and has 
+     a wavelength of  <m>120\, m</m>? 
+       </p>
+      </statement>
+      <answer>
+      <p>
+        <m>v=12 m/s.</m>
+      </p>
+    </answer>
+      <solution>
+      <p> Given: <m>T=10 s</m>, <m>\lambda = 120 \,m</m>, <m>v=?</m></p>
+      <p> From equation <xref ref="eqn-vf"/>, we have
+      <md>
+        <mrow> v \amp =f\lambda </mrow>
+      </md>
+      and from equation <xref ref="eqn-freq"/>, we have
+      <md>
+        <mrow> f \amp =\frac{1}{T} </mrow>
+        <mrow> \therefore v \amp =\frac{\lambda}{T} = \frac{120 m}{10 \,s}</mrow>
+      </md>
+      </p>
+    </solution>
+     </example> 
+
+
+</section>
+

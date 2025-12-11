@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_eleventh-examples" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Examples</title>
+  
+   <example>
+    <statement>
+      <p>
+     Which one of the following is the most abundant element in the earth's crust?
+      <ol marker ="a">
+       <li>Nitrogen</li>
+       <li>Oxygen</li>
+       <li>Silican</li>
+       <li>Carbon</li>
+      </ol> 
+      </p>
+    </statement>
+    <solution>
+      <p>
+        b.
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+     Write any two differences between rocks and minerals.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        A mineral is a naturally occurring <em>inorganic</em> solid substance with a specific chemical 
+        composition and a crystalline structure. Examples of minerals include quartz, feldspar, 
+        and mica. Minerals have specific physical and chemical properties, such as hardness, 
+        color, cleavage, and luster which distinguish it from rock. 
+      </p>
+      <p>
+        A rock is a naturally occurring solid substance that is composed of one or more minerals, 
+        as well as other materials such as organic matter, volcanic glass, and mineraloids. 
+        Examples of rocks include granite, limestone, and sandstone. Rocks can be classified into 
+        three main types based on how they were formed: igneous, sedimentary, and metamorphic.
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+     The tendency of splting of minerals along a particular plane is called
+      <ol marker ="a">
+       <li>foliation</li>
+       <li>cleavage</li>
+       <li>gnesis</li>
+       <li>faulting</li>
+      </ol> 
+      </p>
+    </statement>
+    <solution>
+      <p>
+        b.
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+     What is quartz?
+      <ol marker ="a">
+       <li>is a mineral composed of silicon dioxide.</li>
+       <li>is a mineral composed of calcium carbonate.</li>
+       <li>is fools' gold.</li>
+       <li>is a type of pyrite mineral.</li>
+      </ol> 
+      </p>
+    </statement>
+    <solution>
+      <p>
+        a.
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+     How are igneous rocks formed
+      <ol marker ="a">
+       <li>by solidification of magma.</li>
+       <li>by cementation of sedimentary particles.</li>
+       <li>by transformation of other rocks due to heat and pressure.</li>
+       <li>by precipitaion from solution.</li>
+      </ol> 
+      </p>
+    </statement>
+    <solution>
+      <p>
+        a.
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+     What type of rock is a Coal
+      <ol marker ="a">
+       <li>Metamorphic rock.</li>
+       <li>Intrusive igneous rock.</li>
+       <li>Extrusive igneous rock.</li>
+       <li>Sedimentary rock.</li>
+      </ol> 
+      </p>
+    </statement>
+    <solution>
+      <p>
+        d.
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+     What type of rock is a Marble
+      <ol marker ="a">
+       <li>Metamorphic rock.</li>
+       <li>Intrusive igneous rock.</li>
+       <li>Extrusive igneous rock.</li>
+       <li>Sedimentary rock.</li>
+      </ol> 
+      </p>
+    </statement>
+    <solution>
+      <p>
+        a.
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+     Fossils are most likely to be found in 
+      <ol marker ="a">
+       <li>Metamorphic rock.</li>
+       <li>Intrusive igneous rock.</li>
+       <li>Extrusive igneous rock.</li>
+       <li>Sedimentary rock.</li>
+      </ol> 
+      </p>
+    </statement>
+    <solution>
+      <p>
+        d.
+      </p>
+    </solution>
+  </example>
+
+<example>
+  <statement>
+    <p>
+      Coral reefs are made of 
+      <ol marker ="a">
+        <li>shale.</li>
+        <li>granite.</li>
+        <li>limestone.</li>
+        <li>quartz.</li>
+       </ol> 
+    </p>
+  </statement>
+  <solution>
+    <p>
+      c.
+    </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      Subduction zones are never associated with what type of tectonic plate?
+      <ol marker ="a">
+        <li>Oceanic</li>
+        <li>Continental</li>
+        <li>Transform</li>
+        <li>Divergent</li>
+       </ol> 
+    </p>
+  </statement>
+  <solution>
+    <p>
+      d.
+    </p>
+  </solution>
+</example>
+
+  <example>
+    <statement>
+      <p>
+        The point where movement occurred which triggered the earthquake is the <fillin characters="5" />
+      <ol marker ="a">
+       <li>epicenter.</li>
+       <li>focus.</li>
+       <li>strike.</li>
+       <li>dip.</li>
+      </ol> 
+      </p>
+    </statement>
+    <solution>
+      <p>
+        b.
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        Which type of faulting would be least likely to occur along the mid-Atlantic ridge?
+      <ol marker ="a">
+       <li>normal.</li>
+       <li>reverse or thrust.</li>
+       <li>transform.</li>
+       <li>all of these could occur.</li>
+      </ol> 
+      </p>
+    </statement>
+    <solution>
+      <p>
+        b.
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        Which of the following could trigger a tsunami?
+        <ol marker ="a">
+          <li>undersea earthquakes.</li>
+          <li> the eruption of an oceanic volcano. </li>
+            <li> undersea landslides.</li>
+           <li>all of these. </li>
+            </ol>
+      </p>
+    </statement>
+    <solution>
+      <p>
+        a.
+      </p>
+    </solution>
+  </example>
+
+
+  <example>
+    <statement>
+      <p>
+        Which of the following waves is the slowest?
+        <ol marker ="a">
+          <li>P waves.</li>
+          <li> S waves. </li>
+            <li> Surface waves.</li>
+           <li>all of these. </li>
+            </ol>
+      </p>
+    </statement>
+    <solution>
+      <p>
+        a.
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        What is "Pangea"?
+        <ol marker ="a">
+          <li>An ancient supercontinent.</li>
+          <li>  A type of rock formation. </li>
+            <li> A prehistoric creature.</li>
+           <li>A famous mountain range. </li>
+            </ol>
+      </p>
+    </statement>
+    <solution>
+      <p>
+        a.
+      </p>
+    </solution>
+  </example>
+
+
+  <example>
+    <statement>
+      <p>
+        The Tethys Sea once existed between the continents of Gondwana and Laurasia during the Mesozoic 
+        era was surrounded by which of the following mountain ranges
+        <ol marker ="a">
+          <li>The Alps.</li>
+          <li>  The Himalayas. </li>
+            <li> The Pyrenees.</li>
+           <li>The Zagros Mountains.</li>
+           <li>All of the above.</li>
+            </ol>
+      </p>
+    </statement>
+    <solution>
+      <p>
+        e.
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        A crack on earth's crust along which movement is taken place is called
+        <ol marker ="a">
+          <li>Fault.</li>
+          <li>  Volcano. </li>
+            <li> Earthquake.</li>
+           <li>Tsunami.</li>
+          </ol>
+      </p>
+    </statement>
+    <solution>
+      <p>
+        a.
+      </p>
+    </solution>
+  </example>
+
+
+  <example>
+    <statement>
+      <p>
+        The separation of the ancient supercontinents Laurasia and Gondwana was primarily caused by
+        <ol marker ="a">
+          <li>Plate tectonics.</li>
+          <li>  Volcanic activity. </li>
+            <li> Climate change.</li>
+           <li>Asteroid impact.</li>
+          </ol>
+      </p>
+    </statement>
+    <solution>
+      <p>
+        a.
+      </p>
+    </solution>
+  </example>
+
+
+  <example>
+    <statement>
+      <p>
+        The ancient supercontinents Laurasia and Gondwana were separated by 
+        <ol marker ="a">
+          <li>Caribbean Sea.</li>
+          <li>  Red Sea. </li>
+            <li> Tethys Sea.</li>
+           <li>Dead Sea.</li>
+          </ol>
+      </p>
+    </statement>
+    <solution>
+      <p>
+        c.
+      </p>
+    </solution>
+  </example>
+
+
+  <example>
+    <statement>
+      <p>
+        Compared to continents, the ocean floors are generally
+        <ol marker ="a">
+          <li>younger and more geologically active.</li>
+          <li> older and more geologically stable. </li>
+            <li> composed of different types of rocks.</li>
+           <li>more densely populated with life forms.</li>
+          </ol>
+      </p>
+    </statement>
+    <solution>
+      <p>
+        a.
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        Compared to the crust under the ocean, the crust under continents is generally
+        <ol marker ="a">
+          <li>thicker and less dense.</li>
+          <li> thinner and more dense. </li>
+            <li>younger and more geologically active.</li>
+           <li>older and more geologically stable.</li>
+          </ol>
+      </p>
+    </statement>
+    <solution>
+      <p>
+        a.
+      </p>
+    </solution>
+  </example>
+
+
+  <example>
+    <statement>
+      <p>
+        About how many major plates exist on the earth?
+        <ol marker ="a">
+          <li>7.</li>
+          <li> 15. </li>
+            <li>10.</li>
+           <li>100.</li>
+          </ol>
+      </p>
+    </statement>
+    <solution>
+      <p>
+        a.
+      </p>
+    </solution>
+  </example>
+
+
+  <example>
+    <statement>
+      <p>
+        Dinosaurs appeared on earth during which era?
+        <ol marker ="a">
+          <li>Cenozoic.</li>
+          <li> Paleozoic. </li>
+            <li>Precambrian.</li>
+           <li>Mesozoic.</li>
+          </ol>
+      </p>
+    </statement>
+    <solution>
+      <p>
+        d.
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+       Mammals originated in which era?
+        <ol marker ="a">
+          <li>Cenozoic.</li>
+          <li> Paleozoic. </li>
+            <li>Precambrian.</li>
+           <li>Mesozoic.</li>
+            </ol>
+         </p>
+    </statement>
+  </example>
+</section>
+

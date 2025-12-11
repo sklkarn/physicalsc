@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<chapter xml:id="ch_thirteenth" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>The Stars</title>
+
+  <introduction>
+
+<figure xml:id="fig-stars">
+  <caption><url href="April 2019 - IC 1613 - Tim Stone Photography">The Stars</url></caption>
+  <image source="stars.png" width ="40%"/>
+</figure> 
+    <p>
+      Stars are massive, luminous celestial objects [<xref ref="fig-stars"/>] that emit energy in the 
+      form of light and heat. They are made up of hot, glowing gas and are fueled by nuclear fusion, 
+      which occurs when atoms of hydrogen combine to form helium.  Stars come in a wide variety of 
+      sizes, colors, and temperatures, and their properties are determined by their mass. The 
+      most common type of star is a main sequence star, which is powered by nuclear fusion of 
+      hydrogen into helium in its core. Stars can also evolve into other types of stars, 
+      such as red giants, white dwarfs, neutron stars, and black holes, depending on their 
+      mass and composition. The hottest stars emit a blue-white light and the coolest stars 
+      emit a red-orange light. Stars are an essential part of the universe, as they provide the 
+      energy and building blocks necessary for the formation of planets, moons, and other 
+      celestial bodies. They also play a crucial role in the evolution 
+      of galaxies, helping to shape their structure and composition over time. 
+      Stars are classified according to their spectral type, which is determined by the temperature of 
+      their surface. The spectral types range from O (the hottest and most massive) to M 
+      (the coolest and least massive). The color of a star also depends on its temperature, 
+      with hotter stars appearing bluer and cooler stars appearing redder. Stars are also important in 
+      the search for extraterrestrial life. Scientists believe that habitable planets may exist in 
+      the "habitable zone" around stars, where the temperature is just right for liquid water to exist. 
+      This has led to the search for exoplanets, or planets orbiting other stars, which may potentially 
+      support life. Today, astronomers continue to study stars in order to learn more 
+      about their properties and behavior, and to unlock the secrets of the universe.
+    </p>
+  </introduction>
+
+
+  
+
+  <xi:include href="./sec_thirteenth-observ.ptx" />
+  <xi:include href="./sec_thirteenth-hrdiag.ptx" />
+  <xi:include href="./sec_thirteenth-examples.ptx" />
+  <xi:include href="./ex_thirteenth.ptx"/>
+
+</chapter>

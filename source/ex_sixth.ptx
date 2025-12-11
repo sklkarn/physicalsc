@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<exercises xml:id="ex_sixth" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <!-- You can ommit the title and just get the default "Exercises" -->
+  <title>Exercises</title>
+  
+  <exercise>
+    <statement>
+      <p>
+        Why does the letter <m>p</m> appears like <m>q</m> when placed infront of a plane mirror?
+      </p>
+    </statement>
+    </exercise>
+
+<exercise>
+    <statement>
+      <p>
+        Why do the stars <em>twinkle</em> in a night sky? How about the same stars if seen from international space station?
+      </p>
+    </statement>
+    </exercise>
+
+  <exercise>
+    <statement>
+      <p>
+        What makes setting sun appear red?
+      </p>
+    </statement>
+    <answer>
+      <p>
+        scattering of light from the atmospheric air molecules.
+      </p>
+    </answer>
+    </exercise>
+
+  <exercise>
+    <statement>
+      <p>
+        Why do we see objects as white? 
+      </p>
+    </statement>
+    </exercise>
+  
+<exercise>
+    <statement>
+      <p>
+        The American flag appears <fillin characters="10" /> 
+        when viewed in blue light.
+         <ol marker="a">
+          <li>red and blue.</li>
+          <li>blue and black</li> 
+            <li>all blue.</li> 
+              <li>red, white, and blue.</li> 
+           </ol>
+      </p>
+    </statement>
+    <hint>
+      <p>
+      White is a combination of all the colors, and black is the absense of all colors. 
+      When viewed in the blue light only blue light reflects. The blue parts are not affected, the red parts are black now, 
+      and the white parts are blue now.
+      </p>
+    </hint>
+    </exercise>
+
+
+  <exercise>
+    <statement>
+      <p>
+        Find the wavelengths of sound which have a speed of <m>345 m/s</m> and frequencies of 
+        <ol marker="I">
+          <li><m>20 Hz</m> </li>
+          <li><m>20 kHz</m> </li>
+           </ol>
+      </p>
+    </statement>
+    </exercise>
+
+    <exercise>
+    <statement>
+      <p>
+        Which of the following is not a reason behind rainbow formation?
+        <ol marker="I">
+          <li>Reflection. </li>
+          <li>Refraction. </li>
+            <li>Dispersion. </li>
+              <li>Scattering. </li>
+           </ol>
+      </p>
+    </statement>
+    </exercise>
+
+
+<exercise>
+    <statement>
+      <p>
+        Scattering is responsible for the <fillin characters="5" /> color of the daytime sky.
+        <ol marker="I">
+          <li>red </li>
+          <li>blue </li>
+            <li>orange </li>
+              <li>white </li>
+           </ol>
+      </p>
+    </statement>
+    </exercise>
+
+    <exercise>
+    <statement>
+      <p>
+        Scattering occurs when light waves are forced to depart from 
+        a <fillin characters="5" /> path due to imperfections in the medium.
+        <ol marker="I">
+          <li>curved </li>
+          <li>straight </li>
+            <li>angled</li>
+            </ol>
+      </p>
+    </statement>
+    </exercise>
+
+ <exercise>
+    <statement>
+      <p>
+        Refraction occurs
+        <ol marker="I">
+          <li>when waves changed speed</li>
+          <li>only with light waves </li>
+            <li>at any unpredictable time</li>
+            </ol>
+      </p>
+    </statement>
+    </exercise>
+
+
+<exercise>
+    <statement>
+      <p>
+        What causes wet spot mirage on the high way road?
+        <ol marker="I">
+          <li>Reflection</li>
+          <li>Refraction </li>
+            <li>Dispersion</li>
+              <li>Scattering</li>
+            </ol>
+      </p>
+    </statement>
+    </exercise>
+
+
+<exercise>
+    <statement>
+      <p>
+        Different colors of light waves travell with different speeds in transparent medium. How they travell in vacuum?
+        <ol marker="I">
+          <li>At different speeds.</li>
+          <li>At same speed. </li>
+            <li>Both a and b. </li>
+              <li>None of the above.</li>
+            </ol>
+      </p>
+    </statement>
+    </exercise>
+
+    <exercise>
+    <statement>
+      <p>
+        My radio station is tuned at 90MHz frequency. What is the wavelength of that radio wave.
+        The velocity of electromagnetic wave is <m>3\times 10^8 m/s.</m>
+        </p>
+    </statement>
+    <solution>
+       <p> Given: <m>f=90MHz= 90\times 10^6 Hz</m>, <m>v= 3\times 10^8 m/s,</m>, <m>\Lambda=?</m>
+        <md>
+          <mrow>v \amp =f\lambda </mrow>
+           <mrow>\lambda \amp =\frac{v}{f} </mrow>
+           <mrow>\lambda \amp =\frac{3\times 10^8}{90\times 10^6} </mrow>
+           <mrow>\therefore \lambda \amp =3.33 m </mrow>
+        </md>
+      </p>
+    </solution>
+    </exercise>
+
+
+</exercises>
+
+
+
+

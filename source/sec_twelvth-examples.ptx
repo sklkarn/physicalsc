@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_twelvth-examples" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Examples</title>
+  
+  <example>
+    <statement>
+      <p>
+        What is a comet?
+        <ol marker ="a.">
+          <li>A type of asteroid</li>
+          <li>A small, icy celestial body</li>
+          <li>A planet in our solar systemd</li>
+          <li>A star with a tail</li>
+        </ol> 
+        </p>
+    </statement>
+    <solution>
+      <p>
+        b.
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        What is the difference between a comet and an asteroid?
+        <ol marker ="a.">
+          <li>Comets are larger than asteroids</li>
+          <li>Comets are made of rock and metal, while asteroids are made of ice and dust</li>
+          <li>Comets have a tail, while asteroids do not</li>
+          <li>Comets orbit the sun, while asteroids orbit other planets</li>
+        </ol> 
+        </p>
+    </statement>
+    <solution>
+      <p>
+        c.
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        What is a comet's tail made of?
+        <ol marker ="a.">
+          <li>Gas and dust</li>
+          <li>Ice and rock</li>
+          <li>Iron and nickel</li>
+          <li>Water and oils</li>
+        </ol> 
+        </p>
+    </statement>
+    <solution>
+      <p>
+        a.
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        What causes a comet's tail to form?
+        <ol marker ="a.">
+          <li>Solar wind pushing gas and dust away from the nucleus</li>
+          <li>Collision with other celestial bodies</li>
+          <li> Nuclear fission within the nucleus</li>
+          <li>The gravitational pull of nearby planets</li>
+        </ol> 
+        </p>
+    </statement>
+    <solution>
+      <p>
+        a.
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        What is a shooting star?
+        <ol marker ="a.">
+          <li>A star that is falling to Earth</li>
+          <li>A type of comet</li>
+          <li> A meteor burning up in Earth's atmosphere</li>
+          <li>A distant galaxy</li>
+        </ol> 
+        </p>
+    </statement>
+    <solution>
+      <p>
+        c.
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        At which time in a year a meteor showers occurs
+        <ol marker ="a.">
+          <li>at the same time each year</li>
+          <li>At various time throughout the year</li>
+          <li> whenever solar eclipses happen</li>
+          <li>whenever lunar eclipses happen</li>
+        </ol> 
+        </p>
+    </statement>
+    <solution>
+      <p>
+        b.
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        Which planet has the most known moons?
+        <ol marker ="a.">
+          <li>Earth</li>
+          <li>Mars</li>
+          <li> Jupiter</li>
+          <li>Uranus</li>
+        </ol> 
+        </p>
+    </statement>
+  </example>
+
+
+  <example>
+    <statement>
+      <p>
+        What is the largest planet in our solar system?
+        <ol marker ="a.">
+          <li>Earth</li>
+          <li>Saturn</li>
+          <li> Jupiter</li>
+          <li>Neptune</li>
+        </ol> 
+        </p>
+    </statement>
+    <answer>
+      <p>
+        c.
+      </p>
+    </answer>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+       Which planet looks nearly to the moon?
+          <ol marker ="a.">
+            <li>Jupiter</li>
+            <li>Mercury</li>
+            <li>Venus</li>
+            <li>Saturn</li>
+            </ol> 
+        </p>
+    </statement>
+    <answer>
+      <p>
+        c.
+      </p>
+    </answer>
+  </example>
+
+
+  <example>
+    <statement>
+      <p>
+        What is a solar eclipse?
+          <ol marker ="a.">
+            <li>When the Moon passes between the Earth and the Sun</li>
+            <li>When the Earth passes between the Sun and the Moon</li>
+            <li>When the Moon passes through the Earth's shadow</li>
+            <li>When the Earth passes through the Moon's shadow</li>
+            </ol> 
+        </p>
+    </statement>
+    <answer>
+      <p>
+        a.
+      </p>
+    </answer>
+  </example>
+
+</section>
+

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_second-intro" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Describing Motion</title>
+  <introduction>
+       <p>
+      <ol marker="I">
+      <li>Distance: It is the length between the change in positions of an object.
+      If <m>x_{i}</m> is an initial position of the object and <m>x_{f}</m> is a final 
+      position of that object then <m>x_{f}-x_{i} =d, </m> is the distance travelled 
+      by the object. It is a scalar quantity because it does not deal with the direction 
+      in which the object is travelling.It's unit is <m>m</m> in SI system and <m>cm</m> 
+      in CGS system, and <m>ft</m> in FPS system.</li> 
+       <li>Displacement: <idx>displacement</idx> It is a direct distance between initial and final position of the object. It is the shortest 
+      path between initial and final positions of the object. It has the same unit as distance.
+      It is a vector quantity because it has only one particular direction 
+      between the initial and final position of the object. Let's understand by the example here, suppose you started travelling from initial point A 
+      and reached to point B by travelling 4 m distance along east. Now from point B you covered a distance of 3 m along north to reach to your final point C.
+      So the direct distance between your initial position and final position is 5m given by Pythagoras theorem along north-east. 
+      <me>\therefore \quad Displacement, AC=\sqrt{4^2+3^2}=5m</me> [<xref ref="fig-fig2b"/>]. 
+       </li>
+      <li>Speed: <idx>speed</idx> The rate of change of position of an object is called a speed. 
+        It states that how fast the object is changing its position with respect to time. 
+        In physics, the rate means with respect to time. It is also a scalar quantity.
+      speed is represented by the letter, <m>v</m>. If <m>x_{i}</m> is an initial position 
+      and <m>x_{f}</m> is the final position of the object then 
+      <men xml:id="eqn-vdt">v=\frac{x_f-x_i}{t_f-t_i} = \frac{d}{t}</men>.
+      It's unit is m/s in SI system and cm/s in CGS system, and ft/s in FPS system.</li>
+      <li>Velocity: It is the speed of an object in particular direction. It is a vector quantity. It has the same units as speed. 
+      It is also represented by the letter, <m>v</m>.</li>
+      <li>Acceleration: <idx>acceleration</idx> The rate of change of velocity is called an acceleration. It states that how fast the velocity of an object is being changed. 
+      It is also a vector quantity. If <m>v_{i}</m> is an initial velocity and <m>v_{f}</m> is the final velocity of the object 
+      then the acceleration of the object is given by <men>a=\frac{v_f-v_i}{t_f-t_i} = \frac{v}{t}</men>. It's unit is <m>m/s^2</m> in SI system. 
+      If acceleration is positive then the object is speeding up, if it is negative then the object is slowing down, 
+      if it is zero then the object is either moving with uniform velocity or remains at rest.
+      <term>Note: </term> Velocity is always in the same direction as the object is moving, but the acceleration is not.</li> 
+      </ol>
+    </p>
+    <p>
+     Vector <idx>vector</idx> quantity carries two pieces of information, i.e. magnitude and direction.
+     Vector is often represented by an arrow. A straight line with an arrowhead where the length of the line 
+     yields information about magnitude and 
+    the arrow indicates the <em>direction</em>. Mathematical operation is different for vectors than in scalars. 
+    It is not just the addition or subtraction 
+    of the numbers. We are not going to perform many vector mathematical operations here rather we try 
+    to understand addition and subtraction 
+    with some simple examples. Addition or subtraction of scalar quantities are just 
+    like adding or subtracting the numbers. 
+    In vector addition,  the vectors are arranged in <em>Head to Tail</em> to find the sum of the vectors. 
+    In vector subtraction, the vector to be subtracted is flipped in direction and added to 
+    the other vector by arranging them in “Head to Tail” 
+    to find the sum of the vectors.
+    </p>
+    <figure xml:id="fig-fig2b">
+      <caption>Displacement vector</caption>
+      <image source="fig2b.png" width="40%">
+      </image>
+  </figure>
+
+     <example>
+      <p>
+        <ol marker ="a">
+        <li> For example: in <xref ref="fig-fig2b"/>, the total distance travelled by the object is <m> 4m+3m = 7 m.</m> 
+          However, total displacement of the object is only <m>5m</m> 
+        along north-east directin as shown by the arrow AC.</li>
+        <li>Suppose water is flowing downstream with velocity 2 <m> m/s </m> in a river where you are rowing your boat 
+          with 5 <m> m/s </m> downstream. You can find that you are 
+        moving with 7 <m>m/s</m> velocity (or speed) downstream. If you want to go upsteam then 
+        your velocity (or speed) would be 3 <m>m/s</m> only. If you want to row accross the river then your velocity would be
+        somewhere between 3 <m>m/s</m> to 7 <m>m/s</m>.</li>
+        <li>Suppose Aron is sweeming in a pool of 100 m wide. He took 5 laps, so he covers total 
+          of <m>100\times5\times2=1000 m</m> but his displacement is just zero. 
+        Remember one lap is one complete round of trip. However, if he just take a half lap 
+        then the distance covered is the same as displacement and are 100 m</li>
+      </ol>
+      </p>
+    </example>
+        
+</introduction>
+
+ 
+
+  <subsection xml:id="subsec_em-second">
+    <title>Equations of Motion</title>
+    <introduction>
+      <p>
+        There are three equations of motion defined by the above terminologies which can help solve problems of motion. 
+        These eqations are obtained by manipulating average velocity and acceleration of the object. 
+      </p>
+      <p>
+           <ol>
+            <li> 
+              <p>
+                Equations of motion in horizontal direction: <xref ref="sec_second-examples"/>
+              </p>
+              <p>
+       <ol marker="I">
+        <li><m>v_{f}=v_{i}+at</m>.</li> 
+        <li><m>v^2_{f}=v^2_{i}+2ad</m>.</li>
+        <li><m>d=v_{i}t+\frac{1}{2}at^2</m>.</li>
+        </ol>
+      </p>
+        </li>
+        <li> 
+          <p>
+            Equations of motion in vertical direction: <xref ref="sec_second-examples"/>
+        <ol marker="I">
+        <li><m>v_{f}=v_{i}+gt</m>.</li> 
+        <li><m>v^2_{f}=v^2_{i}+2gh</m>.</li>
+        <li><m>h=v_{i}t+\frac{1}{2}gt^2</m>.</li>
+        </ol>
+      </p>
+        </li>
+     </ol>
+    </p>
+  
+    <p>
+      <em>Here,</em> <m>g</m> = acceleration due to gracvity, 
+      <m>h</m> = height attains by the object, and <m>t</m> = time taken 
+      by the object during its motion. 
+    </p>  
+
+      <p>
+        In vertical direction earth plays a vitol role in the acceleration of object motion.
+        Earth pulls every thing downwards which causes acceleration due to gravity, <m>g</m> negative.
+        Accleration due to gravity is the acceleration of the object caused by the earth gravitational field.
+        The value of <m>g =9.8 \,m/s^2</m>. In vertical motion, we consider height 
+        as positive if going up (y-axis) and height as negative if coming down. 
+        But here, we are taking <m>g = -9.8 \,m/s^2.</m> if the object is going vertically up, and
+        <m>g =+9.8\, m/s^2.</m> for the object falling down. Such conventions allow us to assume <m>h</m> as always positive. 
+      </p>
+      <p><alert>Note:</alert> The above equations only work for constant acceleration or acceleration due to gravity. </p>
+    </introduction>
+  
+ 
+ <subsubsection xml:id="subsubsec_ff-second">
+    <title>Free Fall</title>
+    <p>
+      Objects moving under the influence of only gravity is called a free fall, <idx>free fall</idx>. 
+      This means gravity causes a change in the velocity of any object by  <m>9.80 \, m/s</m> every second.
+      So, drop any object and let it fall toward the ground: After 1s, the speed of the object is  <m>9.80\,m/s</m>.
+      After 2s, the speed of the object is  <m>19.6 \,m/s</m>, etc.      
+      According to Galileo the velocity of a falling object is proportional to the length of time that the object has been falling. 
+      From the first equation of motion 
+      <md>
+        <mrow>v_f-v_i \amp =gt</mrow>
+        <mrow>\text{or,} \quad v \amp =gt, </mrow>
+        <mrow>\quad \therefore v \amp \propto t, </mrow>
+      </md>
+      as <m>g</m> is a constant. 
+      Hence, the object is falling with higher velocity if it is falling for a long time or from a higher position. 
+      Since <m>g</m> is constant near the planet all objects fall at the same rate. (Assuming there is no air resistance).
+      </p>
+</subsubsection>
+
+<subsubsection xml:id="subsubsec_pm-second">
+    <title>Projectile Motion</title>
+    <figure xml:id="fig-fig2c">
+      <caption>Projectile motion</caption>
+      <image source="fig2c.png" width="60%">
+      </image>
+  </figure>
+    <p>
+      In normal day life, we encounter many examples where object moves along both horizontal and verticle direction together. 
+      Such type of motion is called projectile motion and the object moving in projectile motion is called a projectile. 
+      Hence, projectile is an object which has both horizontal as well as vertical motion. The path taken by the projectile is 
+      parabolic in nature [<xref ref="fig-fig2c"/>]. We are not dealing with mathematical operation 
+      related to projectile motion here but we try to understand the 
+      projectile motion by the following figure.
+      Since gravity only acts on the  verticle direction the horizontal velocity remains constant always in projectile motion.
+      </p>
+     
+</subsubsection>
+</subsection>
+  </section>
+

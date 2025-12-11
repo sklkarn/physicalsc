@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_first-intro" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Significant Figures</title>
+  <introduction>
+   <p>
+    <idx>significant figures</idx> Significant figures are the digits which give us useful information about the accuracy of a measurement. The
+result of a measurement includes digits that are known reliably and the digit that is uncertain. For example,
+the length of an object measured to be 287.5 cm when measured with a meterstick marked with centimeter
+(0.1 resolution) and has four significant figures, the digits 2, 8, 7 are certain while the first digit 5 is uncertain.
+If someone measure the same object with another meterstick marked with millimeters (0.01 resolution) he/she
+could have measured the length to be 287.54 cm and that contains 5 significant figures, the digits 2, 8, 7, and
+5 are certain while the first digit 4 is uncertain. Each smaller measurement allows observers to determine the
+length of the object with a bit more accuracy. Maybe someother can measure with great accuracy as 287.542
+cm. No matter how accuratly you measure things, there is always some inaccuracy in every measurement. Scientists
+account for this unavoidable uncertainty in measurement by using significant digits. significant digits do not
+remove the uncertainty but warn readers to where uncertainty lies.
+    </p>
+    <p>
+    <ul>
+        <li>1000 has one significant digit: only 1 is interesting and reliable. The zeroes may have been just the placeholders;
+they may have rounded something off to get this value.</li>
+        <li>1000. : notice that ”point” after the zero! This has four significant digits, because the decimal point tells us
+that the measurement was made to the nearest unit, so the zero is not just a placeholder.</li>
+<li>
+  1000.0 has five significant digits: the ”.0” tells us about the accuracy of the measurement that the measurement
+is accurate to the tenths place.
+</li>
+<li>In scientific notation if 200 has two significant figures then <m>2.0 \times 10^2</m> is used. If it has three sig.fig. then
+<m>2.00 \times 10^2. </m> If it had four sig. fig. then 200.0 is sufficient.</li>
+    </ul>
+    </p> 
+    <p>
+    Here are some basic rules to determine significant figures: 
+    <ol>
+      <li>All nonzero digits are significant; in number 0.003004500 the digits 3, 4, and 5 are significant.</li>
+<li>All zeroes between significant digits are significant; in number 0.003004500 the 0, 0 between 3 and 4 are
+significant.</li>
+<li>Trailing zeros in the decimal portion are significant; in number 0.003004500 the 0,0 at end of 5 are significant.</li>
+<li>Trailing zeroes in a whole number with no decimal shown are not significant; in number ”540” there are
+only two sig.fig. 5 and 4, the last 0 is not significant.</li>
+<li>Leading zeroes in the decimal portion to the first non-zero digit are not significant; in number 0.003004500
+the 0 to the right of decimal point and digits 0, 0 to the left of decimal point before the digit 3 are not
+significant.</li>
+<li>Exponential digits in scientific notation are not significant; <m>1.32 \times 10^6</m> has only three significant figures, 1, 3,
+and 2.</li>
+        </ol>   
+    </p>
+ </introduction>
+ 
+ 
+  <subsection xml:id="subsec_rn-subsection">
+    <title>Rounding off the Numbers</title>
+   <p>
+    When rounding <idx>rounding off</idx>, we examine the digit following to the right of the digit that is to be the last digit in the
+rounded off number. The digit we are examining is the first digit to be dropped. If digit to be dropped off is less than 5, 
+then drop it off with all the other digits to the right of it. If the digit to be dropped off is greater than 5, then increase the number by 1 to the preceeding digit to be
+rounded. If the digit to be dropped is 5, then round the preceeding digit so that it will become even number. Zero is
+considered to be even when rounding off. This is the process of minimizing systematic error.
+    </p>
+    <p>
+        <ol>
+  <li><p>Round 742,396 to four, three, and two significant digits:</p>
+    <p>
+          <ol marker ="a.">
+      <li>To round to four sig. fig. start with the first
+significant digit, which is the 7. Then count to the right from there. The first four significant digits of 742,396
+are the 7, the 4, the 2, and the 3. Just to the right of the 3 is a 9. Because this value is ”greater than 5”, round
+the 3 up to 4. Replace the remaining digits (the 9 and the 6) with zeroes. Then: 742,400 (four significant
+digits).</li>
+      <li>To round 742,396 to three places, start again with the 7 and include the next two digits, being the 4 and the
+2. Since the next digit is a 3, which is ”less than 5”, leave the 2 alone and don't round up. Replace the three
+digits after the comma with zeroes. Then: 742,000 (three significant digits)</li>
+<li>To round 742,396 to two places, use only the first two digits, which are followed by a 2, so don't round up.
+Instead, just replace the final four digits with zeroes, to get: 740,000 (two significant digits).</li>
+        </ol>
+         </p>
+  </li>
+  <li>
+    <p>Round 0.07284 to four, three, and two significant digits:</p>
+    <p>
+  <ol marker="a.">
+    <li>To round 0.07284 to four significant digits, start
+with the first significant digit, which is the 7. (The zero between the decimal point and the 7 is not significant,
+as it serves only to ”place” the 7 into the hundreds place.) There are only three more digits, so all of them
+will be included in answer. Since no digit follows the 4, there is no information about rounding, so just leave
+the 4 as it is. Hence, 0.07284 is four sig-digs.</li>   
+    <li>When rounding 0.07284 to three sig-digs, the final sig-dig is the 8, which is followed by the 4. Since 4 is less
+than 5, so simply drop it. Because these sig-digs are after the decimal point, not replace the 4 with a zero.
+Hence, 0.0728 is three sig-digs.</li>
+    <li>To round 0.07284 to two sig-digs, use the 7 and the 2. Since the 2 is followed by an 8, round the 2 up to 3;
+drop everything that follows. Hence, 0.073 is two sig-digs.</li>
+  </ol>
+   </p>
+  </li>
+  <li>
+    <p>Round 425.35 to four and two significant digits:</p>
+    <p>
+      <ol marker="a.">
+        <li>For four sig.fig. this number is 425.4, because the value to
+be rounded off (3) is ”odd” and followed by a ”5”, then round the 3 up to 4 and remove the remaining digits.</li>
+        <li>For two sig.fig. it would be 420, because the value to be rounded off (2) is ”even” and followed by a ”5”, then
+leave 2 as it is and replace the other with zeroes.</li>
+        </ol> 
+    </p>
+        </li>
+</ol> 
+    </p>
+  </subsection>
+
+    <subsection xml:id="subsec_mosf_subsection">
+    <title>Mathematical Operations with Significant Figures</title>
+    <p>
+      <ol>
+        <li>Addition or subtraction: The final result should retain as many decimal places as there are in the number
+with the least decimal places. For example, the sum of the numbers 436.32 g, 227.2 g and 0.301 g is 663.821 g
+by mere arithmetic addition but the least precise measurement (227.2 g) is correct to only one decimal place.
+Therefore, the final result should be rounded off to 663.8 g.
+Similarly, the difference in length can be expressed as: <me>0.307\, m - 0.304\,y m = 0.0025=0.003 \,m.</me></li>
+        <li>Multiplication or division: The final result should retain as many significant figures as are there in the
+original number with the least significant figures. For example, if mass of an object is measured to be, say,
+4.237 g (four significant figures) and its volume is measured to be <m>2.51 \,cm^3</m> , then its density, by mere arithmetic division, is 
+<m>1.68804780876 \,g/cm^3 </m> upto 11 decimal places. But density should be reported to three significant
+figures as <me>density = \frac{4.237g}{2.51 \,cm^3} = 1.69\,cm^3.</me></li> 
+      </ol>
+    </p>
+  </subsection>
+
+    <subsection xml:id="subsec_sr_subsection">
+    <title>Science and Religion</title>
+    <p>
+    Science is a study of understanding the natural phenomena based on observation and experimental evidence acquired by scientific method.
+    It is always skeptical and never correct to 100%. Religion on the other hand is understanding the purpose, source, and meaning of our world based on faith. Many principles are 
+    accepted without asking any question. 
+    </p>
+    </subsection>
+  </section>
+

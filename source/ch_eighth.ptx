@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<chapter xml:id="ch_eighth" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>The Chemical Elements</title>
+  <introduction>
+    <p>Now we are slowly dawnning to fuzzy boundary between physics and chemistry. Chemistry has a long 
+      history that spans thousands of years. The earliest known efforts to understand matter and its transformations 
+      can be traced back to ancient civilizations. In the ancient world, alchemy was a precursor to modern chemistry 
+      that involved the study of turning base metals into gold, the preparation of elixirs and other substances, 
+      and the creation of potions and remedies. However, the practices of alchemy often lacked a systematic 
+      and scientific approach, and were more focused on superstition and magic. During the medieval period, 
+      alchemists made significant contributions to the development of chemistry by translating and 
+      preserving the works of ancient Greek philosophers. They also developed new theories and methods of 
+      their own, such as the concept of chemical elements and the use of laboratory equipment. The scientific 
+      revolution of the <m>16^{th}</m> and <m>17^{th}</m>  centuries marked a turning point in the history of 
+      chemistry. Scientists such as Robert Boyle and Antoine Lavoisier established the scientific method 
+      and introduced precise experimentation and quantification to the study of chemistry. 
+      Lavoisier's law of conservation of mass and his systematic approach to chemical reactions helped to 
+      lay the foundation of modern chemistry. Throughout the <m>19^{th}</m> and <m>20^{th}</m> centuries, 
+      chemistry continued to develop and expand, with major contributions from scientists such as John Dalton, 
+      Jöns Jakob Berzelius, and Dmitri Mendeleev. The discovery of new elements, the development of the periodic 
+      table of elements, and the formulation of chemical thermodynamics and kinetics revolutionized our 
+      understanding of matter and its transformations. In recent years, the advances in technology and 
+      computing have enabled new areas of research and discovery in chemistry, such as green chemistry, 
+      materials science, and biochemistry. Today, chemistry plays a crucial role in a wide range of fields, 
+      including medicine, energy, food, and materials, and continues to be an important and dynamic field of study.</p>
+  </introduction>
+
+
+  <xi:include href="./sec_eighth-intro.ptx" />
+  <xi:include href="./sec_eighth-ptable.ptx" />
+  <xi:include href="./sec_eighth-chemicalbonds.ptx" />
+  <xi:include href="./sec_eigth-react.ptx" />
+  <xi:include href="./sec_eighth-examples.ptx"/> 
+
+ <!-- One or more of the sections of a chapter might be exercises-->
+  <xi:include href="./ex_eighth.ptx"/> 
+</chapter>

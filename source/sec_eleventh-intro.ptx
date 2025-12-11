@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_eleventh-intro" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Structure of the Earth</title>
+  <introduction>       
+   
+  <figure xml:id="fig-earthlayer">
+    <caption><url href="https://www.usgs.gov/media/images/cutaway-views-showing-internal-structure-earth-left">Earth's Layers</url></caption>
+    <image source="earthlayer.png" width="50%"/>
+    </figure>
+ 
+  <p>
+    Earth <idx>earth</idx> is composed of several layers <xref ref="fig-earthlayer"/>. 
+    The layers are differentiated based on their composition, temperature, pressure, and density. 
+    Starting from the outermost layer, they are:
+    <ol marker ="I">
+      <li>
+        <term>Crust:</term> The Earth's crust is the outermost layer, and it is the thinnest 
+        layer of the planet, with an average thickness of around 30 kilometers (18.6 miles). 
+        It is composed of rocks, minerals, and sediment and is divided into two types: 
+        continental crust and oceanic crust. The continental crust is thicker and less dense 
+        than the oceanic crust. The oceanic crust is thinner and denser than the continental 
+        crust.
+      </li>
+      <li>
+       <term>Mantle:</term> The mantle is the layer beneath the crust and is the thickest layer 
+       of the Earth, extending to a depth of around 2,900 kilometers (1,800 miles). It is composed 
+       of solid, but flowing, rock material that is believed to be in a state of constant motion 
+       due to convection currents caused by heat from the Earth's core. The mantle plays a critical 
+       role in the Earth's geologic processes, including the movement of tectonic plates, 
+       volcanic activity, and the creation of new oceanic crust. 
+      </li>
+      <li>
+        <term>Outer core:</term> The outer core is a liquid layer that is located beneath the 
+        mantle and is composed mainly of molten iron and nickel. It has a thickness of around 
+        2,250 kilometers (1,400 miles) and is responsible for generating the Earth's magnetic field.
+      </li>
+      <li>
+        <term>Inner core:</term> The inner core is the innermost layer of the Earth, located at the 
+        center of the planet. It is a solid ball of iron and nickel, with a radius of around 
+        1,220 kilometers (760 miles). The inner core is under immense pressure, and the temperature 
+        can reach up to 5,500 °C (9,932 °F).
+      </li>
+    </ol>
+    These layers are constantly interacting with each other and are responsible for shaping 
+    the Earth's surface and its physical properties. The temperature of earth's layers increases with depth. 
+    There are two other layers we can consider in crust. They are lithosphere and asthenosphere. 
+     The <term>lithosphere</term> is the outermost solid layer of the Earth, which includes the crust 
+     (the Earth's outermost layer) and the rigid upper part of the mantle. It is composed of a variety of 
+     rock types, including basalt, granite, and sedimentary rocks. The thickness of the lithosphere 
+     varies from around 100 km beneath the oceans to up to 250 km beneath the continents. The lithosphere is 
+     divided into a number of plates, which move around on the underlying asthenosphere. Tectonic activity, 
+     including earthquakes and volcanic eruptions, mainly occurs at the boundaries between these plates. 
+     The lithosphere is also involved in other processes such as erosion, sedimentation, and the cycling 
+     of carbon and other elements. The <term>asthenosphere</term> is a partially molten, 
+     ductile region of the mantle beneath the lithosphere. It is composed of hot, semi-solid rock 
+     that can flow slowly over long periods of time. The asthenosphere plays an important role in 
+     tectonic activity, providing the driving force for plate movement through the process of convection.
+  </p>
+  </introduction>
+  
+
+ <subsection xml:id="subsec-crust">
+  <title>Composition of Earth's Crust</title>
+
+<figure>
+  <caption></caption>
+  <sidebyside widths="45% 30%"> 
+  <figure xml:id="fig-abundcrust">
+    <caption>Composition of crust</caption>
+    <image source="abundcrust.png"/>
+</figure>
+<figure xml:id="fig-silicate">
+  <caption>Slicate ion</caption>
+  <image source="silicate.png" />
+</figure>
+    </sidebyside>
+</figure>  
+
+    <p>
+    The Earth's crust is composed of different elements and minerals. 
+    The most abundant elements in the Earth's crust are oxygen (~47%), silicon (~28%), aluminum, iron, 
+    calcium, sodium, potassium, and magnesium. These elements combine to form a variety of 
+    minerals, such as quartz, feldspar, mica, and olivine. The exact composition of the Earth's 
+    crust varies depending on factors such as location and geological history, but in general, 
+    the crust is composed of <em>three main types of rocks: igneous, sedimentary, and metamorphic</em>.
+  </p>
+  
+  <p>
+   Silica, or silicon dioxide <m>(SiO_2)</m>, and Silicates (combination of silicon, oxygen, and other metals 
+   such as aluminum, iron, and magnesium, <m>CaSiO_3</m>) are the most abundant compounds of the Earth's crust. 
+   For example, quartz, which is composed of silicon dioxide, is one of the most common minerals in the 
+   Earth's crust. When rocks containing silica are exposed to the elements, 
+   such as wind and water, the silica can be broken down and transported to other locations, 
+   where it can form new rocks. Slicates are an important components of many types of rocks, 
+   including igneous, sedimentary, and metamorphic rocks. In igneous rocks, silicates are the dominant 
+   mineral group, and they are the primary component of rocks such as granite and basalt. 
+   In sedimentary rocks, silicates are also abundant and can be found in rocks such as sandstone 
+   and shale. In metamorphic rocks, silicates are often transformed into new minerals due to the 
+   effects of heat and pressure. Silicates are important in the Earth's crust because they are 
+   involved in many geological processes. For example, the weathering of silicate minerals can 
+   release nutrients such as potassium and phosphorus that are essential for plant growth. 
+   Whetering hepls silicates to recycle carbon dioxide. 
+   The tetrahedron geometry of silicate <m>(SiO_4^{4-})</m> ion is given 
+   in the <xref ref="fig-silicate"/>
+  </p>
+ </subsection>
+
+</section>
+

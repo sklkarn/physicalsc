@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_ninth-acidbase" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Acids and Base</title>
+  <introduction>
+        <p>
+          Acids and bases are two types of chemical compounds that have unique properties and behavior. 
+          <term>Acids</term> <idx>acid</idx> are compounds that have a high concentration of hydrogen ions <m>(H^+)</m>, which they 
+          release when they are dissolved in water. Acid tests sour. 
+          <fn>(It is compeletely prohibited to test any liquid in the laboratory.)</fn>
+          Orange, lemon, tomato, tamarind, and grapefruit are sour and contain acid in their juice.
+          <term>Bases</term>, <idx>base</idx> on the other hand, have a high concentration of hydroxide 
+          ions <m>(OH^-)</m>, which they release when they are dissolved in water. 
+          Base also known as <em>Alkali</em> tests bitter. Cucumber, asparagus, garlic, 
+          yam, broccoli, and fish slime are alkaline.
+          <me>
+            HCl \longrightarrow H^+ +Cl^- \text{dissociation of hydrochloric acid}
+          </me>
+          <me>
+            H_2SO_4 \longrightarrow H^+ +SO_4^- \text{dissociation of sulfuric acid}
+          </me>
+          Acid dissociates into hydrogen ion when dissolve in water. 
+        </p>
+        <p>
+          <me>
+            NaOH \longrightarrow Na^+ +OH^- \text{dissociation of sodium hydroxide base}
+          </me>
+          <me>
+            Ba(OH)_2 \longrightarrow Ba^{2+} +2OH^- \text{dissociation of barium hydroxide base}
+          </me>
+          Base dissociates into hydroxide ion when dissolve in water. 
+        </p>
+               
+        <p>
+          Acids can be classified as either weak or strong, depending on their ability to dissociate in water. 
+          A <term>strong acid</term> is an acid that completely dissociates in water, meaning that all of its 
+          molecules break apart into ions. Examples of strong acids include hydrochloric acid <m>(HCl)</m>, 
+          sulfuric acid <m>(H_2SO_4)</m>, and nitric acid <m>(HNO_3)</m>. These acids have a very low pH 
+          and are highly reactive. A <term>weak acid</term>, on the other hand, only partially dissociates 
+          in water, meaning that only a small fraction of its molecules break apart into ions. Examples of 
+          weak acids include acetic acid <m>(CH_3COOH)</m>, formic acid <m>(HCOOH)</m>, and 
+          citric acid <m>(C_6H_8O_7)</m>. These acids have a higher pH than strong acids and are less reactive. 
+          The strength of an acid is determined by its dissociation constant (Ka), which is a measure of 
+          how easily the acid donates a proton to water. A high Ka value indicates a strong acid, while a 
+          low Ka value indicates a weak acid. <fn>Explanation of dissociation constant (Ka) is out of the 
+            course requirement here.</fn>
+        </p>
+        <p>
+          A <term>base</term> is a substance that can accept a proton <m>(H^+)</m> from another substance 
+          or donate a hydroxide ion <m>(OH^-)</m> to another substance. Bases can be classified as either 
+          strong or weak, depending on their ability to dissociate in water. A <term>strong base</term> is a 
+          base that completely dissociates in water, meaning that all of its molecules break apart into ions. 
+          Examples of strong bases include sodium hydroxide <m>(NaOH)</m>, potassium hydroxide <m>(KOH)</m>, 
+          and calcium hydroxide <m>(Ca(OH)_2)</m>. These bases have a very high pH and are highly reactive. 
+          A <term>weak base</term>, on the other hand, only partially dissociates in water, meaning that 
+          only a small fraction of its molecules break apart into ions. Examples of weak bases include 
+          ammonia <m>(NH_3)</m>, pyridine <m>(C_5H_5N)</m>, and trimethylamine <m>(N(CH_3)_3)</m>. 
+          These bases have a lower pH than strong bases and are less reactive. The strength of a base is 
+          determined by its dissociation constant (Kb), which is a measure of how easily the base accepts 
+          a proton from water. A high Kb value indicates a strong base, while a low Kb value indicates a weak base.
+          <fn>Explanation of dissociation constant (Kb) is out of the course requirement here.</fn>
+        </p>
+    </introduction>
+
+    <subsection xml:id="subsec-pH">
+      <title>The pH Scale</title>
+      <figure xml:id="fig-pHscale">
+        <caption>pH scale</caption>
+        <image source="pHscale.png" width="60%"/>
+      </figure>
+      <p>
+        One of the most important properties of acids and bases is their <m>pH</m> level. 
+        The <term>pH scale</term> <idx>pH scale</idx> is a measurement system used to describe the acidity or basicity (alkalinity) 
+        of a solution. It is a logarithmic scale that ranges from 0 to 14, with 7 being <em>neutral</em>. 
+        A solution with a pH less than 7 is considered <em>acidic</em>, while a solution with a pH greater 
+        than 7 is considered <em>basic</em> (alkaline). The strength of an acid or base depends on its ability to 
+        release or accept hydrogen ions. Each unit on the pH scale represents a tenfold difference in acidity 
+        or basicity. For example, a solution with a pH of 4 is ten times more acidic than a solution with a pH of 5, 
+        and 100 times more acidic than a solution with a pH of 6. Similarly, a solution with a pH of 
+        10 is ten times more basic than a solution with a pH of 9, and 100 times more basic than a 
+        solution with a pH of 8. The pH scale is important in many scientific fields, including chemistry, 
+        biology, and environmental science. It is used to measure the acidity or basicity of substances 
+        such as water, soil, and blood.
+      </p>
+      
+      <p>The <term>hydronium ion</term>, also known as the oxonium ion, is a positively charged ion with 
+        the chemical formula <m>H_3O^+</m>. It is formed when a water molecule, <m>H_2O</m>, accepts a 
+        hydrogen ion, <m>H^+</m>, from an acid. The hydronium ion is an important species in acid-base 
+        chemistry because it represents the acidic character of a solution. In aqueous solutions, 
+        the concentration of hydronium ions determines the pH of the solution. Solutions with a high 
+        concentration of hydronium ions have a low pH and are considered acidic, while solutions with 
+        a low concentration of hydronium ions have a high pH and are considered basic (alkaline). Hydronium ion 
+        can act as a proton donor (acid) or proton acceptor (base) in chemical reactions, making it an 
+        important species in acid-base catalysis. Pure water has some contents of hydronium ion when it 
+        dissociates but these ions recombines also very fast, hence, pure water is neutral and has pH scale of 7.
+        <me>
+          H_2O \longrightarrow H^+ + OH^- \text{dissociation of water}
+        </me>
+        Since hydroxide ion, <m>OH^-</m> attract <m>H^+</m> ion strongly there is reverse reaction keep happening in water 
+        <me>
+          H^+ + OH^- \longrightarrow  H_2O   \text{recombination of water}
+        </me>
+        Thus we can write 
+        <me>
+          H_2O  ⇌   H^+ + OH^- 
+        </me>
+        </p>
+    </subsection>
+  
+<subsection xml:id="subsec-salts">
+  <title>Salts</title>
+  <p>
+    An acid-base reaction is a chemical reaction that occurs between an acid and a base. 
+    In this type of reaction, the acid donates a proton (H+) to the base, which accepts 
+    the proton. This results in the formation of a new compound that is neither acidic 
+    nor basic in nature. <term>Neutralization</term> <idx>neutralization</idx> is a specific type of acid-base reaction 
+    where an acid and a base react to form a <term>salt</term> and water. The salt formed is composed of 
+    the cation of the base and the anion of the acid, and it is typically a neutral compound. 
+    For example, when hydrochloric acid (HCl) reacts with sodium hydroxide (NaOH), 
+    the following reaction takes place:
+    <me>
+      HCl + NaOH → NaCl + H_2O
+    </me>
+    In this reaction, HCl is the acid, NaOH is the base, NaCl is the salt, and <m>H_2O </m>  
+    is the water that is formed. The resulting solution is neutral because the <m>H^+</m>  and <m>OH^-</m>  
+    ions from the acid and base, respectively, have combined to form water, leaving behind only 
+    the <m>Na^+</m> and <m>Cl^-</m> ions from the salt. Table salt <m>(NaCl)</m>, 
+    Epsom salt <m>(MgSO_4.7H_2O)</m>, Gypsom salt <m>(MgCaSO_4.2H_2O)</m>, 
+    Baking soda <m>(NaHCO_3)</m> are some examples of salt.
+    </p>
+</subsection>
+
+</section>
+

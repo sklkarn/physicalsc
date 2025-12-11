@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_third-intro" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Work, Energy, and Power</title>
+  <introduction>
+    <p> <term>Work:</term> <idx>work</idx> an object is displaced along the same direction as of the applied force 
+    then work is said to be done by the force. In the <xref ref="fig-fig3a"/> force <m>F</m> is pushing a block 
+    of mass <m>m</m> along its direction for a distance of <m>d</m>, then work done, <m>W</m> by this force
+    can be calculated by <men>W = F d</men> Work is a scalar quantity as it is a measure of transfer 
+    of energy from one object to another. The SI unit of work is <em>Joule</em><m>=N\cdot m</m>. 
+    In FPS system, <m>ft.lb = foot.pound</m>, and in CGS system, <m>erg =dyne.cm</m> are the work units.</p>
+        <figure xml:id="fig-fig3a">
+            <caption>Work done by the force <m>F</m></caption>
+            <image source="fig3a.png" width ="60%"/>
+        </figure>
+        
+<example>
+  <statement>
+    <p>
+      A horizontal force of <m>1000 N</m> moves a block of mass <m>100 kg</m> along a horizontal 
+      direction for a distance of <m>2 m</m>. How much work is done by the force? 
+    </p>
+  </statement>
+  <solution>
+    <p>
+      <md>
+        <mrow>W \amp = F\cdot d</mrow>
+        <mrow>or, W \amp = 1000\,N\cdot 2 \,m</mrow>
+        <mrow>\therefore W \amp = 2000 \,Nm = 2000 \,J= 2 \, kJ.</mrow>
+      </md>
+    </p>
+  </solution>
+</example>
+<p>In <xref ref="fig-fig3a"/> force <m>F</m> is along the direction of horizontal and the block is also displaced along
+the same direction from point A to point B. In this case work done by the force is given by multiplication of force 
+<m>F</m> and the displacement <m>d</m>. In this figure work done by the weight <m>mg</m> and normal 
+force <m>N</m> is zero as these forces are perpendicular to the displacement <m>d</m>. 
+However, if slanted force <m>F</m> is involved in doing work, then the work is not zero 
+but can be determined by the projected force which is not in the scope of this book. 
+<alert>Remember</alert> 
+for work to be done, force and displacement must be non-zero. Work may be positive, negative, 
+and zero. For example: work done by applied force along the direction of displacement is positive, 
+work done by the frictional force is negative, and work done by the force perpendicular to 
+the displacement is zero.
+</p> 
+<p><term>Energy:</term> <idx>energy</idx> The capacity of doing work by a force is called an energy. It is also a 
+scalar quantity and has the same unit as work. There are many forms of energy, but they all fall 
+into two categories: potential energy and kinetic energy. These energies are also called a 
+mechanical energy. Potential energy is the energy of position of the object. It is also a stored 
+energy on the object which is equal to the work done on the object to bring it to this position. 
+There are several forms of potential energy, including: gravitational potential energy, chemical 
+energy, elastic energy, nuclear energy, sound energy, heat energy, light energy, geothermal 
+energy, etc. <em>Chemical energy:</em> It is energy stored in the bonds of atoms and molecules. 
+It is the energy that holds these particles together. Foods, biomass, petroleum, and natural 
+gas are some examples of stored chemical energy. During photosynthesis, sunlight gives plants 
+the energy they need to build complex chemical compounds. When these compounds are later broken 
+down, the stored chemical energy is released as heat, light, motion, and sound. 
+<em>Elastic energy:</em> It is an energy stored in objects by the application of a restoring force. 
+Compressed springs and stretched rubber bands are examples of elastic energy. 
+<em>Nuclear energy:</em> It is an energy stored in the nucleus of an atom that binds the nucleus 
+together. The energy can be released when the nuclei are combined or split apart. Nuclear power 
+plants split the nuclei of uranium atoms in a process called fission reaction <idx>fission 
+reaction</idx>. The sun combines the nuclei of hydrogen atoms into helium atoms in a process 
+called fusion reaction <idx>fusion reaction</idx>. In both the fission and fusion reactions, 
+mass is converted into energy, according to Einstein's mass-energy <men>E = mc^2</men> principle. 
+<em>Gravitational potential energy:</em> or <alert>Potential energy:</alert> It is the energy of 
+position or place. It is the work done in lifting an object against gravity near the earth's surface. 
+Gravitational Potential energy depends only on the distance from the ground, not on the object's motion.
+It is given by <men>PE = Fd=mgh</men> Here <m>F</m> is the weight of the object <m>mg</m> and 
+distance <m>d</m> is the height <m>h</m> at which the object is lifted. A rock resting at the 
+top of a hill contains gravitational potential energy because of its position. In hydro-power dam, 
+water in the reservoir stored a gravitational potential energy. <alert>Kinetic energy:</alert> It is 
+the energy of a body due to its motion. If a body of mass <m>m</m> is moving with a velocity 
+<m>v</m> then kinetic energy is given by, <men>KE = \frac{1}{2}mv^2</men>. </p>
+  </introduction>
+  <subsection xml:id="subsec_wep-subsection">
+    <title>Work-Energy Theorem</title>
+    <p>
+      Let us apply Newton's II law into II equation of motion and rearrange them.
+      <md>
+        <mrow>v^2_f \amp = v^2_i + 2 a d</mrow>
+        <mrow>or, v^2_f \amp = v^2_i + 2 \frac{F}{m} d</mrow>
+        <mrow>or, v^2_f - v^2_i \amp = 2 \frac{Fd}{m} </mrow>
+        <mrow>or, m\left(v^2_f - v^2_i\right) \amp  = 2 F d</mrow>
+        <mrow>or, \frac{1}{2} \left(mv^2_f - mv^2_i\right)\amp = Fd</mrow>
+        <mrow>or, \frac{1}{2}mv^2_f - \frac{1}{2}mv^2_i\amp = W</mrow>
+        </md>
+        <men xml:id="eqn-wet">
+          \therefore W  = \frac{1}{2}mv^2_f - \frac{1}{2}mv^2_i
+        </men>
+        
+      Here, <m>\frac{1}{2}mv^2_f </m> is final kinetic energy and 
+      <m>\frac{1}{2}mv^2_i </m> is initial kinetic energy. Hence,       
+       <m>\frac{1}{2}mv^2_f - \frac{1}{2}mv^2_i</m> is change in kinetic energy.
+       Therefore, work done = change in kinetic energy.
+       or <me>
+        W = \Delta KE
+       </me>
+       
+       This is known as work-energy theorem. Meaning the amount of work is done on a body
+       is equal to its change in kinetic energy or vice a versa along the straight line. 
+    </p>
+
+    <example>
+  <statement>
+    <p>
+      A block of mass <m>2 \,kg</m> at rest is being pushed by an unknown force along the horizontal to bring it at 
+      5 <m>m/s</m> velocity. 
+      <ol marker ="a.">
+        <li> How much work is done by the force?</li> 
+          <li> If the body moves to a 2 m distance in this process. Find the value of unknown force.</li>
+            </ol>
+    </p>
+  </statement>
+  <solution>
+    <p> Given: <m>m=2 \,kg</m>, <m>v_i = 0</m>, <m>v_f = 5\, m/s</m>, <m>d=2\,m</m>. </p>
+     <p> <ol marker="a.">
+        <li><m>W=?</m>   
+      <md>
+        <mrow>W \amp = \frac{1}{2}mv^2_f - \frac{1}{2}mv^2_i</mrow>
+        <mrow>or, W \amp = \frac{1}{2}2\cdot5^2-0</mrow>
+        <mrow>\therefore W \amp = 25 \,J.</mrow>
+      </md>
+      </li>
+      <li> <m>F=?</m> 
+        <md>
+        <mrow>W \amp = Fd</mrow>
+        <mrow>or, F \amp = \frac{W}{d}</mrow>
+        <mrow>\therefore F \amp = \frac{25}{2} = 12.5 \,N.</mrow>
+      </md>
+        </li>
+        </ol>
+        </p>
+  </solution>
+</example>
+  </subsection>
+
+<subsection xml:id="subsec-power-subsection">
+  <title>power</title>
+  <p> The rate of doing work is called power <idx>power</idx>. It is also the rate at which the energy can be transferred. 
+  Power tell us that how fast the work has been done. 
+ Power can be expressed as
+ <men xml:id="eqn-power">
+  P =\frac{W}{t}
+ </men>
+  
+  <md>
+   <mrow> or, P \amp = \frac{Fd}{t} </mrow>
+    <mrow> or, P \amp = F\frac{d}{t} </mrow>
+     <mrow>  \therefore P \amp = F v </mrow>
+     </md>
+      Its SI unit is Watt (w=j/s). 
+   </p>
+
+   <example>
+    <statement>
+      <p>
+        Find the power a horse who does 7460 J of work in 10 second.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        <md>
+          <mrow>P \amp =\frac{W}{t} </mrow>
+          <mrow>or, P \amp =\frac{7460}{10} </mrow>
+          <mrow>\therefore P \amp =746 \,watt </mrow>
+        </md>
+        <alert> 746 watt of power is also called 1 horsepower.</alert>
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        A car engine of 200kW power pushes the car to 25 m/s. Find the thrust (force) produces by its engine.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        <md>
+          <mrow>P \amp =F v</mrow>
+          <mrow>or, F \amp =\frac{P}{v} </mrow>
+          <mrow>\therefore F \amp = \frac{200\times 1000}{25} = 8000\, N.</mrow>
+        </md>
+        </p>
+    </solution>
+  </example>
+</subsection>
+</section>
+

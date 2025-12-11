@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_eighth-examples" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Examples</title>
+  
+  <example>
+    <statement>
+      <p>
+        Which of the following cannot be decomposed by chemical and physical means. 
+        <ol marker="a">
+          <li>a compound</li>
+          <li>an element</li>
+          <li>a solid</li>
+          <li>a solution</li>
+        </ol>
+        </p>
+    </statement>
+    <answer>
+      <p>
+        b.
+      </p>
+    </answer>      
+  </example>
+
+<example>
+  <statement>
+    <p>
+      How many element groups are there in a periodic table?
+      <ol marker="a">
+        <li>7</li>
+        <li>11</li>
+        <li>18</li>
+        <li>26</li>
+      </ol>
+    </p>
+  </statement>
+ <answer>
+  <p>
+   c. 
+  </p>
+ </answer>
+</example>
+
+<example>
+  <statement>
+    <p>
+      How many element periods are there in a periodic table?
+      <ol marker="a">
+        <li>5</li>
+        <li>7</li>
+        <li>9</li>
+        <li>0</li>
+      </ol>
+    </p>
+  </statement>
+ <answer>
+  <p>
+   b. 
+  </p>
+ </answer>
+</example>
+
+<example>
+  <statement>
+    <p>
+      Who developed the periodic table?
+      <ol marker="a">
+        <li>Henry Moseley</li>
+        <li>Dimitri Mendeleev</li>
+        <li>John Newlands</li>
+        <li>De Chancourtois</li>
+      </ol>
+    </p>
+  </statement>
+ <answer>
+  <p>
+   b. 
+  </p>
+ </answer>
+</example>
+
+<example>
+  <statement>
+    <p>
+      Who discovered the number of protons in the nucleus of each atom.
+      <ol marker="a">
+        <li>Ernest Rutherford</li>
+        <li>J. J. Thomson</li>
+        <li>Daltons</li>
+        <li>Neil Bohr</li>
+      </ol>
+    </p>
+  </statement>
+ <answer>
+  <p>
+  a. 
+  </p>
+ </answer>
+</example>
+
+<example>
+  <statement>
+    <p>
+      What is the atomic number for helium?
+      <ol marker="a">
+        <li>1</li>
+        <li>2</li>
+        <li>4</li>
+        <li>8</li>
+      </ol>
+    </p>
+  </statement>
+ <answer>
+  <p>
+  b. 
+  </p>
+ </answer>
+</example>
+
+<example>
+  <statement>
+    <p>
+      What is the symbol for Argon?
+      <ol marker="a">
+        <li>A</li>
+        <li>Ar</li>
+        <li>Ag</li>
+        <li>An</li>
+      </ol>
+    </p>
+  </statement>
+ <answer>
+  <p>
+  b. 
+  </p>
+ </answer>
+</example>
+
+<example>
+  <statement>
+    <p>
+      The symbol <m>Au</m> stands for what element?
+      <ol marker="a">
+        <li>Gold</li>
+        <li>Silver</li>
+        <li>Tin</li>
+        <li>Argon</li>
+      </ol>
+    </p>
+  </statement>
+ <answer>
+  <p>
+  a. 
+  </p>
+ </answer>
+</example>
+
+<example>
+  <statement>
+    <p>
+      Which of the following substances is a homogenours mixture?
+      <ol marker="a">
+        <li>air</li>
+        <li>salt</li>
+        <li>seawater</li>
+        <li>soil</li>
+      </ol>
+    </p>
+    <p>
+      Select one of the following:
+      <ol marker="i">
+        <li>a. and b.</li>
+        <li>a. and c.</li>
+        <li>a. and d.</li>
+        <li>none of above.</li>
+      </ol>
+    </p>
+  </statement>
+ <answer>
+ <p>
+ii.
+ </p>
+</answer>
+</example>
+
+<example>
+  <statement>
+    <p>
+      Most elements in the periodic table are <fillin characters="5"/> at room temperature and atmospheric pressure.
+      <ol marker="a">
+        <li>metallic solids</li>
+        <li>gases</li>
+        <li>liquids</li>
+        <li>nonmetallic solids</li>
+      </ol>
+    </p>
+  </statement>
+ <answer>
+  <p>
+  a. 
+  </p>
+ </answer>
+</example>
+
+<example>
+  <statement>
+    <p>
+      Which of the following set of elements possess similar chemical properties?
+      <ol marker="a">
+        <li><m>{}_9F</m> and <m>{}_{17}Cl</m></li>
+        <li><m>{}_3Li</m> and <m>{}_4Be</m></li>
+        <li><m>{}_1H</m> and <m>{}_2He</m></li>
+        <li><m>{}_{11}Na</m> and <m>{}_{12}Mg</m></li>
+      </ol>
+    </p>
+  </statement>
+ <answer>
+  <p>
+  a. 
+  </p>
+ </answer>
+</example>
+
+<example>
+  <statement>
+    <p>
+      Which of the following statements is true regarding the periodic table?
+      <ol marker="a">
+        <li>The horizontal rows in the periodic table are known as groups</li>
+        <li>The verticle columns in the periodic table are known as periods</li>
+        <li>In the periodic table, when the atomic number increases, the properties of the elements repeat regularly</li>
+        <li>The periodic table is classified into blocks based on the electron filling pattern into shells</li>
+      </ol>
+    </p>
+  </statement>
+ <answer>
+  <p>
+  c. 
+  </p>
+ </answer>
+</example>
+
+<example>
+  <statement>
+    <p>
+      Which of the following properties are unique to metals?
+      <ol marker="a">
+        <li>No metallic lustre (or, dull appearance)</li>
+        <li>Solids under room temperature</li>
+        <li>Low melting points</li>
+        <li>Poor conductors of electricity and heat</li>
+      </ol>
+    </p>
+  </statement>
+ <answer>
+  <p>
+  b. 
+  </p>
+ </answer>
+</example>
+
+<example>
+  <statement>
+    <p>
+      How many valence electrons does <m>{}_{11}Na</m> have?
+      <ol marker="a">
+        <li>1</li>
+        <li>11</li>
+        <li>3</li>
+        <li>9</li>
+      </ol>
+    </p>
+  </statement>
+ <answer>
+  <p>
+  a. 
+  </p>
+ </answer>
+</example>
+
+<example>
+  <statement>
+    <p>
+      How many valence electrons does Group 13 have?
+      <ol marker="a">
+        <li>13</li>
+        <li>3</li>
+        <li>5</li>
+        <li>10</li>
+      </ol>
+    </p>
+  </statement>
+ <answer>
+  <p>
+  b. 
+  </p>
+ </answer>
+</example>
+
+<example>
+  <statement>
+    <p>
+      The position of an element in the Periodic Table is determined by which of the followings?
+      <ol marker="a">
+        <li>its atomic radius. </li>
+        <li>its atomic mass. </li>
+        <li>its atomic number. </li>
+        <li>its density. </li>
+      </ol>
+    </p>
+  </statement>
+ <answer>
+  <p>
+  c. 
+  </p>
+ </answer>
+</example>
+
+<example>
+  <statement>
+    <p>
+      Which statement is true of covalent bonds?
+      <ol marker="a">
+        <li>No matter the element, there is the same bond length between neighboring atoms. </li>
+        <li>Valence electrons must be shared equally between atoms in order to achieve stability. </li>
+        <li>Covalent bonds form when the nuclei of two atoms attract each other. </li>
+        <li>Atoms find the ideal separation distance where electrostatics forces are reduced to a minimum. </li>
+      </ol>
+    </p>
+  </statement>
+ <answer>
+  <p>
+  b. 
+  </p>
+ </answer>
+</example>
+
+<example>
+  <statement>
+    <p>
+      Which of the following has a full valence shell?
+      <ol marker="a">
+        <li>oxygen. </li>
+        <li>carbon. </li>
+        <li>neon. </li>
+        <li>iron. </li>
+      </ol>
+    </p>
+  </statement>
+ <answer>
+  <p>
+  c. 
+  </p>
+ </answer>
+</example>
+
+<example>
+  <statement>
+    <p>
+      An ionic bond forms when atoms <fillin characters="5"/> electrons.
+      <ol marker="a">
+        <li>gain </li>
+        <li>share </li>
+        <li>increase </li>
+        <li>transfer </li>
+      </ol>
+    </p>
+  </statement>
+ <answer>
+  <p>
+  d. 
+  </p>
+ </answer>
+</example>
+
+<example>
+  <statement>
+    <p>
+      What is an ion?
+      <ol marker="a">
+        <li> An atom or group of atoms that have gained or lost electrons. </li>
+        <li>An atom or group of atoms that have gained or lost protons. </li>
+        <li>An atom that has more neutrons than protons. </li>
+        <li>An atom that shares electrons with another atom. </li>
+      </ol>
+    </p>
+  </statement>
+ <answer>
+  <p>
+  a. 
+  </p>
+ </answer>
+</example>
+
+<example>
+  <statement>
+    <p>
+      How does a chloride ion of charge <m>-1</m> become neutral?
+      <ol marker="a">
+        <li> By losing two electrons. </li>
+        <li>By losing one electron. </li>
+        <li>By gaining two electrons. </li>
+        <li> By gaining one electron. </li>
+      </ol>
+    </p>
+  </statement>
+ <answer>
+  <p>
+  b. 
+  </p>
+ </answer>
+</example>
+
+<example>
+  <statement>
+    <p>
+      A group of atoms carrying an unpaired electron is known as
+      <ol marker="a">
+        <li> an ion. </li>
+        <li>a radical. </li>
+        <li>a crystal lattice. </li>
+        <li> a covalent bond. </li>
+      </ol>
+    </p>
+  </statement>
+ <answer>
+  <p>
+  b. 
+  </p>
+ </answer>
+</example>
+
+<example>
+  <statement>
+    <p>
+      Which of the following elements does not have a valency of 3?
+      <ol marker="a">
+        <li> sulfur. </li>
+        <li>boron. </li>
+        <li>nitrogen. </li>
+        <li> aluminum. </li>
+      </ol>
+    </p>
+  </statement>
+ <answer>
+  <p>
+  a. 
+  </p>
+ </answer>
+</example>
+
+<example>
+  <statement>
+    <p>
+      The number of electrons gained, lost, or shared by an atom in a chemical bond is also known as
+      <ol marker="a">
+        <li> its atomic number. </li>
+        <li> its valency. </li>
+        <li>its mass number. </li>
+        <li>its charge. </li>
+      </ol>
+    </p>
+  </statement>
+ <answer>
+  <p>
+ b. 
+  </p>
+ </answer>
+</example>
+
+<example>
+  <statement>
+    <p>
+      What is the name of the compound formed when sulfur combines with magnesium?
+      <ol marker="a">
+        <li> Magnesium sulfur. </li>
+        <li> Magnesium sulfate. </li>
+        <li>Sulfur magnesium. </li>
+        <li>Magnesium sulfide. </li>
+      </ol>
+    </p>
+  </statement>
+ <answer>
+  <p>
+ d. 
+  </p>
+ </answer>
+</example>
+
+<example>
+  <statement>
+    <p>
+      The number of atoms in a molecule of <m>Ca_3(PO_4)_2</m> is
+      <ol marker="a">
+        <li> 8. </li>
+        <li> 13. </li>
+        <li>16. </li>
+        <li>12. </li>
+      </ol>
+    </p>
+  </statement>
+ <answer>
+  <p>
+ b. 
+  </p>
+ </answer>
+</example>
+
+<example>
+  <statement>
+    <p>
+      The number of oxygen atoms in a molecule of <m>Ca_3(PO_4)_2</m> is
+      <ol marker="a">
+        <li> 4. </li>
+        <li> 8. </li>
+        <li>13. </li>
+        <li>1. </li>
+      </ol>
+    </p>
+  </statement>
+ <answer>
+  <p>
+ b. 
+  </p>
+ </answer>
+</example>
+
+<example>
+  <statement>
+    <p>
+      Which one of the follwing equations is balanced?
+      <ol marker="a">
+        <li> <m>6CO_2 + 6H_2O → C_6H_{12}O_6 + 6O_2 </m> </li>
+        <li><m>6CO_2 + 6H_2O → C_6H_{12}O_6 + O_2 </m>  </li>
+        <li><m>CO_2 + 6H_2O → C_6H_{12}O_6 + 6O_2 </m>  </li>
+        <li><m>6CO_2 + H_2O → C_6H_{12}O_6 + 6O_2 </m>  </li>
+      </ol>
+    </p>
+  </statement>
+ <answer>
+  <p>
+ a. 
+  </p>
+ </answer>
+</example>
+
+<example>
+  <statement>
+    <p>
+      Write the missing number in the equation below
+      <me>2HNO_3 + Ca(OH)_2 → Ca(NO_3)_2 +[...]H_2O </me>
+      <ol marker="a">
+        <li> <m>1</m></li>
+        <li><m>2</m>  </li>
+        <li><m>3 </m>  </li>
+        <li><m>4 </m>  </li>
+      </ol>
+    </p>
+  </statement>
+ <answer>
+  <p>
+ b. 
+  </p>
+ </answer>
+</example>
+
+</section>
+

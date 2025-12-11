@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<exercises xml:id="ex_third" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <!-- You can ommit the title and just get the default "Exercises" -->
+  <title>Exercise</title>
+  
+  <exercise>
+    <statement>
+      <p>
+        What is the unit of Power? 
+      </p>
+    </statement>
+    <hint>
+      <p>Choose one of the following.</p>
+        <p>
+        <ol marker="a.">
+          <li>Joule (J)</li>
+            <li>Watt (W)</li>
+              <li>Newton (N) </li>
+                </ol>
+                 </p>
+    </hint>
+    </exercise>
+
+  <exercise>
+    <statement>
+      <p>
+       What is the power output of a person of mass 80 kg who can climb on the pine tree with 0.4 m/s.
+      </p>
+    </statement>
+    <hint>
+      <p>
+        Find the relatin between power and velocity.
+      </p>
+    </hint>
+  </exercise>
+
+  <exercise>
+    <statement>
+      <p>
+       What is the power output of a person who can lift 100 kg wheel to 2m height in 4 second.
+      </p>
+    </statement>
+    <hint>
+      <p>
+        Use the definition of power.
+      </p>
+    </hint>
+  </exercise>
+
+  <exercise>
+    <statement>
+      <p>
+       Find the speed of an object which weighs 10N and has the kinetic energy of 20 J.
+      </p>
+    </statement>
+    <hint>
+      <p>
+        Find mass of the object from its weight using Newton's II law and then apply kinetic energy formula 
+        to find the speed. 
+      </p>
+    </hint>
+  </exercise>
+  
+
+  <exercise>
+    <statement>
+      <p>
+      A 2 kg ball is pushed by a horizontal force all the way to 4 m on the ground when the ball starts moving with
+      8 m/s. Find the magnitude of the force.
+      </p>
+    </statement>
+  </exercise>
+
+  <exercise>
+    <statement>
+      <p>
+      A 50 kg box is lifted vertically to a height of 10m. Fing the energy spent in this work.
+      </p>
+    </statement>
+  </exercise>
+
+
+<exercise>
+    <statement>
+      <p>
+     When a cannon shell explodes in mid-air: choose all that applies.
+      </p>
+    </statement>
+    <hint>
+      <p>
+        <ol marker="a.">
+          <li>total momentum of the system remains the same.</li>
+            <li>total kinetic energy of the system remains the same</li>
+               <li>total kinetic energy of the system decreases</li>
+                 <li>total kinetic energy of the system increases</li>
+          </ol>
+      </p>
+    </hint>
+    <answer>
+      <p>
+        a. and d.
+      </p>
+    </answer>
+  </exercise>
+
+
+<exercise>
+  <statement>
+    <p>
+      What is the formula for calculating power?
+      <ol marker="a.">
+        <li>P = W/t</li>
+          <li>P = Fd</li>
+             <li>P = KE + PE</li>
+               <li>P = IV</li>
+        </ol>
+    </p>
+  </statement>
+  <answer>
+    <p>
+      a.
+    </p>
+  </answer>
+</exercise>
+
+<exercise>
+  <statement>
+    <p>
+      What is the Law of Conservation of Energy?
+      <ol marker="a.">
+        <li>Energy cannot be created or destroyed, only transformed from one form to another.</li>
+          <li>Energy can be created or destroyed, but it cannot be transformed from one form to another.</li>
+             <li>Energy can only be created, not destroyed or transformed.</li>
+               <li>Energy can only be destroyed, not created or transformed.</li>
+        </ol>
+    </p>
+  </statement>
+  <answer>
+    <p>
+      a.
+    </p>
+  </answer>
+</exercise>
+
+<exercise>
+  <p>
+    A 500 N box is lifted vertically by a worker to a height of 4 meters. 
+    How much work is done by the worker on the box?
+  </p>
+</exercise>
+
+<exercise>
+  <statement>
+    <p>
+      Which of the following is a unit of work?
+      <ol marker="a.">
+        <li>joule</li>
+          <li>watt</li>
+             <li>newton</li>
+               <li>meter per second</li>
+        </ol>
+    </p>
+  </statement>
+</exercise>
+
+
+<exercise>
+  <statement>
+    <p>
+      A force of 10 Newtons is applied to an object and it moves 
+      5 meters in the direction of the force. How much work was done?
+      <ol marker="a.">
+        <li>2 Newton-meters</li>
+          <li> 5 Newton-meters</li>
+             <li>10 Newton-meters</li>
+               <li>50 Newton-meters</li>
+        </ol>
+    </p>
+  </statement>
+</exercise>
+
+
+<exercise>
+  <statement>
+    <p>
+      Which of the following is a unit of power?
+      <ol marker="a.">
+        <li>joule</li>
+          <li> watt</li>
+             <li>newton</li>
+               <li>meter per second squared</li>
+        </ol>
+    </p>
+  </statement>
+</exercise>
+
+<exercise>
+  <statement>
+    <p>
+      Which of the following types of energy is associated with the motion of objects?
+<ol marker="a.">
+  <li>Kinetic energy</li>
+    <li>  Potential energy</li>
+       <li>Thermal energy</li>
+         <li>Electrical energy</li>
+  </ol>
+    </p>
+  </statement>
+</exercise>
+
+<exercise>
+  <statement>
+    <p>
+      An object with a mass of 2 kg is lifted to a height of 5 meters. 
+      How much potential energy does it have?
+      <ol marker="a.">
+        <li>5 J</li>
+          <li> 10 J</li>
+             <li>20 J</li>
+               <li>50 J</li>
+        </ol>
+    </p>
+  </statement>
+</exercise>
+
+<exercise>
+  <statement>
+    <p>
+      If a ball is dropped from a height of 5 meters, what is its velocity just before 
+      it hits the ground? (Assume no air resistance and acceleration due to gravity is <m>9.8 m/s^2</m>.)
+      <ol marker="a.">
+        <li>9.8 m/s</li>
+          <li> 14 m/sJ</li>
+             <li>19.6 m/s</li>
+               <li>24.5 m/s</li>
+        </ol>
+    </p>
+  </statement>
+</exercise>
+
+
+<exercise>
+  <statement>
+    <p>
+      Which of the following is the formula for momentum?
+      <ol marker="a.">
+        <li><m> p = mv</m></li>
+          <li> <m>F = ma</m> </li>
+             <li><m>E = mc^2</m></li>
+               <li><m>v = d/t</m></li>
+        </ol>
+    </p>
+  </statement>
+</exercise>
+
+
+
+
+ </exercises>

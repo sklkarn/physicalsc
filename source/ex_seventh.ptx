@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<exercises xml:id="ex_seventh" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <!-- You can ommit the title and just get the default "Exercises" -->
+  <title>Exercises</title>
+  
+  <exercise>
+    <statement>
+      <p>
+        A nucleon is which of the following?
+        <ol marker="a">
+          <li>an electron</li>
+          <li>a proton</li>
+          <li>a neutron</li>
+          <li>both a proton and a neutron</li>
+        </ol>
+      </p>
+    </statement>
+    </exercise>
+
+
+  <exercise>
+    <statement> 
+      <p>
+        Which nuclear radiation does not change in different nuclide?
+        <ol marker="a">
+          <li>alpha</li>
+          <li>beta</li>
+          <li>gamma</li>
+          <li>all of the above</li>
+        </ol>
+      </p>
+    </statement>
+    </exercise>
+
+    <exercise>
+      <statement> 
+        <p>
+            Who discovered the radioactivity?
+            <ol marker="a">
+              <li>Rutherford</li>
+              <li>Becquerel</li>
+              <li>Pierre Curie</li>
+              <li>Einstein</li>
+            </ol>
+          </p>
+      </statement>
+      </exercise>
+  
+  <exercise>
+    <statement>
+      <p>
+        Fiil in the blank below.
+        <me>
+          {}_{2}^{4}He + {}_{7}^{14}N \rightarrow \cdots  +  {}_{1}^{1}H
+        </me>
+        <ol marker="a">
+          <li><m>{}_{9}^{19}F</m></li>
+          <li><m>{}_{8}^{17}O</m></li>
+          <li><m>{}_{7}^{15}N</m></li>
+          <li><m>{}_{6}^{12}C</m></li>
+        </ol>
+      </p>
+    </statement>
+    </exercise>
+ 
+    <exercise>
+      <statement>
+        <p>
+          Fiil in the blank below.
+          <me>
+            {}_{13}^{27}Al + {}_{2}^{4}He \rightarrow  \cdots  +  {}_{0}^{1}n
+          </me>
+          </p>
+      </statement>
+      </exercise>
+
+      <exercise>
+        <statement>
+          <p>
+            Write the following nuclides in isotopic notation (e.g., "<m>{}_6^{12}C </m>")
+            <ol marker="a">
+              <li>oxygen-14</li>
+              <li>Copper-65</li>
+              <li>Molebdenum-98</li>
+              <li>Rubidium-100</li>
+            </ol>
+            </p>
+        </statement>
+        </exercise>
+
+        <exercise>
+          <statement>
+            <p>
+              Find the number of neutrons in the following nuclei.
+              <ol marker="a">
+                <li><m>{}_{13}^{27}Al</m></li>
+                <li><m>{}_{94}^{239}Pu</m></li>
+                <li><m>{}_{41}^{93}Nb</m></li>
+                <li><m>{}_{43}^{99}Tc</m></li>
+              </ol>
+              </p>
+          </statement>
+          </exercise>
+    
+          <exercise>
+            <statement>
+              <p>
+                How much of the radiactive substance decays 
+                in 3 months if its half-life is 1 month.
+               </p>
+            </statement>
+            </exercise>
+    
+            <exercise>
+              <statement>
+                <p>
+                 How much mass of 40 mg of a substance will remain after 24 days, if its half -life is 24 days? 
+                 </p>
+              </statement>
+            </exercise>
+
+            <exercise>
+              <statement>
+                <p>
+                  Which of the following statements about half-life is correct?
+                  <ol marker="a">
+                    <li>Half-life is the time required for a substance to decay completely.</li>
+                    <li>Half-life is the time required for a substance to lose half of its initial mass.</li>
+                    <li>Half-life is the time required for a substance to reach its maximum concentration.</li>
+                    <li>Half-life is the time required for a substance to react with half of its initial concentration.</li>
+                  </ol>
+                 </p>
+              </statement>
+              </exercise>
+    
+              
+</exercises>
+
+
+
+

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+<publication>
+  <common>
+  
+  </common>
+
+
+  <source>
+  
+    <directories external="../assets" generated="../generated-assets" />
+
+
+  </source>
+
+  <numbering>
+   
+  </numbering>
+
+  <latex>
+ 
+  </latex>
+
+  <html>
+  
+       
+  </html>
+
+  <epub>
+    <!-- The cover tag can have a @front attribute to specify a cover image. -->
+      <!-- <cover front="cover.jpg"> -->
+  </epub>
+
+
+  <!-- To use WeBWorK, you need a server.  -->
+    <!-- <webwork server="https://webwork-ptx.aimath.org" /> -->
+    <!-- @course, @coursepassword, @user, and @userpassword can also be set. -->
+    <!-- You can also set how tasks are revealed for webwork problems using the @task-reveal attribute on the above-->
+
+</publication>

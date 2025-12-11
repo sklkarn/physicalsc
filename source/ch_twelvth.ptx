@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<chapter xml:id="ch_twelvth" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>The Solar System</title>
+  
+  <introduction>
+
+<figure>
+  <caption></caption>
+  <sidebyside widths="70% 20%">
+      <figure xml:id="fig-solarsys3">
+          <caption><url href="https://getwallpapers.com/collection/solar-system-backgrounds">Our solar system</url></caption>
+          <image source="solarsys3.png"/>
+      </figure>
+      <figure xml:id="fig-oortcloud">
+          <caption><url href="https://curiosmos.com/">Oort's Cloud</url></caption>
+          <image source="oortcloud.png"/>
+      </figure>
+    </sidebyside>
+</figure>  
+
+    <p> 
+     Our solar system  <url href="https://3d-solar-system.webflow.io/">Solar System Animation</url> formed about 4.6 billion years ago from a cloud of gas and dust called the solar nebula. 
+      The birth of the sun, which is the center of the solar system <xref ref="fig-solarsys3"/>, began when a shock wave from a nearby 
+      supernova explosion triggered the collapse of a dense region of the nebula. This collapse caused 
+      the region to become hot and dense, and it eventually formed a protostar at its center. 
+      As the protostar continued to grow, it became increasingly hot and dense, until it reached a 
+      temperature and pressure high enough to initiate nuclear fusion. This process caused the protostar 
+      to emit energy in the form of light and heat, and it became a star <term>the sun</term>. 
+      Meanwhile, the remaining gas and dust in the solar nebula began to clump together due to gravity, 
+      eventually forming the planets, moons, asteroids, and other objects that make up the solar system. 
+      The planets closer to the sun, also known as <term>inner planets or Terrestrial planets</term> 
+      such as Mercury, Venus, Earth, and Mars, are rocky and relatively small, while the 
+      <term>outer planets or Jovian planets</term> such as Jupiter, Saturn, Uranus, and Neptune, 
+      are much larger and composed mainly of gas and ice. This process of planetary formation took 
+      place over hundreds of millions of years and is still ongoing, as smaller objects continue to 
+      collide and form into larger ones.
+    </p>
+    <figure xml:id="fig-planetdis">
+      <caption>The Planets</caption>
+      <image source="planetdis.png" width ="80%"/>
+  </figure> 
+  <p>
+    Here all the distances are taken as an average distance of the planets from the Sun in astronomical units (AU). 
+    <m>1 AU = 1.496\times 10^8 km.</m> and the symbol <m>\bigodot</m> represents the Sun. <notation>
+      <usage>(<m>\bigodot</m>)</usage>
+      <description>The Sun</description>
+    </notation>
+  </p>
+  <p>
+    All the planets in our solar system are visible from Earth at various times, depending on their 
+    positions relative to the Sun and Earth. The five planets that are visible to the naked eye from 
+    Earth are Mercury, Venus, Mars, Jupiter, and Saturn. Mercury and Venus are called "inferior planets" 
+    because they orbit the Sun closer than Earth does, so they never appear very far from the Sun in the sky. 
+    Mercury is visible low on the horizon just after sunset or just before sunrise, and Venus is usually 
+    the brightest object in the sky after the Sun and the Moon. Mars, Jupiter, and Saturn are called 
+    "superior planets" because they orbit the Sun farther than Earth does, so they can appear anywhere 
+    in the sky. Mars is typically reddish in color and is visible in the evening sky, while Jupiter 
+    and Saturn are both visible in the late evening and early morning skies and are usually among the 
+    brightest objects in the sky, after the Moon and Venus. Uranus and Neptune, the two outermost planets, 
+    are also visible from Earth, but they are much fainter and require binoculars or a telescope to see.
+  </p>
+</introduction>
+<subsection xml:id="subsec-debribelts">
+  <title>Debri Belts</title>
+<p>
+  Asteroids are small, rocky objects that orbit the sun. There are millions of asteroids in our solar system, 
+  ranging in size from tiny pebbles to massive rocks several hundred kilometers across. Most asteroids are 
+  found in the <term>asteroid belt</term>, [<xref ref="fig-solarsys3"/>] a region of space between Mars and Jupiter. 
+  Asteroids are thought to be remnants from the early solar system, left over from the formation of the planets. 
+  Studying asteroids can give us insights into the formation and evolution of the solar system, as well as 
+  provide clues about the potential hazards that these objects pose to our planet. <term>Meteoroids</term> 
+  can come from various sources, including the asteroid belt.  Small rocky objects in asteroids belt sometimes 
+  collide with each other and create meteoroids. However, meteoroids can also come from other sources, 
+  such as comets or other objects in space. Once a meteoroid enters the Earth's atmosphere, it is called a 
+  meteor or shooting star.
+</p>
+<p>
+  A <term>meteor shower</term> occurs when the Earth passes through a trail of debris left behind by a comet 
+  or asteroid. As the Earth moves through this debris field, the small particles, called meteoroids, 
+  enter the Earth's atmosphere at high speeds and burn up, creating streaks of light in the sky that we 
+  call <term>meteors or shooting stars</term>. Meteor showers can occur at various times throughout the year, 
+  and they are often named after the constellation that appears to be the source of the meteors (the radiant). 
+  Some of the most well-known meteor showers include the Perseids (in August), the Leonids (in November), 
+  and the Geminids (in December).
+</p>
+<p>
+  The <term>Kuiper Belt</term> [<xref ref="fig-solarsys3"/>] is a region of the solar system located beyond 
+  the orbit of Neptune, extending from about 30 to 50 astronomical units (AU) from the Sun. It is a vast 
+  region of space containing many small icy objects, including <term>dwarf planets</term> such as 
+  <term>Pluto,</term> Haumea, Makemake, and Eris, as well as numerous smaller bodies known as Kuiper 
+  Belt Objects (KBOs). The Kuiper Belt is thought to be the source of many short-period comets, 
+  which are believed to be icy bodies that originate from this region and are gravitationally perturbed by 
+  the gas giants, particularly Jupiter. 
+</p>
+<p>
+  The <term>Oort Cloud</term> [<xref ref="fig-oortcloud"/>] is a theoretical region of the outer solar system 
+  that is thought to be the source of most long-period comets. It is believed to extend from about 2,000 
+  to 100,000 astronomical units (AU) from the Sun, which is well beyond the Kuiper Belt. The Oort Cloud 
+  is composed of icy objects, including comets, that are thought to have formed in the early solar 
+  system and were gravitationally scattered to the outer reaches of the solar system by the gas giants.
+  The comets in the Oort Cloud can be perturbed by passing stars, which can send them on trajectories 
+  that bring them into the inner solar system, where they become visible as long-period comets. 
+  The Oort Cloud is named after Dutch astronomer Jan Oort, who first proposed its existence in 1950 
+  based on observations of comets.
+</p>
+
+<figure>
+  <caption></caption>
+  <sidebyside widths="40% 40%">
+      <figure xml:id="fig-Hale-Bopp">
+          <caption><url href="https://www.dkfindout.com/us/space/solar-system/comets/">Hale-Bopp comet</url></caption>
+          <image source="Hale-Bopp.png"/>
+      </figure>
+      <figure xml:id="fig-cometorbt">
+          <caption><url href="https://simple.wikipedia.org/wiki/Comet">Comet's orbit</url></caption>
+          <image source="cometorbt.png"/>
+      </figure>
+    </sidebyside>
+</figure>  
+
+<p>
+  <term>Comets</term> are celestial bodies that orbit the sun and are primarily composed of ice, dust, and rock [<xref ref="fig-Hale-Bopp"/>]. 
+  They are often referred to as "dirty snowballs" because of their composition. When a comet approaches the sun, 
+  its ice begins to vaporize, releasing gas and dust that form a glowing coma, a temporary atmosphere around 
+  the nucleus. The solar wind and radiation pressure from the sun cause the coma to form a <em>tail</em> that 
+  points away from the sun. Comets can have highly elliptical orbits [<xref ref="fig-cometorbt"/>] that take them far from the sun and 
+  then back towards it, sometimes taking thousands of years to complete a single orbit. Many comets are 
+  believed to originate in the Kuiper Belt, a region beyond Neptune that contains icy bodies and small planets. 
+  Some comets have been known to collide with planets or moons, and these collisions can have significant 
+  impacts on the celestial body's surface. Comets have fascinated people for centuries and have been 
+  the subject of many myths and legends. They have also been studied extensively by astronomers, 
+  who use them as a tool to study the formation and evolution of the solar system.
+</p>
+</subsection>
+
+
+
+<xi:include href="./sec_twelvth-intro.ptx" />
+<xi:include href="./sec_twelvth-moon.ptx" />
+<xi:include href="./sec_twelvth-examples.ptx"/> 
+
+<!-- One or more of the sections of a chapter might be exercises-->
+<xi:include href="./ex_twelvth.ptx"/> 
+
+</chapter>

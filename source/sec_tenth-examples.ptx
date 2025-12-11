@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_tenth-examples" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Examples</title>
+  
+   <example>
+    <statement>
+      <p>
+       Which of the following gases are abundant in atmosphere?
+       <ol marker ="a">
+        <li>Oxygen.</li>
+        <li> Hydrogen.</li>
+          <li> Nitrogen. </li>
+         <li> Carbon dioxide. </li>
+          </ol>
+      </p>
+    </statement>
+    <solution>
+      <p>
+        c.
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+       The formation of clouds, rains, storms are found in 
+       <ol marker ="a">
+        <li>Tropospher.</li>
+        <li> Stratosphere.</li>
+          <li> Ozonosphere. </li>
+         <li> Exosphere. </li>
+          </ol>
+      </p>
+    </statement>
+    <solution>
+      <p>
+        a.
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+       What causes the temperature to increase with altitude in stratosphere? 
+       <ol marker ="a">
+        <li>Water vapor.</li>
+        <li> Ozone.</li>
+          <li> Pollutants. </li>
+         <li> Nitogen. </li>
+          </ol>
+      </p>
+    </statement>
+    <solution>
+      <p>
+        b.
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+       The role of ozone in stratosphere to
+       <ol marker ="a">
+        <li>block ultraviolet radiation.</li>
+        <li> reflects radio waves.</li>
+          <li> reflects ultraviolet radiation. </li>
+         <li> give blue color of the sky. </li>
+          </ol>
+      </p>
+    </statement>
+    <solution>
+      <p>
+        a.
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+       The relative humidity of saturated air is 
+       <ol marker ="a">
+        <li>zero.</li>
+        <li> 100%.</li>
+          <li> 50%. </li>
+         <li> 1%. </li>
+          </ol>
+      </p>
+    </statement>
+    <solution>
+      <p>
+        b.
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+       Air holds more water vapor when it is at
+       <ol marker ="a">
+        <li>low temperature.</li>
+        <li> high temperature.</li>
+          <li> high relative humidity. </li>
+         <li> All of the above. </li>
+          </ol>
+      </p>
+    </statement>
+    <solution>
+      <p>
+        b.
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        The temperature at which water vapor condenses is the 
+       <ol marker ="a">
+        <li>freezing point.</li>
+        <li> melting point.</li>
+          <li> relative humidity. </li>
+         <li> dew point. </li>
+          </ol>
+      </p>
+    </statement>
+    <solution>
+      <p>
+        d.
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        Greenhouse effect can be described as 
+       <ol marker ="a">
+        <li>certain gases in the atmosphere that trap heat and warm the earth.</li>
+        <li> life on earth exhales gas that warms up the atmosphere.</li>
+          <li> the sun is putting out more radiant energy over time. </li>
+         <li> the tiltation causes the earth to receive more heat time to time. </li>
+          </ol>
+      </p>
+    </statement>
+    <solution>
+      <p>
+        a.
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        Clouds form when <fillin characters="5" /> changes into tiny water droplets or ice crystals.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        water vapor.
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        When air moves upward to an area of less pressure it forms <fillin characters="5" />
+      </p>
+    </statement>
+    <solution>
+      <p>
+        clouds.
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        What causes wind to blow?
+       <ol marker ="a">
+        <li> The rotation of the earth.</li>
+        <li>  Differences in air temperature and pressure.</li>
+          <li> Differences in longitude. </li>
+         <li> Shock waves from clouds. </li>
+          </ol>
+      </p>
+    </statement>
+    <solution>
+      <p>
+        b.
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        What causes the Coriolis effect?
+       <ol marker ="a">
+        <li> The rotation of the earth.</li>
+        <li>  The revolution of the earth around the Sun.</li>
+          <li> The Sun's radiation. </li>
+         <li> The fact that the Earth is an oblate ellipsoid. </li>
+          </ol>
+      </p>
+    </statement>
+    <solution>
+      <p>
+        a.
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+    <p>
+      What is the definition of weathering?
+      <ol marker ="a">
+        <li> The process of breaking down rocks and minerals.</li>
+        <li>  The process of forming new rocks and minerals.</li>
+          <li> The process of moving rocks and minerals from one place to another. </li>
+         <li> The process of melting rocks and minerals. </li>
+          </ol>
+    </p>
+  </statement>
+  <answer>
+    <p>
+      a.
+    </p>
+  </answer>
+  </example>
+
+  <example>
+    <statement>
+    <p>
+      Which of the following is an example of physical weathering?
+      <ol marker ="a">
+        <li> Dissolution of limestone by acid rain.</li>
+        <li>  Formation of caves by groundwater erosion.</li>
+          <li> Freeze-thaw cycles in a mountain range. </li>
+         <li> Chemical reactions between minerals in a rock. </li>
+          </ol>
+    </p>
+  </statement>
+  <answer>
+    <p>
+      c.
+    </p>
+  </answer>
+  </example>
+
+  <example>
+    <statement>
+    <p>
+      Which of the following is an example of chemical weathering?
+      <ol marker ="a">
+        <li> Abrasion of rocks by wind and water.</li>
+        <li>  Plant roots breaking apart rocks.</li>
+          <li> Oxidation of iron in a rock. </li>
+         <li> Water freezing in the cracks of a rock. </li>
+          </ol>
+    </p>
+  </statement>
+  <answer>
+    <p>
+      c.
+    </p>
+  </answer>
+  </example>
+
+
+  <example>
+    <statement>
+    <p>
+      Which type of weathering occurs due to the action of living organisms?
+      <ol marker ="a">
+        <li> Physical weathering.</li>
+        <li>  Chemical weathering.</li>
+          <li> Biological weathering. </li>
+         <li> Abrasive weathering. </li>
+          </ol>
+    </p>
+  </statement>
+  <answer>
+    <p>
+      c.
+    </p>
+  </answer>
+  </example>
+
+
+  <example>
+    <statement>
+    <p>
+      Which of the following factors affects the rate of weathering?
+      <ol marker ="a">
+        <li> Climate and temperature.</li>
+        <li>  Type of rock and mineral composition.</li>
+          <li> Exposure to wind and water. </li>
+         <li> All of the above. </li>
+          </ol>
+    </p>
+  </statement>
+  <answer>
+    <p>
+      d.
+    </p>
+  </answer>
+  </example>
+
+  <example>
+    <statement>
+    <p>
+      What is the most common type of cave?
+      <ol marker ="a">
+        <li> Sea cave.</li>
+        <li>  Lava tube.</li>
+          <li> Solution cave. </li>
+         <li> Erosion cave. </li>
+          </ol>
+    </p>
+  </statement>
+  <answer>
+    <p>
+      c.
+    </p>
+  </answer>
+  </example>
+
+
+  <example>
+    <statement>
+    <p>
+      Which of the following is a common process that contributes to the formation of solution caves?
+      <ol marker ="a">
+        <li> Frost wedging.</li>
+        <li>   Root wedging.</li>
+          <li> Acid dissolution. </li>
+         <li> Abrasion by wind and water. </li>
+          </ol>
+    </p>
+  </statement>
+  <answer>
+    <p>
+      c.
+    </p>
+  </answer>
+  </example>
+
+  <example>
+    <statement>
+    <p>
+      Which of the following is an example of water erosion?
+      <ol marker ="a">
+        <li> Wind-blown sand blasting against rock.</li>
+        <li> Glaciers scraping across the landscape.</li>
+          <li> Rainwater washing away soil on a hillside. </li>
+         <li> Plant roots cracking apart a boulder. </li>
+          </ol>
+    </p>
+  </statement>
+  <answer>
+    <p>
+      c.
+    </p>
+  </answer>
+  </example>
+
+
+  <example>
+    <statement>
+    <p>
+      Which of the following is an example of wind erosion?
+      <ol marker ="a">
+        <li> A river carving a canyon over time.</li>
+        <li> Sand dunes moving across a desert landscape. </li>
+          <li> Waves crashing against a cliff. </li>
+         <li> Gravity causing rocks to tumble down a slope. </li>
+          </ol>
+    </p>
+  </statement>
+  <answer>
+    <p>
+      b.
+    </p>
+  </answer>
+  </example>
+
+
+  <example>
+    <statement>
+    <p>
+      What is groundwater?
+      <ol marker ="a">
+        <li> Water that flows over the surface of the Earth.</li>
+        <li> Water that is stored in the atmosphere. </li>
+          <li> Water that is stored underground in porous rock formations. </li>
+         <li> Water that is frozen in glaciers. </li>
+          </ol>
+    </p>
+  </statement>
+  <answer>
+    <p>
+      c.
+    </p>
+  </answer>
+  </example>
+
+
+  <example>
+    <statement>
+    <p>
+      What is an aquifer?
+      <ol marker ="a">
+        <li>  A type of fish found in the ocean.</li>
+        <li> A body of water that is completely surrounded by land. </li>
+          <li> A layer of rock or sediment that can store and transmit groundwater. </li>
+         <li> A type of cloud that forms at high altitudes. </li>
+          </ol>
+    </p>
+  </statement>
+  <answer>
+    <p>
+      c.
+    </p>
+  </answer>
+  </example>
+
+
+  <example>
+    <statement>
+    <p>
+      Which of the following is NOT an example of how groundwater can be used?
+      <ol marker ="a">
+        <li>  Drinking water.</li>
+        <li> Irrigation for crops. </li>
+          <li> Hydroelectric power generation. </li>
+         <li> Launching rockets into space. </li>
+          </ol>
+    </p>
+  </statement>
+  <answer>
+    <p>
+      d.
+    </p>
+  </answer>
+  </example>
+
+
+  <example>
+    <statement>
+    <p>
+      What is the water table?
+      <ol marker ="a">
+        <li> A table that displays the amount of water in a given area.</li>
+        <li> The upper limit of the saturated zone, where the groundwater meets the 
+          air in the pores and cracks of rock or soil. </li>
+          <li> A table used to plan and manage groundwater usage. </li>
+         <li> A table that shows the location of all wells in a given area. </li>
+          </ol>
+    </p>
+  </statement>
+  <answer>
+    <p>
+      b.
+    </p>
+  </answer>
+  </example>
+
+
+</section>
+

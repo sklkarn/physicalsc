@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<exercises xml:id="ex_eleventh" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <!-- You can ommit the title and just get the default "Exercises" -->
+  <title>Exercises</title>
+  
+  <exercise>
+    <statement>
+      <p>
+        Body waves consist of the:
+        <ol marker ="a">
+          <li>P waves only</li>
+          <li> S waves only.</li>
+            <li> P and S waves.</li>
+           <li> Surface waves. </li>
+            </ol>
+        </p>
+    </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Earthquake A has a Richter magnitude of 7 as compared with earthquake B's 6. 
+          The amount of ground motion is one measure of earthquake intensity.
+          <ol marker ="a">
+            <li>A is 10 times more intense than B.</li>
+            <li> A is 1000 more intense than B. </li>
+              <li> B is 0.01X as intense than A.</li>
+             <li> Richter magnitude does not measure intensity. </li>
+              </ol>
+          </p>
+      </statement>
+      </exercise>
+  
+      <exercise>
+        <statement>
+          <p>
+            Where is the focus with respect to the epicenter:
+            <ol marker ="a">
+              <li>directly below the epicenter.</li>
+              <li> in the P wave shadow zone. </li>
+                <li> in the S wave shadow zone.</li>
+               <li>directly above the epicenter. </li>
+                </ol>
+            </p>
+        </statement>
+        </exercise>
+
+        <exercise>
+          <statement>
+            <p>
+              Which of the following could be the consequences of the underground earthquake?
+              <ol marker ="a">
+                <li>cyclone.</li>
+                <li> tsunami. </li>
+                  <li> a landslide.</li>
+                 <li>none of the above. </li>
+                  </ol>
+              </p>
+          </statement>
+          </exercise>
+
+          <exercise>
+            <statement>
+              <p>
+                Which of the following statements is false?
+                <ol marker ="a">
+                  <li>Most earthquakes occur at plate boundaries.</li>
+                  <li> Most earthquakes can be predicted several days in advance. </li>
+                    <li> Earthquakes can be caused by normal, reverse, and strike-slip faulting.</li>
+                   <li>P waves travel faster than both S waves and Surface waves. </li>
+                    </ol>
+                 </p>
+            </statement>
+            </exercise>
+
+            <exercise>
+              <statement>
+                <p>
+                  which one of the following is a volcanic rock?
+                  <ol marker ="a">
+                    <li>granite.</li>
+                    <li> basalt. </li>
+                      <li> shale.</li>
+                     <li>marble. </li>
+                      </ol>
+                   </p>
+              </statement>
+              </exercise>
+
+              <exercise>
+                <statement>
+                  <p>
+                    A region where the edge of one lithospheric plate slides under the edge of another plate is 
+                    <ol marker ="a">
+                      <li>Transform fault.</li>
+                      <li> Divergent boundary. </li>
+                        <li> Convergent boundary.</li>
+                       <li> Subduction zone. </li>
+                        </ol>
+                     </p>
+                </statement>
+                <answer>
+                  <p>
+                    d.
+                  </p>
+                </answer>
+                </exercise>
+
+                <exercise>
+                  <statement>
+                    <p>
+                      Most volcanoes are found along 
+                      <ol marker ="a">
+                        <li>Divergent boundaries.</li>
+                        <li> Transform faults. </li>
+                          <li> Convergent boundaries.</li>
+                         <li> Hotspots. </li>
+                          </ol>
+                       </p>
+                  </statement>
+                  <answer>
+                    <p>
+                      c.
+                    </p>
+                  </answer>
+                  </exercise>
+
+                  <exercise>
+                    <statement>
+                      <p>
+                        Which of the follwing is a primary cause of volcanoes, earthquake, and mountain building?
+                        <ol marker ="a">
+                          <li>solar radiation.</li>
+                          <li> plate tectonics. </li>
+                            <li> remanent magnetism.</li>
+                           <li> hotspots. </li>
+                            </ol>
+                         </p>
+                    </statement>
+                    <answer>
+                      <p>
+                        b.
+                      </p>
+                    </answer>
+                    </exercise>
+
+                    <exercise>
+                      <statement>
+                        <p>
+                          Which type of plate boundaries exists at subduction zones?
+                          <ol marker ="a">
+                            <li>divergent.</li>
+                            <li>convergent. </li>
+                              <li>transform.</li>
+                             <li> reverse. </li>
+                              </ol>
+                           </p>
+                      </statement>
+                      </exercise>
+  <exercise>
+    <p>
+     Subduction zone is never located at 
+     <ol marker ="a">
+      <li>midocean ridge</li>
+      <li>isaland chain</li>
+      <li>continental margin</li>
+      <li>mountain range</li>
+     </ol> 
+    </p>
+  </exercise>
+                     
+
+                      <exercise>
+                        <statement>
+                          <p>
+                            What do paleontologists study?
+                            <ol marker ="a">
+                              <li>Eart interior.</li>
+                              <li>Time. </li>
+                                <li>Fossils.</li>
+                               <li> Rocks. </li>
+                                </ol>
+                             </p>
+                        </statement>
+                        <answer>
+                          <p>
+                            c.
+                          </p>
+                        </answer>
+                        </exercise>
+
+                        <exercise>
+                          <statement>
+                            <p>
+                              In what time spans are eras next divided?
+                              <ol marker ="a">
+                                <li>eons.</li>
+                                <li>epochs. </li>
+                                  <li>ages.</li>
+                                 <li> periods. </li>
+                                  </ol>
+                               </p>
+                          </statement>
+                          <answer>
+                            <p>
+                              d.
+                            </p>
+                          </answer>
+                          </exercise>
+
+                          <exercise>
+                            <statement>
+                              <p>
+                                In which era did the dinosaurs extinct?
+                                <ol marker ="a">
+                                  <li>Cenozoic.</li>
+                                  <li> Paleozoic. </li>
+                                    <li>Precambrian.</li>
+                                   <li>Mesozoic.</li>
+                                    </ol>
+                                 </p>
+                            </statement>
+                            </exercise>
+
+                            <exercise>
+                              <statement>
+                                <p>
+                                 When did the giant landmass Pangea split into Laurasia and Gondwana?
+                                  <ol marker ="a">
+                                    <li>Cenozoic.</li>
+                                    <li> Paleozoic. </li>
+                                      <li>Precambrian.</li>
+                                     <li>Mesozoic.</li>
+                                      </ol>
+                                   </p>
+                              </statement>
+                              </exercise>
+
+                              <exercise>
+                                <p>
+                                  Birds are descendend from 
+                                  <ol marker ="a">
+                                    <li>fish</li>
+                                    <li> insects </li>
+                                      <li>dinosaurs</li>
+                                     <li>mammals</li>
+                                      </ol>
+                                </p>
+                               </exercise>
+                               
+                              <exercise>
+                                <statement>
+                                  <p>
+                                   Mammals became dominant in which era?
+                                    <ol marker ="a">
+                                      <li>Cenozoic.</li>
+                                      <li> Paleozoic. </li>
+                                        <li>Precambrian.</li>
+                                       <li>Mesozoic.</li>
+                                        </ol>
+                                     </p>
+                                </statement>
+                                </exercise>
+  
+                            
+
+</exercises>
+
+
+
+

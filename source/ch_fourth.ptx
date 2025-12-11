@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Chapters are enclosed with <chapter> tags. Use xml:id to -->
+<!-- uniquely identify the chapter.  The @xmlns:xi attribute  -->
+<!-- is needed if you use xi:include in this file             -->
+<chapter xml:id="ch_fourth" xmlns:xi="http://www.w3.org/2001/XInclude">
+
+<!-- Change title when you have one: -->
+  <title>Matter and Heat</title>
+  <!-- If the chapter has sections, there may be an introduction -->
+  <!-- before those sections. Note the <p> tags around content.  -->
+  <introduction>
+    <p>Anything that occupies space and has some mass is called matter. 
+    Everything around us is made up of matter. Matter can exist in three different forms depending 
+    on the conditions. These different forms of matter are also called the phases (or states) of 
+    matter. They are solid, liquid, or gas. On earth, water can exist in all three states at 
+    natural temperature. Ice is the solid form of water, water itself is in liquid form, and vapor is the gaseous state of water.
+    <alert> Solid:</alert> <idx>solid</idx> has definite shape and size (volume). Particles in a solid have strong bonds between each other.
+    The particles in a solid can vibrate but the structure does not not change. Metals and wood are 
+    some examples of a solid. <alert>Liquid:</alert> <idx>liquid</idx> has a definite size (volume) 
+    but does not have definite shape. Liquid takes the shape of the 
+    container it is in. Particles (molecules) in a liquid are more spread out and can move around and 
+    bump into each other. Water and oil are some examples of liquid.
+   <alert>Gas:</alert> <idx>gas</idx> neither has a definite size (volume) nor has a definite shape. 
+   Gas also takes the shape of the container it is in, and you can compress more gas into the same container. Particles (molecules) in a gas are 
+    far apart and can move around freely and quickly. Steam and air are some examples of gas. 
+    </p>
+    <p><alert>Heat:</alert> <idx>heat</idx> we feel hot when we stand outside on a scorching summer 
+      day and we feel cold when touching an iron bar in the morning of a severe winter day. Such a sensation of hotness and 
+    coldness is called heat. Heat is a form of energy that can transfer from one location to another 
+    because of the temperature difference. A quantitative measure of the sensation of hotness or 
+    coldness is given by temperature. Therefore, <alert>temperature</alert> is the relative measure 
+    of hotness or coldness of a body. Heat energy is produced at the expense of mechanical energy 
+    and vice versa. For example, rubbing palms vigorously makes the palms warmer. Work and heat both 
+    transfer the energy from one system to another but temperature plays no role in transfer of 
+    energy due to work. Objects can store heat (or thermal energy) because the atoms and molecules 
+    of the objects are jostling around and bumping onto one another. This type of thermal 
+    energy is called an <em>internal kinetic energy</em> of the materials. The energy also arises in molecules 
+    due to intermolecular attractions. This type of energy is called an <em>internal potential energy.</em> 
+    During phase change of a material heat is stored in the form of internal potential energy. For 
+    example, heating of ice melts it without any rise of temperature. This energy is used in driving 
+    the molecules of ice away from each other against their molecular attraction. While internal 
+    energy refers to the total energy of all the molecules within the object, heat is the amount 
+    of energy flowing from one body to another spontaneously due to their temperature difference. 
+    Heat is energy in transit but not a property of the system. To measure how hot or cold something 
+    is, we use an instrument called a thermometer. Hence, the <alert>thermometer</alert> is a device 
+    used to measure temperature. The definition of temperature is not very straight forward to explain 
+    but the degree of hotness or coldness of a body would suffice as the definition for now. 
+    At the molecular level, <em>temperature</em> <idx>temperature</idx> is the average kinetic of 
+    the molecules of a substance, whereas <em>heat</em> is energy in transit because of temperature difference. Hence, there is 
+    no notion of heat in a body. When heat is added to a body, internal energy of the molecules of the body
+    increases and when heat is lost by the body its internal energy decreases. Since heat is a form of energy
+    its SI unit is Joule (J), but the common unit of heat is <em>calorie (cal)</em> <idx>calorie</idx>.
+    A  calorie is defined as the amount of heat necessary to raise the temperature of one gram of water 
+    to one degree Celsius at normal temperature and pressure (NTP). 
+    <me>1 \,cal = 4.2 \,J</me>
+  </p>
+    <p>
+    Different materials behave differently to heat. Most materials increase their volume when 
+    heated, but there are some exceptional materials which shrink their volume on heating. 
+    For example: glass, steel, concrete, brass, etc. expand on heating or in rise of 
+    temperature. But welding iron, invar, etc. shrink volume on heating. Water on the other hand can 
+    shrink its volume when heated from <m>0 \,^oC</m> to <m>4 \,^oC</m> and expands after heating 
+    beyond that temperature. Such property of water is called an anomalous behavior of water. 
+    Due to this property of water aquatic animals survive when a pond is frozen in the winter.
+    </p>
+    </introduction>
+
+
+  <!-- Sections can be written directly here, but it might help  -->
+  <!-- with organization to include them as separate files.      -->
+  <!-- That way it is easy to include the section in a different -->
+  <!-- chapter later if you change your mind about the order.    -->
+  <xi:include href="./sec_fourth-intro.ptx" />
+   <xi:include href="./sec_fourth-fluid.ptx" />
+   <xi:include href="./sec_fourth-examples.ptx"/> 
+
+  <!-- One or more of the sections of a chapter might be exercises-->
+   <xi:include href="./ex_fourth.ptx"/> 
+</chapter>

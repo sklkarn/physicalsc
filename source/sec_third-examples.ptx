@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_third-examples" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Examples</title>
+
+
+   <example>
+    <statement>
+      <p>
+        A moving object may or may not have     
+        <ol marker="a.">
+          <li>momentum.</li> 
+            <li>velocity.</li>
+              <li>kinetic energy.</li>
+                <li>potential energy.</li>
+                  </ol>
+      </p>
+    </statement>
+    <hint>
+        <p>
+          Think of what if the object is moving on the ground.
+        </p>
+      </hint>
+    <solution>
+      <p>
+        d.
+      </p>
+    </solution>
+  </example>
+
+
+  <example>
+    <statement>
+      <p>
+        When two or more objects collide their
+        <ol marker="a.">
+          <li>total momentum remains the same.</li> 
+            <li>total kinetic energy remains the same.</li>
+              <li>momentum of each object never changes.</li>
+                <li>kinetic energy of each object never changes.</li>
+                  </ol>
+      </p>
+      </statement>
+      <hint>
+        <p>
+          Read the conservation principles.
+        </p>
+      </hint>
+    <solution>
+      <p>
+        a.
+      </p>
+    </solution>
+  </example>
+
+  
+ <example>
+    <statement>
+      <p>
+        Two objects of same volume but different masses are bing dropped from the top of a building onto the ground.  
+         Which of the following quantities remains the same when they have fallen halfway down? Neglect air resistance.
+        <ol marker="a.">
+          <li>kinetic energy.</li> 
+            <li>potential energy.</li>
+              <li>speed.</li>
+                <li>acceleration due to gravity.</li>
+                  </ol>
+      </p>
+     </statement>
+     <hint>
+      <p>
+      Read section <xref ref="subsubsec_ff-second"/>  
+      </p>
+    </hint>
+    <solution>
+      <p>
+        c. and d.
+      </p>
+    </solution>
+  </example>
+  
+
+
+
+ <example>
+  <statement>
+    <p>
+      If a book of mass <m>2 \,kg</m> is hold at 2m above the ground for <m>40\, seconds.</m> How much is the work done?  
+      </p>
+   </statement>
+    <hint>
+      <p>
+      Read section <xref ref="sec_third-intro"/>  
+      </p>
+    </hint>
+  <solution>
+    <p>
+      Force has not displaced the object, so distance =0. Hence <me>W=fd=0.</me>
+    </p>
+  </solution>
+  <answer>
+    <p>
+      0.
+    </p>
+  </answer>
+</example>
+
+
+
+
+
+<example>
+  <statement>
+    <p>
+       Find the velocity of <m>400 \,g</m> bullet if its kinetic energy is <m>50 \,kJ.</m>  
+    </p>
+  </statement>
+    <solution>
+      <p>
+        Given: <m>m=400\,g = 0.4 \,kg,</m> KE = <m>50 \,kJ</m> = <m>50\times 1000\, J = 50000\,J, v=?</m>
+      </p>
+      <p>
+        <md>
+          <mrow>KE \amp =\frac{1}{2}mv^2</mrow>
+          <mrow>50000 \amp =\frac{1}{2}\times 0.4 \times v^2</mrow>
+          <mrow>v^2 \amp =\frac{50000\times 2}{0.4}</mrow>
+          <mrow>\therefore v \amp =\sqrt{250000} = 500</mrow>
+        </md>
+        </p>
+    </solution>
+    <answer>
+          <p>
+          <m>  500\, m/s.</m>
+          </p>
+        </answer>
+  </example>
+  
+  
+  
+  
+  <example>
+    <statement>
+      <p>
+        Find the linear momentum of a <m>50 \,kg</m> dog running at <m>5\, m/s.</m>
+      </p>
+    </statement>
+    <solution>
+      <p>
+        Given: <m>m = 50 kg, \, v = 5\, m/s, \, p =? </m> 
+        <md>
+          <mrow>p \amp =mv</mrow>
+          <mrow>p \amp =50\times 5</mrow>
+          <mrow>\therefore p \amp =250</mrow>
+        </md>
+      </p>
+    </solution>
+     <answer>
+      <p>
+        <m> 250 \,kgm/s.</m>
+      </p>
+     </answer>
+      </example>
+  
+  
+  
+  
+      <example>
+        <statement>
+          <p>
+           Find the recoil velocity of a rocket of mass 100 kg when it ejects <m>50\, g</m> of gas 
+           from its propulsion pistol at a speed of <m>50\, m/s.</m>   
+          </p>
+        </statement>
+        <hint>
+          <p>
+            Use conservation of momentum principle.  
+          </p>
+        </hint>
+        <solution>
+          <p>Given:<m>m_1=100 \,kg, m_2= 50 \,g=0.05\,kg, v_1= ?, v_2=50 \,m/s.</m>
+            <md>
+              <mrow> p_1\amp =p_2</mrow>
+              <mrow>or,  m_1v_1\amp =m_2v_2</mrow>
+              <mrow> or,  v_2\amp =\frac {m_2v_2}{m_1} </mrow>
+              <mrow> \therefore  v_2\amp =\frac {0.05\times 50}{100} = 0.025\, m/s</mrow>
+            </md>
+          </p>
+        </solution>
+      </example>
+      
+    
+      
+      
+      <example>
+        <statement>
+          <p>
+            What is the formula for calculating potential energy?
+            <ol marker="a.">
+              <li><m> PE = \frac{1}{2}mv^2</m></li> 
+                <li>PE = mgh</li>
+                  <li>PE = Fd</li>
+                    <li>PE = \frac{P}{t}</li>
+                      </ol>
+          </p>
+          </statement>
+        <solution>
+          <p>
+            b.
+          </p>
+        </solution>
+      </example>
+      
+      
+      <example>
+        <statement>
+          <p>
+            What is the SI unit of energy?
+            <ol marker="a.">
+              <li>Joule</li> 
+                <li>Watt</li>
+                  <li>Newton</li>
+                    <li>Pascal</li>
+                      </ol>
+          </p>
+          </statement>
+        <solution>
+          <p>
+            a.
+          </p>
+        </solution>
+      </example>
+      
+
+
+      <example>
+        <statement>
+          <p>
+            A box weighing <m>50\, kg</m> is lifted to a height of 3 meters. How much work was done against gravity? 
+            Assume that the acceleration due to gravity is <m>9.8 \,m/s^2</m>.
+          </p>
+        </statement>
+        <solution>
+          <p>
+            The work done against gravity when lifting the box is equal to the change in 
+            gravitational potential energy. We can use the following formula to find the work done:
+            <me>
+              W = F \times d
+            </me>
+            where force is equal to the weight of the box (mass x gravity), 
+            and distance is the height the box is lifted. Plugging in the given values, we get:
+            <me>
+              W = 50 \,kg \times 9.8 \,m/s^2 = 490 \,N
+            </me>
+            <me>
+              \therefore \quad W = 490 \,N \times 3 \,m = 1470 \,J
+            </me>      
+            Therefore, the work done against gravity when lifting the box weighing 50 kg 
+            to a height of 3 meters is 1470 joules.
+          </p>
+        </solution>
+      </example>
+      
+
+      <example>
+        <statement>
+          <p>
+            If a machine does <m>500\, joules</m> of work in 10 seconds, what is its power output?
+      <ol marker="a.">
+        <li>50 W</li>
+          <li>100 W</li>
+             <li>200 W</li>
+               <li>500 W</li>
+        </ol>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            a.
+          </p>
+        </solution>
+      </example>
+      
+      <example>
+        <statement>
+          <p>
+            If a force of 20 newtons is applied to an object and it moves 4 meters in the direction of 
+            the force, how much potential energy does it gain? 
+            <ol marker="a.">
+              <li>4 joules</li>
+                <li>16 joules</li>
+                   <li>80 joules</li>
+                     <li>320 joules</li>
+              </ol>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            c.
+          </p>
+        </solution>
+      </example>
+      
+      <example>
+        <statement>
+          <p>
+            Which of the following statements is true about the law of conservation of energy?
+            <ol marker="a.">
+              <li>Energy can be created but not destroyed.</li>
+                <li>Energy can be destroyed but not created.</li>
+                   <li>Energy cannot be created or destroyed, only transformed from one form to another.</li>
+                     <li>Energy can be created or destroyed, but only in certain circumstances.</li>
+              </ol>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            c.
+          </p>
+        </solution>
+      </example>
+      
+    
+
+
+</section>
+

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_third-conserv" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Conservation Principles</title>
+  <introduction>
+     <p>
+      Conservation principles <idx>conservation principles</idx> that some physical quantities remains constant through the change. 
+      Conservation principles began to play a central role in scientific theories from <m>17^{th}</m> century. 
+      Galileo, Descartes, Huygens, Leibniz, and Newton established their approaches to physics 
+      on the the principle of inertia: the principle that tells a body will undergo uniform rectilinear 
+      motion unless it is disturbed. There are many conservation principles but here we are only 
+      discussing three of them. 
+        </p>
+ 
+  </introduction>
+ 
+<subsection xml:id="subsec_ce-subsection">
+    <title>Principle of Conservation of Energy</title>
+    <p>
+      It states that in an isolated system, the total energy of the system is conserved. 
+      Meaning, energy can neither be created nor be destroyed, it can only be converted from one 
+      form of energy to another. For example, when a stone falls from a roof its potential energy 
+      is converted into kinetic energy just before it hits the ground. When friction slows down the block 
+      to a stop, the kinetic energy is converted into thermal energy. In case of mechanical energy, 
+      the sum of kinetic energy and potential energy is conserved. That is, total energy at any moment of 
+      time <men>E_i =E_f</men> is always same. Mechanical energy is due to the position and motion of the object. 
+      Therefore, 
+      <men>
+        E = KE + PE = \frac{1}{2}mv^2 + mgh
+      </men>
+      In simple pendulum, when the bob is left from a displaced position it starts 
+      swinging to and fro motion due to conservation of energy. 
+      As its potential energy (PE) is converted into kinetic energy 
+      (KE) at the mean position acquire maximum velocity and keep 
+      moving otherside of mean position due to inertia. Once it 
+      reaches to another extrema it falls back again and retraces 
+      it path again and again. Click this link  
+      <url href = "https://www.mathsisfun.com/physics/pendulum.html"> simple pendulum </url> 
+      and try to understand conservation of energy principle.
+      During the motion of a swinging pendulum, the energy is constantly changing from 
+      KE (kinetic energy) to PE (potential energy). 
+      <ul>
+        <li> KE is MAX at lowest point, </li>
+          <li> KE is MIN at the top of the path (<m>v = 0</m>), </li>
+            <li> PE is MAX at top of path. </li>
+      </ul>
+    </p>
+  </subsection>
+
+<subsection xml:id="subsec_3cm-subsection">
+    <title>Principle of Conservation of Momentum</title>
+    <p>
+      We have defined momentum in <xref ref="subsec-mometum-subsection"/>.
+      Momentum, <m>p = mv</m> is also called a linear momentum as motion 
+      of the object is in straight line path. From Newton's II law we know that
+      <m>F t = \Delta mv</m>. If the force <m>F</m> remains zero then,
+      <m>\Delta mv = mv_f-mv_i = 0</m>. This tells us that <m>mv_f= mv_i</m>. Meaning, 
+      if total external force acting on a system is zero, then total linear momentum of 
+      the system, <m>p_t = </m> constant. This is known as principle of conservation of momentum. 
+      Hence, in the case of conservaiton of mementum, final momentum of the system is equal to the 
+      initial momentum of the system i.e., <men>p_i=p_f</men>
+      <url href="https://javalab.org/en/newtons_cradle_en/">Newton's Cradle</url>
+      Click on the link to understand the conservation of linear momentum.
+       </p>
+  </subsection>
+
+
+<subsection xml:id="subsec_3col-subsection">
+    <title>Collision</title>
+    <p>
+      Momentum conservation is very useful in collision <idx>collision</idx> problems 
+      because the collision force is internal and hence does not 
+      change the total momentum. The impulse of a collision is the total momentum 
+      transferred during the collision, where a <term>collision</term>
+      is an event where a very large force is exerted over a body for a very 
+      short interval of time, <m>\Delta t</m>. During that interval magnitude of force 
+      is continuously changing. Therefore, the impulse of a force is the product 
+      of the average force and the time interval during the contact. 
+      </p>
+        <p>
+           <em>Collision</em> provides a way to better understand the motion. A collision is an 
+           interaction between two objects that may or may not have made physical contact. 
+           In a collision the colliding objects experience a pair of forces acting on them. 
+           The direction of the force on the first object is opposite to the direction of 
+           the force on the second object and these forces are equal in magnitude. These forces are 
+           Newton's III law pair. In an isolated system, total momentum is always conserved, hence 
+           such forces often increase the momentum of one object and decrease the momentum of the other. 
+           There are two kinds of collisions, elastic collision and inelastic collision. 
+           <alert>Elastic collision:</alert> objects are not deformed, e.g. bouncing balls, car's bumper, etc.
+           <alert>Inelastic collision:</alert> objects become permanently deformed, e.g. auto 
+           accidents, throwing a mud on wall. Kinetic energy is only conserved in an elastic collission 
+           but not in an inelastic collision. However, momentum is conseved in both types of collisions. Total energy 
+           remains conserved in both types of collision.
+        </p> 
+  </subsection>
+
+<subsection xml:id="subsec_3am-subsection">
+    <title>Angular Momentum</title>
+    <p>
+      Angular momentum <idx>angular momentum</idx> is the momentum associated with a body in rotation about some axis. 
+      It is also a vector quantity. The direction of angular momentum is parallel to the axis of rotation. 
+      Spinning ball or rotating wheel has an angular momentum. Angular momentum is represented by, <m>L</m>.
+      Angular momentum is defined by <men>L=I\omega</men> Where <m>I</m> is called moment of inertia and 
+      <m>\omega</m> is called the rotational velocity of the object. Moment of inertia, <m>I</m> tells us that how
+      the mass of a body is distributed relative to the axis of rotation.  </p>
+<p>
+      <term>Moment of Inertia, I:</term> 
+      is an inability of a material to change its state of rotational motion. It is defined as 
+      <mdn>
+        <mrow>I \amp = mr^2</mrow>
+        <mrow>also, \quad \omega \amp = \frac{v}{r}</mrow>
+        <mrow>\therefore \quad L \amp = mvr</mrow>
+      </mdn>
+      here, <m>r</m> is the object distance from the axis of rotation.
+      </p>
+</subsection>
+
+<subsection xml:id="subsec-torque">
+        <title>Torque</title>
+        <p>Just as force plays a role in moving object in linear motion,
+        torque <idx>torque</idx> plays the same role in rotational motion of an object about an axis. 
+        Torque in rotational motion is a linear analogue of force. 
+        Actually, torque is a turning effect of force which acts on a body 
+        in specific direction and at specific position. For example, if a force is 
+        applied at the center of mass of a body it will not produce any torque. 
+        But, if the same amount of force is acting off center then the body starts 
+        rotating about an axis. Just as force is a push or a pull, torque is
+        a twist to an object around a specific axis. The magnitude of torque
+        depends on the magnitude of applied force and the lever arm and is given by
+        <men xml:id="eqn-torque">
+          \mathcal{T} = F r
+        </men>
+        </p>
+      </subsection>
+
+      <subsection xml:id="subsec-cam">
+      <title>Principle of Conservation of Angular Momentum</title>
+      <p>Conservation of angular momentum tells that in rotaiton, initial angular momentum 
+      is always equal to final angular momentum of the body if no external torque is acting on it. 
+      That is <mdn>
+        <mrow>L_1 \amp =L_2</mrow>
+        <mrow>or, \quad I_1\omega_1 \amp = I_2\omega_2</mrow>
+        <mrow>or, \quad m_1v_1r_1 \amp = m_2v_2r_2</mrow>
+      </mdn>
+      If the moment of inertia of a rotaing body decreases then rotational velocity is going to increase. 
+      For example: 1. when ice skaters spin by pulling their arms inwards their rotational speed 
+      increase but their rotational speed decrease when they stretched their arms outwards. 
+      2. A system of planets orbiting around a star has no net external torque acting, 
+      so its angular momentum is constant. Hence, when a planet travels along an elliptical orbit, 
+      its speed reduces when it is further away from the star and its speed increases as it approaches the star 
+      <url href ="https://physics.weber.edu/amiri/director-dcrversion/newversion/kepler/Kepler_1.2.html">star-planet system</url>. 
+      Look at the planetary motion of Nereid (Naptune's moon) in the law of orbits animation.
+      </p>
+    </subsection>
+
+</section>
+

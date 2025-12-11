@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<chapter xml:id="ch_ninth" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Crystals and Solutions</title>
+  <introduction>
+    <figure>
+      <caption>Structure of Solids</caption>
+    <sidebyside widths="35% 35%">
+     <figure xml:id="fig-nacl">
+        <caption>Sodium Chloride</caption>
+        <image source="NaCl.png"/>
+    </figure>
+    <figure xml:id="fig-amorps">
+        <caption>Amorphous</caption>
+        <image source="amorps.png"/>
+    </figure>
+      </sidebyside>
+</figure>
+
+       <p>According to the modern theory of atoms, solids are materials that 
+      consist of closely packed atoms or molecules that are held together 
+      by strong intermolecular forces. These intermolecular forces are 
+      created by the interactions between the electrons in the outermost 
+      energy levels or orbitals of adjacent atoms. In solids, the atoms,ions, 
+      or molecules are arranged in a specific pattern, known as a crystal 
+      lattice, which gives the solid its characteristic shape and structure. 
+      The arrangement of atoms in the crystal lattice determines many of 
+      the properties of the solid, such as its density, strength, and 
+      melting point. The electrons in the outermost energy levels of the 
+      atoms in a solid are not free to move around as they are in metals, 
+      but instead are closely bound to their respective atoms. However, 
+      in some solids, such as semiconductors and metals, some electrons 
+      are free to move within the crystal lattice, and these materials can 
+      conduct electricity and heat.</p>
+      <p>
+        The behavior of solids under different conditions, such as temperature 
+        and pressure, can be explained by the modern theory of atoms. 
+        For example, the thermal expansion of solids occurs because as the 
+        temperature of the solid increases, the atoms or molecules in the 
+        crystal lattice vibrate more rapidly, causing the material to expand. 
+        The strength of solids can also be explained by this theory, as the 
+        intermolecular forces between atoms determine the material's ability 
+        to withstand external forces.
+      </p>
+      <p>
+        There are basic two types of solids: 
+        <ol marker ="i">
+          <li>
+            <term>Crystalline Solids:</term> These are solids with a regular, 
+            repeating pattern of atoms, molecules or ions arranged in a three-dimensional 
+            lattice structure. The lattice structure gives the solid its characteristic properties, 
+            such as melting point, hardness, and conductivity. Crystalline solids 
+            can be further classified into two subtypes: molecular crystals, 
+            where the repeating units are molecules, and atomic crystals, 
+            where the repeating units are atoms. Examples of atomic crystals are 
+            diamond, salt, iron, copper, etc. Examples of molecular crystals are ice, 
+            quartz, sugar, and organic crystals such as caffeine, aspirin, and cholesterol, etc. 
+            <xref ref="fig-nacl"/>
+          </li>
+          <li>
+            <term>Amorphous Solids:</term> These are solids without a regular lattice structure. 
+            In <em>Greek</em> amorphous means "without form".
+            The arrangement of particles in amorphous solids is random and disordered. 
+            Examples include glass, rubber, and plastic. <em>Glass</em> is amorphous because 
+            its atoms or molecules do not have a regular or periodic arrangement. Unlike crystalline 
+            solids, which have a well-defined lattice structure, the arrangement of particles in 
+            glass is random and disordered. The amorphous nature of glass arises due to the way 
+            it is formed. Glass is typically made by cooling a molten liquid too quickly for 
+            its atoms or molecules to arrange themselves into a regular lattice structure. 
+            As a result, the particles in glass are frozen in a random arrangement, 
+            leading to an amorphous solid. This amorphous nature of glass gives it some unique 
+            properties, such as being transparent, brittle, and having a relatively low melting 
+            point compared to crystalline solids. The lack of a defined structure also means 
+            that glass can be easily molded into a variety of shapes, making it useful in 
+            many applications such as windows, lenses, and optical fibers. However, the lack of a 
+            defined structure also makes glass more prone to fractures and cracking, 
+            as the random arrangement of particles makes it difficult for the material to 
+            dissipate stress and strain. <xref ref="fig-amorps"/>
+          </li>
+        </ol>
+      </p>
+      <p>
+        However, there are other two types of solids also exist such as 
+        <term>Polycrystalline Solids:</term> These are materials made up of many small 
+        crystalline regions or grains that are oriented in different directions. 
+        Polycrystalline solids often have improved mechanical properties over single crystals, 
+        as the different grain boundaries can strengthen the material. 
+        <term>Composite Solids:</term>  These are materials made up of a combination of two or more 
+        different types of solids. The different components can have distinct properties, 
+        resulting in a material with a unique set of properties. Examples of composite solids include 
+        concrete, which is made up of cement and aggregate, and reinforced plastics, which are made up 
+        of a plastic matrix with embedded fibers for added strength.
+      </p>
+        <p>
+          These four types of solids can also be classified based on their electrical and 
+          magnetic properties, as well as their response to temperature changes, deformation, 
+          and other external stimuli. Understanding the different types of solids is essential 
+          for the design and development of new materials with specific properties and applications.
+        </p>
+  </introduction>
+
+
+  <xi:include href="./sec_ninth-intro.ptx" />
+ <xi:include href="./sec_ninth-solut.ptx" />
+  <xi:include href="./sec_ninth-acidbase.ptx" /> 
+  <xi:include href="./sec_ninth-examples.ptx"/> 
+
+ <!-- One or more of the sections of a chapter might be exercises-->
+  <xi:include href="./ex_ninth.ptx"/>   
+
+</chapter>

@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_second-examples" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Examples</title>
+
+
+  
+      <p>
+        <term>Special Instruction:</term> To tackle the physical problems the book uses <sq>GUESS</sq> 
+        strategy for a systematic gatheing of information and
+        finding a realistic and logistic solution. Here is what GUESS stands for.
+        <ul>
+        <li><term>G: Given, </term> identify the given informations.</li>
+        <li><term>U: Unknown,</term> identify the unknown that we are looking for.</li>
+        <li><term>E: Equation/s,</term>  set up the equation from given information.</li>
+        <li><term>S: Substitute,</term> substitute the number/s in the equation/s.</li>
+        <li><term>S: Solve,</term> solve the equation to obtain the answer.</li>
+        </ul>
+      </p>
+   
+  
+   
+
+  <remark xml:id="examples-context">
+    <p>
+      Before we start solving any problem, make sure all the physical quantities are taken in base unit of the systems of unit we are using. 
+      For example: mile per hour, mph is not a base unit in FPS sytem. so we need to convert mph into <m>ft/s.</m> 
+    </p>
+  </remark>
+
+ 
+  <example>
+    <statement>
+      <p>
+        A car starts from rest and obtains a 20 <m>m/s</m> speed in 5 second. Find its acceleration.
+      </p>
+    </statement>
+    <solution>
+      <p>Given: initial velocity, <m>v_i = 0 \,m/s</m>, final velocity, <m>v_f = 20\, m/s </m>, time, <m>t = 5 \,s</m>.</p>
+       <p>Unknown: acceleration, <m>a=</m>?</p>
+        <p>Equation: we need to select the suitable equation from the list of equations of motion that contains 
+          initial velocity, final velocity, time, and acceleration of the object.
+        Hence we are selecting equaion I here, that is <m>v_{f}=v_{i}+at</m>.</p>
+        <p>Substitute and Solve: substitute the value of given informations in equaion I, that is 
+        <md>
+            <mrow> 20 \amp  = 0 + a\times 5 </mrow>
+            <mrow> or, 20 \amp  = 5a</mrow>
+            <mrow> \therefore a  \amp = \frac{20}{5} = 4</mrow>
+       </md>
+       </p>
+       <answer>
+        <p>
+          Hence the acceleration of the car is 4 <m>m/s^2.</m> SI unit of acceleration is <m>m/s^2</m>.
+        </p>
+       </answer>
+       </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        A car starts from rest speeding up by 2 <m>m/s^2</m> acceleration for 1 minutes. Find the distance covered by the car.
+      </p>
+    </statement>
+    <solution>
+      <p>Given: <m>v_i = 0 \,m/s</m>, <m>a = 2\, m/s^2 </m>, <m>t = 1 \times 60 = 60 \,s</m>.</p>
+       <p>Unknown: distance <m>d=</m>?</p>
+        <p>Equation: <m>d=v_{i}t+\frac{1}{2}at^2</m>.</p>
+        <p>Substitute &amp; Solve: 
+        <md>
+            <mrow> d \amp  = 0\times t + \frac{1}{2}at^2 </mrow>
+            <mrow> or, d \amp  = 0+\frac{1}{2}\times 2\times 60^2 </mrow>
+            <mrow> \therefore d  \amp = 3600 </mrow>
+        </md>
+        </p>
+        <answer>
+          <p>
+            3600 m
+          </p>
+        </answer>
+      </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        A car is running with initial velocity 10 <m>m/s</m> acelerates to 2 <m>m/s^2</m> to reach at 50 <m>m/s</m>. 
+        Find the following:
+        <ol marker="a.">
+          <li> How far did the car travell during this event.</li>   
+            <li> How long did the car travell during this event.</li>   
+        </ol>
+      </p>
+    </statement>
+    <solution>
+      <p>
+        Given: <m>v_i = 10 \,m/s</m>, <m>v_f = 50 \,m/s</m>, <m>a = 2 \,m/s^2 </m>.
+        <ol marker="a.">
+       <li>
+       <p>Unknown: <m>d=</m>?</p>
+        <p>Equation: <m>v^2_{f}=v^2_{i}+2ad</m>.</p>
+        <p>Substitute &amp; Solve: 
+        <md>
+            <mrow> 50^2 \amp  = 10^2+ 2\times2\times d </mrow>
+            <mrow> or, 2500 \amp  = 100+4d </mrow>
+            <mrow> or,4d \amp  = 2500-100 </mrow>
+             <mrow> or, 4d \amp  = 2500-100 </mrow>
+            <mrow> or, d  \amp = \frac{2400}{4} = 600 </mrow>
+        </md>
+        </p>
+        <answer>
+          <p>
+            <m>\therefore d=600 \,m</m>
+          </p>
+        </answer>
+         </li>
+        <li>
+       <p>Unknown: <m>t=</m>?</p>
+        <p>Equation: <m>v_{f}=v_{i}+at</m>.</p>
+        <p>Substitute &amp; Solve: 
+        <md>
+            <mrow> 50 \amp  = 10+ 2\times t </mrow>
+            <mrow> or, 2 t \amp  = 50-10 </mrow>
+            <mrow> or,2t \amp  = 40 </mrow>
+            <mrow> or, t \amp = \frac{40}{2} = 20 </mrow>
+        </md>
+        </p>
+        <answer>
+          <p>
+            <m>\therefore t=20 \,s</m>
+          </p>
+        </answer>
+         </li>
+         </ol>
+        </p>
+      </solution>
+  </example>
+
+
+  <example>
+    <statement>
+      <p>
+        How far you can go in <m>5 \, minutes</m> if you are running at  <m>10 \,km/h</m>? 
+      </p>
+   </statement>
+    <solution>
+      <hint>
+          <p>
+            First convert the velocity into <m>km/h</m> to <m>m/s</m> and 
+            also convert time from minute to second before using equation of motion.
+          </p>
+        </hint>
+        <p>
+       Given: <m>v_i=v_f=v=10 \,km/h = 10\cdot\frac{1000m}{3600s} = 2.78\, m/s, \quad t= 5\cdot60\,s=300\,s</m>
+        <md>
+          <mrow>d \amp =vt+\frac{1}{2}at^2</mrow>
+          <mrow>d \amp =2.78 \times 300+\frac{1}{2}\times 0\times t^2</mrow>
+          <mrow>\therefore d \amp = 833 \,m</mrow>
+        </md>
+      </p>
+    </solution>
+  </example>
+
+  <example>
+  <statement>
+    <p>
+      Which of the following sets of displacements might be able to return a car to its starting point? 
+      <ol marker="a.">
+        <li><m>4, \,6, \,8, </m> and <m> 15\, km </m> </li>
+           <li> <m>2, \,8,\, 10,</m> and <m>25\, km.</m>  </li>
+             <li><m>10, 30, 50,</m> and <m>120 \,km</m> </li>
+               <li> <m>5,\, 20,\, 35,</m> and <m>65\, km.</m>  </li>
+                </ol>
+        </p>
+  </statement>
+    <hint>
+      <p>
+        A car can return to its starting point, only when the sum of three displacements 
+        is greater than the value of the maximum displacement. 
+      </p>
+    </hint>
+    <solution>
+        <p> In case (a) sum of <m>4, 6, 8 =18 \,km</m> which is greater than <m>15 \,km.</m></p>
+        <p>In case (b) sum of <m>2, 8, 10 =20 \,km</m> which is smaller than 25 km and so on.</p>
+    </solution>
+    <answer>
+      <p>
+        a.
+      </p>
+     </answer>
+  </example>
+  
+<example>
+  <statement>
+    <p>
+      A ship travels 25 km to the east and then 50 km to the south. 
+      Find the ship's displacement from its starting point. 
+    </p>
+   </statement>
+    <hint>
+      <p>
+        Draw a diagram to see all the displacements of the ship and then 
+        use pythagorous theorem to solve the final displacement.
+      </p>
+    </hint>
+  <solution>
+    <p>
+      empty
+    </p>
+  </solution>
+</example>
+
+ <example>
+    <statement>
+      <p>
+        A stone is thrown vertically up with velocity 20 <m>m/s</m>. 
+        Find the following:
+        <ol marker="a.">
+          <li> Maximum height attains be the stone.</li>   
+            <li> Total time of flight, <m>T</m></li>   
+        </ol>
+      </p>
+    </statement>
+    <solution>
+      <p>Given: <m>v_i = 20 \,m/s</m>, <m>v_f = 0 \,m/s</m>, <m>g = -9.8 \,m/s^2 </m>.
+        <ol marker="a.">
+       <li>
+       <p>Unknown: <m>h=</m>?</p>
+        <p>Equation: <m>v^2_{f}=v^2_{i}+2gh</m>.</p>
+        <p>Substitute &amp; Solve: 
+        <md>
+            <mrow> 0 \amp  = 20^2 - 2\times9.8\times h</mrow>
+            <mrow> or, 0 \amp  = 400 -19.6 h </mrow>
+            <mrow> or, -400 \amp  =  -19.6 h</mrow>
+             <mrow> or, h \amp  = \frac{400}{19.6} = 20.4</mrow>
+      </md>
+        
+        <answer>
+          <p>
+            <m>\therefore h=20.4 \,m</m>
+          </p>
+        </answer>
+      </p>
+         </li>
+        <li>
+       <p>Unknown: <m>t=</m>?</p>
+        <p>Equation: <m>v_{f}=v_{i}+at</m>.</p>
+        <p>Substitute &amp; Solve: 
+        <md>
+            <mrow> 0 \amp  = 20-9.8\times t </mrow>
+            <mrow> or, -20 \amp  = -9.8 t </mrow>
+            <mrow> or, t \amp  = \frac{20}{9.8}= 2 </mrow>
+       </md>
+        </p>
+        <answer>
+          <p>
+            <m>\therefore T =2t=2\times 2=4 \,s</m>
+          </p>
+        </answer>
+         </li>
+         </ol>
+        </p>
+         <p> You may select equation <m>h=v_it+\frac{1}{2}gt^2</m> and consider h=0,
+          when stone comes back to the point from where it was thrown then <m>h=0</m> and <m>T=2t</m>.
+         <md>
+            <mrow> Now, 0 \amp = 20\times T-\frac{1}{2}\times 9.8\times T^2</mrow>
+          <mrow> or, 0 \amp = 20\times T-4.9\times T^2</mrow>
+          <mrow> or, 0 \amp = T(4.9T-20)</mrow>
+          </md>
+          </p>
+        <answer>
+          <p>
+            <m>\therefore T =20/4.9=4 \,s.</m> After discarding <m>T=0</m>.
+          </p>
+        </answer>
+      </solution>
+  </example>
+
+  <example>
+  <statement>
+    <p>
+       A stone dropped from a cliff reaches the ground in <m>4\, s.</m> 
+    Find the velocity at which it hits the ground.
+    </p>
+  </statement>
+       <hint>
+      <p>
+        Think about stone's initial velocity, use acceleration due to gravity to find final velocity.
+      </p>
+    </hint>
+  </example>
+
+<example>
+    <p>
+      A stone has been thrown upward with velocity 50 m/s. 
+    <ol marker="a.">
+      <li> How long does it take to come back on thrower's hand (find the time of flight)? </li>
+    <li> What is its velocity then?</li>
+    <li> How high was it gone?</li>
+      </ol>
+      </p>
+    </example>
+
+ 
+<example>
+  <statement>
+  <p>
+    What is vertical motion?
+  <ol marker="a.">
+    <li> Motion that occurs horizontally </li>
+  <li> Motion that occurs in a straight line</li>
+  <li> Motion that occurs in a vertical direction</li>
+  <li> Motion that occurs in a circular path </li>
+    </ol>
+    </p>
+  </statement>
+  <answer>
+    <p>
+      c.
+    </p>
+  </answer>
+  </example>
+
+
+  <example>
+    <statement>
+    <p>
+      What is free fall?
+    <ol marker="a.">
+      <li> The motion of an object when it is moving at a constant speed </li>
+    <li> The motion of an object when it is not affected by gravity </li>
+    <li> The motion of an object when it is accelerating due to the force of gravity </li>
+    <li> The motion of an object when it is in a vacuum </li>
+      </ol>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        c.
+      </p>
+    </answer>
+    </example>
+
+    
+  <example>
+    <statement>
+    <p>
+      What is the formula for calculating the time of flight of a projectile?
+    <ol marker="a.">
+      <li> <m>t = v/f</m> </li>
+    <li> <m>t = d/v</m> </li>
+    <li> <m>t = 2v/g</m> </li>
+    <li> <m>t = 2d/g</m> </li>
+      </ol>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        c.
+      </p>
+    </answer>
+    </example>
+
+      
+  <example>
+    <statement>
+    <p>
+      What is the difference between speed and velocity?
+    <ol marker="a.">
+      <li> Speed is a scalar quantity and velocity is a vector quantity </li>
+    <li> Speed is a vector quantity and velocity is a scalar quantity </li>
+    <li>Speed and velocity are the same thing </li>
+    <li> Speed is measured in meters per second and velocity is measured in miles per hour </li>
+      </ol>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        a.
+      </p>
+    </answer>
+    </example>
+
+       
+  <example>
+    <statement>
+    <p>
+      A toy car is moving at a constant speed of 5 meters per second in a straight line. 
+      How far will it travel in 10 seconds?
+      </p>
+    </statement>
+    <solution>
+      <p>
+        Using the formula <m>d = vt</m>, where d is the distance, v is the velocity, 
+        and t is the time, we can calculate the distance traveled by the toy car.
+        <md>
+          <mrow> d\amp = vt</mrow> 
+          <mrow> \amp = 5 \,m/s \times 10 \,s = 50 \,meters</mrow>
+        </md>        
+        Therefore, the toy car will travel 50 meters in 10 seconds at a constant speed 
+        of 5 meters per second in a straight line. 
+      </p>
+    </solution>
+    </example>
+
+     
+    <example>
+      <statement>
+      <p>
+        A car is traveling at a constant speed of 20 meters per second. 
+        It takes the car 5 seconds to travel a distance of 100 meters. 
+        What is the distance the car will travel in 10 seconds at the same speed?
+        </p>
+      </statement>
+      <solution>
+        <p>
+          We know that distance (d) is equal to speed (v) multiplied by time (t). 
+          Therefore, we can use the formula <m>d = vt</m>  to solve this problem. 
+          First, we can calculate the distance traveled in 1 seconds, and then in 10 seconds.
+          <md>
+            <mrow> d \amp = vt</mrow>
+            <mrow>  \amp = 20 \,m/s\times 1 \,s =20\,m </mrow>
+            <mrow>\therefore d \amp = 20\,m \times 10 \,s = 200 \,m</mrow>
+          </md>          
+          Therefore, the car will travel a distance of 200 meters in 10 seconds at the same speed.
+        </p>
+      </solution>
+      </example>
+
+      <example>
+        <statement>
+        <p>
+          A car travels on a straight road at a constant speed of 60 km/h. 
+          How far will the car travel in 2 hours?
+          </p>
+        </statement>
+        <solution>
+          <p>
+            Since the car is traveling at a constant speed, we can use the formula:
+            <me>d=vt</me>
+        where d is the total distance traveled, v is the constant speed of the car, 
+        and t is the total time the car travels. Plugging in the given values, we get:
+<md>
+  <mrow> d\amp =vt</mrow>
+  <mrow> \amp = 60\,km/h\times 2h=120 \,m</mrow>
+</md>
+Therefore, the car will travel a total distance of 120 kilometers in 2 hours at a constant 
+speed of 60 km/h.
+          </p>
+        </solution>
+        </example>
+
+
+
+      <example>
+        <statement>
+        <p>
+          A ball is thrown vertically upward with an initial velocity of 20 m/s. 
+          What is the maximum height reached by the ball and how long does it 
+          take to reach this height? (Assume no air resistance and a gravitational 
+          acceleration of <m>9.8 \,m/s²</m>)
+          </p>
+        </statement>
+        <solution>
+          <p>
+            When an object is thrown vertically upward, it is subjected to a negative 
+            acceleration due to gravity, which causes it to slow down until it reaches 
+            its maximum height, after which it starts to fall back to the ground with 
+            a positive acceleration due to gravity. </p>
+<p>
+To solve this problem, we can use the following kinematic equations for motion 
+with constant acceleration:
+<md>
+  <mrow> v_f \amp = v_i + at </mrow>
+  <mrow> d\amp = v_it + 1/2a*t^2</mrow>
+  <mrow> v_f^2 \amp  = v_i^2 + 2ad</mrow>
+</md>
+where <m>v_i</m>  and <m>v_f</m>  are the initial and final velocities, 
+<m>a</m> is the acceleration, <m>d</m> is the displacement, and <m>t</m> is the time. 
+At the maximum height, the velocity of the ball is zero, so we can use the first equation 
+to find the time it takes to reach this height:
+<md>
+  <mrow> v_f \amp  = v_i + at </mrow>
+  <mrow> 0 \amp = 20 \,m/s - 9.8 \,m/s²\times t </mrow>
+  <mrow> t \amp = 20/9.8 \,seconds ≈ 2.04 \,seconds </mrow>
+</md>
+Now we can use the second equation to find the maximum height:
+<md>
+  <mrow> d \amp = v_it + 1/2a\times t^2 </mrow>
+  <mrow> d \amp = 20 \,m/s \times 2.04 \,s + 1/2 \times (-9.8\,m/s²) \times (2.04 \,s)^2 </mrow>
+  <mrow> d \amp = 20.4 \,m </mrow>
+</md>
+Therefore, the maximum height reached by the ball is 20.4 meters, 
+and it takes approximately 2.04 seconds to reach this height.
+          </p>
+        </solution>
+        </example>
+
+
+        <example>
+          <statement>
+            <p>
+              A car is traveling at <m>20 \,m/s</m>  and accelerates at a rate of <m>4 \,m/s^2</m> for 8 seconds. 
+              What is the final velocity of the car?
+            </p>
+          </statement>
+          <solution>
+            <p>
+              We can use the formula for accelerated motion, which relates the initial velocity, 
+              final velocity, acceleration, and time:
+              <md>
+                <mrow> v_f\amp =v_i +at </mrow>
+                <mrow> v_f\amp =20 \,m/s + 4\,m/s^2 \times 8\,s </mrow>
+                <mrow> \amp = 20 \,m/s+32\,m/s = 52\,m/s</mrow>
+              </md> 
+              Therefore, the final velocity of the car after accelerating at a rate of 
+              <m>4 \,m/s^2</m> for 8 seconds is <m> 52 \,m/s</m>.
+            </p>
+          </solution>
+        </example>
+        
+</section>
+

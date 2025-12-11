@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_fourth-examples" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Examples</title>
+  
+  <example>
+    <statement>
+      <p>
+        Chose one of the following that does not affect an increase in temperature, if the body is heated.
+        <ol marker="a">
+          <li>Mass of the body</li>
+            <li>State (solid, liquid, or gas) of the body</li>
+              <li>Shape of the body</li>
+                <li>Types of material (e.g., iron, aluminum, wood, etc.) of the body</li>
+                  </ol>
+      </p>
+    </statement>
+     <answer>
+      <p>
+        <m>a.</m>
+      </p>
+    </answer>   
+  </example>
+
+   <example>
+    <p>
+    From the common house hold materials below, which one has the highest specific heat capacity? 
+     <ol marker="a">
+        <li>Water</li>
+          <li>Iron</li>
+            <li>Ice</li>
+              <li>Sand</li>
+                </ol>
+      </p>  
+      <answer>
+        <p>
+          <m>a.</m>
+        </p>
+      </answer>
+  </example>
+  
+
+  <example>
+    <statement>
+    <p>
+    How much heat is needed to boil 500 grams of water initially at <m>20\,^oC</m>. 
+    The specific heat capacity of water is <m>1 \,cal/g.^oC</m>. 
+    </p>
+  </statement>
+   <solution>
+    <p>
+      Given: <m>m= 500\, g</m>, <m>t_i=20\,^o C</m>, <m>t_f=100 \,^o C</m>, <m>c=1 \,cal/g.^o C</m>, <m>Q=?</m>. 
+    </p>
+    <p>From equation <xref ref="subsubsec-sh"/>, we have
+      <md>
+        <mrow>Q \amp =mc(T_f-T_i) </mrow>
+        <mrow>or,\quad Q \amp =500 \,g\times 1\, cal/g.^o C\times (100-20)\,^oC </mrow>
+        <mrow>or,\quad Q \amp =40000 \,cal = 40000\times 4.2 \,J/cal =  9523 \,J</mrow>
+      </md>
+      </p>
+   </solution>
+  </example>
+
+   <example>
+    <p>
+    Chose one of the following which is independent on the size and shape of the material composed in a body.
+     <ol marker="a">
+        <li>Density</li>
+          <li>Volume</li>
+            <li>Mass</li>
+              <li>Weight</li>
+                </ol>
+      </p>  
+      <answer>
+        <p>
+          <m>a.</m>
+        </p>
+      </answer>
+  </example>
+
+
+   <example>
+    <p>
+    Some objects of identical volumes are being compared, the one with the greatest mass also has the greatest
+     <ol marker="a">
+          <li>temperature</li>
+            <li>buoyancy</li>
+              <li>pressure</li>
+                <li>density</li>
+                </ol>
+      </p>  
+      <answer>
+        <p>
+          <m>d.</m>
+        </p>
+      </answer>
+  </example>
+
+<example>
+    <p>
+    The cake of soap sinks in water, the buoyant force on the soap is 
+     <ol marker="a">
+          <li>equal to its weight.</li>
+            <li>higher than its weight.</li>
+              <li>less than its weight.</li>
+                <li>zero.</li>
+                </ol>
+      </p>  
+      <answer>
+        <p>
+          <m>c.</m>
+        </p>
+      </answer>
+  </example>
+
+
+  <example>
+    <p>
+    What is the mass of water that can be stored in an aquarium of 60 cm long, 30 cm wide, 
+    and 20 cm high. The density of water is <m>1 \,g/ml.</m>
+     </p>  
+      <hint>
+        <p>
+          Find the volume of the container and calculate the mass using mass, volume, and density relationship.
+        </p>
+      </hint>
+  </example>
+
+
+<example>
+    <p>
+    Ice floats in water because 
+     <ol marker="a">
+          <li>it is colder than water.</li>
+            <li>its density is less than that of water.</li>
+              <li>its specific heat is less than that of water.</li>
+                <li>it is a solid and water is a liquid.</li>
+                </ol>
+      </p>  
+      <answer>
+        <p>
+          <m>b.</m>
+        </p>
+      </answer>
+  </example>
+
+<example>
+    <p>
+    Molecular motion of the substance is least possible at which temperature? 
+     <ol marker="a">
+          <li><m>0 \,^o C</m>.</li>
+            <li><m>0\, K</m>.</li>
+              <li><m>-273 \,K</m>.</li>
+                <li><m>0 \,^o F</m>.</li>
+                </ol>
+      </p>  
+      <answer>
+        <p>
+          <m>b.</m>
+        </p>
+      </answer>
+  </example>
+
+<example>
+    <p>
+    Select one of the following in which heat transfer occurs by conduction 
+     <ol marker="a">
+          <li>only in solids.</li>
+            <li>only in liquids.</li>
+             <li>only in solids and liquids.</li>
+                <li>in solids, liquids, and gases.</li>
+                </ol>
+      </p>  
+      <answer>
+        <p>
+          <m>d.</m>
+        </p>
+      </answer>
+  </example>
+
+<example>
+    <p>
+   At which temperature does a Celsius thermometer and a Fahrenheit thermometer show the same readings? 
+     <ol marker="a">
+          <li>40 <m>^o C</m>.</li>
+            <li>-40 <m>^o C</m>.</li>
+             <li>40 <m>^o F</m>.</li>
+                <li>0 <m>^o C</m>.</li>
+                </ol>
+      </p>  
+      <solution>
+        <p>
+          Consider <m>F=C=x</m>, then from <xref ref="eqn-tempconv"/>, we have
+          <md>
+            <mrow>\frac{F-32}{9}  \amp = \frac{C}{5}</mrow>
+            <mrow>or, \frac{x-32}{9}  \amp = \frac{x}{5}</mrow>
+          </md>
+          Solve this equation to find the value of x.
+        </p>
+      </solution>
+      <answer>
+        <p>
+          <m>b.</m>
+        </p>
+      </answer>
+  </example>
+
+<example>
+  <statement>
+    <p>
+      Which of the following is not a basic state of matter?
+      <ol marker="a">
+        <li>Solid</li>
+          <li>Liquid</li>
+           <li>Gas</li>
+              <li>Plasma</li>
+              </ol>
+    </p>
+  </statement>
+  <solution>
+    <p>
+      d.
+    </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      Which of the following is an example of a <term>chemical change?</term> [read <xref ref="sec_eighth-intro"/>]
+      <ol marker="a">
+        <li>Ice melting</li>
+          <li>Salt dissolving in water</li>
+           <li>Rust forming on iron</li>
+              <li>Sugar dissolving in tea</li>
+              </ol>
+    </p>
+  </statement>
+  <solution>
+    <p>
+      c.
+    </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      Which of the following is an example of a <term>physical change</term>? [read <xref ref="sec_eighth-intro"/>]
+      <ol marker="a">
+        <li>Cooking an egg</li>
+          <li>Burning a piece of paper</li>
+           <li>Crushing a can</li>
+              <li>Digesting food</li>
+              </ol>
+    </p>
+  </statement>
+  <solution>
+    <p>
+      c.
+    </p>
+  </solution>
+</example>
+
+
+<example>
+  <statement>
+    <p>
+      What is the relationship between temperature and the average 
+      kinetic energy of particles in a substance?
+      <ol marker="a">
+        <li>They are unrelated.</li>
+          <li>They are directly proportional.</li>
+           <li>They are inversely proportional.</li>
+              <li>They are only related in gases.</li>
+              </ol>
+    </p>
+  </statement>
+  <solution>
+    <p>
+      b.
+    </p>
+  </solution>
+</example>
+
+
+<example>
+  <statement>
+    <p>
+      Which of the following is not a type of fluid?
+      <ol marker="a">
+        <li>Gas.</li>
+          <li>Liquid.</li>
+           <li>Solid.</li>
+              <li>Plasma.</li>
+              </ol>
+    </p>
+  </statement>
+  <solution>
+    <p>
+      c.
+    </p>
+  </solution>
+</example>
+
+
+<example>
+  <statement>
+    <p>
+      Which of the following is a characteristic of fluids?
+      <ol marker="a">
+        <li>They have definite shape.</li>
+          <li>They have definite volume.</li>
+           <li>They are compressible.</li>
+              <li>They can flow.</li>
+              </ol>
+    </p>
+  </statement>
+  <solution>
+    <p>
+      d.
+    </p>
+  </solution>
+</example>
+
+
+<example>
+  <statement>
+    <p>
+      What is buoyancy?     
+      <ol marker="a">
+        <li> The ability of an object to sink in a fluid.</li>
+          <li> The ability of an object to float in a fluid.</li>
+           <li> The force exerted by a fluid on an object submerged in it.</li>
+              <li> The force exerted by an object on a fluid.</li>
+      </ol>
+    </p>
+  </statement>
+  <solution>
+    <p>
+      c.
+    </p>
+  </solution>
+</example>
+
+
+<example>
+  <statement>
+    <p>
+      What is Archimedes' principle?
+      <ol marker="a">
+        <li> The buoyant force on an object is equal to the weight of the object.</li>
+          <li>The buoyant force on an object is equal to the weight of the fluid displaced.</li>
+           <li>The buoyant force on an object is equal to the volume of the object.</li>
+              <li>The buoyant force on an object is equal to the density of the fluid.</li>
+      </ol>
+    </p>
+  </statement>
+  <solution>
+    <p>
+      b.
+    </p>
+  </solution>
+</example>
+
+
+<example>
+  <statement>
+    <p>
+      What is the buoyant force?
+      <ol marker="a">
+        <li>  The force that pulls an object down when it is submerged in a fluid.</li>
+          <li>The force that pushes an object up when it is submerged in a fluid.</li>
+           <li>The force that opposes the motion of an object in a fluid.</li>
+              <li>The force that causes a fluid to flow.</li>
+      </ol>
+    </p>
+  </statement>
+  <solution>
+    <p>
+      b.
+    </p>
+  </solution>
+</example>
+
+
+<example>
+  <statement>
+    <p>
+      What is the relationship between the pressure of a gas and the temperature of the gas, 
+      according to Charles's law?
+      <ol marker="a">
+        <li>  They are directly proportional.</li>
+          <li>They are inversely proportional.</li>
+           <li>They are not related.</li>
+              <li>It depends on the volume of the gas.</li>
+      </ol>
+    </p>
+  </statement>
+  <solution>
+    <p>
+      a.
+    </p>
+  </solution>
+</example>
+
+</section>

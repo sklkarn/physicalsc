@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_eighth-chemicalbonds" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Chemical Bonds &amp; Equations</title>
+  <introduction>
+    <p>
+      Chemical bonding is the process by which atoms combine to form molecules or other chemical compounds. 
+      Chemical bonding allows atoms to achieve the most stable configuration by sharing, gaining or losing electrons. 
+      There are several types of chemical bonding, including covalent bonding, ionic bonding, and metallic bonding. However, 
+      there are other types of bonding also occurs by the substance such as polar bonding, non-polar bonding, 
+      coordination bonding, molecular bonding, hydrogen bonding, and Van der waals' bonding. 
+    </p>
+    <p>
+      <ol marker="I">
+        <li>
+          <term>Covalent bond:</term>  In covalent bonding <idx>covalent bond</idx> atoms share electrons in order to achieve a stable configuration. 
+          This is the most common between non-metal atoms. Covalent bonding can take on a variety of forms 
+          including single, double, and triple bonds. For examples: in hydrogen molecule (<m>H_2</m>), 
+          water molecule (<m>H_2O</m>), methan gas molecule (<m>CH_4</m>), diamond (<m>C_4</m>), etc.
+          <url href="https://gifer.com/en/DKaY">Covalent bonding</url>
+        </li>
+        <li>
+          <term>Ionic bond:</term> In ionic bonding, <idx>ionic bond</idx> electrons are transferred from one atom to another, forming positively charged 
+          cations and negatively charged anions that are attracted to each other by electrostatic forces. 
+          This bonding is most common between metals and nonmetals. For examples: in Salt molecule (<m>NaCl</m>), 
+          Iron oxide molecule (<m>Fe_2O_3</m>), Calcium carbonate <m>(CaCO3)</m>, magnesium oxide (<m>MgO</m>), 
+          potassium iodide <m>KI</m>, etc. <url href="http://clipart-library.com/clipart/1824896.htm">ionic bonding</url>
+        </li>
+        <li>
+          <term>Metallic bond:</term> In metallic bonding, <idx>metallic bond</idx> positively charged metal ions are surrounded by a sea of delocalized electrons, 
+          which are free to move throughout the metal lattice. This results in the formation of a strong metallic 
+          bond that is responsible for many of the physical properties of metals, such as their high melting points 
+          and conductivity. <url href="https://i.imgur.com/oIoEZhH.gif">mettalic bonding</url>.
+        </li>
+        <li>
+          Molecular bonding, <idx>molecular bond</idx> typically refers to covalent bonding due to polar molecules. 
+          <url href="https://bestanimations.com/gifs/Water-Molecule.html">molecular bonding</url> 
+        </li>
+        <li>
+          In Van der waal's bonding, <idx>Van der Waal's bond</idx> or van der Waals forces, refer to weak intermolecular attractions between 
+          molecules or atoms. These forces arise due to temporary fluctuations in the distribution of electrons 
+          in molecules or atoms. 
+        </li>
+      </ol>
+      The type of chemical bonding that occurs between atoms is determined by the properties of the atoms involved, 
+      including their electronegativity, electron configuration, and the conditions under which the reaction occurs. 
+      Understanding chemical bonding is important in fields such as chemistry, materials science, and engineering, 
+      as it underlies the formation and properties of all types of matter.
+    </p>
+  </introduction>
+
+  <subsection xml:id="subsec_8namecomp-subsection">
+    <title>Naming of Compounds</title>
+    <p>
+      There are a few general rules for naming molecules in chemistry, 
+      which vary slightly depending on the type of molecule being named. 
+      Here are some basic guidelines: 
+      <ol marker="I">
+        <li>
+          <p>
+            <em>Naming simple covalent compounds:</em> The first element in the formula is named first and 
+            the full element name is used. For example: in NaCl, the first name is <m>sodium.</m> 
+            The second element is named as though it were an anion (negative ion),
+            with the suffix <m>ide</m> added to the root of the element name.
+            For example: in NaCl, the second name is <m>chloride</m>, in CaO: calcium oxide.
+            Prefixes are used to indicate the number of atoms of each element 
+            present in the molecule. The prefix <m>mono-</m> is usually omitted 
+            for the first element in the formula. For example: 
+            the name of <m>CO_2</m> is <em>Carbon dioxide</em>, and the CO is <em>carbon monoxide</em>.
+          </p>
+        </li>
+        <li>
+          <p>
+           <em> Naming ionic compounds:</em> The cation (positive ion) is named first, followed by the anion 
+           (negative ion). The name of the cation is the same as the element name.
+           The name of the anion is derived from the root of the element name, with the suffix <m>ide</m> added.
+           If the cation can have different charges, a Roman numeral is used to indicate the charge.
+           For example: the name of iron (III) chloride is <em>FeCl_3</em>, and mercury (II) Oxide is <em>HgO</em>.  
+          </p>
+        </li>
+        <li>
+          <p>
+           <em> Naming acids: </em> If the anion name ends in <m>-ide</m>, the acid is named with the prefix <m>hydro-</m> and the suffix <m>-ic</m>, 
+           followed by the word "acid".
+           If the anion name ends in <m>-ate</m>, the acid is named with the suffix <m>-ic</m>, followed by the word "acid".
+           If the anion name ends in <m>-ite</m>, the acid is named with the suffix <m>-ous</m>, followed by the word "acid".
+           For example: HCl - hydrochloric acid.
+          </p>
+        </li>
+        <li>
+          <p>
+            <em>Naming organic compounds: </em> The root of the name comes from the number of carbon atoms in the molecule (meth-, eth-, prop-, but-, etc.).
+            Functional groups (such as alcohols, aldehydes, and carboxylic acids) are indicated by suffixes or prefixes.
+            Numbering of the carbon atoms in the main chain starts at the end closest to a functional group, and the position 
+            of the functional group is indicated by a number. For example: <m>CH_3CH_2OH</m> - ethanol.
+          </p>
+        </li>
+      </ol>
+</p>
+     <p>
+      The common name of some compounds: Water (<m>H_2O</m>), methane (<m>CH_4</m>), 
+     ammonia (<m>NH_3</m>), and Chalk: (<m>CaCO_3</m>).
+     </p>
+  </subsection>
+
+  
+
+    <subsection xml:id="subsec_8molform-subsection">
+    <title>Molecular Formula</title>
+    <p>
+      Molecular formula <idx>molecular formula</idx> can be written by knowing the valency of the elements.
+      The valency of an element is the number of electrons it can donate, accept, or share during a chemical reaction. 
+      First identify the elements present in the compound then Determine the 
+      valency of each element based on its position in the periodic table or 
+      by consulting a table of valencies. Determine the number of atoms of 
+      each element required to balance the valencies. This can be done by finding the least 
+      common multiple of the valencies for each element. Write the molecular 
+      formula by indicating the number of atoms for each element as subscripts 
+      next to the element symbol. Make sure to reduce the subscripts to the 
+      lowest whole number ratio. For example, let's determine the molecular formula for 
+      magnesium chloride. Magnesium has a valency of +2 and chlorine has a 
+      valency of -1.
+     <me>
+      Mg^{+2} \quad Cl^{-1}
+      </me>
+      Now exchange the valency and place them to the bottom of opposite elements by dropping their signs as shown in below  
+      <me>
+        Mg_{1} \quad Cl_{2}
+        </me>
+        Hence, the molecular formula of magnesium chloride is 
+        <me>
+          MgCl_{2}
+        </me>
+        Another example is the molecular formula for calcium oxide. 
+        Calcium has a valency of +2 and oxygen has a valency of -2.
+        <me>
+          Ca^{+2} \quad O^{-2}
+          </me>
+          <me>
+            Ca_{2} \quad O_{2}
+            </me>
+            Hence, calcium oxide is written as 
+            <me>
+              CaO
+              </me>
+       </p>
+     
+  </subsection>
+
+  <subsection xml:id="subsec_8rad-subsection">
+    <title>Free Radicals</title>
+    <p> 
+      Free radicals <idx>free radical</idx> are atoms or molecules that have an unpaired 
+      electron in their outermost shell. They form when covalent bond is broken. 
+      In this case each of these molecules or atoms hold the same number of protons 
+      and electrons in them but because of unpaired electron/s in the orbit they become very reactive. 
+      They are highly reactive and unstable because they seek to pair their unpaired electron with another 
+      electron, either from another molecule or from another part of the same 
+      molecule. This process can cause damage to cells and tissues, and has 
+      been implicated in several diseases, including cancer, heart disease, 
+      and aging. Free radicals can be generated through normal metabolic processes in the body, 
+      as well as through exposure to radiation, pollution, cigarette smoke, and certain chemicals. Some of the most 
+      common free radicals in the body include superoxide, hydroxyl, and nitric 
+      oxide radicals. To neutralize free radicals, the body relies on 
+      antioxidants, which are molecules that can donate an electron to the 
+      free radical without becoming unstable themselves. Antioxidants can be 
+      obtained from a variety of sources, including fruits, vegetables, nuts, 
+      and seeds. Vitamins C and E, beta-carotene, and selenium are all 
+      examples of antioxidants that can help neutralize free radicals in the body. 
+    </p> 
+    <p>
+      Free radicals are formed when a covalent bond in a molecule is broken with each fragment 
+      taking one of the shared electrons of the bond. For example when water molecules is broken
+      <me>
+        HOH \rightarrow H\cdot + \cdot OH
+      </me>
+      The dots are unpaired electrons. Here <m>\cdot OH</m> is called a <term>hydroxyle radical</term>.
+    </p>
+    </subsection>
+  
+<subsection xml:id="subsubsec-polatm">
+  <title>Polyatmic Ions</title>
+  <p>
+    Polyatomic ions <idx>polyatomic ion</idx> are ions composed of two or more atoms that are covalently 
+    bonded together and carry a net electrical charge. They are commonly found 
+    in many chemical compounds, including salts, acids, and bases. Polyatomic 
+    ions can have either a positive or negative charge, depending on the number 
+    of electrons they have gained or lost. Some common examples of polyatomic ions include: 
+  </p>
+  <p>
+    Hydroxide ion <m>(OH^-)</m>: This ion consists of one oxygen atom and one hydrogen atom 
+    and has a negative charge. It is found in bases such as sodium hydroxide 
+    <m>(NaOH)</m> and calcium hydroxide <m>(Ca(OH)_2)</m>. Ammonium ion <m>(NH^{+4})</m>: 
+    This ion consists of one nitrogen atom and four hydrogen atoms and has a positive charge. 
+    It is found in compounds such as ammonium chloride <m>(NH_4Cl)</m>  and ammonium nitrate <m>(NH_4NO_3)</m>.
+
+    Carbonate ion <m>(CO_3^{2-})</m>: This ion consists of one carbon atom and three oxygen atoms 
+    and has a negative charge. It is found in compounds such as calcium carbonate <m>(CaCO_3)</m>  
+    and sodium carbonate <m>(Na_2CO_3)</m>. Sulfate ion <m>(SO_4^{2-})</m>: This ion consists of one sulfur 
+    atom and four oxygen atoms and has a negative charge. It is found in compounds such as magnesium 
+    sulfate <m>(MgSO_4)</m>  and sodium sulfate <m>(Na_2SO_4)</m>. Phosphate ion <m>(PO_4^{3-}):</m> 
+    This ion consists of one phosphorus atom and four oxygen atoms and has a negative charge. 
+    It is found in compounds such as calcium phosphate <m>(Ca_3(PO_4)_2)</m>  and sodium phosphate <m> (Na_3PO_4)</m>.
+  </p>
+    <p>
+      The properties and behavior of polyatomic ions depend on the specific atoms and bonds that make up the ion. 
+      They play important roles in many chemical reactions and are essential to many biological processes.
+    </p> 
+</subsection>
+
+<subsection xml:id="subsec-chemeqn">
+  <title>Chemical Equations</title>
+ <p>
+  A chemical equation <idx>chemical equation</idx> is a representation of a chemical reaction using symbols and formulas to show the 
+  reactants and products involved in the reaction. Chemical equations are written in a balanced form, 
+  meaning that the number of atoms of each element is the same on both sides of the equation. 
+  This is because the law of conservation of mass states that matter cannot be created or destroyed 
+  in a chemical reaction, only rearranged. The general form of a chemical equation is: 
+  <term>Reactants → Products</term> 
+  For example, the chemical equation for the reaction between hydrogen gas and oxygen gas to form water is: 
+  <me>2H_2 + O_2 \rightarrow 2H_2O</me> 
+  This equation shows that two molecules of hydrogen gas <m>(H_2)</m> react with one molecule of oxygen gas 
+  <m>(O_2)</m> to form two molecules of water <m>(H_2O)</m>. The equation is balanced because there are four 
+  hydrogen atoms and two oxygen atoms on both sides of the equation.
+ </p> 
+ <p>
+  Chemical equations can also include coefficients, which are used to balance the equation. 
+  Coefficients are numbers placed in front of the chemical formulas to indicate the number of molecules or 
+  atoms involved in the reaction. For example, the balanced equation for the reaction between nitrogen 
+  gas and hydrogen gas to form ammonia is: 
+  <me>N_2 + 3H_2 \rightarrow 2NH_3</me> 
+  In this equation, a coefficient of 3 is placed in front of the <m>(H_2)</m> to balance the number of 
+  hydrogen atoms on both sides of the equation.
+ </p>
+ </subsection>
+ <paragraphs>
+  <title>Balancing a chemical equation</title>
+  <p>
+    Balancing a chemical equation involves adjusting the coefficients of the reactants and products to ensure 
+    that the number of atoms of each element is the same on both sides of the equation. Here is a step-by-step 
+    guide on how to balance a chemical equation:
+    <ol marker ="i">
+      <li>
+        Write the unbalanced equation. Identify the reactants and products and write them down using their 
+        chemical formulas.
+      </li>
+      <li>
+        Count the number of atoms of each element on both sides of the equation. This will help you determine
+         which coefficients need to be adjusted.
+      </li>
+        <li>
+        Begin balancing the equation by adjusting the coefficients of the compounds that contain the most 
+        atoms first. Start with the compounds that have two or more atoms of an element.
+      </li>
+        <li>
+        Check the number of atoms of each element again after adjusting the coefficients. Continue adjusting 
+        the coefficients until the number of atoms of each element is the same on both sides of the equation.
+      </li> 
+        <li>
+        Finally, double-check that the equation is fully balanced by counting the number of atoms of each 
+        element on both sides of the equation.
+      </li>
+    </ol>
+  </p>
+  <p>
+    For example, let's balance the equation for the reaction between hydrogen gas and oxygen gas to form water: 
+    Unbalanced equation: <me>H_2 + O_2 \rightarrow H_2O</me>  </p>
+    <p>
+      <em>Step 1:</em> Write the unbalanced equation. 
+    </p>
+    <p>
+      <em>Step 2:</em> Count the number of atoms of each element. 
+    </p>
+    <p>
+      <term>Reactants:</term> 2 hydrogen atoms, 2 oxygen atoms   
+    </p>
+    <p>
+      <term>Products:</term> 2 hydrogen atoms, 1 oxygen atom 
+    </p>
+    <p>
+      <em>Step 3:</em> Balance the equation by adjusting the coefficients.  <me>H_2 + O_2 \rightarrow 2H_2O</me>
+    </p>
+    <p>
+      <em>Step 4:</em> Check the number of atoms of each element again.  
+    </p>
+   <p>
+    <term>Reactants:</term> 2 hydrogen atoms, 2 oxygen atoms
+   </p>
+   <p>
+    <term>Products:</term> 4 hydrogen atoms, 2 oxygen atoms 
+   </p>
+    <p>
+      <em>Step 5:</em> Double-check that the equation is fully balanced. 
+    </p>
+   <p>
+    <term>Reactants:</term> 2 hydrogen atoms, 2 oxygen atoms    
+   </p>
+    <p>
+      <term>Products:</term> 2 hydrogen atoms, 2 oxygen atoms 
+      </p>
+      <p>
+        The balanced equation is <me>2H_2 + O_2 \rightarrow 2H_2O</me>
+      </p>
+ </paragraphs>
+ 
+</section>
+

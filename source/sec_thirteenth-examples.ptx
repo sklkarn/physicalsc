@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_thirteenth-examples" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Examples</title>
+  
+  <example>
+    <statement>
+      <p>
+        What is the HR diagram used for?
+        <ol marker ="a.">
+          <li>To identify the different types of stars</li>
+          <li>To determine the age of a star</li>
+          <li>To study the evolution of stars</li>
+          <li>All of the above</li>
+        </ol> 
+        </p>
+    </statement>
+    <solution>
+      <p>
+        d.
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        Which of the following is NOT a parameter used to construct the HR diagram?
+        <ol marker ="a.">
+          <li>Luminosity</li>
+          <li>Temperature</li>
+          <li>Velocity</li>
+          <li>Spectral type</li>
+        </ol> 
+        </p>
+    </statement>
+    <solution>
+      <p>
+        c.
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        The majority of stars on the HR diagram are located on the:
+        <ol marker ="a.">
+          <li>Main sequence</li>
+          <li>Red giant branch</li>
+          <li>Horizontal branch</li>
+          <li>White dwarf region</li>
+        </ol> 
+        </p>
+    </statement>
+    <solution>
+      <p>
+        a.
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        Which of the following types of stars has the longest lifespan?
+        <ol marker ="a.">
+          <li>O-type stars</li>
+          <li>B-type stars</li>
+          <li>G-type stars</li>
+          <li>M-type stars</li>
+        </ol> 
+        </p>
+    </statement>
+    <solution>
+      <p>
+        d.
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        Which of the following types of stars are located in the upper right portion of the HR diagram?
+        <ol marker ="a.">
+          <li>Red giants</li>
+          <li>White dwarfs</li>
+          <li>Main sequence stars</li>
+          <li>Protostars</li>
+        </ol> 
+        </p>
+    </statement>
+    <solution>
+      <p>
+        a.
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        Which of the following is NOT a feature of the Sun's magnetic field?
+        <ol marker ="a.">
+          <li>Sunspots</li>
+          <li>Solar flares</li>
+          <li>Solar wind</li>
+          <li>Asteroids</li>
+        </ol> 
+        </p>
+    </statement>
+    <solution>
+      <p>
+        d.
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        Which layer of the Sun's atmosphere is visible during a total solar eclipse?
+        <ol marker ="a.">
+          <li>Photosphere</li>
+          <li>Chromosphere</li>
+          <li>Corona</li>
+          <li>Convection zone</li>
+        </ol> 
+        </p>
+    </statement>
+    <solution>
+      <p>
+        c.
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        How old is the Sun?
+        <ol marker ="a.">
+          <li>4.6 million years</li>
+          <li>4.6 billion years</li>
+          <li>46 million years</li>
+          <li>46 billion years</li>
+        </ol> 
+        </p>
+    </statement>
+    <solution>
+      <p>
+        b.
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        Which of the following is the most accurate description of the Sun?
+        <ol marker ="a.">
+          <li>A planet</li>
+          <li>A comet</li>
+          <li>A star</li>
+          <li>A moon</li>
+        </ol> 
+        </p>
+    </statement>
+    <solution>
+      <p>
+        c.
+      </p>
+    </solution>
+  </example>
+
+
+  <example>
+    <statement>
+      <p>
+        Which of the following is NOT a possible fate for a star?
+        <ol marker ="a.">
+          <li>Black hole</li>
+          <li>Red giant</li>
+          <li>White dwarf</li>
+          <li>Superstar</li>
+        </ol> 
+        </p>
+    </statement>
+    <solution>
+      <p>
+        d.
+      </p>
+    </solution>
+  </example>
+
+
+  <example>
+    <statement>
+      <p>
+        What is a planetary nebula?
+        <ol marker ="a.">
+          <li>A cloud of gas and dust that forms around a star as it dies</li>
+          <li>A type of star that pulsates regularly</li>
+          <li>A star that has exhausted all of its fuel</li>
+          <li>A dense remnant of a supernova explosion</li>
+        </ol> 
+        </p>
+    </statement>
+    <solution>
+      <p>
+        a.
+      </p>
+    </solution>
+  </example>
+
+
+  <example>
+    <statement>
+      <p>
+        What is a neutron star?
+        <ol marker ="a.">
+          <li>A type of white dwarf</li>
+          <li>A star made entirely of neutrons</li>
+          <li>A star that has not yet undergone a supernova explosion</li>
+          <li>A star that is in the process of becoming a black hole</li>
+        </ol> 
+        </p>
+    </statement>
+    <solution>
+      <p>
+        b.
+      </p>
+    </solution>
+  </example>
+
+</section>
+

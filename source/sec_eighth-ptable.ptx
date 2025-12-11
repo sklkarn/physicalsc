@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_eighth-ptable" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>The Periodic Table</title>
+  <introduction>
+    <p>
+      The periodic table <idx>periodic table</idx> of elements is a tabular arrangement of the chemical 
+      elements based on their atomic structure, chemical properties, and electron configurations. The modern periodic 
+      table consists of 118 elements and is arranged in rows and columns 
+      based on their atomic number and electron configurations. The periodic 
+      law states that the physical and chemical properties of elements are 
+      <em>periodic functions of their atomic numbers</em>. This means that 
+      when elements are arranged in order of increasing atomic number, 
+      their properties exhibit a recurring or periodic pattern.
+    </p>
+    <p>
+      The discovery of the periodic table is generally attributed to the 
+      Russian chemist Dmitri Mendeleev, who published his version of the 
+      table in 1869. However, other scientists, including John Newlands and 
+      Julius Lothar Meyer, also made significant contributions to the 
+      development of the periodic table around the same time. Mendeleev's 
+      table was particularly influential because he left gaps for undiscovered 
+      elements and predicted the properties of these elements based on their 
+      position in the table. When these elements were discovered, their 
+      properties were found to match Mendeleev's predictions, which helped 
+      to establish the credibility of the periodic table <xref ref="fig-ptable"/>.
+    </p>
+    <figure xml:id="fig-ptable">
+      <caption><url href="https://sciencenotes.org/hd-wallpaper-periodic-table/"><c>The Periodic Table</c></url></caption>
+        <image source="ptable.png">
+          </image>
+      </figure>
+        <p>
+          Here is a general guide on how to read the periodic table:
+          <ol marker="a">
+            <li><term>Element symbols:</term> Each element is represented 
+              by a one- or two-letter symbol. For example, "H" represents 
+              hydrogen and "He" represents helium.</li>
+              ,<li><term>Atomic number:</term> Each element's atomic number 
+                is located above or below its symbol. The atomic number represents the number of protons 
+                in the element's nucleus.</li>
+                <li><term>Element name:</term> The name of each element is located below its symbol.</li>
+                <li><term>Groups</term>: Elements with similar chemical properties are organized 
+                  into <alert>vertical columns</alert> called groups or families. There are 18 groups in the modern 
+                  periodic table, numbered 1 to 18 from left to right. Elements in the same group 
+                  have similar chemical and physical properties.</li>
+                  <li><term>Periods:</term> The elements in the periodic table are arranged in <alert>horizontal rows</alert> 
+                    called periods. The period number represents the highest energy level or shell occupied by 
+                    electrons in that element.</li>
+                    <li><term>Atomic mass:</term> The average atomic mass of each element is located below its symbol. 
+                      This value represents the average mass of all the naturally occurring isotopes of that 
+                      element.</li>
+                      <li><term>Blocks:</term> The periodic table is also divided into four blocks, based on the 
+                        electron configuration of the outermost shell. These blocks are s-block, p-block, d-block, 
+                        and f-block.</li>
+                      </ol>
+        </p>
+        <p>
+          The modern periodic table is divided into two main categories: the "A" groups, also known as the 
+          main group elements, and the "B" groups, also known as the transition metals. The A groups, or main group 
+          elements, are located in columns 1, 2, and 13 to 18 of the periodic table. These elements are 
+          also known as the representative elements, and they are characterized by having valence electrons 
+          in the s and p orbitals of their outermost energy level. The A groups are further divided into 
+          two subcategories: the alkali metals (Group 1) and the alkaline earth metals (Group 2), which are 
+          located on the far left side of the periodic table, and the post-transition metals (Groups 13-16), 
+          the halogens (Group 17), and the noble gases (Group 18), which are located on the right side of the table. 
+          Rare earth elements (Group 3) are metallic chemical elements that are crucial 
+          components of many modern technologies, including smartphones, wind 
+          turbines, electric vehicles, and medical devices. These elements are similar in their electronic structure 
+          and chemical properties, and they all have partially filled 4f electron 
+          shells. Because the electronic properties of these elements are highly 
+          similar, they are difficult to separate, which is one reason why rare 
+          earth element extraction and refining can be challenging and expensive. Despite their name, 
+          rare earth elements are not actually rare. They are found in relatively 
+          small quantities in the Earth's crust, and are often difficult and 
+          expensive to extract and refine. 
+          </p>
+        <p>
+          Most post-transition metals are actually is non-metals. Non-metals are elements that do not have 
+          metallic properties and are typically poor conductors of heat and electricity. The non-metals are 
+          located in the upper right corner of the periodic table and are grouped together in several 
+          columns, or groups. The main groups of non-metals in the periodic table are: 
+          <ol marker="a">
+            <li>
+              Group 14 (Carbon Group): This group includes the non-metal carbon (C), which is the 
+              basis for all organic molecules, as well as the metalloids silicon (Si) and germanium (Ge).  
+            </li>
+            <li>
+              Group 15 (Nitrogen Group): This group includes the non-metal nitrogen (N), which is a key component 
+              of the Earth's atmosphere, as well as the non-metals phosphorus (P), arsenic (As), antimony (Sb), 
+              and bismuth (Bi).
+            </li>
+            <li>
+              Group 16 (Chalcogens): This group includes the non-metals oxygen (O), sulfur (S), 
+              selenium (Se), tellurium (Te), polonium (Po), and livermorium (Lv).  
+              The chalcogens are known for their ability to form compounds with a wide range of other elements, 
+              and they are involved in many important biological and industrial processes. 
+              For example, oxygen is essential for respiration and combustion, while sulfur is used in 
+              the production of fertilizers and other chemicals. Selenium and tellurium are used in the manufacture 
+              of semiconductors, while polonium has important nuclear applications. They are non-metals, and they have 
+              relatively high electronegativities and melting points. They also tend to form compounds 
+              with other elements that are covalent or ionic in nature.
+            </li>
+            <li>
+              Group 17 (Halogens): This group includes the non-metals fluorine (F), chlorine (Cl), bromine (Br), 
+              iodine (I), and astatine (At). The halogens are highly reactive and form a variety of compounds.
+            </li>
+            <li>
+              Group 18 (Noble Gases): This group includes the non-metals helium (He), neon (Ne), argon (Ar), krypton (Kr), 
+              xenon (Xe), and radon (Rn). The noble gases are generally unreactive and have very low boiling points.
+            </li>
+          </ol>
+        </p>
+    </introduction>
+  
+    <subsection xml:id="subsec-elctcong">
+      <title>Electronic Configuration</title>
+      <p>
+        Electronic configuration is an arrangement of electrons in an atom. 
+        The electronic configuration of an atom is typically represented using 
+        the notation known as the "Aufbau principle," which states that 
+        electrons fill the lowest energy levels first, followed by successively 
+        higher energy levels. The electronic configuration of an atom is 
+        important because it determines the chemical properties and reactivity 
+        of that atom or molecule. The electronic configuration of an atom 
+        can also be represented using a diagram known as an "orbital diagram," 
+        which shows the distribution of electrons in the various sublevels 
+        of the atom. A <term>shell</term> is a group of electrons that occupy 
+        the same principal energy level in an atom or molecule. The shells 
+        are numbered using integers, where the first shell (or innermost shell) 
+        has a principal quantum number of 1, the second shell has a principal 
+        quantum number of 2, and so on. The <m>1s, 2s, 2p, \cdots.</m> in <xref ref="fig-orbdiag"/>  
+        1, 2, 3, ... are the shells and s, p, d are the subshells in an atom. 
+        Each shell can hold a maximum number of electrons, which is given by <m>2n^2</m>, 
+        where <m>n</m> is the principal quantum number of the shell. A <term>subshell</term> is a division of 
+        a shell that describes the shape and energy of an electron's orbit 
+        within that shell. The subshells are designated using the letters 
+        <m>s, p, d, f, </m> and so on. Each subshell is associated with a 
+        specific angular momentum quantum number, or azimuthal quantum number, 
+        which is given by an integer value ranging from <m>0</m> to <m>n-1</m>,
+        where <m>n</m> is the principal quantum number of the shell. The <m>s</m> 
+        subshell is <em>spherical</em> in shape and can hold up to <em>two electrons</em>, 
+        the <m>p</m> subshell has a <em>dumbbell</em> or peanut shape and can 
+        hold up to <em>six electrons</em>, the d subshell has a more complex shape 
+        and can hold up to 10 electrons, and the f subshell has an even more 
+        complex shape and can hold up to 14 electrons. Other subshells exist for 
+        higher principal quantum numbers, but they are less commonly encountered 
+        in everyday chemistry. In summary, a shell is a group of electrons 
+        that occupy the same principal energy level, while a subshell is a 
+        division of a shell that describes the shape and energy of an 
+        electron's orbit within that shell. The electronic configuration of 
+        an atom is typically written using the format:
+        <me>
+          1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^{10} 4p^6 5s^2 4d^{10} 5p^6 6s^2 4f^{14} 5d^{10} 6p^6 7s^2 5f^{14} 6d^{10}.
+        </me>
+      </p>
+
+      <figure>
+        <caption>Orbital Diagram and Electrons in Shells</caption>
+        <sidebyside widths="40% 40%">
+            <figure xml:id="fig-orbdiag">
+                <caption>Orbital diagram</caption>
+                <image source="orbdiag.png"/>
+            </figure>
+            <figure xml:id="fig-electshell">
+                <caption>Electrons in shells</caption>
+                <image source="lewis.png"/>
+            </figure>
+            </sidebyside>
+    </figure>
+
+    </subsection>
+
+    <paragraphs>
+      <title>Electronic Structure</title>
+      <p>
+        The electronic structure of some of the Group IA elements are written as:
+        <md>
+          <mrow> H-1 \amp : 1s^1 </mrow>
+          <mrow> Li-3 \amp : 1s^2 2s^1</mrow>
+            <mrow> Na-11 \amp : 1s^2 2s^2 2p^6 3s^1</mrow>
+            <mrow> K-19 \amp : 1s^2 2s^2 2p^6 3s^2 3p^6 4s^1</mrow>
+        </md>
+        The electronic structure of some of the Group VIIIA elements are written as:
+        <md>
+          <mrow> He-2 \amp : 1s^2 </mrow>
+          <mrow> Ne-10 \amp : 1s^2 2s^2 2p^6</mrow>
+            <mrow> Ar-18 \amp : 1s^2 2s^2 2p^6 3s^2 3p^6</mrow>
+         </md>
+
+         The electronic structure of some other elements are written as:
+        <md>
+          <mrow> Be-4 \amp : 1s^2 2s^2</mrow>
+          <mrow> C-6 \amp : 1s^2 2s^2 2p^2</mrow>
+          <mrow> N-7 \amp : 1s^2 2s^2 2p^3</mrow>
+          <mrow> F-9 \amp : 1s^2 2s^2 2p^5</mrow>
+          <mrow> Mg-12 \amp : 1s^2 2s^2 2p^6 3s^2</mrow>
+          <mrow> Cl-17 \amp : 1s^2 2s^2 2p^6 3s^2 3p^5</mrow> 
+          <mrow> Ca-20 \amp : 1s^2 2s^2 2p^6 3s^2 3p^6 4s^2</mrow>
+          </md>
+          From the given electronic structures we can find that Group IA elements contain only 
+          1 electron in its outermost orbit which is the s -orbital (or, subshell). 
+          The Group IIA elements contain 3 electrons in its outermost orbit which is again the s-orbital and so on.
+          The Group IIIA elements contain 3 electrons in its outermost orbit which is the p-orbital and so on. 
+          The Group VIIIA elements contain  2 electrons in helium atom and 8 electrons for rest of the atoms.   
+       </p>
+
+    </paragraphs>
+
+<subsection xml:id="subsec-octet">
+  <title>Octet Rule</title>
+  <p>
+  The octet rule <idx>octet rule</idx> states that atoms tend to gain, lose, or share electrons 
+  in order to achieve a stable configuration of eight valence electrons in 
+  their outermost energy level or shell. The rule is based on the observation 
+  that elements in the second row of the periodic table (i.e., those with 
+  atomic numbers 5 through 10) tend to form stable compounds by gaining, 
+  losing, or sharing electrons until they have eight electrons in their 
+  outermost shell, which is also called the <term>valence shell</term>. This configuration 
+  is known as the octet configuration or the noble gas configuration, and 
+  it is particularly stable because it closely resembles the electron 
+  configuration of the noble gases in the same row. The octet rule is not a 
+  hard and fast rule and there are many exceptions to it. For example, 
+  some elements, such as hydrogen and helium, only have a maximum of two 
+  electrons in their outermost shell, while some elements in the third row of 
+  the periodic table can accommodate more than eight electrons in their 
+  outermost shell. Nonetheless, the octet rule provides a useful framework 
+  for predicting the likely electron configurations of atoms and the types 
+  of chemical bonds that they can form.
+  </p>
+</subsection>
+<subsection xml:id="subsec-valency">
+  <title>Valency</title>
+  <p>
+    Valency <idx>valency</idx> describe the combining power of an atom or a group of atoms with 
+    other atoms. It is determined by the number of electrons an atom can gain, 
+    lose or share when it reacts with another atom. The valency of an element 
+    is usually a whole number that indicates the number of electrons an atom 
+    of that element can gain or lose in order to achieve a stable configuration.
+  </p>
+<p>
+  The valency of an element is determined by the number of electrons in the 
+  outermost shell of its atoms, which is also known as the valence shell. 
+  The valency of most elements can be predicted by looking at their position 
+  in the periodic table. For example, elements in Group 1 of the periodic 
+  table have a valency of 1, while elements in Group 2 have a valency of 2, and  
+  elements in Group 3 have a valency of 3. Elements in Group 15 have a valency of -3,
+  elements in Group 16 have a valency of -2, elements in Group 17 have a valency of -1, 
+  and elements in Group 18 have a valency of 0 since they have already achieved a stable configuration.
+  Elements in Group 14 however, have a valency of <m>\pm4</m> as these atoms either gain 4 electrons or 
+  lose 4 electrons in order to obtain stable configuration.
+</p>
+  <p>
+  Valency is important in understanding chemical bonding and chemical 
+  reactions. For example, elements with a valency of 1 can form compounds 
+  by sharing one electron with another atom, while elements with a valency 
+  of 2 can share or lose two electrons. By knowing the valency of an element, 
+  chemists can predict the types of chemical bonds that it can form with other 
+  elements and the chemical properties of the resulting compounds.
+</p>
+</subsection>
+</section>
+

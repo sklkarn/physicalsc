@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_eigth-react" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Chemical Reactions</title>
+  <introduction>
+    <p>
+      There are several types of chemical reactions <idx>chemical reaction</idx>, including:
+      <ol marker="I">
+        <li>
+          <term>Combination reactions:</term> In a combination reaction, two or more reactants combine to 
+          form a single product. The general form of a combination reaction is: <me>A + B → AB.</me>
+        </li>
+        <li>
+          <term>Decomposition reactions:</term> In a decomposition reaction, a single reactant breaks down into 
+          two or more products. The general form of a decomposition reaction is: <me>AB → A + B.</me> 
+        </li>
+        <li>
+          <term>Single replacement reactions:</term> In a single replacement reaction, an element replaces another 
+          element in a compound to form a new compound and a new element. The general form of a single replacement 
+          reaction is: <me>A + BC → AC + B.</me>  
+        </li>
+        <li>
+          <term>Double replacement reactions:</term> In a double replacement reaction, the cations and anions 
+          of two different compounds switch places to form two new compounds. The general form of a double 
+          replacement reaction is:  <me>AB + CD → AD + CB.</me>  
+        </li>
+        <li>
+          <term>Combustion reactions: </term> In a combustion reaction, a fuel (often a hydrocarbon) reacts 
+          with oxygen gas to produce carbon dioxide, water, and heat. The general form of a combustion 
+          reaction is: fuel + oxygen → carbon dioxide + water. 
+        </li>
+        <li>
+          <term>Acid-base reactions: </term> In an acid-base reaction, an acid reacts 
+          with a base to produce a salt and water. 
+          The general form of an acid-base reaction is: acid + base → salt + water.
+        </li>
+      </ol>
+      Understanding the different types of chemical reactions is important in predicting the products of a 
+      reaction and in understanding the behavior of chemicals in different environments.
+    </p>
+  
+  </introduction>
+  
+  <subsection xml:id="subsec-endexotherm">
+    <title>Endothermic and Exothermic Reactions</title>
+    <p>
+      Endothermic and exothermic reactions are the chemical reactions based on the heat 
+      energy released or absorbed during the reaction. An <term>endothermic reaction</term> is a chemical 
+      reaction that absorbs heat energy from its surroundings. In other words, it requires 
+      an input of energy to occur. During an endothermic reaction <idx>endothermic reaction</idx>, the temperature of the 
+      system decreases as the reaction proceeds because the heat is being absorbed into the 
+      reaction. Examples of endothermic reactions include melting of ice, the reaction of 
+      baking soda and vinegar, and photosynthesis. The decomposition of water into hydrogen and oxygen 
+      <me>
+        2H_2O + \text{energy absorbed} \longrightarrow 2H_2 + O_2 
+      </me>
+      The formation of nitric oxide from nitrogen and oxygen 
+      <me>
+        N_2 + O_2 + \text{energy absorbed} \longrightarrow 2NO 
+      </me>
+      When chocolate melts in your mouth, it absorbs heat energy from your mouth and the surrounding environment, 
+      causing the temperature of the chocolate to increase to melt it into a liquid form. 
+      This is an example of an endothermic reaction because it requires an input of energy 
+      (in the form of heat) to occur. As a result, the process of chocolate melting in your mouth 
+      can give a cooling sensation. When sugar is added to water, the water molecules surround the 
+      individual sugar molecules and break apart the sugar crystals through a process called hydration. 
+      This requires energy to overcome the intermolecular forces holding the sugar molecules together. 
+      As a result, the temperature of the mixture may actually decrease slightly due to the energy 
+      absorbed during the process.
+    </p>
+    <p>
+      On the other hand, an <term>exothermic reaction</term> <idx>exothermic reaction</idx> is a chemical reaction that releases heat 
+      energy into its surroundings. In other words, it gives off energy during the reaction. During an exothermic 
+      reaction, the temperature of the system increases as the reaction proceeds because heat 
+      is being released from the reaction. Examples of exothermic reactions include burning 
+      of wood, combustion reactions, and neutralization reactions. The burning of coal (carbon) 
+        <me>
+        C + O_2 \longrightarrow CO_2 + \text{energy released}
+      </me>
+      The burning of hydrogen
+      <me>
+        2H_2 + O_2 \longrightarrow 2H_2O + \text{energy released}
+      </me>
+      The dissolution of sodium hydroxide (NaOH) in water is an exothermic process, 
+      which means that it releases heat. When NaOH dissolves in water, it undergoes a chemical 
+      reaction that releases energy in the form of heat. This energy is then transferred to 
+      the surrounding environment, causing the temperature of the solution to increase.
+    </p>
+  </subsection>
+
+  <subsection xml:id="subsec-8mol">
+    <title>The Mole</title>
+    <p>
+      <term>Mole</term> <idx>mole</idx> is a unit used to measure the amount of a substance. One mole of a substance is 
+      defined as the amount of substance that contains the same number of particles (atoms, molecules, or ions) 
+      as there are in 12 grams of carbon-12. This number is known as <term>Avogadro's number, N_o</term> and 
+      is approximately <m>6.022 \times 10^{23} </m> particles per mole. For example, one mole of water 
+      <m>(H_2O) </m> contains <m>6.022 \times 10^{23} </m> water molecules, while one mole of sodium 
+      chloride <m>(NaCl)</m> contains <m>6.022 \times 10^{23} </m> sodium ions and <m>6.022 \times 10^{23} </m> 
+      chloride ions. The mole is a convenient unit for chemists because it allows them to compare the 
+      amounts of different substances on the basis of the number of particles they contain, 
+      rather than their mass or volume. The number of atoms or molecules or anything in 1 mole of any substance is always the 
+      same as Avogadro's number.
+    </p>
+    <p>
+       <term>Atomic mass unit</term> (amu) is a unit of mass used to express the relative masses of 
+       atoms and molecules. It is defined as one twelfth (1/12) of the mass of a carbon-12 atom, 
+       which is assigned a mass of exactly 12 amu. This means that the mass of one proton or one 
+       neutron is approximately 1 amu, and the mass of an electron is much smaller, about 0.0005 amu. 
+       The atomic mass of an element, which is the weighted average of the masses of its isotopes, 
+       is expressed in amu. The use of atomic mass units is convenient because it allows us 
+       to compare the masses of different atoms and molecules on a relative scale. 
+       For example, the mass of a hydrogen atom is about 1 amu, while the mass of an oxygen atom is about 16 amu.
+    </p>
+    <p>
+      <term>Molar mass</term> is the mass of one mole of a substance, typically expressed in units of 
+      grams per mole (g/mol). It is calculated by summing the atomic masses of all the atoms in a 
+      molecule or formula unit of a compound. The molar mass is an important concept in chemistry 
+      as it is used to convert between the mass of a substance and the number of moles of that substance. 
+      It is also used in stoichiometric calculations to determine the quantities of reactants and 
+      products in chemical reactions.
+    </p>
+
+  </subsection>
+     <example>
+      <statement>
+        <p>
+          How many atoms are there in 100 g of iron?
+        </p>
+      </statement>
+      <solution>
+        <p>
+          To determine the number of atoms present in 100 g of iron, we first need to know the atomic mass 
+          of iron. The atomic mass (or Molar mass) of iron (Fe) is approximately 55.85 g/mol. We can use this 
+          information and Avogadro's number, which is approximately <m>6.022 \times 10^{23}</m>  atoms/mol, 
+          to calculate the number of atoms in 100 g of iron:
+        </p>
+        <p>      
+              Calculate the number of moles of iron in 100 g:           
+             <me>
+              \text{moles of Fe} = \frac{\text{mass of Fe }}{\text{molar mass of Fe}} =\frac{100 g}{55.85 g/mol} = 1.79 mol 
+             </me>
+           </p>
+        <p>
+              Calculate the number of atoms in 1.79 moles of iron:
+              <me>
+                \text{number of atoms of Fe} = \text{moles of Fe}\times \text{Avogadro's number}
+              </me>            
+              =  1.79 mol <m> \times 6.022 \times 10^{23} </m> atoms/mol
+              = <m>1.08 \times 10^{24}</m>  atoms
+        </p>
+        <answer>
+          <p>
+              Therefore, there are approximately <m>1.08 \times 10^{24}</m>  atoms present in 100 g of iron.
+            </p>
+        </answer>
+      </solution>
+     </example>
+  
+
+</section>
+
