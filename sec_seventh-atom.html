@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: default-modern                 *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Atomic Structure</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math",
+    "renderActions": {
+      "findScript": [
+        10,
+        function (doc) {
+            document.querySelectorAll('script[type^="math/tex"]').forEach(function(node) {
+                var display = !!node.type.match(/; *mode=display/);
+                var math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+                var text = document.createTextNode('');
+                node.parentNode.replaceChild(text, node);
+                math.start = {node: text, delim: '', n: 0};
+                math.end = {node: text, delim: '', n: 0};
+                doc.math.push(math);
+            });
+        },
+        ""
+      ]
+    }
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Physical Science">
+<meta property="book:author" content="Sunil Karna">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '7.11.0';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.f91c1a4dc12163f2.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.731d8387162b79c1.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.557d81b04b3ec0e4.css">
+<script src="https://sagecell.sagemath.org/static/embedded_sagecell.js"></script><script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body id="changeme" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner"><div class="title-container">
+<h1 class="heading"><a href="physicalsc.html"><span class="title">Physical Science</span> <span class="subtitle">An example to get you started</span></a></h1>
+<p class="byline">Sunil Karna</p>
+</div></div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><a class="index-button button" href="backmatter-5.html" title="Index"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span><span class="name">Index</span></a><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="ch_seventh.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch_seventh.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec_seventh-nucleus.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter">
+<div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="front-colophon.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li class="toc-item toc-dedication"><div class="toc-title-box"><a href="frontmatter-4.html" class="internal"><span class="title">Dedication</span></a></div></li>
+<li class="toc-item toc-acknowledgement"><div class="toc-title-box"><a href="frontmatter-5.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="frontmatter-6.html" class="internal"><span class="title">Preface</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch_first.html" class="internal"><span class="codenumber">1</span> <span class="title">Scientific Method</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_first-intro.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Significant Figures</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-intro.html#subsec_rn-subsection" class="internal"><span class="codenumber">1.1.1</span> <span class="title">Rounding off the Numbers</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-intro.html#subsec_mosf_subsection" class="internal"><span class="codenumber">1.1.2</span> <span class="title">Mathematical Operations with Significant Figures</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-intro.html#subsec_sr_subsection" class="internal"><span class="codenumber">1.1.3</span> <span class="title">Science and Religion</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_first-obs.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Ancient Observations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-obs.html#subsec_rm-subsection" class="internal"><span class="codenumber">1.2.1</span> <span class="title">Retrograde Motion</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-obs.html#subsec_et-subsection" class="internal"><span class="codenumber">1.2.2</span> <span class="title">Tides</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_first-unit.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Units and Measurements</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-unit.html#subsec_du-subsection" class="internal"><span class="codenumber">1.3.1</span> <span class="title">Derived Units</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-unit.html#subsec_cu-subsection" class="internal"><span class="codenumber">1.3.2</span> <span class="title">Conversion of Units</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-unit.html#subsec_cf-subsection" class="internal"><span class="codenumber">1.3.3</span> <span class="title">Conversion Factors</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_first-examples.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Examples</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_first.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch_second.html" class="internal"><span class="codenumber">2</span> <span class="title">Motion</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_second-intro.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Describing Motion</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_second-intro.html#subsec_em-second" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Equations of Motion</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_second-intro.html#subsubsec_ff-second" class="internal"><span class="codenumber">2.1.1.1</span> <span class="title">Free Fall</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_second-intro.html#subsubsec_pm-second" class="internal"><span class="codenumber">2.1.1.2</span> <span class="title">Projectile Motion</span></a></div></li>
+</ul>
+</li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_second-force.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Force</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-force.html#subsec-cf-subsection" class="internal"><span class="codenumber">2.2.1</span> <span class="title">Contact Forces</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-force.html#subsec_nlm-subsection" class="internal"><span class="codenumber">2.2.2</span> <span class="title">Newton’s Laws of Motion</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-force.html#subsec-mometum-subsection" class="internal"><span class="codenumber">2.2.3</span> <span class="title">Momentum</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-force.html#subsec-ucm-subsection" class="internal"><span class="codenumber">2.2.4</span> <span class="title">Uniform Circular Motion</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_second-force.html#subsec_2nlg-subsection" class="internal"><span class="codenumber">2.2.5</span> <span class="title">Newton’s Law of Gravitation</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_second-force.html#subsubsec-escape" class="internal"><span class="codenumber">2.2.5.1</span> <span class="title">Escape Velocity</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_second-examples.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Examples</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_second.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch_third.html" class="internal"><span class="codenumber">3</span> <span class="title">Energy</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_third-intro.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Work, Energy, and Power</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_third-intro.html#subsec_wep-subsection" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Work-Energy Theorem</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_third-intro.html#subsec-power-subsection" class="internal"><span class="codenumber">3.1.2</span> <span class="title">power</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_third-conserv.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Conservation Principles</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_third-conserv.html#subsec_ce-subsection" class="internal"><span class="codenumber">3.2.1</span> <span class="title">Principle of Conservation of Energy</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_third-conserv.html#subsec_3cm-subsection" class="internal"><span class="codenumber">3.2.2</span> <span class="title">Principle of Conservation of Momentum</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_third-conserv.html#subsec_3col-subsection" class="internal"><span class="codenumber">3.2.3</span> <span class="title">Collision</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_third-conserv.html#subsec_3am-subsection" class="internal"><span class="codenumber">3.2.4</span> <span class="title">Angular Momentum</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_third-conserv.html#subsec-torque" class="internal"><span class="codenumber">3.2.5</span> <span class="title">Torque</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_third-conserv.html#subsec-cam" class="internal"><span class="codenumber">3.2.6</span> <span class="title">Principle of Conservation of Angular Momentum</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_third-examples.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Examples</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_third.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch_fourth.html" class="internal"><span class="codenumber">4</span> <span class="title">Matter and Heat</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_fourth-intro.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Thermometers</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_fourth-intro.html#subsec_qh-subsection" class="internal"><span class="codenumber">4.1.1</span> <span class="title">Quantity of Heat</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_fourth-intro.html#subsubsec-sh" class="internal"><span class="codenumber">4.1.1.1</span> <span class="title">Specific Heat</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_fourth-intro.html#subsubsec-lh" class="internal"><span class="codenumber">4.1.1.2</span> <span class="title">Latent Heat</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fourth-intro.html#subsec-ht-subsection" class="internal"><span class="codenumber">4.1.2</span> <span class="title">Heat Transfer</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fourth-intro.html#subsec_entropy-subsection" class="internal"><span class="codenumber">4.1.3</span> <span class="title">Entropy</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_fourth-fluid.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Fluid</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fourth-fluid.html#subsec_ap-subsection" class="internal"><span class="codenumber">4.2.1</span> <span class="title">Archimedes’ Principle</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_fourth-fluid.html#subsec_ktg-subsection" class="internal"><span class="codenumber">4.2.2</span> <span class="title">Kinetic Theory of Gases</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_fourth-fluid.html#subsubsec_gl" class="internal"><span class="codenumber">4.2.2.1</span> <span class="title">The Gas Laws</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_fourth-examples.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Examples</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_fourth.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch_fifth.html" class="internal"><span class="codenumber">5</span> <span class="title">Electricity and Magnetism</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_fifth-intro.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Charges</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fifth-intro.html#subsec_5cl-subsection" class="internal"><span class="codenumber">5.1.1</span> <span class="title">Coulomb’s Law</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fifth-intro.html#subsec_5ef-subsection" class="internal"><span class="codenumber">5.1.2</span> <span class="title">Electric Field</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fifth-intro.html#subsec_5me-subsection" class="internal"><span class="codenumber">5.1.3</span> <span class="title">Materials on Electrical Point of View</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_fifth-electr.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Electricity</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fifth-electr.html#subsec_5ep-subsection" class="internal"><span class="codenumber">5.2.1</span> <span class="title">Electric Potential (Voltage)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fifth-electr.html#subsec_5ol-subsection" class="internal"><span class="codenumber">5.2.2</span> <span class="title">Ohm’s Law</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fifth-electr.html#subsec-5ec" class="internal"><span class="codenumber">5.2.3</span> <span class="title">Electrical Circuits</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_fifth-magnt.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Magnetism</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fifth-magnt.html#subsec_5em-subsection" class="internal"><span class="codenumber">5.3.1</span> <span class="title">Electromagnetism</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fifth-magnt.html#subsec-Electmag" class="internal"><span class="codenumber">5.3.2</span> <span class="title">Electromagnet</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fifth-magnt.html#subsec_5trnfr-subsection" class="internal"><span class="codenumber">5.3.3</span> <span class="title">Transformer</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_fifth-examples.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Examples</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_fifth.html" class="internal"><span class="codenumber">5.5</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch_sixth.html" class="internal"><span class="codenumber">6</span> <span class="title">Waves</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_sixth-intro.html" class="internal"><span class="codenumber">6.1</span> <span class="title">Wave and its Properties</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_sixth-intro.html#subsec_6sound" class="internal"><span class="codenumber">6.1.1</span> <span class="title">Sound</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_sixth-intro.html#subsubsec_6echo" class="internal"><span class="codenumber">6.1.1.1</span> <span class="title">Reverberation and Echo</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_sixth-intro.html#subsubsec_6deffect" class="internal"><span class="codenumber">6.1.1.2</span> <span class="title">Doppler Effect</span></a></div></li>
+</ul>
+</li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_sixth-light.html" class="internal"><span class="codenumber">6.2</span> <span class="title">Light</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_sixth-light.html#subsec_6gopt" class="internal"><span class="codenumber">6.2.1</span> <span class="title">Geometrical Optics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_sixth-light.html#subsubsec_6refl" class="internal"><span class="codenumber">6.2.1.1</span> <span class="title">Reflection of Light</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_sixth-light.html#subsubsec_6refr" class="internal"><span class="codenumber">6.2.1.2</span> <span class="title">Refraction of Light</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_sixth-light.html#subsubsec_6disper" class="internal"><span class="codenumber">6.2.1.3</span> <span class="title">Dispersion of Light</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_sixth-light.html#subsubsec_6sctrn" class="internal"><span class="codenumber">6.2.1.4</span> <span class="title">Scattering of Light</span></a></div></li>
+</ul>
+</li></ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_sixth-examples.html" class="internal"><span class="codenumber">6.3</span> <span class="title">Examples</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_sixth.html" class="internal"><span class="codenumber">6.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="ch_seventh.html" class="internal"><span class="codenumber">7</span> <span class="title">Atoms and Nucleus</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section contains-active">
+<div class="toc-title-box"><a href="sec_seventh-atom.html" class="internal"><span class="codenumber">7.1</span> <span class="title">Atomic Structure</span></a></div>
+<ul class="structural toc-item-list active">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_seventh-atom.html#subsec_7bbr-subsection" class="internal"><span class="codenumber">7.1.1</span> <span class="title">Blackbody Radiation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_seventh-atom.html#subsec_7pelect-subsection" class="internal"><span class="codenumber">7.1.2</span> <span class="title">Photoelectric Effect</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_seventh-atom.html#subsec_7dnl-subsection" class="internal"><span class="codenumber">7.1.3</span> <span class="title">The Dual Nature of Light</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_seventh-atom.html#subsec_7hatom-subsection" class="internal"><span class="codenumber">7.1.4</span> <span class="title">Bohr’s Model of Hydrogen Atom</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_seventh-atom.html#subsec_7ospect-subsection" class="internal"><span class="codenumber">7.1.5</span> <span class="title">Origin of Spectra</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_seventh-atom.html#subsec_7xrays-subsection" class="internal"><span class="codenumber">7.1.6</span> <span class="title">X-Rays</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_seventh-atom.html#subsec_7laser-subsection" class="internal"><span class="codenumber">7.1.7</span> <span class="title">The Laser</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_seventh-nucleus.html" class="internal"><span class="codenumber">7.2</span> <span class="title">Nuclear Structure</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_seventh-nucleus.html#subsec_7radio" class="internal"><span class="codenumber">7.2.1</span> <span class="title">Radioactivity</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-nucleus.html#subsubsec-7hl" class="internal"><span class="codenumber">7.2.1.1</span> <span class="title">Half-Life</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-nucleus.html#subsubsec_7cd" class="internal"><span class="codenumber">7.2.1.2</span> <span class="title">Carbon Dating</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_seventh-nucleus.html#subsec_7be-subsection" class="internal"><span class="codenumber">7.2.2</span> <span class="title">Binding Energy</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-nucleus.html#subsubsec_7bepn" class="internal"><span class="codenumber">7.2.2.1</span> <span class="title">Binding Energy per Nucleon</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_seventh-nucleus.html#subsec_7nr" class="internal"><span class="codenumber">7.2.3</span> <span class="title">Nuclear Reactions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_seventh-nucleus.html#subsec_7erad" class="internal"><span class="codenumber">7.2.4</span> <span class="title">Effects of Radiation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_seventh-nucleus.html#subsec_7nreact" class="internal"><span class="codenumber">7.2.5</span> <span class="title">Nuclear Reactor</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_seventh-examples.html" class="internal"><span class="codenumber">7.3</span> <span class="title">Examples</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_seventh.html" class="internal"><span class="codenumber">7.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch_eighth.html" class="internal"><span class="codenumber">8</span> <span class="title">The Chemical Elements</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_eighth-intro.html" class="internal"><span class="codenumber">8.1</span> <span class="title">Changes in Matter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_eighth-intro.html#subsec_8clsm-subsection" class="internal"><span class="codenumber">8.1.1</span> <span class="title">The Classification of Matter</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_eighth-intro.html#subsec-8atheory" class="internal"><span class="codenumber">8.1.2</span> <span class="title">Atomic Theory</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_eighth-ptable.html" class="internal"><span class="codenumber">8.2</span> <span class="title">The Periodic Table</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_eighth-ptable.html#subsec-elctcong" class="internal"><span class="codenumber">8.2.1</span> <span class="title">Electronic Configuration</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_eighth-ptable.html#subsec-octet" class="internal"><span class="codenumber">8.2.2</span> <span class="title">Octet Rule</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_eighth-ptable.html#subsec-valency" class="internal"><span class="codenumber">8.2.3</span> <span class="title">Valency</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_eighth-chemicalbonds.html" class="internal"><span class="codenumber">8.3</span> <span class="title">Chemical Bonds &amp; Equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_eighth-chemicalbonds.html#subsec_8namecomp-subsection" class="internal"><span class="codenumber">8.3.1</span> <span class="title">Naming of Compounds</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_eighth-chemicalbonds.html#subsec_8molform-subsection" class="internal"><span class="codenumber">8.3.2</span> <span class="title">Molecular Formula</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_eighth-chemicalbonds.html#subsec_8rad-subsection" class="internal"><span class="codenumber">8.3.3</span> <span class="title">Free Radicals</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_eighth-chemicalbonds.html#subsubsec-polatm" class="internal"><span class="codenumber">8.3.4</span> <span class="title">Polyatmic Ions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_eighth-chemicalbonds.html#subsec-chemeqn" class="internal"><span class="codenumber">8.3.5</span> <span class="title">Chemical Equations</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_eigth-react.html" class="internal"><span class="codenumber">8.4</span> <span class="title">Chemical Reactions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_eigth-react.html#subsec-endexotherm" class="internal"><span class="codenumber">8.4.1</span> <span class="title">Endothermic and Exothermic Reactions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_eigth-react.html#subsec-8mol" class="internal"><span class="codenumber">8.4.2</span> <span class="title">The Mole</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_eighth-examples.html" class="internal"><span class="codenumber">8.5</span> <span class="title">Examples</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_eighth.html" class="internal"><span class="codenumber">8.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch_ninth.html" class="internal"><span class="codenumber">9</span> <span class="title">Crystals and Solutions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_ninth-intro.html" class="internal"><span class="codenumber">9.1</span> <span class="title">Crystalline Solids</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_ninth-intro.html#subsec-polnon" class="internal"><span class="codenumber">9.1.1</span> <span class="title">Polar &amp; Nonploar Molecules</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_ninth-solut.html" class="internal"><span class="codenumber">9.2</span> <span class="title">Solution</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_ninth-solut.html#subsec-typSol" class="internal"><span class="codenumber">9.2.1</span> <span class="title">Types of Solution</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_ninth-solut.html#subsec-collgative" class="internal"><span class="codenumber">9.2.2</span> <span class="title">Colligative property of a solution</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_ninth-acidbase.html" class="internal"><span class="codenumber">9.3</span> <span class="title">Acids and Base</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_ninth-acidbase.html#subsec-pH" class="internal"><span class="codenumber">9.3.1</span> <span class="title">The pH Scale</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_ninth-acidbase.html#subsec-salts" class="internal"><span class="codenumber">9.3.2</span> <span class="title">Salts</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_ninth-examples.html" class="internal"><span class="codenumber">9.4</span> <span class="title">Examples</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_ninth.html" class="internal"><span class="codenumber">9.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch_tenth.html" class="internal"><span class="codenumber">10</span> <span class="title">The Atmosphere</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_tenth-intro.html" class="internal"><span class="codenumber">10.1</span> <span class="title">Ozone</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-intro.html#subsec-ozonehole" class="internal"><span class="codenumber">10.1.1</span> <span class="title">Ozone Hole</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-intro.html#subsec-atmmoist" class="internal"><span class="codenumber">10.1.2</span> <span class="title">Atmospheric Moisture</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-intro.html#subsec-meteor" class="internal"><span class="codenumber">10.1.3</span> <span class="title">Meteorology</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-intro.html#subsec-greenhouse" class="internal"><span class="codenumber">10.1.4</span> <span class="title">Greenhouse Effect</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_tenth-seasons.html" class="internal"><span class="codenumber">10.2</span> <span class="title">The Seasons</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-seasons.html#subsec-wind" class="internal"><span class="codenumber">10.2.1</span> <span class="title">Winds</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_tenth-hydros.html" class="internal"><span class="codenumber">10.3</span> <span class="title">The Hydrosphere</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_tenth-hydros.html#subsec-basin" class="internal"><span class="codenumber">10.3.1</span> <span class="title">Ocean Basins</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_tenth-hydros.html#subsubsec-weather" class="internal"><span class="codenumber">10.3.1.1</span> <span class="title">Weathering</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_tenth-hydros.html#subsubsec-erosion" class="internal"><span class="codenumber">10.3.1.2</span> <span class="title">Erosion</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_tenth-hydros.html#subsubsec-groundwater" class="internal"><span class="codenumber">10.3.1.3</span> <span class="title">Ground Water</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_tenth-hydros.html#subsubsec-sed_depo" class="internal"><span class="codenumber">10.3.1.4</span> <span class="title">Sediment Deposition</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_tenth-hydros.html#subsubsec-caves" class="internal"><span class="codenumber">10.3.1.5</span> <span class="title">Caves</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-hydros.html#subsec-tsunami" class="internal"><span class="codenumber">10.3.2</span> <span class="title">Tsunami</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_tenth-examples.html" class="internal"><span class="codenumber">10.4</span> <span class="title">Examples</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_tenth.html" class="internal"><span class="codenumber">10.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch_eleventh.html" class="internal"><span class="codenumber">11</span> <span class="title">The Earth</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_eleventh-intro.html" class="internal"><span class="codenumber">11.1</span> <span class="title">Structure of the Earth</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_eleventh-intro.html#subsec-crust" class="internal"><span class="codenumber">11.1.1</span> <span class="title">Composition of Earth’s Crust</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_eleventh-rockminr.html" class="internal"><span class="codenumber">11.2</span> <span class="title">Rocks &amp; Minerals</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_eleventh-rockminr.html#subsec-Rocks" class="internal"><span class="codenumber">11.2.1</span> <span class="title">Rocks</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_eleventh-rockminr.html#subsec-coralreef" class="internal"><span class="codenumber">11.2.2</span> <span class="title">Coral Reef</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_eleventh-quake.html" class="internal"><span class="codenumber">11.3</span> <span class="title">Earthquakes</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_eleventh-quake.html#subsec-faults" class="internal"><span class="codenumber">11.3.1</span> <span class="title">Types of Deformation</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_eleventh-tectmov.html" class="internal"><span class="codenumber">11.4</span> <span class="title">Tectonic Movement</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_eleventh-tectmov.html#subsec-drift" class="internal"><span class="codenumber">11.4.1</span> <span class="title">Continental Drift</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_eleventh-tectmov.html#subsec-platetect" class="internal"><span class="codenumber">11.4.2</span> <span class="title">Plate Tectonics</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_eleventh-histgeol.html" class="internal"><span class="codenumber">11.5</span> <span class="title">Historical Geology</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_eleventh-histgeol.html#subsec-humhist" class="internal"><span class="codenumber">11.5.1</span> <span class="title">Human History</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_eleventh-examples.html" class="internal"><span class="codenumber">11.6</span> <span class="title">Examples</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_eleventh.html" class="internal"><span class="codenumber">11.7</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch_twelvth.html" class="internal"><span class="codenumber">12</span> <span class="title">The Solar System</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="subsec-debribelts.html" class="internal"><span class="codenumber">12.1</span> <span class="title">Debri Belts</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_twelvth-intro.html" class="internal"><span class="codenumber">12.1</span> <span class="title">The Planets</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_twelvth-intro.html#subsec-venus" class="internal"><span class="codenumber">12.1.1</span> <span class="title">Venus</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_twelvth-intro.html#subsec-mars" class="internal"><span class="codenumber">12.1.2</span> <span class="title">Mars</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_twelvth-intro.html#subsec-jupiter" class="internal"><span class="codenumber">12.1.3</span> <span class="title">Jupiter</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_twelvth-intro.html#subsec-saturn" class="internal"><span class="codenumber">12.1.4</span> <span class="title">Saturn</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_twelvth-intro.html#subsec-uranus" class="internal"><span class="codenumber">12.1.5</span> <span class="title">Uranus</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_twelvth-intro.html#subsec-neptune" class="internal"><span class="codenumber">12.1.6</span> <span class="title">Neptune</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_twelvth-moon.html" class="internal"><span class="codenumber">12.2</span> <span class="title">The Moon</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_twelvth-moon.html#subsec-moonphase" class="internal"><span class="codenumber">12.2.1</span> <span class="title">The phases of the moon</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_twelvth-moon.html#subsec-eclipse" class="internal"><span class="codenumber">12.2.2</span> <span class="title">Eclipse</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_twelvth-moon.html#subsec-orgmoon" class="internal"><span class="codenumber">12.2.3</span> <span class="title">Origin of the Moon</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_twelvth-examples.html" class="internal"><span class="codenumber">12.3</span> <span class="title">Examples</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_twelvth.html" class="internal"><span class="codenumber">12.5</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch_thirteenth.html" class="internal"><span class="codenumber">13</span> <span class="title">The Stars</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_thirteenth-observ.html" class="internal"><span class="codenumber">13.1</span> <span class="title">Observational Astronomy</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_thirteenth-observ.html#subsec-astrotools" class="internal"><span class="codenumber">13.1.1</span> <span class="title">The Tools in Astronomy</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_thirteenth-observ.html#subsec-sun" class="internal"><span class="codenumber">13.1.2</span> <span class="title">The Sun</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_thirteenth-observ.html#subsubsec-solarenergy" class="internal"><span class="codenumber">13.1.2.1</span> <span class="title">Solar Energy</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_thirteenth-observ.html#subsubsec-aurora" class="internal"><span class="codenumber">13.1.2.2</span> <span class="title">Aurora Borealis</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_thirteenth-observ.html#subsec-stellardist" class="internal"><span class="codenumber">13.1.3</span> <span class="title">Stellar Distances</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_thirteenth-intro.html" class="internal"><span class="codenumber">13.2</span> <span class="title">H-R Diagram</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_thirteenth-intro.html#subsec-supernova" class="internal"><span class="codenumber">13.2.1</span> <span class="title">Supernovas</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_thirteenth-intro.html#subsubsec-neutronstar" class="internal"><span class="codenumber">13.2.1.1</span> <span class="title">Neutron Stars</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_thirteenth-intro.html#subsubsec-pulsars" class="internal"><span class="codenumber">13.2.1.2</span> <span class="title">Pulsars</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_thirteenth-intro.html#subsubsec-blackhole" class="internal"><span class="codenumber">13.2.1.3</span> <span class="title">Black Holes</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_thirteenth-intro.html#subsec-expnduniv" class="internal"><span class="codenumber">13.2.2</span> <span class="title">Evolution of the Solar System</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_thirteenth-examples.html" class="internal"><span class="codenumber">13.3</span> <span class="title">Examples</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_thirteenth.html" class="internal"><span class="codenumber">13.4</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch_fourteenth.html" class="internal"><span class="codenumber">14</span> <span class="title">The Universe</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_fourteenth-intro.html" class="internal"><span class="codenumber">14.1</span> <span class="title">Galaxies</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fourteenth-intro.html#subsec-milkyway" class="internal"><span class="codenumber">14.1.1</span> <span class="title">Milky Way Galaxy</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fourteenth-intro.html#subsec-andromeda" class="internal"><span class="codenumber">14.1.2</span> <span class="title">Andromeda Galaxy</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fourteenth-intro.html#subsec-Globular" class="internal"><span class="codenumber">14.1.3</span> <span class="title">Globular Cluster</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fourteenth-intro.html#subsec-magelenic" class="internal"><span class="codenumber">14.1.4</span> <span class="title">Magelenic Cloud</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fourteenth-intro.html#subsec-nebula" class="internal"><span class="codenumber">14.1.5</span> <span class="title">Nebulae</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fourteenth-intro.html#subsec-darkmatt" class="internal"><span class="codenumber">14.1.6</span> <span class="title">Dark Matter and Dark Energy</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fourteenth-intro.html#subsec-Quasars" class="internal"><span class="codenumber">14.1.7</span> <span class="title">Quasars</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fourteenth-intro.html#subsec-expansion" class="internal"><span class="codenumber">14.1.8</span> <span class="title">Expansion of the Universe</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_fourteenth-examples.html" class="internal"><span class="codenumber">14.2</span> <span class="title">Examples</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_fourteenth.html" class="internal"><span class="codenumber">14.3</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter">
+<div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-solutions"><div class="toc-title-box"><a href="backmatter-2.html" class="internal"><span class="codenumber">A</span> <span class="title">Selected Hints</span></a></div></li>
+<li class="toc-item toc-solutions"><div class="toc-title-box"><a href="backmatter-3.html" class="internal"><span class="codenumber">B</span> <span class="title">Selected Solutions</span></a></div></li>
+<li class="toc-item toc-appendix"><div class="toc-title-box"><a href="backmatter-4.html" class="internal"><span class="codenumber">C</span> <span class="title">List of Symbols</span></a></div></li>
+<li class="toc-item toc-index"><div class="toc-title-box"><a href="backmatter-5.html" class="internal"><span class="title">Index</span></a></div></li>
+<li class="toc-item toc-references"><div class="toc-title-box"><a href="refs-list.html" class="internal"><span class="title">References</span></a></div></li>
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="backmatter-7.html" class="internal"><span class="title">Colophon</span></a></div></li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec_seventh-atom"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Atomic Structure</span>
+</h2>
+<section class="introduction" id="sec_seventh-atom-2"><div class="para logical" id="sec_seventh-atom-2-1">
+<div class="para">
+<dfn class="terminology">Dalton’s atomic model</dfn> was proposed in 1803. It tells that</div>
+<ol class="lower-alpha ol-marker-4" id="sec_seventh-atom-2-1-2">
+<li id="sec_seventh-atom-2-1-2-1">
+<div class="para" id="p-derived-sec_seventh-atom-2-1-2-1">All matter is composed of atoms, which are indivisible and indestructible.</div>
+<div class="autopermalink" data-description="Item a"><a href="#sec_seventh-atom-2-1-2-1" title="Copy heading and permalink for Item a" aria-label="Copy heading and permalink for Item a">🔗</a></div>
+</li>
+<li id="sec_seventh-atom-2-1-2-2">
+<div class="para" id="p-derived-sec_seventh-atom-2-1-2-2">Atoms of a given element are identical in size, mass, and other properties.</div>
+<div class="autopermalink" data-description="Item b"><a href="#sec_seventh-atom-2-1-2-2" title="Copy heading and permalink for Item b" aria-label="Copy heading and permalink for Item b">🔗</a></div>
+</li>
+<li id="sec_seventh-atom-2-1-2-3">
+<div class="para" id="p-derived-sec_seventh-atom-2-1-2-3">Atoms of different elements have different properties and masses.</div>
+<div class="autopermalink" data-description="Item c"><a href="#sec_seventh-atom-2-1-2-3" title="Copy heading and permalink for Item c" aria-label="Copy heading and permalink for Item c">🔗</a></div>
+</li>
+<li id="sec_seventh-atom-2-1-2-4">
+<div class="para" id="p-derived-sec_seventh-atom-2-1-2-4">Atoms combine in simple whole-number ratios to form compounds.</div>
+<div class="autopermalink" data-description="Item d"><a href="#sec_seventh-atom-2-1-2-4" title="Copy heading and permalink for Item d" aria-label="Copy heading and permalink for Item d">🔗</a></div>
+</li>
+</ol>
+<div class="para">In chemical reactions, atoms are rearranged to form new compounds, but no atoms are created or destroyed. Dalton’s atomic theory laid the foundation for modern atomic theory.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec_seventh-atom-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec_seventh-atom-2-2">
+<dfn class="terminology">Thomson’s atomic model</dfn> was proposed in 1904. It was based on his discovery of the electron, a negatively charged particle within the atom. According to Thomson’s model, the atom was a sphere of positive charge with electrons embedded within it like raisins in a pudding. Hence this model is also known as "plum pudding" model. This model was later modified by Rutherford’s atomic model.<div class="autopermalink" data-description="Paragraph"><a href="#sec_seventh-atom-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec_seventh-atom-2-3">
+<dfn class="terminology">Rutherford’s atomic model</dfn>, also known as the "planetary" model, was proposed in 1911 based on his gold foil experiment. The experiment involved firing alpha particles at a thin sheet of gold foil and observing their deflection patterns using a screen. The results showed that most of the alpha particles passed straight through the foil, but a small percentage were deflected at large angles, suggesting the presence of a heavy and dense nucleus at the center of the atom. Rutherford’s atomic model proposed that an atom consists of a small, dense, positively charged nucleus at its center surrounded by electrons in orbits around the nucleus. The electrons were held in their orbits by the attractive force between the positive nucleus and the negative electrons. This model explained why most alpha particles passed straight through the foil and why a small percentage were deflected at large angles. It also helped to establish the concept of the atomic nucleus and the basic structure of the atom. <a class="external" href="https://www.youtube.com/watch?v=kHaR2rsFNhg" target="_blank"><code class="code-inline tex2jax_ignore">Gold's Foil Experiment</code></a><div class="autopermalink" data-description="Paragraph"><a href="#sec_seventh-atom-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="sec_seventh-atom-2-4"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;grid-template-columns:33.3333333333333% 33.3333333333333% 33.3333333333333%;column-gap:0%;">
+<div class="sbspanel sbspanel--top top" style=""><figure class="figure figure-like" id="sec_seventh-atom-2-4-2-1"><img src="external/atom1.png" class="contained"><figcaption><span class="codenumber">(a)</span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Dalton’s Model<div class="autopermalink" data-description="Figure 7.1.1.(a)"><a href="#sec_seventh-atom-2-4-2-1" title="Copy heading and permalink for Figure 7.1.1.(a)" aria-label="Copy heading and permalink for Figure 7.1.1.(a)">🔗</a></div></figcaption></figure></div>
+<div class="sbspanel sbspanel--top top" style=""><figure class="figure figure-like" id="sec_seventh-atom-2-4-2-2"><img src="external/atom2.png" class="contained"><figcaption><span class="codenumber">(b)</span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Thomson’s Model<div class="autopermalink" data-description="Figure 7.1.1.(b)"><a href="#sec_seventh-atom-2-4-2-2" title="Copy heading and permalink for Figure 7.1.1.(b)" aria-label="Copy heading and permalink for Figure 7.1.1.(b)">🔗</a></div></figcaption></figure></div>
+<div class="sbspanel sbspanel--top top" style=""><figure class="figure figure-like" id="sec_seventh-atom-2-4-2-3"><img src="external/atom3.png" class="contained"><figcaption><span class="codenumber">(c)</span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Rutherford’s Model<div class="autopermalink" data-description="Figure 7.1.1.(c)"><a href="#sec_seventh-atom-2-4-2-3" title="Copy heading and permalink for Figure 7.1.1.(c)" aria-label="Copy heading and permalink for Figure 7.1.1.(c)">🔗</a></div></figcaption></figure></div>
+</div></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.1.1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Atomic Model<div class="autopermalink" data-description="Figure 7.1.1"><a href="#sec_seventh-atom-2-4" title="Copy heading and permalink for Figure 7.1.1" aria-label="Copy heading and permalink for Figure 7.1.1">🔗</a></div></figcaption></figure></section><section class="subsection" id="subsec_7bbr-subsection"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.1.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Blackbody Radiation</span>
+</h3>
+<div class="para" id="subsec_7bbr-subsection-2"> A blackbody in physics describes an ideal object which can absorb all electromagnetic radiation that falls on it, at any wavelengths. Because it absorbs all frequencies of light, a perfect blackbody would appear completely black to the human eye. While perfect blackbodies don’t exist in nature, the concept is very useful in understanding how real objects emit and absorb radiation. It is our experience that when a metal rod is heated, it turns red at low temperature, then as the temperature increases its color changed into orange, yellow, white, and blue. Stars are often approximated as blackbodies, which helps us understand how they radiate light at different temperatures.<div class="autopermalink" data-description="Paragraph"><a href="#subsec_7bbr-subsection-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsec_7bbr-subsection-3">
+<dfn class="terminology">Blackbody radiation</dfn> is the theoretical description of the electromagnetic radiation emitted by a perfect blackbody, which is an object that absorbs all radiation falling on it and reflects none. In 1900, Max Planck proposed a theoretical model to explain the spectral distribution of blackbody radiation, which was in agreement with experimental observations. Planck’s model proposed that energy is emitted and absorbed in discrete packets, called quanta, rather than continuous. <dfn class="terminology">Quanta</dfn> is the plural form of quantum (in Latin, quantum means how much). The higher the frequency of the light, the more the energy per quantum. This was a major departure from classical physics and marked the beginning of quantum mechanics. Planck’s work laid the foundation for the understanding of the nature of light and electromagnetic radiation and has had a profound impact on modern physics. The study of blackbody radiation helps understand the nature of heat and light.<div class="autopermalink" data-description="Paragraph"><a href="#subsec_7bbr-subsection-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="fig-bbr"><div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/fig7bbr.png" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.1.2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Blackbody Radiation<div class="autopermalink" data-description="Figure 7.1.2"><a href="#fig-bbr" title="Copy heading and permalink for Figure 7.1.2" aria-label="Copy heading and permalink for Figure 7.1.2">🔗</a></div></figcaption></figure><div class="para" id="subsec_7bbr-subsection-5">The blackbody radiation plot shows the spectral distribution of the electromagnetic radiation emitted by a blackbody as a function of wavelength or frequency. The plot is typically represented as a curve that shows the intensity of the radiation emitted at each wavelength or frequency. The shape of the blackbody radiation curve depends on the temperature of the blackbody. At low temperatures, the curve peaks at longer wavelengths in the infrared region. As the temperature increases, the peak of the curve moves towards shorter wavelengths, and at high temperatures, the peak is in the ultraviolet region. The blackbody radiation plot is an important tool for understanding the nature of heat and light. <a href="sec_seventh-atom.html#fig-bbr" class="xref" data-knowl="./knowl/xref/fig-bbr.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 7.1.2">Figure 7.1.2</a> shows how the brightness of the light varies with wavelength emitted by the objects at four different temperatures. It has been observed that all objects radiate electromagnetic radiation and the strongest wavelength depends on its temperature. The higher the temperature of the body, the shorter the brightest wavelength (or, the higher the frequency). For example, a hot iron bar that glows yellow is hotter than one that glows red. For an object at room temperature, most of the radiation emits in infrared region and hence is invisible.<div class="autopermalink" data-description="Paragraph"><a href="#subsec_7bbr-subsection-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="subsec_7bbr-subsection-6">
+<div class="para">According to Plank the energy emited in radiation is given by</div>
+<div class="displaymath process-math" id="eqn-planck">
+\begin{equation}
+E =  h f = \frac{hc}{\lambda}\tag{7.1.1}
+\end{equation}
+</div>
+<div class="para"> Here <span class="process-math">\(E\)</span> is quantum of energy, <span class="process-math">\(h =6.63\times 10^{-34} J \cdot s\)</span> is <dfn class="terminology">Planck’s constant,</dfn>, <span class="process-math">\(c = 3\times 10^{8}\)</span> m/s is a velocity of light, <span class="process-math">\(\lambda\)</span> is a wavelength of light, and <span class="process-math">\(f\)</span> is frequency of light.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec_7bbr-subsection-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="subsec_7bbr-subsection-7">
+<div class="para">Planck described that at higher frequency the quanta were less likely excited so the average energy would decrease with the frequency. The exact expression for the average energy of each quanta is given as</div>
+<div class="displaymath process-math" id="subsec_7bbr-subsection-7-1">
+\begin{equation*}
+E = \frac{hf}{exp(hf/KT)-1}.
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec_7bbr-subsection-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<details id="subsec_7bbr-subsection-8" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.1.3</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para" id="subsec_7bbr-subsection-8-1-1">Find the energy of a photon emitted from a red light of frequency <span class="process-math">\(5.00\times 10^{14} Hz\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsec_7bbr-subsection-8-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="subsec_7bbr-subsection-8-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para logical" id="subsec_7bbr-subsection-8-2-1">
+<div class="para">From equation <a href="sec_seventh-atom.html#eqn-planck" class="xref" data-knowl="./knowl/xref/eqn-planck.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 7.1.1">(7.1.1)</a>, we have</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-planck.html" id="subsec_7bbr-subsection-8-2-1-2">
+\begin{align*}
+E \amp = hf \\
+or, \quad E \amp = 6.63\times 10^{-34} (\,Js) \times 5.00\times 10^{14} (1/s) \\
+\therefore E \amp = 3.32\times10^{-19} \,J
+\end{align*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec_7bbr-subsection-8-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 7.1.3.1"><a href="#subsec_7bbr-subsection-8-2" title="Copy heading and permalink for Solution 7.1.3.1" aria-label="Copy heading and permalink for Solution 7.1.3.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Example 7.1.3"><a href="#subsec_7bbr-subsection-8" title="Copy heading and permalink for Example 7.1.3" aria-label="Copy heading and permalink for Example 7.1.3">🔗</a></div></article></details><div class="autopermalink" data-description="Subsection 7.1.1: Blackbody Radiation"><a href="#subsec_7bbr-subsection" title="Copy heading and permalink for Subsection 7.1.1: Blackbody Radiation" aria-label="Copy heading and permalink for Subsection 7.1.1: Blackbody Radiation">🔗</a></div></section><section class="subsection" id="subsec_7pelect-subsection"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.1.2</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Photoelectric Effect</span>
+</h3>
+<div class="para" id="subsec_7pelect-subsection-2">The photoelectric effect  is a phenomenon in which electrons are emitted from a metal surface when light of a certain frequency shines on it. Electrons are ejected because of the transfer of energy from light photons to electrons in the metal. The photoelectric effect demonstrated that light has a dual nature, both as a wave and as a particle.<div class="autopermalink" data-description="Paragraph"><a href="#subsec_7pelect-subsection-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsec_7pelect-subsection-3">The photoelectric effect was first observed by Hertz in the late 19th century and later explained by Einstein in 1905. The basic idea behind the photoelectric effect is that light is composed of individual particles, called photons, that carry a specific amount of energy. When these photons hit a metal surface, they transfer their energy to the electrons in the metal. If the energy of the photon is high enough, it can cause an electron to be ejected from the metal and become a free electron. This process only occurs with light of a certain frequency, known as the <dfn class="terminology">threshold frequency</dfn>. If the frequency of the light is below this threshold, no electrons will be emitted, no matter how intense the light is. If the frequency is above the threshold, the number of electrons emitted will increase with the intensity of the light. The photoelectric effect challenged the classical understanding of light as a wave, and led to the development of quantum mechanics, which views light and matter as having both wave-like and particle-like properties. The photoelectric effect is widely used in photodiodes, photovoltaics, and photoelectric sensors, etc. <a class="external" href="https://javalab.org/en/photoelectric_effect_2_en/" target="_blank"><code class="code-inline tex2jax_ignore">Photoelectric Effect Simulation.</code></a><div class="autopermalink" data-description="Paragraph"><a href="#subsec_7pelect-subsection-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="subsec_7pelect-subsection-4">
+<div class="para">Einstein’s formula for photoelectric effect is given by</div>
+<div class="displaymath process-math" id="eqn-pelect">
+\begin{equation}
+hf = KE + w\tag{7.1.2}
+\end{equation}
+</div>
+<div class="para">where <span class="process-math">\(hf\)</span> is energy of a photon of light whose frequency is <span class="process-math">\(f,\)</span> <span class="process-math">\(KE\)</span> is the kinetic energy of the emitted electron, and <span class="process-math">\(w\)</span> is work function of the metal (i.e., energy needed to pull the electron from the metal). Eventhough,<dfn class="terminology">photon</dfn> is massless and always moves with the speed of light, it behaves like a particle and possesses energy and momentum. It also interacts with other particles in the same way as one particle interacts with others.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec_7pelect-subsection-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<details id="subsec_7pelect-subsection-5" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.1.4</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para" id="subsec_7pelect-subsection-5-1-1">The ultraviolet light of frequency <span class="process-math">\(3. 0 \times 10^{15} Hz\)</span> is incident on the surface of a metal, whose work function is <span class="process-math">\(1.8 eV\text{.}\)</span> Show that the kinetic energy of the emitted electrons  is <span class="process-math">\(1.7\times 10^{-18} J\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsec_7pelect-subsection-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="subsec_7pelect-subsection-5-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="subsec_7pelect-subsection-5-2-1">Given: <span class="process-math">\(f=3. 0 \times 10^{15} \,Hz\text{,}\)</span> <span class="process-math">\(h=6.63\times 10^{-34} (\,Js)\text{,}\)</span> <span class="process-math">\(w=1.8\,eV= 1.8\times 1.67\times 10^{-19}C= 3.0\times10^{-19}J\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsec_7pelect-subsection-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="subsec_7pelect-subsection-5-2-2">
+<div class="para">From equation <a href="sec_seventh-atom.html#eqn-pelect" class="xref" data-knowl="./knowl/xref/eqn-pelect.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 7.1.2">(7.1.2)</a>
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-pelect.html" id="subsec_7pelect-subsection-5-2-2-2">
+\begin{align*}
+E=hf \amp = KE+w\\
+or, \quad KE \amp = hf-w\\
+or, \quad KE \amp = 6.63\times 10^{-34} \times 3. 0 \times 10^{15} -3.0\times10^{-19}\\
+\therefore KE \amp = 19.89\times 10^{-19} -3.0\times10^{-19}= 16.89\times10^{-19} \approx 1.7\times10^{-18} J
+\end{align*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec_7pelect-subsection-5-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 7.1.4.1"><a href="#subsec_7pelect-subsection-5-2" title="Copy heading and permalink for Solution 7.1.4.1" aria-label="Copy heading and permalink for Solution 7.1.4.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Example 7.1.4"><a href="#subsec_7pelect-subsection-5" title="Copy heading and permalink for Example 7.1.4" aria-label="Copy heading and permalink for Example 7.1.4">🔗</a></div></article></details><div class="autopermalink" data-description="Subsection 7.1.2: Photoelectric Effect"><a href="#subsec_7pelect-subsection" title="Copy heading and permalink for Subsection 7.1.2: Photoelectric Effect" aria-label="Copy heading and permalink for Subsection 7.1.2: Photoelectric Effect">🔗</a></div></section><section class="subsection" id="subsec_7dnl-subsection"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.1.3</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">The Dual Nature of Light</span>
+</h3>
+<div class="para" id="subsec_7dnl-subsection-2">The dual nature of light refers that light exhibits both wave-like and particle-like behavior, which was first described by the wave-particle duality theory in quantum mechanics. This theory states that light can behave as both a wave and a particle depending on the experimental setup used to observe it. For example, in the double-slit experiment, light behaves as a wave, but in the photoelectric effect, it behaves as particles, called photons. The dual nature of light is still not fully understood and remains one of the most intriguing concepts in physics. In the double-slit experiment, light passing through two slits interferes with itself, creating a characteristic pattern on a screen behind the slits, which is typical of wave behavior. However, when light is emitted from a source and detected one photon at a time, the photons are found to behave as particles and follow a random path through the slits, not forming any interference pattern. <a class="external" href="https://www.youtube.com/watch?v=NvzSLByrw4Q" target="_blank">Duality</a><div class="autopermalink" data-description="Paragraph"><a href="#subsec_7dnl-subsection-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsection 7.1.3: The Dual Nature of Light"><a href="#subsec_7dnl-subsection" title="Copy heading and permalink for Subsection 7.1.3: The Dual Nature of Light" aria-label="Copy heading and permalink for Subsection 7.1.3: The Dual Nature of Light">🔗</a></div></section><section class="subsection" id="subsec_7hatom-subsection"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.1.4</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Bohr’s Model of Hydrogen Atom</span>
+</h3>
+<div class="para" id="subsec_7hatom-subsection-2">The Bohr model of the atom is a simplified representation of the structure of an atom proposed by Niels Bohr in 1913. According to the Bohr model, an atom consists of a central nucleus composed of positively charged protons and neutral neutrons surrounded by electrons in shells or orbits. The electrons occupy discrete energy levels and move in circular orbits around the nucleus, and the energy of an electron depends on its distance from the nucleus. The quantized orbits correspond to specific energy levels, and the transition of an electron from one energy level to another results in the emission or absorption of electromagnetic radiation, which is observed as a spectral line. The Bohr model helps explain the emission and absorption spectra of atoms and laid the foundation for the development of quantum mechanics. The Bohr model is used to describe the structure of hydrogen energy levels. The <a href="sec_seventh-atom.html#fig-Hatom" class="xref" data-knowl="./knowl/xref/fig-Hatom.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 7.1.5.(a)">Figure 7.1.5.(a)</a> represents shell structure, where each shell is associated with principal quantum number <span class="process-math">\(n\text{.}\)</span> The amount of energy in each level is reported in eV, and the maxiumum energy is the ionization energy of 13.6 eV. The movement of electrons between these energy levels produces a spectrum.<div class="autopermalink" data-description="Paragraph"><a href="#subsec_7hatom-subsection-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="subsec_7hatom-subsection-3"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;grid-template-columns:40% 60%;column-gap:0%;">
+<div class="sbspanel sbspanel--top top" style=""><figure class="figure figure-like" id="fig-Hatom"><img src="external/Hatom.png" class="contained"><figcaption><span class="codenumber">(a)</span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Hydrogen Atom<div class="autopermalink" data-description="Figure 7.1.5.(a)"><a href="#fig-Hatom" title="Copy heading and permalink for Figure 7.1.5.(a)" aria-label="Copy heading and permalink for Figure 7.1.5.(a)">🔗</a></div></figcaption></figure></div>
+<div class="sbspanel sbspanel--top top" style=""><figure class="figure figure-like" id="fig-spectlines"><img src="external/spectlines.png" class="contained"><figcaption><span class="codenumber">(b)</span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Spectral Lines<div class="autopermalink" data-description="Figure 7.1.5.(b)"><a href="#fig-spectlines" title="Copy heading and permalink for Figure 7.1.5.(b)" aria-label="Copy heading and permalink for Figure 7.1.5.(b)">🔗</a></div></figcaption></figure></div>
+</div></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.1.5<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Energy level diagram of hydrogen atom<div class="autopermalink" data-description="Figure 7.1.5"><a href="#subsec_7hatom-subsection-3" title="Copy heading and permalink for Figure 7.1.5" aria-label="Copy heading and permalink for Figure 7.1.5">🔗</a></div></figcaption></figure><div class="para logical" id="subsec_7hatom-subsection-4">
+<div class="para">The allowed value of the atomic radius is given by</div>
+<div class="displaymath process-math" id="eqn-BohrRadius">
+\begin{equation}
+r(n) =n^2\times r(1)\tag{7.1.3}
+\end{equation}
+</div>
+<div class="para">Where, <span class="process-math">\(n\)</span> is a positive integer, <span class="process-math">\(r(1)\)</span> is the smallest allowed radius for the hydrogen atom also known as the Bohr’s radius, <span class="process-math">\(r(1) = 0.529\times 10^{-10} \,m\text{.}\)</span> Bohr calculated the energy of an electron in the <span class="process-math">\(n^{th}\)</span> level of hydrogen atom by using the formula given below</div>
+<div class="displaymath process-math" id="eqn-BohrEnergy">
+\begin{equation}
+E(n) =-\frac{1}{n^2} \times 13.6 \,eV\tag{7.1.4}
+\end{equation}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec_7hatom-subsection-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsec_7hatom-subsection-5">In <a href="sec_seventh-atom.html#fig-spectlines" class="xref" data-knowl="./knowl/xref/fig-spectlines.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 7.1.5.(b)">Figure 7.1.5.(b)</a> the numbers on the left side represent energy levels with the lowest energy level at the bottom and on right side representing their corresponding values. The arrows represent all possible transitions of electron from one energy level to another. Each group of transitions is given the name of the scientist who identified their origin. Longer arrow means more energy is released during transition and hence the light of shorter wavelength is being emitted. The Balmer series releases light in the visible region of the electromagnetic spectrum. The Lyman series, with longer arrows, requires the higher energy of the UV region. The Paschen, Brackett series, and Pfund series with shorter arrows require the lower energy of the IR region. According to Bohr model, Lyman series appears when electrons jump from higher energy levels <span class="process-math">\((n_h = 2,3,4,5,6,\cdots)\)</span> to <span class="process-math">\(n_l = 1\)</span> energy state. Balmer series appears when electrons jump from higher energy levels <span class="process-math">\((n_h = 3,4,5,6,\cdots)\)</span> to <span class="process-math">\(n_l = 2\)</span> energy state, and so on.<div class="autopermalink" data-description="Paragraph"><a href="#subsec_7hatom-subsection-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsection 7.1.4: Bohr’s Model of Hydrogen Atom"><a href="#subsec_7hatom-subsection" title="Copy heading and permalink for Subsection 7.1.4: Bohr’s Model of Hydrogen Atom" aria-label="Copy heading and permalink for Subsection 7.1.4: Bohr’s Model of Hydrogen Atom">🔗</a></div></section><section class="subsection" id="subsec_7ospect-subsection"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.1.5</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Origin of Spectra</span>
+</h3>
+<div class="para" id="subsec_7ospect-subsection-2">The term "spectrum"  originated from the Latin word "spectrum" which means "appearance". The idea of a spectrum in physics and optics refers to the distribution of light into its component colors (red, orange, yellow, green, blue, indigo, and violet) when passed through a prism or diffraction grating. Spectral lines are caused by the interaction of electromagnetic radiation with atoms or molecules. When an atom or molecule is excited by absorbing a photon of light, its electrons can transition to higher energy levels. When the electrons eventually fall back down to their ground state, they emit photons of light at specific, characteristic wavelengths, which correspond to the difference in energy between the two states. This results in the emission of light at specific wavelengths, known as spectral lines. The position and intensity of these lines are unique to the elements or compounds present, and can be used to identify and analyze the composition of stars, planets, and other celestial objects. The <a href="sec_seventh-atom.html#fig-spectrallines" class="xref" data-knowl="./knowl/xref/fig-spectrallines.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 7.1.6">Figure 7.1.6</a> is the visible emission spectrum of H, He, and N line spectra, and their absorption spectra.<div class="autopermalink" data-description="Paragraph"><a href="#subsec_7ospect-subsection-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="fig-spectrallines"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/spectrallines.png" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.1.6<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Types of light spectra<div class="autopermalink" data-description="Figure 7.1.6"><a href="#fig-spectrallines" title="Copy heading and permalink for Figure 7.1.6" aria-label="Copy heading and permalink for Figure 7.1.6">🔗</a></div></figcaption></figure><div class="autopermalink" data-description="Subsection 7.1.5: Origin of Spectra"><a href="#subsec_7ospect-subsection" title="Copy heading and permalink for Subsection 7.1.5: Origin of Spectra" aria-label="Copy heading and permalink for Subsection 7.1.5: Origin of Spectra">🔗</a></div></section><section class="subsection" id="subsec_7xrays-subsection"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.1.6</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">X-Rays</span>
+</h3>
+<div class="para" id="subsec_7xrays-subsection-2">X-rays  are electromagnetic radiations with high energy and short wavelength. Its wavelength range from 0.01 to 10 nm. This short wavelength allows X-rays to penetrate materials, making them useful for medical imaging and other applications.They are used to produce images of bones and other internal organs, as well as for industrial and scientific applications. X-rays are also used in radiation therapy to treat cancer and other medical conditions. However, exposure to X-rays can be harmful, so it is important to use protective measures and limit unnecessary exposure. The discovery of X-rays is credited to German physicist Wilhelm Röntgen in 1895. Röntgen was studying cathode rays in a vacuum tube when he noticed that a screen coated with a fluorescent material emitted a bright glow when exposed to the rays. X-rays are just the reverse of photoelectric effect. Roentgen discovered that holding a high voltage across two electrodes could result in the production of high energy photons, which he called "X-rays" because their nature was unknown at the time.<div class="autopermalink" data-description="Paragraph"><a href="#subsec_7xrays-subsection-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="fig-cathodtube"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/cathodtube.png" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.1.7<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>X-ray production<div class="autopermalink" data-description="Figure 7.1.7"><a href="#fig-cathodtube" title="Copy heading and permalink for Figure 7.1.7" aria-label="Copy heading and permalink for Figure 7.1.7">🔗</a></div></figcaption></figure><div class="para" id="subsec_7xrays-subsection-4">X-rays are produced by the sudden change in large kinetic energy when electrons smash into the target electrode in a cathode ray tube <a href="sec_seventh-atom.html#fig-cathodtube" class="xref" data-knowl="./knowl/xref/fig-cathodtube.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 7.1.7">Figure 7.1.7</a>. The energy of the x-rays produced depends on the voltage applied.<div class="autopermalink" data-description="Paragraph"><a href="#subsec_7xrays-subsection-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsection 7.1.6: X-Rays"><a href="#subsec_7xrays-subsection" title="Copy heading and permalink for Subsection 7.1.6: X-Rays" aria-label="Copy heading and permalink for Subsection 7.1.6: X-Rays">🔗</a></div></section><section class="subsection" id="subsec_7laser-subsection"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.1.7</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">The Laser</span>
+</h3>
+<div class="para" id="subsec_7laser-subsection-2">The acronym <dfn class="terminology">LASER</dfn>  stands for <em class="emphasis">Light Amplification by Stimulated Emission of Radiation</em>. The light  emitted  from  a  laser is distinctly monochromatic compared to the light emiited from lightbulb or the sun. It is spatially and temporally coherent to a much higher degree than other light sources. Hence, the laser is a concentrated beam of light through the process of stimulated emission of electromagnetic radiation. Lasers have a wide range of applications in fields such as medicine, communications, manufacturing, and entertainment. They work by emitting a narrow, intense beam of light that can be precisely controlled and directed, making them useful for tasks that require high precision or intense light. Here are some important processes that make laser a very important tool. <dfn class="terminology">Light emission:</dfn> Lasers emit light at a specific wavelength, which is determined by the laser material used. This narrow spectral width makes the light highly collimated and monochromatic, meaning it has a single wavelength and travels in a straight path. <dfn class="terminology">Stimulated emission:</dfn> Lasers rely on the process of stimulated emission to produce light. This involves the absorption of energy by a material, followed by the release of that energy in the form of a photon. The photon then triggers the emission of additional photons, creating a chain reaction that results in the intense beam of light. <dfn class="terminology">Active medium:</dfn> The active medium is the material that produces the laser light. It can be a solid, liquid, or gas, and it is chosen based on the desired wavelength and type of laser. <dfn class="terminology">Pumping:</dfn> The active medium must be excited, or “pumped,” to generate the laser light. This can be done through electrical means, or by shining a light on the medium. <dfn class="terminology">Reflective cavity:</dfn> The laser light is contained within a reflective cavity, which is formed by two mirrors facing each other. The light bounces back and forth between the mirrors, amplifying and intensifying the beam as it passes through the active medium. <dfn class="terminology">Output coupler:</dfn> One of the mirrors is partially transparent, allowing some of the laser light to escape and form the laser beam. <dfn class="terminology">Population inversion:</dfn> is a key concept in laser physics and refers to the state of a group of atoms in the active medium of a laser. Normally, the majority of atoms in a material are in the lowest energy state (ground state), and a small fraction are in excited states. In a population inversion, the situation is reversed, with the majority of atoms being in excited states and a small fraction in the ground state. This condition is necessary for a laser to produce light, as it provides the necessary amount of excited atoms that can undergo stimulated emission, releasing photons that amplify and produce the laser beam. The pumping process is responsible for creating the population inversion in the active medium. In summary, population inversion is the requirement for laser light generation, as it provides the necessary population of excited atoms to produce the beam of light through stimulated emission. <a class="external" href="https://phet.colorado.edu/sims/cheerpj/lasers/latest/lasers.html?simulation=lasers" target="_blank"><code class="code-inline tex2jax_ignore">LASER</code></a><div class="autopermalink" data-description="Paragraph"><a href="#subsec_7laser-subsection-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsection 7.1.7: The Laser"><a href="#subsec_7laser-subsection" title="Copy heading and permalink for Subsection 7.1.7: The Laser" aria-label="Copy heading and permalink for Subsection 7.1.7: The Laser">🔗</a></div></section><div class="autopermalink" data-description="Section 7.1: Atomic Structure"><a href="#sec_seventh-atom" title="Copy heading and permalink for Section 7.1: Atomic Structure" aria-label="Copy heading and permalink for Section 7.1: Atomic Structure">🔗</a></div></section></div>
+<div id="ptx-content-footer" class="ptx-content-footer">
+<a class="previous-button button" href="ch_seventh.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec_seventh-nucleus.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+</div>
+</body>
+</html>
