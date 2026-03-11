@@ -610,129 +610,209 @@ eBookConfig.enable_chatcodes =  false;
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec_first-intro"><h2 class="heading hide-type">
 <span class="type">Section</span><span class="space"> </span><span class="codenumber">1.1</span><span class="space"> </span><span class="title">Significant Figures</span>
 </h2>
-<section class="introduction" id="sec_first-intro-2"><div class="para" id="sec_first-intro-2-1"> Significant figures are the digits which give us useful information about the accuracy of a measurement. The result of a measurement includes digits that are known reliably and the digit that is uncertain. For example, the length of an object measured to be 287.5 cm when measured with a meterstick marked with centimeter (0.1 resolution) and has four significant figures, the digits 2, 8, 7 are certain while the first digit 5 is uncertain. If someone measure the same object with another meterstick marked with millimeters (0.01 resolution) he/she could have measured the length to be 287.54 cm and that contains 5 significant figures, the digits 2, 8, 7, and 5 are certain while the first digit 4 is uncertain. Each smaller measurement allows observers to determine the length of the object with a bit more accuracy. Maybe someother can measure with great accuracy as 287.542 cm. No matter how accuratly you measure things, there is always some inaccuracy in every measurement. Scientists account for this unavoidable uncertainty in measurement by using significant digits. significant digits do not remove the uncertainty but warn readers to where uncertainty lies.<div class="autopermalink" data-description="Paragraph"><a href="#sec_first-intro-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="introduction" id="sec_first-intro-2"><div class="para" id="sec_first-intro-2-1"> Significant figures (sig. figs.) are the reliable digits in a measurement, plus one uncertain digit. They indicate the accuracy of a measurement — they don’t remove uncertainty, but show where it lies.<div class="autopermalink" data-description="Paragraph"><a href="#sec_first-intro-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para logical" id="sec_first-intro-2-2">
-<ul class="disc" id="sec_first-intro-2-2-1">
-<li id="sec_first-intro-2-2-1-1">
-<div class="para" id="p-derived-sec_first-intro-2-2-1-1">1000 has one significant digit: only 1 is interesting and reliable. The zeroes may have been just the placeholders; they may have rounded something off to get this value.</div>
-<div class="autopermalink" data-description="Item"><a href="#sec_first-intro-2-2-1-1" title="Copy heading and permalink for Item">🔗</a></div>
-</li>
-<li id="sec_first-intro-2-2-1-2">
-<div class="para" id="p-derived-sec_first-intro-2-2-1-2">1000. : notice that ”point” after the zero! This has four significant digits, because the decimal point tells us that the measurement was made to the nearest unit, so the zero is not just a placeholder.</div>
-<div class="autopermalink" data-description="Item"><a href="#sec_first-intro-2-2-1-2" title="Copy heading and permalink for Item">🔗</a></div>
-</li>
-<li id="sec_first-intro-2-2-1-3">
-<div class="para" id="p-derived-sec_first-intro-2-2-1-3">1000.0 has five significant digits: the ”.0” tells us about the accuracy of the measurement that the measurement is accurate to the tenths place.</div>
-<div class="autopermalink" data-description="Item"><a href="#sec_first-intro-2-2-1-3" title="Copy heading and permalink for Item">🔗</a></div>
-</li>
-<li id="sec_first-intro-2-2-1-4">
-<div class="para" id="p-derived-sec_first-intro-2-2-1-4">In scientific notation if 200 has two significant figures then <span class="process-math">\(2.0 \times 10^2\)</span> is used. If it has three sig.fig. then <span class="process-math">\(2.00 \times 10^2. \)</span> If it had four sig. fig. then 200.0 is sufficient.</div>
-<div class="autopermalink" data-description="Item"><a href="#sec_first-intro-2-2-1-4" title="Copy heading and permalink for Item">🔗</a></div>
-</li>
-</ul>
-<div class="autopermalink" data-description="Paragraph"><a href="#sec_first-intro-2-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
+<figure class="table table-like" id="sec_first-intro-2-2"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">1.1.1<span class="period">.</span></span><span class="space"> </span>Example:<div class="autopermalink" data-description="Table 1.1.1: Example:"><a href="#sec_first-intro-2-2" title="Copy heading and permalink for Table 1.1.1: Example:">🔗</a></div></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r0 l0 t0 lines">Measurement</th>
+<th scope="col" class="c m b1 r0 l0 t0 lines">Instrument</th>
+<th scope="col" class="c m b1 r0 l0 t0 lines">Sig.Figs.</th>
+<th scope="col" class="c m b1 r0 l0 t0 lines">Certain Digits</th>
+<th scope="col" class="c m b1 r0 l0 t0 lines">Uncertain Digit</th>
+</tr>
+<tr>
+<td class="c m b0 r0 l0 t0 lines">287.5 cm</td>
+<td class="c m b0 r0 l0 t0 lines">cm scale</td>
+<td class="c m b0 r0 l0 t0 lines">4</td>
+<td class="c m b0 r0 l0 t0 lines">2,8,7</td>
+<td class="c m b0 r0 l0 t0 lines">5</td>
+</tr>
+<tr>
+<td class="c m b0 r0 l0 t0 lines">287.54 cm</td>
+<td class="c m b0 r0 l0 t0 lines">mm scale</td>
+<td class="c m b0 r0 l0 t0 lines">5</td>
+<td class="c m b0 r0 l0 t0 lines">2,8,7,5</td>
+<td class="c m b0 r0 l0 t0 lines">4</td>
+</tr>
+<tr>
+<td class="c m b0 r0 l0 t0 lines">287.542 cm</td>
+<td class="c m b0 r0 l0 t0 lines">finer scale</td>
+<td class="c m b0 r0 l0 t0 lines">6</td>
+<td class="c m b0 r0 l0 t0 lines">2,8,7,5,4</td>
+<td class="c m b0 r0 l0 t0 lines">2</td>
+</tr>
+</table></div></figure><figure class="table table-like" id="sec_first-intro-2-3"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">1.1.2<span class="period">.</span></span><span class="space"> </span>Zeros — Special Cases:<div class="autopermalink" data-description="Table 1.1.2: Zeros — Special Cases:"><a href="#sec_first-intro-2-3" title="Copy heading and permalink for Table 1.1.2: Zeros — Special Cases:">🔗</a></div></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r0 l0 t0 lines">Number</th>
+<th scope="col" class="c m b1 r0 l0 t0 lines">Sig.Figs.</th>
+<th scope="col" class="c m b1 r0 l0 t0 lines">Reason</th>
+</tr>
+<tr>
+<td class="c m b0 r0 l0 t0 lines">1000</td>
+<td class="c m b0 r0 l0 t0 lines">1</td>
+<td class="c m b0 r0 l0 t0 lines">Zeros are just placeholders</td>
+</tr>
+<tr>
+<td class="c m b0 r0 l0 t0 lines">1000.0</td>
+<td class="c m b0 r0 l0 t0 lines">5</td>
+<td class="c m b0 r0 l0 t0 lines">".0" confirms accuracy to tenths place</td>
+</tr>
+</table></div></figure><div class="para logical" id="sec_first-intro-2-4">
+<ul class="disc" id="sec_first-intro-2-4-1"><li id="sec_first-intro-2-4-1-1">
+<div class="para" id="p-derived-sec_first-intro-2-4-1-1">In scientific notation if 200 has two significant figures then <span class="process-math">\(2.0 \times 10^2\)</span> is used. If it has three sig.fig. then <span class="process-math">\(2.00 \times 10^2. \)</span> If it had four sig. fig. then 200.0 is sufficient.</div>
+<div class="autopermalink" data-description="Item"><a href="#sec_first-intro-2-4-1-1" title="Copy heading and permalink for Item">🔗</a></div>
+</li></ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec_first-intro-2-4" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para logical" id="sec_first-intro-2-3">
-<div class="para">Here are some basic rules to determine significant figures:</div>
-<ol class="decimal" id="sec_first-intro-2-3-1">
-<li id="sec_first-intro-2-3-1-1">
-<div class="para" id="p-derived-sec_first-intro-2-3-1-1">All nonzero digits are significant; in number 0.003004500 the digits 3, 4, and 5 are significant.</div>
-<div class="autopermalink" data-description="Item 1"><a href="#sec_first-intro-2-3-1-1" title="Copy heading and permalink for Item 1">🔗</a></div>
-</li>
-<li id="sec_first-intro-2-3-1-2">
-<div class="para" id="p-derived-sec_first-intro-2-3-1-2">All zeroes between significant digits are significant; in number 0.003004500 the 0, 0 between 3 and 4 are significant.</div>
-<div class="autopermalink" data-description="Item 2"><a href="#sec_first-intro-2-3-1-2" title="Copy heading and permalink for Item 2">🔗</a></div>
-</li>
-<li id="sec_first-intro-2-3-1-3">
-<div class="para" id="p-derived-sec_first-intro-2-3-1-3">Trailing zeros in the decimal portion are significant; in number 0.003004500 the 0,0 at end of 5 are significant.</div>
-<div class="autopermalink" data-description="Item 3"><a href="#sec_first-intro-2-3-1-3" title="Copy heading and permalink for Item 3">🔗</a></div>
-</li>
-<li id="sec_first-intro-2-3-1-4">
-<div class="para" id="p-derived-sec_first-intro-2-3-1-4">Trailing zeroes in a whole number with no decimal shown are not significant; in number ”540” there are only two sig.fig. 5 and 4, the last 0 is not significant.</div>
-<div class="autopermalink" data-description="Item 4"><a href="#sec_first-intro-2-3-1-4" title="Copy heading and permalink for Item 4">🔗</a></div>
-</li>
-<li id="sec_first-intro-2-3-1-5">
-<div class="para" id="p-derived-sec_first-intro-2-3-1-5">Leading zeroes in the decimal portion to the first non-zero digit are not significant; in number 0.003004500 the 0 to the right of decimal point and digits 0, 0 to the left of decimal point before the digit 3 are not significant.</div>
-<div class="autopermalink" data-description="Item 5"><a href="#sec_first-intro-2-3-1-5" title="Copy heading and permalink for Item 5">🔗</a></div>
-</li>
-<li id="sec_first-intro-2-3-1-6">
-<div class="para" id="p-derived-sec_first-intro-2-3-1-6">Exponential digits in scientific notation are not significant; <span class="process-math">\(1.32 \times 10^6\)</span> has only three significant figures, 1, 3, and 2.</div>
-<div class="autopermalink" data-description="Item 6"><a href="#sec_first-intro-2-3-1-6" title="Copy heading and permalink for Item 6">🔗</a></div>
-</li>
-</ol>
-<div class="autopermalink" data-description="Paragraph"><a href="#sec_first-intro-2-3" title="Copy heading and permalink for Paragraph">🔗</a></div>
+<figure class="table table-like" id="sec_first-intro-2-5"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">1.1.3<span class="period">.</span></span><span class="space"> </span>Rules for Identifying Sig. Figs.:<div class="autopermalink" data-description="Table 1.1.3: Rules for Identifying Sig. Figs.:"><a href="#sec_first-intro-2-5" title="Copy heading and permalink for Table 1.1.3: Rules for Identifying Sig. Figs.:">🔗</a></div></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r0 l0 t0 lines">#</th>
+<th scope="col" class="c m b1 r0 l0 t0 lines">Rule</th>
+<th scope="col" class="c m b1 r0 l0 t0 lines">Example</th>
+<th scope="col" class="c m b1 r0 l0 t0 lines">Significant?</th>
+</tr>
+<tr>
+<td class="c m b0 r0 l0 t0 lines">1</td>
+<td class="c m b0 r0 l0 t0 lines">
+<dfn class="terminology">All nonzero digits</dfn> are significant</td>
+<td class="c m b0 r0 l0 t0 lines">3, 4, 5 in 0.003004500</td>
+<td class="c m b0 r0 l0 t0 lines">Yes</td>
+</tr>
+<tr>
+<td class="c m b0 r0 l0 t0 lines">2</td>
+<td class="c m b0 r0 l0 t0 lines">
+<dfn class="terminology">Zeros between significant digits</dfn> are significant</td>
+<td class="c m b0 r0 l0 t0 lines">00 between 3 and 4</td>
+<td class="c m b0 r0 l0 t0 lines">Yes</td>
+</tr>
+<tr>
+<td class="c m b0 r0 l0 t0 lines">3</td>
+<td class="c m b0 r0 l0 t0 lines">
+<dfn class="terminology">Trailing zeros in decimals</dfn> are significant</td>
+<td class="c m b0 r0 l0 t0 lines">00 after 5</td>
+<td class="c m b0 r0 l0 t0 lines">Yes</td>
+</tr>
+<tr>
+<td class="c m b0 r0 l0 t0 lines">4</td>
+<td class="c m b0 r0 l0 t0 lines">
+<dfn class="terminology">Trailing zeros in whole numbers</dfn> (no decimal) are NOT significant</td>
+<td class="c m b0 r0 l0 t0 lines">0 in 540</td>
+<td class="c m b0 r0 l0 t0 lines">No</td>
+</tr>
+<tr>
+<td class="c m b0 r0 l0 t0 lines">5</td>
+<td class="c m b0 r0 l0 t0 lines">
+<dfn class="terminology">Leading zeros</dfn> before first nonzero digit are NOT significant</td>
+<td class="c m b0 r0 l0 t0 lines">0.00 before 3</td>
+<td class="c m b0 r0 l0 t0 lines">No</td>
+</tr>
+<tr>
+<td class="c m b0 r0 l0 t0 lines">6</td>
+<td class="c m b0 r0 l0 t0 lines">
+<dfn class="terminology">Exponents</dfn> in scientific notation are NOT significant</td>
+<td class="c m b0 r0 l0 t0 lines">
+<span class="process-math">\(10^2\)</span> in <span class="process-math">\(1.32\times 10^2\)</span>
+</td>
+<td class="c m b0 r0 l0 t0 lines">No</td>
+</tr>
+</table></div></figure><div class="para" id="sec_first-intro-2-6">Note: 0.003004500 has 7 significant figures: digits 3, 0, 0, 4, 5, 0, 0.<div class="autopermalink" data-description="Paragraph"><a href="#sec_first-intro-2-6" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div></section><section class="subsection" id="subsec_rn-subsection"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.1.1</span><span class="space"> </span><span class="title">Rounding off the Numbers</span>
 </h3>
-<div class="para" id="subsec_rn-subsection-2">When rounding , we examine the digit following to the right of the digit that is to be the last digit in the rounded off number. The digit we are examining is the first digit to be dropped. If digit to be dropped off is less than 5, then drop it off with all the other digits to the right of it. If the digit to be dropped off is greater than 5, then increase the number by 1 to the preceeding digit to be rounded. If the digit to be dropped is 5, then round the preceeding digit so that it will become even number. Zero is considered to be even when rounding off. This is the process of minimizing systematic error.<div class="autopermalink" data-description="Paragraph"><a href="#subsec_rn-subsection-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="subsec_rn-subsection-2">, When rounding, look at the first digit to be dropped (the digit just after your last kept digit):<div class="autopermalink" data-description="Paragraph"><a href="#subsec_rn-subsection-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para logical" id="subsec_rn-subsection-3">
-<ol class="decimal" id="subsec_rn-subsection-3-1">
-<li id="subsec_rn-subsection-3-1-1">
-<div class="para" id="subsec_rn-subsection-3-1-1-1">Round 742,396 to four, three, and two significant digits:<div class="autopermalink" data-description="Paragraph"><a href="#subsec_rn-subsection-3-1-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+<figure class="table table-like" id="subsec_rn-subsection-3"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">1.1.4<span class="period">.</span></span><span class="space"> </span>Rounding Rules:<div class="autopermalink" data-description="Table 1.1.4: Rounding Rules:"><a href="#subsec_rn-subsection-3" title="Copy heading and permalink for Table 1.1.4: Rounding Rules:">🔗</a></div></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r0 l0 t0 lines">Digit to Drop</th>
+<th scope="col" class="c m b1 r0 l0 t0 lines">Action</th>
+<th scope="col" class="c m b1 r0 l0 t0 lines">Example</th>
+</tr>
+<tr>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(\lt 5 \)</span></td>
+<td class="c m b0 r0 l0 t0 lines">Drop it (leave preceding digit unchanged)</td>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(3.24 \rightarrow 3.2\)</span></td>
+</tr>
+<tr>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(\gt 5 \)</span></td>
+<td class="c m b0 r0 l0 t0 lines">Round preceding digit <dfn class="terminology">up by 1</dfn>
+</td>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(3.26 \rightarrow 3.3\)</span></td>
+</tr>
+<tr>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(= 5 \)</span></td>
+<td class="c m b0 r0 l0 t0 lines">Round preceding digit to the nearest <dfn class="terminology">even number</dfn> (zero counts as even)</td>
+<td class="c m b0 r0 l0 t0 lines">
+<span class="process-math">\(3.25 \rightarrow 3.2\text{;}\)</span> <span class="process-math">\(3.35 \rightarrow 3.4\)</span>
+</td>
+</tr>
+</table></div></figure><div class="para" id="subsec_rn-subsection-4">Rounding 5 to even minimizes systematic error.<div class="autopermalink" data-description="Paragraph"><a href="#subsec_rn-subsection-4" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para logical" id="subsec_rn-subsection-3-1-1-2">
-<ol class="lower-alpha ol-marker-1" id="subsec_rn-subsection-3-1-1-2-1">
-<li id="subsec_rn-subsection-3-1-1-2-1-1">
-<div class="para" id="p-derived-subsec_rn-subsection-3-1-1-2-1-1">To round to four sig. fig. start with the first significant digit, which is the 7. Then count to the right from there. The first four significant digits of 742,396 are the 7, the 4, the 2, and the 3. Just to the right of the 3 is a 9. Because this value is ”greater than 5”, round the 3 up to 4. Replace the remaining digits (the 9 and the 6) with zeroes. Then: 742,400 (four significant digits).</div>
-<div class="autopermalink" data-description="Item 1.a"><a href="#subsec_rn-subsection-3-1-1-2-1-1" title="Copy heading and permalink for Item 1.a">🔗</a></div>
+<div class="para logical" id="subsec_rn-subsection-5">
+<ol class="decimal" id="subsec_rn-subsection-5-1">
+<li id="subsec_rn-subsection-5-1-1">
+<div class="para" id="subsec_rn-subsection-5-1-1-1">Round 742,396 to four, three, and two significant digits:<div class="autopermalink" data-description="Paragraph"><a href="#subsec_rn-subsection-5-1-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="subsec_rn-subsection-5-1-1-2">
+<ol class="lower-alpha ol-marker-1" id="subsec_rn-subsection-5-1-1-2-1">
+<li id="subsec_rn-subsection-5-1-1-2-1-1">
+<div class="para" id="p-derived-subsec_rn-subsection-5-1-1-2-1-1">To round to four sig. fig. start with the first significant digit, which is the 7. Then count to the right from there. The first four significant digits of 742,396 are the 7, the 4, the 2, and the 3. Just to the right of the 3 is a 9. Because this value is ”greater than 5”, round the 3 up to 4. Replace the remaining digits (the 9 and the 6) with zeroes. Then: 742,400 (four significant digits).</div>
+<div class="autopermalink" data-description="Item 1.a"><a href="#subsec_rn-subsection-5-1-1-2-1-1" title="Copy heading and permalink for Item 1.a">🔗</a></div>
 </li>
-<li id="subsec_rn-subsection-3-1-1-2-1-2">
-<div class="para" id="p-derived-subsec_rn-subsection-3-1-1-2-1-2">To round 742,396 to three places, start again with the 7 and include the next two digits, being the 4 and the 2. Since the next digit is a 3, which is ”less than 5”, leave the 2 alone and don’t round up. Replace the three digits after the comma with zeroes. Then: 742,000 (three significant digits)</div>
-<div class="autopermalink" data-description="Item 1.b"><a href="#subsec_rn-subsection-3-1-1-2-1-2" title="Copy heading and permalink for Item 1.b">🔗</a></div>
+<li id="subsec_rn-subsection-5-1-1-2-1-2">
+<div class="para" id="p-derived-subsec_rn-subsection-5-1-1-2-1-2">To round 742,396 to three places, start again with the 7 and include the next two digits, being the 4 and the 2. Since the next digit is a 3, which is ”less than 5”, leave the 2 alone and don’t round up. Replace the three digits after the comma with zeroes. Then: 742,000 (three significant digits)</div>
+<div class="autopermalink" data-description="Item 1.b"><a href="#subsec_rn-subsection-5-1-1-2-1-2" title="Copy heading and permalink for Item 1.b">🔗</a></div>
 </li>
-<li id="subsec_rn-subsection-3-1-1-2-1-3">
-<div class="para" id="p-derived-subsec_rn-subsection-3-1-1-2-1-3">To round 742,396 to two places, use only the first two digits, which are followed by a 2, so don’t round up. Instead, just replace the final four digits with zeroes, to get: 740,000 (two significant digits).</div>
-<div class="autopermalink" data-description="Item 1.c"><a href="#subsec_rn-subsection-3-1-1-2-1-3" title="Copy heading and permalink for Item 1.c">🔗</a></div>
+<li id="subsec_rn-subsection-5-1-1-2-1-3">
+<div class="para" id="p-derived-subsec_rn-subsection-5-1-1-2-1-3">To round 742,396 to two places, use only the first two digits, which are followed by a 2, so don’t round up. Instead, just replace the final four digits with zeroes, to get: 740,000 (two significant digits).</div>
+<div class="autopermalink" data-description="Item 1.c"><a href="#subsec_rn-subsection-5-1-1-2-1-3" title="Copy heading and permalink for Item 1.c">🔗</a></div>
 </li>
 </ol>
-<div class="autopermalink" data-description="Paragraph"><a href="#subsec_rn-subsection-3-1-1-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec_rn-subsection-5-1-1-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item 1"><a href="#subsec_rn-subsection-3-1-1" title="Copy heading and permalink for Item 1">🔗</a></div>
+<div class="autopermalink" data-description="Item 1"><a href="#subsec_rn-subsection-5-1-1" title="Copy heading and permalink for Item 1">🔗</a></div>
 </li>
-<li id="subsec_rn-subsection-3-1-2">
-<div class="para" id="subsec_rn-subsection-3-1-2-1">Round 0.07284 to four, three, and two significant digits:<div class="autopermalink" data-description="Paragraph"><a href="#subsec_rn-subsection-3-1-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+<li id="subsec_rn-subsection-5-1-2">
+<div class="para" id="subsec_rn-subsection-5-1-2-1">Round 0.07284 to four, three, and two significant digits:<div class="autopermalink" data-description="Paragraph"><a href="#subsec_rn-subsection-5-1-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para logical" id="subsec_rn-subsection-3-1-2-2">
-<ol class="lower-alpha ol-marker-1" id="subsec_rn-subsection-3-1-2-2-1">
-<li id="subsec_rn-subsection-3-1-2-2-1-1">
-<div class="para" id="p-derived-subsec_rn-subsection-3-1-2-2-1-1">To round 0.07284 to four significant digits, start with the first significant digit, which is the 7. (The zero between the decimal point and the 7 is not significant, as it serves only to ”place” the 7 into the hundreds place.) There are only three more digits, so all of them will be included in answer. Since no digit follows the 4, there is no information about rounding, so just leave the 4 as it is. Hence, 0.07284 is four sig-digs.</div>
-<div class="autopermalink" data-description="Item 2.a"><a href="#subsec_rn-subsection-3-1-2-2-1-1" title="Copy heading and permalink for Item 2.a">🔗</a></div>
+<div class="para logical" id="subsec_rn-subsection-5-1-2-2">
+<ol class="lower-alpha ol-marker-1" id="subsec_rn-subsection-5-1-2-2-1">
+<li id="subsec_rn-subsection-5-1-2-2-1-1">
+<div class="para" id="p-derived-subsec_rn-subsection-5-1-2-2-1-1">To round 0.07284 to four significant digits, start with the first significant digit, which is the 7. (The zero between the decimal point and the 7 is not significant, as it serves only to ”place” the 7 into the hundreds place.) There are only three more digits, so all of them will be included in answer. Since no digit follows the 4, there is no information about rounding, so just leave the 4 as it is. Hence, 0.07284 is four sig-digs.</div>
+<div class="autopermalink" data-description="Item 2.a"><a href="#subsec_rn-subsection-5-1-2-2-1-1" title="Copy heading and permalink for Item 2.a">🔗</a></div>
 </li>
-<li id="subsec_rn-subsection-3-1-2-2-1-2">
-<div class="para" id="p-derived-subsec_rn-subsection-3-1-2-2-1-2">When rounding 0.07284 to three sig-digs, the final sig-dig is the 8, which is followed by the 4. Since 4 is less than 5, so simply drop it. Because these sig-digs are after the decimal point, not replace the 4 with a zero. Hence, 0.0728 is three sig-digs.</div>
-<div class="autopermalink" data-description="Item 2.b"><a href="#subsec_rn-subsection-3-1-2-2-1-2" title="Copy heading and permalink for Item 2.b">🔗</a></div>
+<li id="subsec_rn-subsection-5-1-2-2-1-2">
+<div class="para" id="p-derived-subsec_rn-subsection-5-1-2-2-1-2">When rounding 0.07284 to three sig-digs, the final sig-dig is the 8, which is followed by the 4. Since 4 is less than 5, so simply drop it. Because these sig-digs are after the decimal point, not replace the 4 with a zero. Hence, 0.0728 is three sig-digs.</div>
+<div class="autopermalink" data-description="Item 2.b"><a href="#subsec_rn-subsection-5-1-2-2-1-2" title="Copy heading and permalink for Item 2.b">🔗</a></div>
 </li>
-<li id="subsec_rn-subsection-3-1-2-2-1-3">
-<div class="para" id="p-derived-subsec_rn-subsection-3-1-2-2-1-3">To round 0.07284 to two sig-digs, use the 7 and the 2. Since the 2 is followed by an 8, round the 2 up to 3; drop everything that follows. Hence, 0.073 is two sig-digs.</div>
-<div class="autopermalink" data-description="Item 2.c"><a href="#subsec_rn-subsection-3-1-2-2-1-3" title="Copy heading and permalink for Item 2.c">🔗</a></div>
+<li id="subsec_rn-subsection-5-1-2-2-1-3">
+<div class="para" id="p-derived-subsec_rn-subsection-5-1-2-2-1-3">To round 0.07284 to two sig-digs, use the 7 and the 2. Since the 2 is followed by an 8, round the 2 up to 3; drop everything that follows. Hence, 0.073 is two sig-digs.</div>
+<div class="autopermalink" data-description="Item 2.c"><a href="#subsec_rn-subsection-5-1-2-2-1-3" title="Copy heading and permalink for Item 2.c">🔗</a></div>
 </li>
 </ol>
-<div class="autopermalink" data-description="Paragraph"><a href="#subsec_rn-subsection-3-1-2-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec_rn-subsection-5-1-2-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item 2"><a href="#subsec_rn-subsection-3-1-2" title="Copy heading and permalink for Item 2">🔗</a></div>
+<div class="autopermalink" data-description="Item 2"><a href="#subsec_rn-subsection-5-1-2" title="Copy heading and permalink for Item 2">🔗</a></div>
 </li>
-<li id="subsec_rn-subsection-3-1-3">
-<div class="para" id="subsec_rn-subsection-3-1-3-1">Round 425.35 to four and two significant digits:<div class="autopermalink" data-description="Paragraph"><a href="#subsec_rn-subsection-3-1-3-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+<li id="subsec_rn-subsection-5-1-3">
+<div class="para" id="subsec_rn-subsection-5-1-3-1">Round 425.35 to four and two significant digits:<div class="autopermalink" data-description="Paragraph"><a href="#subsec_rn-subsection-5-1-3-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para logical" id="subsec_rn-subsection-3-1-3-2">
-<ol class="lower-alpha ol-marker-1" id="subsec_rn-subsection-3-1-3-2-1">
-<li id="subsec_rn-subsection-3-1-3-2-1-1">
-<div class="para" id="p-derived-subsec_rn-subsection-3-1-3-2-1-1">For four sig.fig. this number is 425.4, because the value to be rounded off (3) is ”odd” and followed by a ”5”, then round the 3 up to 4 and remove the remaining digits.</div>
-<div class="autopermalink" data-description="Item 3.a"><a href="#subsec_rn-subsection-3-1-3-2-1-1" title="Copy heading and permalink for Item 3.a">🔗</a></div>
+<div class="para logical" id="subsec_rn-subsection-5-1-3-2">
+<ol class="lower-alpha ol-marker-1" id="subsec_rn-subsection-5-1-3-2-1">
+<li id="subsec_rn-subsection-5-1-3-2-1-1">
+<div class="para" id="p-derived-subsec_rn-subsection-5-1-3-2-1-1">For four sig.fig. this number is 425.4, because the value to be rounded off (3) is ”odd” and followed by a ”5”, then round the 3 up to 4 and remove the remaining digits.</div>
+<div class="autopermalink" data-description="Item 3.a"><a href="#subsec_rn-subsection-5-1-3-2-1-1" title="Copy heading and permalink for Item 3.a">🔗</a></div>
 </li>
-<li id="subsec_rn-subsection-3-1-3-2-1-2">
-<div class="para" id="p-derived-subsec_rn-subsection-3-1-3-2-1-2">For two sig.fig. it would be 420, because the value to be rounded off (2) is ”even” and followed by a ”5”, then leave 2 as it is and replace the other with zeroes.</div>
-<div class="autopermalink" data-description="Item 3.b"><a href="#subsec_rn-subsection-3-1-3-2-1-2" title="Copy heading and permalink for Item 3.b">🔗</a></div>
+<li id="subsec_rn-subsection-5-1-3-2-1-2">
+<div class="para" id="p-derived-subsec_rn-subsection-5-1-3-2-1-2">For two sig.fig. it would be 420, because the value to be rounded off (2) is ”even” and followed by a ”5”, then leave 2 as it is and replace the other with zeroes.</div>
+<div class="autopermalink" data-description="Item 3.b"><a href="#subsec_rn-subsection-5-1-3-2-1-2" title="Copy heading and permalink for Item 3.b">🔗</a></div>
 </li>
 </ol>
-<div class="autopermalink" data-description="Paragraph"><a href="#subsec_rn-subsection-3-1-3-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec_rn-subsection-5-1-3-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item 3"><a href="#subsec_rn-subsection-3-1-3" title="Copy heading and permalink for Item 3">🔗</a></div>
+<div class="autopermalink" data-description="Item 3"><a href="#subsec_rn-subsection-5-1-3" title="Copy heading and permalink for Item 3">🔗</a></div>
 </li>
 </ol>
-<div class="autopermalink" data-description="Paragraph"><a href="#subsec_rn-subsection-3" title="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec_rn-subsection-5" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Subsection 1.1.1: Rounding off the Numbers"><a href="#subsec_rn-subsection" title="Copy heading and permalink for Subsection 1.1.1: Rounding off the Numbers">🔗</a></div></section><section class="subsection" id="subsec_mosf_subsection"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.1.2</span><span class="space"> </span><span class="title">Mathematical Operations with Significant Figures</span>
